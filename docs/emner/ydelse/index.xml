@@ -5,6 +5,25 @@
     <link>https://www.kiils.dk/emner/ydelse/</link>
     <description>Recent content in Ydelse on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>da</language><atom:link href="https://www.kiils.dk/emner/ydelse/index.xml" rel="self" type="application/rss+xml" />
+    <language>da</language>
+    <lastBuildDate>Tue, 11 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/emner/ydelse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sådan fik jeg perfekte 100 i mobilhastighed</title>
+      <link>https://www.kiils.dk/blog/frontend/klimaleksikon-tachyons-performance/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/frontend/klimaleksikon-tachyons-performance/</guid>
+      <description>Det er ikke nemt i et CMS</description>
+    </item>
+    
+    <item>
+      <title>FOLKETS meget hurtigere efter drop af bannere</title>
+      <link>https://www.kiils.dk/blog/frontend/hastighed-uden-bannere/</link>
+      <pubDate>Fri, 07 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/frontend/hastighed-uden-bannere/</guid>
+      <description>Nu er der data nok til at konkludere noget mere håndfast.</description>
+    </item>
+    
   </channel>
 </rss>

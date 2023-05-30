@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nlp on Kiils</title>
+    <link>https://www.kiils.dk/emner/nlp/</link>
+    <description>Recent content in nlp on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <lastBuildDate>Tue, 17 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/emner/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google risikerer at straffe folk som inkluderer ordblinde i den demokratiske debat</title>
+      <link>https://www.kiils.dk/blog/nlp/chatgpt-google/</link>
+      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/nlp/chatgpt-google/</guid>
+      <description>Jeg indså ret hurtigt at ChatGPT og andre lignende teknologier ville kunne blive en enorm hjælp for ordblinde.
+For i modsætning til en gammeldags stavekontrol er store sprogmodeller gode til at &amp;ldquo;analysere&amp;rdquo; naturligt sprog og dermed ikke bare rette stavefejl, men også syntaks og betydning.
+Som redaktør har jeg rettet en del tekster fra ordblinde, fordi jeg har ønsket at deres sproglige skavank ikke skulle komme i vejen for deres mulighed for at deltage i den demokratiske samtale.</description>
+    </item>
+    
+    <item>
+      <title>Jeg har brugt DALL-E fra OpenAI til at illustrere to indlæg — hvad synes I om resultatet?</title>
+      <link>https://www.kiils.dk/blog/nlp/kunstig-intelligens-illustration/</link>
+      <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/nlp/kunstig-intelligens-illustration/</guid>
+      <description>Jeg kommer ikke til at bruge ChatGPT til at skabe tekst foreløbig. Dertil er dens dansk simpelthen for kluntet.
+Mine standarder for tekst og sprog er måske nok også højere end de er for illustrationer.
+I hvert fald har jeg forsøgt at tage OpenAI&amp;rsquo;s DALL-E model i brug til at illustrere to ledere, en på Folkets Avis - og en anden samme sted, men i sektionen Mediemøllen.
+Jeg synes den illustration som jeg har brugt til en leder om &amp;ldquo;organet for den højeste oplysning&amp;rdquo;, er ret vellykket.</description>
+    </item>
+    
+    <item>
+      <title>ChatGPT mansplainer ikke - men her botsplainer den helt vildt</title>
+      <link>https://www.kiils.dk/blog/nlp/chatgpt-botsplaining/</link>
+      <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/nlp/chatgpt-botsplaining/</guid>
+      <description>ChatGPT er stærk på engelsk og den skammer sig ikke over at de &amp;ldquo;mentale muskler&amp;rdquo; frem.
+Jeg giver ChatGPT en simpel opgave. Et ganske kort prompt:
+help me POS tag the following sentence: I went up the road
+Og får en lang smøre retur:
+Part-of-speech (POS) tagging is the process of marking each word in a sentence with its corresponding POS tag. There are many POS taggers available, both for general English and for specific languages.</description>
+    </item>
+    
+    <item>
+      <title>Går det bedre for ChatGPT med ordfrekvensanalyse på engelsk end det gjorde på dansk?</title>
+      <link>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse-engelsk/</link>
+      <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse-engelsk/</guid>
+      <description>Da jeg bad ChatGPT udføre en frekvensanalyse på en dansk tekst talte den ordene to gange:
+Kan ChatGPT bruges til kvantitativ tekstanalyse? måske fordi den oversætter frem og tilbage mellem dansk og engelsk? Bare et gæt.
+Men lad os så prøve på engelsk.
+Jeg bad ChatGPT oversætte en del af den tekst, som jeg tidligere fik ChatGPT til at udføre en ordfrekvensanalyse på, til engelsk.
+Og derefter bad jeg den give mig de mest brugte ord i teksten.</description>
+    </item>
+    
+    <item>
+      <title>Kan ChatGPT bruges til kvantitativ tekstanalyse?</title>
+      <link>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse/</guid>
+      <description>En simpel form for kvantitativ tekstanalyse er ordfrekvensanalyse.
+Jeg har skrevet lidt om hvordan man kan lave ordfrekvensanalyse i nushell og hvordan man kan lave ekstremt hurtig ordfrekvensanalyse på store mængder tekst med nushell og polar dataframes .
+Nushell gav mig følgende resultat
+╭─────┬───────────────────┬────────╮ │ # │ 0 │ counts │ ├─────┼───────────────────┼────────┤ │ 0 │ verden │ 5 │ │ 1 │ verdensopfattelse │ 4 │ │ 2 │ mainstream │ 4 │ │ 3 │ dag │ 4 │ │ 4 │ begynder │ 3 │ │ 5 │ alternative │ 3 │ │ 6 │ hele │ 3 │ │ 7 │ frelser │ 3 │ │ 8 │ ting │ 2 │ │ 9 │ magtfuld │ 2 │ på en tekst jeg skrev engang om livsfarlige konspirationsteorier: Nekrolog for en konspirationsteoretiker - leger du også med ilden?</description>
+    </item>
+    
+    <item>
+      <title>Spørg ChatGPT rigtigt med danske prompts - var Gorm den Gamle smed i Hobro?</title>
+      <link>https://www.kiils.dk/blog/nlp/gorm-den-gamle/</link>
+      <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/nlp/gorm-den-gamle/</guid>
+      <description>Med ChatGPT gælder det om at stille spørgsmålene rigtigt, hvis man vil have de rigtige svar.
+Det gælder om at give ChatGPT en bestemt rolle at leve op til. Stille nogle krav til ChatGPT.
+Jeg udbygger løbende min liste over danske ChatGPT prompts med prompts som måske også kunne være til inspiration for dig.
+Jeg vil gerne give et eksempel fra listen:
+Du er faktatjekker. Faktatjek er ikke din stærke side.</description>
+    </item>
+    
+    <item>
+      <title>Jeg spurgte ChatGPT om intelligens og svaret var overraskende menneskeligt</title>
+      <link>https://www.kiils.dk/blog/nlp/chatgpt/</link>
+      <pubDate>Thu, 05 Jan 2023 09:27:02 +0100</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/nlp/chatgpt/</guid>
+      <description>Jeg talte lidt med ChatGPT om intelligens og IQ-tests.
+Jeg forsøgte først at få et generelt bud på hvordan man måler intelligens på en pålidelig måde:
+Prompt: what is a reliable measure of intelligence
+A reliable measure of intelligence is an IQ test. IQ tests measure a person&amp;rsquo;s cognitive abilities, such as problem-solving, memory, and analytical skills. IQ tests are designed to measure a person&amp;rsquo;s overall intelligence, and are considered to be a reliable measure of intelligence.</description>
+    </item>
+    
+    <item>
+      <title>Uhyre hurtig tekstanalyse med dataframes i Nushell</title>
+      <link>https://www.kiils.dk/blog/nlp/nushell-dataframes/</link>
+      <pubDate>Thu, 24 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/nlp/nushell-dataframes/</guid>
+      <description>Uhyggelig hurtig tekstanalyse med dataframes</description>
+    </item>
+    
+    <item>
+      <title>Simpel og hurtig ordfrekvensanalyse i Nushell</title>
+      <link>https://www.kiils.dk/blog/nlp/nushell/</link>
+      <pubDate>Tue, 08 Nov 2022 09:47:02 +0100</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/nlp/nushell/</guid>
+      <description>En shell der egner sig godt til dataanalyse, er Nushell .
+Den egner sig også godt til databaseret tekstanalyse, eller kvantitativ tekstanalyse.
+Her et hurtigt eksempel på hvad Nushell kan.
+Jeg har en tekst i filen livsfarlige-konspirationsteorier.da.md.
+Antal linjer, ord og anslag i den tekst kan jeg få sådan her:
+open livsfarlige-konspirationsteorier.da.md | size så giver nushell svaret
+╭───────────┬──────╮ │ lines │ 51 │ │ words │ 616 │ │ bytes │ 3790 │ │ chars │ 3713 │ │ graphemes │ 3713 │ ╰───────────┴──────╯ Et hurtigt overblik over sætnings- og afsnitslængde fås som følger</description>
+    </item>
+    
+    <item>
+      <title>Video: Sådan bruger du danske ChatGPT prompts</title>
+      <link>https://www.kiils.dk/video/danske-chatgpt-prompts-intro-video/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/video/danske-chatgpt-prompts-intro-video/</guid>
+      <description> Se hele listen over danske prompts </description>
+    </item>
+    
+  </channel>
+</rss>

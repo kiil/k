@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kunstig intelligens on Kiils</title>
+    <link>https://www.kiils.dk/en/emner/kunstig-intelligens/</link>
+    <description>Recent content in kunstig intelligens on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 12 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/en/emner/kunstig-intelligens/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Is ChatGPT more than a glorified Markov chain? Here is what ChatGPT itself has to say about that</title>
+      <link>https://www.kiils.dk/en/blog/chatgpt-glorified-markov-chain/</link>
+      <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/en/blog/chatgpt-glorified-markov-chain/</guid>
+      <description>Me: is chatgpt really just a glorified markov chain
+ChatGPT:
+ChatGPT is a type of language model that is based on the transformer architecture, which is a neural network-based approach to natural language processing. While the Markov Chain is a mathematical model that can be used to generate text, it is a relatively simple model compared to neural network-based models like ChatGPT.
+ChatGPT is trained on a massive amount of text data and uses a deep neural network with multiple layers to learn patterns in the data.</description>
+    </item>
+    
+  </channel>
+</rss>

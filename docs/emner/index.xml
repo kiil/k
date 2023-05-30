@@ -5,6 +5,646 @@
     <link>https://www.kiils.dk/emner/</link>
     <description>Recent content in Emner on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>da</language><atom:link href="https://www.kiils.dk/emner/index.xml" rel="self" type="application/rss+xml" />
+    <language>da</language>
+    <lastBuildDate>Fri, 26 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/emner/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>kunstig intelligens</title>
+      <link>https://www.kiils.dk/emner/kunstig-intelligens/</link>
+      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/kunstig-intelligens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantisk søgning</title>
+      <link>https://www.kiils.dk/emner/semantisk-s%C3%B8gning/</link>
+      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/semantisk-s%C3%B8gning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finansiering</title>
+      <link>https://www.kiils.dk/emner/finansiering/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/finansiering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intelligens</title>
+      <link>https://www.kiils.dk/emner/intelligens/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/intelligens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LLM</title>
+      <link>https://www.kiils.dk/emner/llm/</link>
+      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/llm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>læring</title>
+      <link>https://www.kiils.dk/emner/l%C3%A6ring/</link>
+      <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/l%C3%A6ring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>redigering</title>
+      <link>https://www.kiils.dk/emner/redigering/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/redigering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Skrivning</title>
+      <link>https://www.kiils.dk/emner/skrivning/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/skrivning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>drift</title>
+      <link>https://www.kiils.dk/emner/drift/</link>
+      <pubDate>Wed, 26 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/drift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sprog</title>
+      <link>https://www.kiils.dk/emner/sprog/</link>
+      <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/sprog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>censur</title>
+      <link>https://www.kiils.dk/emner/censur/</link>
+      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/censur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>etik</title>
+      <link>https://www.kiils.dk/emner/etik/</link>
+      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/etik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>datavisualisering</title>
+      <link>https://www.kiils.dk/emner/datavisualisering/</link>
+      <pubDate>Sat, 18 Feb 2023 08:35:10 +0100</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/datavisualisering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>automatisering</title>
+      <link>https://www.kiils.dk/emner/automatisering/</link>
+      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/automatisering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bogføring</title>
+      <link>https://www.kiils.dk/emner/bogf%C3%B8ring/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/bogf%C3%B8ring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data</title>
+      <link>https://www.kiils.dk/emner/data/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>finanser</title>
+      <link>https://www.kiils.dk/emner/finanser/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/finanser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>regnskab</title>
+      <link>https://www.kiils.dk/emner/regnskab/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/regnskab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google</title>
+      <link>https://www.kiils.dk/emner/google/</link>
+      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>inklusion</title>
+      <link>https://www.kiils.dk/emner/inklusion/</link>
+      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/inklusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nlp</title>
+      <link>https://www.kiils.dk/emner/nlp/</link>
+      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kvantitativ tekstanalyse</title>
+      <link>https://www.kiils.dk/emner/kvantitativ-tekstanalyse/</link>
+      <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/kvantitativ-tekstanalyse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kommunikation</title>
+      <link>https://www.kiils.dk/emner/kommunikation/</link>
+      <pubDate>Fri, 02 Sep 2022 08:57:34 +0200</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/kommunikation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>indholdshåndtering</title>
+      <link>https://www.kiils.dk/emner/indholdsh%C3%A5ndtering/</link>
+      <pubDate>Thu, 16 Jun 2022 12:10:31 +0200</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/indholdsh%C3%A5ndtering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>salg</title>
+      <link>https://www.kiils.dk/emner/salg/</link>
+      <pubDate>Thu, 09 Jun 2022 12:56:22 +0200</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/salg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alt om Indholdsstrategi</title>
+      <link>https://www.kiils.dk/emner/indholdsstrategi/</link>
+      <pubDate>Fri, 03 Jun 2022 10:43:51 +0200</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/indholdsstrategi/</guid>
+      <description>Tænk over hvad du vil opnå med dine tekster &amp;mdash; effektiv kommunikation kræver fokus og planlægning</description>
+    </item>
+    
+    <item>
+      <title>Fritekstsøgning</title>
+      <link>https://www.kiils.dk/emner/friteksts%C3%B8gning/</link>
+      <pubDate>Tue, 31 May 2022 12:24:26 +0200</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/friteksts%C3%B8gning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Indholdsstyring</title>
+      <link>https://www.kiils.dk/emner/indholdsstyring/</link>
+      <pubDate>Tue, 31 May 2022 12:24:26 +0200</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/indholdsstyring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grammatik</title>
+      <link>https://www.kiils.dk/emner/grammatik/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/grammatik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Korrektur</title>
+      <link>https://www.kiils.dk/emner/korrektur/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/korrektur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Retstavning</title>
+      <link>https://www.kiils.dk/emner/retstavning/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/retstavning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CLI</title>
+      <link>https://www.kiils.dk/emner/cli/</link>
+      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/cli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effektivisering</title>
+      <link>https://www.kiils.dk/emner/effektivisering/</link>
+      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/effektivisering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KISS</title>
+      <link>https://www.kiils.dk/emner/kiss/</link>
+      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/kiss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formidling</title>
+      <link>https://www.kiils.dk/emner/formidling/</link>
+      <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/formidling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rubrikker</title>
+      <link>https://www.kiils.dk/emner/rubrikker/</link>
+      <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/rubrikker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sikkerhed</title>
+      <link>https://www.kiils.dk/emner/sikkerhed/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/sikkerhed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sløring</title>
+      <link>https://www.kiils.dk/emner/sl%C3%B8ring/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/sl%C3%B8ring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programmering</title>
+      <link>https://www.kiils.dk/emner/programmering/</link>
+      <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/programmering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Venlig digitalisering</title>
+      <link>https://www.kiils.dk/emner/venlig-digitalisering/</link>
+      <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/venlig-digitalisering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brugervenlig</title>
+      <link>https://www.kiils.dk/emner/brugervenlig/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/brugervenlig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Energibesparelse</title>
+      <link>https://www.kiils.dk/emner/energibesparelse/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/energibesparelse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Klimavenlig</title>
+      <link>https://www.kiils.dk/emner/klimavenlig/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/klimavenlig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Miljøvenlig</title>
+      <link>https://www.kiils.dk/emner/milj%C3%B8venlig/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/milj%C3%B8venlig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brugervenlighed</title>
+      <link>https://www.kiils.dk/emner/brugervenlighed/</link>
+      <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/brugervenlighed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bæredygtighed</title>
+      <link>https://www.kiils.dk/emner/b%C3%A6redygtighed/</link>
+      <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/b%C3%A6redygtighed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design</title>
+      <link>https://www.kiils.dk/emner/design/</link>
+      <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Klimavenlighed</title>
+      <link>https://www.kiils.dk/emner/klimavenlighed/</link>
+      <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/klimavenlighed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Valgmuligheder</title>
+      <link>https://www.kiils.dk/emner/valgmuligheder/</link>
+      <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/valgmuligheder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sortering</title>
+      <link>https://www.kiils.dk/emner/sortering/</link>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/sortering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>struktur</title>
+      <link>https://www.kiils.dk/emner/struktur/</link>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/struktur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tips</title>
+      <link>https://www.kiils.dk/emner/tips/</link>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tricks</title>
+      <link>https://www.kiils.dk/emner/tricks/</link>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/tricks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>indhold</title>
+      <link>https://www.kiils.dk/emner/indhold/</link>
+      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/indhold/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SEO</title>
+      <link>https://www.kiils.dk/emner/seo/</link>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/seo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>facebook</title>
+      <link>https://www.kiils.dk/emner/facebook/</link>
+      <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/facebook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SoMe</title>
+      <link>https://www.kiils.dk/emner/some/</link>
+      <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/some/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CopyDan</title>
+      <link>https://www.kiils.dk/emner/copydan/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/copydan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fundraising</title>
+      <link>https://www.kiils.dk/emner/fundraising/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/fundraising/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>økonomi</title>
+      <link>https://www.kiils.dk/emner/%C3%B8konomi/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/%C3%B8konomi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>crowdfunding</title>
+      <link>https://www.kiils.dk/emner/crowdfunding/</link>
+      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/crowdfunding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cta</title>
+      <link>https://www.kiils.dk/emner/cta/</link>
+      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/cta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>journalistik</title>
+      <link>https://www.kiils.dk/emner/journalistik/</link>
+      <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/journalistik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ankertekst</title>
+      <link>https://www.kiils.dk/emner/ankertekst/</link>
+      <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/ankertekst/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linkbuilding</title>
+      <link>https://www.kiils.dk/emner/linkbuilding/</link>
+      <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/linkbuilding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ranking</title>
+      <link>https://www.kiils.dk/emner/ranking/</link>
+      <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/ranking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>frontend</title>
+      <link>https://www.kiils.dk/emner/frontend/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/frontend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ydelse</title>
+      <link>https://www.kiils.dk/emner/ydelse/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/ydelse/</guid>
+      <description>Ydelse, på engelsk performance, er en meget væsentlig parameter i næsten alle digitale produkter.</description>
+    </item>
+    
+    <item>
+      <title>Alt om Abonnementsmodellen</title>
+      <link>https://www.kiils.dk/emner/abonnementsmodellen/</link>
+      <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/abonnementsmodellen/</guid>
+      <description> ¶ Abonnementsmodellen forbindes på engelsk ofte med SaaS, men den rette term er snarere subscription model </description>
+    </item>
+    
+    <item>
+      <title>Lidt om LinkedIn</title>
+      <link>https://www.kiils.dk/emner/linkedin/</link>
+      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/linkedin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sociale medier</title>
+      <link>https://www.kiils.dk/emner/sociale-medier/</link>
+      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/emner/sociale-medier/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

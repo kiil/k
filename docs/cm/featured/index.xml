@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Featured on Kiils</title>
+    <link>https://www.kiils.dk/cm/featured/</link>
+    <description>Recent content in Featured on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <lastBuildDate>Fri, 18 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/cm/featured/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Får jeg abonnenter nok til at leve af mit online-medie?</title>
+      <link>https://www.kiils.dk/blog/abo/abonnenter-nok/</link>
+      <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/abo/abonnenter-nok/</guid>
+      <description>Sandsynligvis ikke</description>
+    </item>
+    
+  </channel>
+</rss>

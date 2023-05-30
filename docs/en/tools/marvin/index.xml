@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marvin on Kiils</title>
+    <link>https://www.kiils.dk/en/tools/marvin/</link>
+    <description>Recent content in Marvin on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 22 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/en/tools/marvin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🦶 &#43; 🥔 = Potato foot 🤣 - and other examples of how ChatGPT made my son laugh. And why it is important</title>
+      <link>https://www.kiils.dk/en/blog/how-chatgpt-made-my-surly-son-laugh/</link>
+      <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/en/blog/how-chatgpt-made-my-surly-son-laugh/</guid>
+      <description>Recently I installed Marvin . Now, Marvin also happens to be the name of a dog dear to our family.
+So my kids kind of feel strongly about the name, and were both a bit offended about an Artificial Intelligence with the same name.
+But in this case Marvin is a
+batteries-included library for building AI-powered software. Marvin&amp;rsquo;s job is to integrate AI directly into your codebase by making it look and feel like any other function.</description>
+    </item>
+    
+  </channel>
+</rss>

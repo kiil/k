@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kvantitativ tekstanalyse on Kiils</title>
+    <link>https://www.kiils.dk/emner/kvantitativ-tekstanalyse/</link>
+    <description>Recent content in kvantitativ tekstanalyse on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <lastBuildDate>Thu, 12 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/emner/kvantitativ-tekstanalyse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT mansplainer ikke - men her botsplainer den helt vildt</title>
+      <link>https://www.kiils.dk/blog/nlp/chatgpt-botsplaining/</link>
+      <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/nlp/chatgpt-botsplaining/</guid>
+      <description>ChatGPT er stærk på engelsk og den skammer sig ikke over at de &amp;ldquo;mentale muskler&amp;rdquo; frem.
+Jeg giver ChatGPT en simpel opgave. Et ganske kort prompt:
+help me POS tag the following sentence: I went up the road
+Og får en lang smøre retur:
+Part-of-speech (POS) tagging is the process of marking each word in a sentence with its corresponding POS tag. There are many POS taggers available, both for general English and for specific languages.</description>
+    </item>
+    
+    <item>
+      <title>Går det bedre for ChatGPT med ordfrekvensanalyse på engelsk end det gjorde på dansk?</title>
+      <link>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse-engelsk/</link>
+      <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse-engelsk/</guid>
+      <description>Da jeg bad ChatGPT udføre en frekvensanalyse på en dansk tekst talte den ordene to gange:
+Kan ChatGPT bruges til kvantitativ tekstanalyse? måske fordi den oversætter frem og tilbage mellem dansk og engelsk? Bare et gæt.
+Men lad os så prøve på engelsk.
+Jeg bad ChatGPT oversætte en del af den tekst, som jeg tidligere fik ChatGPT til at udføre en ordfrekvensanalyse på, til engelsk.
+Og derefter bad jeg den give mig de mest brugte ord i teksten.</description>
+    </item>
+    
+    <item>
+      <title>Kan ChatGPT bruges til kvantitativ tekstanalyse?</title>
+      <link>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse/</guid>
+      <description>En simpel form for kvantitativ tekstanalyse er ordfrekvensanalyse.
+Jeg har skrevet lidt om hvordan man kan lave ordfrekvensanalyse i nushell og hvordan man kan lave ekstremt hurtig ordfrekvensanalyse på store mængder tekst med nushell og polar dataframes .
+Nushell gav mig følgende resultat
+╭─────┬───────────────────┬────────╮ │ # │ 0 │ counts │ ├─────┼───────────────────┼────────┤ │ 0 │ verden │ 5 │ │ 1 │ verdensopfattelse │ 4 │ │ 2 │ mainstream │ 4 │ │ 3 │ dag │ 4 │ │ 4 │ begynder │ 3 │ │ 5 │ alternative │ 3 │ │ 6 │ hele │ 3 │ │ 7 │ frelser │ 3 │ │ 8 │ ting │ 2 │ │ 9 │ magtfuld │ 2 │ på en tekst jeg skrev engang om livsfarlige konspirationsteorier: Nekrolog for en konspirationsteoretiker - leger du også med ilden?</description>
+    </item>
+    
+  </channel>
+</rss>

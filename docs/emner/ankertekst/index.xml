@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ankertekst on Kiils</title>
+    <link>https://www.kiils.dk/emner/ankertekst/</link>
+    <description>Recent content in ankertekst on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <lastBuildDate>Tue, 06 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/emner/ankertekst/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hvad betyder ankertekst?</title>
+      <link>https://www.kiils.dk/blog/seo/hvad-betyder-ankertekst/</link>
+      <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/seo/hvad-betyder-ankertekst/</guid>
+      <description>I SEO-sprog nævnes ofte ankertekst, men hvad er det egentligt?</description>
+    </item>
+    
+  </channel>
+</rss>

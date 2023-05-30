@@ -23,7 +23,7 @@ Der er tre &amp;lt;div&amp;gt;Test&amp;lt;/div&amp;gt; </description>
       <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/blog/chatgpt-med-klar-opfordring-til-politikerne-anerkend-at-borgere-kan-have-seksuelle-relationer-uden-at-voldtage-nogen/</guid>
-      <description>ChatGPT med opsang til djøf&amp;rsquo;erne I seng med fjenden - kunstig intelligens i kamp mod djøfisering af Danmark (så blev jeg også nødt til at lære python) Hvordan bruger man egentligt OpenAI&amp;rsquo;s værktøjskasse i forhold til sit eget bagkatalog?
+      <description>¶ ChatGPT med opsang til djøf&amp;rsquo;erne ¶ I seng med fjenden - kunstig intelligens i kamp mod djøfisering af Danmark (så blev jeg også nødt til at lære python) Hvordan bruger man egentligt OpenAI&amp;rsquo;s værktøjskasse i forhold til sit eget bagkatalog?
 Jeg har mange af mine tekster, men desværre langt fra alle, liggende lokalt på min computer.
 Hvordan kan jeg forstå over ti tusind tekster? Hvordan kan jeg huske alt det jeg har skrevet?</description>
     </item>
@@ -133,7 +133,7 @@ Hovedsagelig kom det i praksis til at dreje sig om det vi på dansk begyndte at 
 Det er den fordi indholdet skifter hænder så mange gange undervejs.
 Og det gælder uanset om man sender tekstfiler rundt mellem forskellige medarbejdere på e-mail, eller om man bruger et mere moderne og integreret værktøj til projekthåndtering og indholdsstyring.
 Fra en ide formuleres til den færdige tekst kan præsenteres for offentligheden, er der ofte mange forskellige øjne som indholdet skal forbi.
-Kan en redaktionel arbejdsgang automatiseres?</description>
+¶ Kan en redaktionel arbejdsgang automatiseres?</description>
     </item>
     
     <item>
@@ -144,7 +144,7 @@ Kan en redaktionel arbejdsgang automatiseres?</description>
       <guid>https://www.kiils.dk/blog/danmarks-mest-rutinerede-redaktor-anmelder-chatgpt/</guid>
       <description>Jeg bad ChatGPT give nogle skrivetips.
 Den spyttede følgende svar ud som jeg kommenterer linje for linje:
-Write clearly and concisely, avoiding unnecessary jargon or complex sentence structures. Helt klart. Og det er faktisk noget ChatGPT har lært af mig personligt ;)
+¶ Write clearly and concisely, avoiding unnecessary jargon or complex sentence structures. Helt klart. Og det er faktisk noget ChatGPT har lært af mig personligt ;)
 Jeg har skrevet en hel serie om at skrive klart og kort, og helt konkret om hvordan man gør det i praksis - se mere om det i Skriv som en poet - ikke en bot .</description>
     </item>
     
@@ -565,7 +565,7 @@ For at kunne tilgå hugo server på min raspberry pi, som kører linux, fra en a
       <guid>https://www.kiils.dk/blog/recoll-smart-s%C3%B8gning/</guid>
       <description>Noget af det jeg manglede i MacOS Spotlight søgemaskinen, var en mere omfattende syntaks for søgning.
 Recoll er både smart og omfangsrig på det område.
-Stemming Recoll er bygget på Xapian som faktisk har en dansk stemming-mekanisme.
+¶ Stemming Recoll er bygget på Xapian som faktisk har en dansk stemming-mekanisme.
 Stemming finder roden af et ord og de forskellige afledninger. På den måde får man flere resultater på en søgning, og nogle af dem vil være relevante nok.
 Med Recoll og Xapian tages der endda konkret højde for nøjagtig de ord som findes i dit indeks.</description>
     </item>
@@ -930,7 +930,7 @@ $config[&amp;rsquo;language.negotiation&amp;rsquo;][&amp;lsquo;url&amp;rsquo;][&
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/blog/devops/workflow/rollback/</guid>
-      <description> https://www.bounteous.com/insights/2020/03/11/automate-drupal-deployments/ </description>
+      <description>https://www.bounteous.com/insights/2020/03/11/automate-drupal-deployments/ </description>
     </item>
     
     <item>

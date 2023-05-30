@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on Kiils</title>
+    <link>https://www.kiils.dk/tools/markdown/</link>
+    <description>Recent content in markdown on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <lastBuildDate>Wed, 12 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/tools/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Som redaktør ville jeg ønske alle skribenter kendte det her trick</title>
+      <link>https://www.kiils.dk/blog/skriv-som-en-poet/del-0-poet-teknikken/</link>
+      <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/skriv-som-en-poet/del-0-poet-teknikken/</guid>
+      <description>Hvad er poet-teknikken?</description>
+    </item>
+    
+    <item>
+      <title>Ekstra værktøj til poet-teknikken</title>
+      <link>https://www.kiils.dk/blog/skriv-som-en-poet/del-9-tooling/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/skriv-som-en-poet/del-9-tooling/</guid>
+      <description>Først skriver vi teksten sådan her:
+Once upon a time, there was a small group of people who held all the power and wealth. The ruling class. They used their influence to control every aspect of society. They were always looking for ways to gain more power. And they saw artificial intelligence as the key to achieving their goals. Og gemmer den i filen markdown-tekstfil.md.
+For at se teksten med sætningerne på hver deres linje:</description>
+    </item>
+    
+    <item>
+      <title>Mellemrubrikker som indholdsoversigt</title>
+      <link>https://www.kiils.dk/blog/journalistik/mellemrubrikker-indholdsoversigt/</link>
+      <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/journalistik/mellemrubrikker-indholdsoversigt/</guid>
+      <description>Det handler om at give læseren overblik</description>
+    </item>
+    
+  </channel>
+</rss>

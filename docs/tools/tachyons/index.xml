@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tachyons on Kiils</title>
+    <link>https://www.kiils.dk/tools/tachyons/</link>
+    <description>Recent content in tachyons on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <lastBuildDate>Tue, 11 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/tools/tachyons/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sådan fik jeg perfekte 100 i mobilhastighed</title>
+      <link>https://www.kiils.dk/blog/frontend/klimaleksikon-tachyons-performance/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/frontend/klimaleksikon-tachyons-performance/</guid>
+      <description>Det er ikke nemt i et CMS</description>
+    </item>
+    
+    <item>
+      <title>Det nemmeste CSS framework</title>
+      <link>https://www.kiils.dk/blog/frontend/bootstrap-4/</link>
+      <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/frontend/bootstrap-4/</guid>
+      <description>Bootstrap 4 er næppe det nemmeste og hurtigste at prototype i længere. Og lidt for tungt hvis man virkelig går op i hastighed også på langsommere mobilforbindelser.</description>
+    </item>
+    
+  </channel>
+</rss>

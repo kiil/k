@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>langchain on Kiils</title>
+    <link>https://www.kiils.dk/tools/langchain/</link>
+    <description>Recent content in langchain on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <lastBuildDate>Fri, 26 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/tools/langchain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT med klar opfordring til politikerne: Anerkend at borgere kan have seksuelle relationer uden at voldtage nogen</title>
+      <link>https://www.kiils.dk/blog/chatgpt-med-klar-opfordring-til-politikerne-anerkend-at-borgere-kan-have-seksuelle-relationer-uden-at-voldtage-nogen/</link>
+      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/chatgpt-med-klar-opfordring-til-politikerne-anerkend-at-borgere-kan-have-seksuelle-relationer-uden-at-voldtage-nogen/</guid>
+      <description>¶ ChatGPT med opsang til djøf&amp;rsquo;erne ¶ I seng med fjenden - kunstig intelligens i kamp mod djøfisering af Danmark (så blev jeg også nødt til at lære python) Hvordan bruger man egentligt OpenAI&amp;rsquo;s værktøjskasse i forhold til sit eget bagkatalog?
+Jeg har mange af mine tekster, men desværre langt fra alle, liggende lokalt på min computer.
+Hvordan kan jeg forstå over ti tusind tekster? Hvordan kan jeg huske alt det jeg har skrevet?</description>
+    </item>
+    
+    <item>
+      <title>Udvikl AulaGPT og bliv en levende legende</title>
+      <link>https://www.kiils.dk/blog/er-du-traet-af-aula-lad-aulagpt-klare-kommunikationen/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/er-du-traet-af-aula-lad-aulagpt-klare-kommunikationen/</guid>
+      <description>Er du træt af Aula?
+Så er du ikke alene.
+Men problemet med Aula er ikke at Aula er dårlig software. Problemet er det underliggende problem som Aula ikke kan løse. Men prøver på at løse.
+Vi lever i en tid med mange beskeder og meget kommunikation og hvor alting skal stemmes af med alt og alle.
+Meget af det er kedeligt assistentarbejde nøjagtig af den type som skal klares af en kunstig intelligens i stedet for at du spilder din dyrebare tid på det.</description>
+    </item>
+    
+  </channel>
+</rss>

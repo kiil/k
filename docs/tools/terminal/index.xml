@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>terminal on Kiils</title>
+    <link>https://www.kiils.dk/tools/terminal/</link>
+    <description>Recent content in terminal on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/tools/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Takket være ShellGPT kan alle nu få gavn af kommandolinjens superkræfter - se her hvordan</title>
+      <link>https://www.kiils.dk/blog/er-du-ved-at-opgive-kommandolinjen-fa-chatgpt-til-at-hjaelpe-dig/</link>
+      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/er-du-ved-at-opgive-kommandolinjen-fa-chatgpt-til-at-hjaelpe-dig/</guid>
+      <description>Jeg opdagede ved en tilfældighed at jeg i mine mange nylige indlæg her på Kiils/erfaringer i nogle tilfælde havde skrevet ChatGPT som chatGPT.
+Jeg ønsker i alle tilfælde at skrive det med stort forbogstav sådan her ChatGPT.
+Så kunne jeg åbne hver enkelt fil og rette fejlen. Eller jo kunne bruge sed på kommandolinjen.
+Problemet var bare at jeg ikke kunne huske hvordan man bruger sed på mere end en enkelt fil af gangen.</description>
+    </item>
+    
+    <item>
+      <title>Automatisering med systemd</title>
+      <link>https://www.kiils.dk/blog/20230215-automatisering-systemd/</link>
+      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/20230215-automatisering-systemd/</guid>
+      <description>Gå til eller opret ~/.config/systemd/user/
+Lav en servicenavn.service
+[Unit] Description=Get subscription creations and deletions [Service] Type=simple Environment=STRIPE=secretkey WorkingDirectory=/home/lk/GD/TEKST/notebooks/biz/fin/j/stripe/ ExecStart=/home/lk/GD/TEKST/notebooks/biz/fin/j/stripe/stripe-abo.nu [Install] WantedBy=default.target Lav en servicenavn.timer
+[Unit] Description=Schedule stripe abo every 8 hours RefuseManualStart=no # Allow manual starts RefuseManualStop=no # Allow manual stops [Timer] #Execute job if it missed a run due to machine being off Persistent=true #Run 120 seconds after boot for the first time OnBootSec=120 #Run every 1 minute thereafter OnUnitActiveSec=28800 #File describing job to execute Unit=biz-fin-stripe-abo.</description>
+    </item>
+    
+    <item>
+      <title>Sidetal væk fra forsiden i pdf over Pandoc fra markdown</title>
+      <link>https://www.kiils.dk/blog/tips-tricks/sidetal/</link>
+      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/tips-tricks/sidetal/</guid>
+      <description>Nogle gange vil man ikke have sidetal på titel-siden</description>
+    </item>
+    
+    <item>
+      <title>Sorter markdown dokument</title>
+      <link>https://www.kiils.dk/blog/tips-tricks/sorter-markdown-efter-overskrifter/</link>
+      <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/tips-tricks/sorter-markdown-efter-overskrifter/</guid>
+      <description>Sorter sektioner i markdown</description>
+    </item>
+    
+  </channel>
+</rss>

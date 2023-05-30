@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on Kiils</title>
+    <link>https://www.kiils.dk/tools/linux/</link>
+    <description>Recent content in linux on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <lastBuildDate>Wed, 15 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/tools/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automatisering med systemd</title>
+      <link>https://www.kiils.dk/blog/20230215-automatisering-systemd/</link>
+      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/20230215-automatisering-systemd/</guid>
+      <description>Gå til eller opret ~/.config/systemd/user/
+Lav en servicenavn.service
+[Unit] Description=Get subscription creations and deletions [Service] Type=simple Environment=STRIPE=secretkey WorkingDirectory=/home/lk/GD/TEKST/notebooks/biz/fin/j/stripe/ ExecStart=/home/lk/GD/TEKST/notebooks/biz/fin/j/stripe/stripe-abo.nu [Install] WantedBy=default.target Lav en servicenavn.timer
+[Unit] Description=Schedule stripe abo every 8 hours RefuseManualStart=no # Allow manual starts RefuseManualStop=no # Allow manual stops [Timer] #Execute job if it missed a run due to machine being off Persistent=true #Run 120 seconds after boot for the first time OnBootSec=120 #Run every 1 minute thereafter OnUnitActiveSec=28800 #File describing job to execute Unit=biz-fin-stripe-abo.</description>
+    </item>
+    
+  </channel>
+</rss>

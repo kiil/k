@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grammatik on Kiils</title>
+    <link>https://www.kiils.dk/emner/grammatik/</link>
+    <description>Recent content in Grammatik on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <lastBuildDate>Fri, 20 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/emner/grammatik/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fem eller 5</title>
+      <link>https://www.kiils.dk/blog/tal/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/tal/</guid>
+      <description>Hvornår skrives tal ud</description>
+    </item>
+    
+  </channel>
+</rss>

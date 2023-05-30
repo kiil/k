@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cm on Kiils</title>
+    <link>https://www.kiils.dk/cm/</link>
+    <description>Recent content in Cm on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <lastBuildDate>Tue, 11 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/cm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>feed</title>
+      <link>https://www.kiils.dk/cm/feed/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/cm/feed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Featured</title>
+      <link>https://www.kiils.dk/cm/featured/</link>
+      <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/cm/featured/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
