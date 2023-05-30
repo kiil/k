@@ -153,6 +153,484 @@
 
 
 
+
+
+
+
+
+<section id="hero" class="mt-8 mx-auto flex flex-wrap items-center">
+	<div
+		class="mx-auto p-2 sm:p-8 text-center  md:w-3/4 ">
+		<div>
+			<h1 class="my-0 text-4xl sm:text-5xl md:text-6xl" id="dagen">Dagen</h1>
+<h1 id="idag"></h1>
+<h1 id="imorgen"></h1>
+<h1 id="skema"></h1>
+<h1 id="temp"></h1>
+<script>
+
+(function foo() {
+
+  const tidsstempel = Date.now();
+  const dato = new Date(tidsstempel);
+  //const uge = dato.getWeek();
+  //const lige = uge % 2;
+  const ugedag = dato.getDay();
+  //const timen = dato.getHours();
+  let day = ("0" + dato.getDate()).slice(-2);
+  let month = ("0" + (dato.getMonth() + 1)).slice(-2);
+  let year = dato.getFullYear();
+  let currentDate = `${year}-${month}-${day}`;
+  var imorgen = new Date();
+  imorgen.setDate(imorgen.getDate() + 1);
+  let mday = ("0" + imorgen.getDate()).slice(-2);
+  let mmonth = ("0" + (imorgen.getMonth() + 1)).slice(-2);
+  let myear = imorgen.getFullYear();
+  let mDate = `${myear}-${mmonth}-${mday}`;
+  document.getElementById("idag").innerHTML = currentDate;
+  document.getElementById("imorgen").innerHTML = mDate;
+
+  //if (lige == 0 && ugedag > 4) { alert("Lennart har weekend\n") }
+  //if (lige != 0 && ugedag > 4) { alert("Camilla har weekend\n") }
+
+  if (ugedag == 1 /* && timen < 20 */ ) { document.getElementById("skema").innerHTML = `
+    <p>Liv skolefri 13:30</p>
+    <p>Lex skolefri 14:15 - skal til fodbold 17:00</p>
+    ` }
+
+  if (ugedag == 2 /* && timen < 20 */ ) { document.getElementById("skema").innerHTML = `
+    <p>Begge skolefri kl 13:00</p>
+    <p>I dag skal Lex til badminton</p>
+    ` }
+
+  if (ugedag == 3 /* && timen < 20 */ ) { document.getElementById("skema").innerHTML = `
+    <p>Lex skolefri 15:00 - fodbold 17:00</p>
+    <p>Liv skolefri 14:15</p>
+    ` }
+
+  if (ugedag == 4 /* && timen < 20 */ ) { document.getElementById("skema").innerHTML = `
+    <p>Lex skolefri 13:45 - badminton</p>
+    <p>Liv skolefri 13:00</p>
+    ` }
+
+  if (ugedag == 5 /* && timen < 20 */ ) { document.getElementById("skema").innerHTML = `
+    <p>Begge skolefri 13:30</p>
+    <p>Lex skoleidræt</p>
+    <p>Liv skal til gymnastik efter skole</p>
+    ` }
+
+  if (ugedag == 6 /* && timen < 20 */ ) { document.getElementById("skema").innerHTML = `
+    <p>Det er lørdag</p>
+    <p>og vi skal hygge os</p>
+    ` }
+
+  if (ugedag == 0 /* && timen < 20 */ ) { document.getElementById("skema").innerHTML = `
+    <p>Det er søndag</p>
+    <p>Tjek jeres <em>AULA</em> og <em>Meebook</em> for <strong>i morgen og tirsdag</strong></p>
+    ` }
+
+
+// vejret
+    const api_url = "https://wttr.in/humlebaek?format=j1";
+    async function getWeather() {
+        const response = await fetch(api_url);
+        const data = await response.json();
+        const weather = data.current_condition[0];
+        const area = data.nearest_area[0];
+        let temp = weather.temp_C;
+        let uv = weather.uvIndex;
+        let pop = area.population;
+        let city = area.areaName[0].value;
+        document.getElementById("temp").innerHTML = "temp: " + temp + " UV: " + uv;
+    }
+    getWeather();
+
+
+    setTimeout(foo, 3600000);
+
+})();
+
+</script>
+
+		</div>
+		<div class="mx-auto mt-8 mb-8 md:mb-0 flex justify-center">
+			
+		</div>
+	</div>
+
+	
+
+</section>
+
+
+
+
+
+<hr class=" my-24 border-secondary-dark dark:border-secondary-light">
+
+
+
+
+
+
+
+<section id="bars" class="mx-auto flex flex-wrap items-center">
+	<div class="text-center w-full">
+		<h1 class="my-0 text-4xl sm:text-5xl md:text-6xl">
+			Status
+		</h1>
+		
+		<h2 class="font-light mt-0">Vi bliver bedre</h2>
+		
+	</div>
+	<div class="w-full flex flex-col">
+		
+		<div class="mt-8">
+			
+			<h2 class="inline-block">Sammenhold</h2>
+			<div class="flex items-center">
+				<div class="h-4 flex-1 mr-4 shadow-2 rounded-sm bg-gray-200">
+					<div class="h-full bg-green-300 rounded-sm bg-gradient-to-r from-accent-light via-accent-dark to-accent"
+						style="width: 60%;">
+					</div>
+				</div>
+				<span class="font-bold">60%</span>
+			</div>
+		</div>
+		
+		<div class="mt-8">
+			
+			<h2 class="inline-block">Sjov</h2>
+			<div class="flex items-center">
+				<div class="h-4 flex-1 mr-4 shadow-2 rounded-sm bg-gray-200">
+					<div class="h-full bg-green-300 rounded-sm bg-gradient-to-r from-accent-light via-accent-dark to-accent"
+						style="width: 70%;">
+					</div>
+				</div>
+				<span class="font-bold">70%</span>
+			</div>
+		</div>
+		
+		<div class="mt-8">
+			
+			<h2 class="inline-block">Orden</h2>
+			<div class="flex items-center">
+				<div class="h-4 flex-1 mr-4 shadow-2 rounded-sm bg-gray-200">
+					<div class="h-full bg-green-300 rounded-sm bg-gradient-to-r from-accent-light via-accent-dark to-accent"
+						style="width: 80%;">
+					</div>
+				</div>
+				<span class="font-bold">80%</span>
+			</div>
+		</div>
+		
+		<div class="mt-8">
+			
+			<h2 class="inline-block">Skole</h2>
+			<div class="flex items-center">
+				<div class="h-4 flex-1 mr-4 shadow-2 rounded-sm bg-gray-200">
+					<div class="h-full bg-green-300 rounded-sm bg-gradient-to-r from-accent-light via-accent-dark to-accent"
+						style="width: 60%;">
+					</div>
+				</div>
+				<span class="font-bold">60%</span>
+			</div>
+		</div>
+		
+	</div>
+</section>
+
+
+
+
+<hr class=" my-24 border-secondary-dark dark:border-secondary-light">
+
+
+
+
+
+
+
+
+
+<section id="timeline">
+	<div class="text-center w-full mb-8">
+		<h1 class="my-0 text-4xl sm:text-5xl md:text-6xl">
+			Livet
+		</h1>
+		
+		<h2 class="font-light mt-0">Godt på vej</h2>
+		
+	</div>
+
+	<div class="relative">
+		
+		<div class="h-full border-l border-primary-dark absolute left-0 md:absolute-center"></div>
+		<div>
+			
+			
+
+			
+			
+
+			
+			
+			
+			
+
+
+			<div class="md:w-1/2 mb-6 md:ml-auto pl-4">
+
+				
+				<div class="mb-4 font-light text-primary text-xl">Present</div>
+				
+				<div
+					class="p-4 border-2 border-primary-light dark:border-secondary-light rounded-md transition ease-in-out duration-300 shadow-2 hover:shadow-8 ">
+					<h2 class="inline-block my-0 text-primary">Alexander</h2>
+
+					
+					<span class="mx-2">&middot; Hvidovre</span>
+					
+
+					<h3 class="mt-1 mb-0 text-primary-dark">Kommer til verden</h3>
+
+					
+					<div class="mb-2 text-primary">
+						<p>En dejlig baby</p>
+					</div>
+					
+				</div>
+				<div class="mt-4 font-light text-primary text-xl">Aug 2012</div>
+			</div>
+
+			
+			
+
+			
+			
+
+			
+
+
+			<div class="md:w-1/2 mb-6 md:mr-auto pl-4 md:pl-0 md:pr-4">
+
+				
+				<div class="mb-4 md:text-right font-light text-primary text-xl">Present</div>
+				
+				<div
+					class="p-4 border-2 border-primary-light dark:border-secondary-light rounded-md transition ease-in-out duration-300 shadow-2 hover:shadow-8 ">
+					<h2 class="inline-block my-0 text-primary">Olivia</h2>
+
+					
+					<span class="mx-2">&middot; Hvidovre</span>
+					
+
+					<h3 class="mt-1 mb-0 text-primary-dark">Kommer til verden</h3>
+
+					
+					<div class="mb-2 text-primary">
+						<p>En dejlig baby</p>
+					</div>
+					
+				</div>
+				<div class="mt-4 md:text-right font-light text-primary text-xl">Oct 2014</div>
+			</div>
+
+			
+		</div>
+	</div>
+</section>
+
+
+
+
+<hr class=" my-24 border-secondary-dark dark:border-secondary-light">
+
+
+
+
+
+
+
+<section id="pages">
+	<div class="text-center w-full">
+		<h1 class="my-0 text-4xl sm:text-5xl md:text-6xl">
+			Recent Posts
+		</h1>
+		
+		<h2 class="font-light mt-0">Read about my latest projects</h2>
+		
+	</div>
+
+	
+	
+
+
+	<div class="mt-8 flex flex-wrap justify-around">
+
+		
+		
+		
+
+		
+		
+
+
+		
+		<div class="w-full md:w-1/2 lg:w-1/3 md:pl-4 lg:pl-6">
+			<a href="https://www.kiils.dk/en/blog/humans-should-also-be-prompted-properly/" class="no-underline block">
+	<div class="mb-4 border border-primary-light dark:border-secondary-light rounded-md overflow-hidden">
+		
+			<span class="block">
+				
+				<div class="px-4 mt-3 mb-3">
+					<h2 class="m-0 inline-block overflow-ellipsis">Humans should also be prompted properly</h2>
+					<span class="block no-underline font-thin text-primary dark:text-primary-light -mt-2">
+						23/05/2023 &middot; 3 min read
+					</span>
+				</div>
+				<div class="px-4 mb-3 text-primary-dark overflow-ellipsis">
+					
+					The other day I posted a few lines on Facebook.
+My intention was to point out what can be called perspective - that a case can be seen from several angles.
+Specifically, it was about &amp;ldquo;Store Bededag&amp;rdquo; and the many other more or less official holi
+					
+					<span class="text-xs mt-3 block no-underline">Read more...</span>
+				</div>
+			</span>
+	</div>
+</a>
+
+		</div>
+		
+		<div class="w-full md:w-1/2 lg:w-1/3 md:pl-4 lg:pl-6">
+			<a href="https://www.kiils.dk/en/blog/merging-an-emoji-font-into-a-text-font/" class="no-underline block">
+	<div class="mb-4 border border-primary-light dark:border-secondary-light rounded-md overflow-hidden">
+		
+			<span class="block">
+				
+				<div class="px-4 mt-3 mb-3">
+					<h2 class="m-0 inline-block overflow-ellipsis">Merging an emoji 😘 font into a text font ❤️</h2>
+					<span class="block no-underline font-thin text-primary dark:text-primary-light -mt-2">
+						23/05/2023 &middot; 1 min read
+					</span>
+				</div>
+				<div class="px-4 mb-3 text-primary-dark overflow-ellipsis">
+					
+					I wanted to use the font Noto Sans with the Noto Emoji font for making an image overlay text in Hugo.
+I used Fontforge to merge the two fonts.
+At first the emoji font was much larger than the text font.
+In my case it only worked properly when
+Opening the t
+					
+					<span class="text-xs mt-3 block no-underline">Read more...</span>
+				</div>
+			</span>
+	</div>
+</a>
+
+		</div>
+		
+		<div class="w-full md:w-1/2 lg:w-1/3 md:pl-4 lg:pl-6">
+			<a href="https://www.kiils.dk/en/blog/how-chatgpt-made-my-surly-son-laugh/" class="no-underline block">
+	<div class="mb-4 border border-primary-light dark:border-secondary-light rounded-md overflow-hidden">
+		
+			<span class="block">
+				
+				<div class="px-4 mt-3 mb-3">
+					<h2 class="m-0 inline-block overflow-ellipsis">🦶 + 🥔 = Potato foot 🤣 - and other examples of how ChatGPT made my son laugh. And why it is important</h2>
+					<span class="block no-underline font-thin text-primary dark:text-primary-light -mt-2">
+						22/05/2023 &middot; 3 min read
+					</span>
+				</div>
+				<div class="px-4 mb-3 text-primary-dark overflow-ellipsis">
+					
+					Recently I installed Marvin . Now, Marvin also happens to be the name of a dog dear to our family.
+So my kids kind of feel strongly about the name, and were both a bit offended about an Artificial Intelligence with the same name.
+But in this case Marvin is
+					
+					<span class="text-xs mt-3 block no-underline">Read more...</span>
+				</div>
+			</span>
+	</div>
+</a>
+
+		</div>
+		
+		<div class="w-full md:w-1/2 lg:w-1/3 md:pl-4 lg:pl-6">
+			<a href="https://www.kiils.dk/en/blog/chatgpt-glorified-markov-chain/" class="no-underline block">
+	<div class="mb-4 border border-primary-light dark:border-secondary-light rounded-md overflow-hidden">
+		
+			<span class="block">
+				
+				<div class="px-4 mt-3 mb-3">
+					<h2 class="m-0 inline-block overflow-ellipsis">Is ChatGPT more than a glorified Markov chain? Here is what ChatGPT itself has to say about that</h2>
+					<span class="block no-underline font-thin text-primary dark:text-primary-light -mt-2">
+						12/01/2023 &middot; 3 min read
+					</span>
+				</div>
+				<div class="px-4 mb-3 text-primary-dark overflow-ellipsis">
+					
+					Me: is chatgpt really just a glorified markov chain
+ChatGPT:
+ChatGPT is a type of language model that is based on the transformer architecture, which is a neural network-based approach to natural language processing. While the Markov Chain is a mathematica
+					
+					<span class="text-xs mt-3 block no-underline">Read more...</span>
+				</div>
+			</span>
+	</div>
+</a>
+
+		</div>
+		
+		<div class="w-full md:w-1/2 lg:w-1/3 md:pl-4 lg:pl-6">
+			<a href="https://www.kiils.dk/en/blog/servicebot-is-great/" class="no-underline block">
+	<div class="mb-4 border border-primary-light dark:border-secondary-light rounded-md overflow-hidden">
+		
+			<span class="block">
+				
+				<div class="px-4 mt-3 mb-3">
+					<h2 class="m-0 inline-block overflow-ellipsis">Servicebot.io is great</h2>
+					<span class="block no-underline font-thin text-primary dark:text-primary-light -mt-2">
+						14/05/2020 &middot; 2 min read
+					</span>
+				</div>
+				<div class="px-4 mb-3 text-primary-dark overflow-ellipsis">
+					
+					I had to upgrade my payment system on my media platform – Folkets.
+Since I was already on Stripe, I was looking for something that made it easy to keep up with Stripe in the sense that Stripe is developing new features at a rapid rate.
+I found Servicebot.i
+					
+					<span class="text-xs mt-3 block no-underline">Read more...</span>
+				</div>
+			</span>
+	</div>
+</a>
+
+		</div>
+		
+	</div>
+</section>
+
+
+
+
+<hr class=" my-24 border-secondary-dark dark:border-secondary-light">
+
+
+
+
+
+
+
+<div class="flex justify-center items-center flex-wrap">
+	
+</div>
+<div class="mt-12"></div>
+
+
+
+
 	</main>
 
 	<div class="absolute bottom-0 w-full"><footer class="w-full h-24 text-center text-xs text-gray-400 bg-black relative">

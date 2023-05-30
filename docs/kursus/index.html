@@ -150,147 +150,39 @@
 	
 
 	<main class="w-full px-4 pt-8 mx-auto md:max-w-4xl overflow-x-hidden md:overflow-visible ">
+<h1 class="text-center mx-auto max-w-4xl text-4xl sm:text-5xl md:text-6xl">
+	Ydelser
+</h1>
+<div class="overflow-hidden flex flex-wrap justify-center mx-auto my-16 px-4 max-w-6xl">
+	
+	
+<a class="no-underline" href="/tags/test">
+	<div
+		class="bg-secondary-dark dark:bg-secondary-light hover:bg-secondary rounded-full p-1 pr-2 mr-2 mb-3 flex-initial ease-in-out duration-200">
+		<img style="width: 30px; height: 30px;" class="inline rounded-full shadow-4" src=" /icons/tag.svg"
+			alt="tag icon">
+		<span class="inline font-sans align-middle select-none text-xl mr-1">TEST</span>
+	</div>
+</a>
 
-    <article class="text-gray-700 sm:mx-12 mb-4">
-        <h1 class="font-bold font-thin text-3xl text-gray-700">
-            Page(/kursus/hero.md)
-        </h1>
-        <h1 class="my-0 text-4xl sm:text-5xl md:text-6xl" id="dagen">Dagen</h1>
-<h1 id="idag"></h1>
-<h1 id="imorgen"></h1>
-<h1 id="skema"></h1>
-<h1 id="temp"></h1>
-<script>
+</div>
 
-(function foo() {
+<div>
+	
+	
 
-  const tidsstempel = Date.now();
-  const dato = new Date(tidsstempel);
-  //const uge = dato.getWeek();
-  //const lige = uge % 2;
-  const ugedag = dato.getDay();
-  //const timen = dato.getHours();
-  let day = ("0" + dato.getDate()).slice(-2);
-  let month = ("0" + (dato.getMonth() + 1)).slice(-2);
-  let year = dato.getFullYear();
-  let currentDate = `${year}-${month}-${day}`;
-  var imorgen = new Date();
-  imorgen.setDate(imorgen.getDate() + 1);
-  let mday = ("0" + imorgen.getDate()).slice(-2);
-  let mmonth = ("0" + (imorgen.getMonth() + 1)).slice(-2);
-  let myear = imorgen.getFullYear();
-  let mDate = `${myear}-${mmonth}-${mday}`;
-  document.getElementById("idag").innerHTML = currentDate;
-  document.getElementById("imorgen").innerHTML = mDate;
-
-  //if (lige == 0 && ugedag > 4) { alert("Lennart har weekend\n") }
-  //if (lige != 0 && ugedag > 4) { alert("Camilla har weekend\n") }
-
-  if (ugedag == 1 /* && timen < 20 */ ) { document.getElementById("skema").innerHTML = `
-    <p>Liv skolefri 13:30</p>
-    <p>Lex skolefri 14:15 - skal til fodbold 17:00</p>
-    ` }
-
-  if (ugedag == 2 /* && timen < 20 */ ) { document.getElementById("skema").innerHTML = `
-    <p>Begge skolefri kl 13:00</p>
-    <p>I dag skal Lex til badminton</p>
-    ` }
-
-  if (ugedag == 3 /* && timen < 20 */ ) { document.getElementById("skema").innerHTML = `
-    <p>Lex skolefri 15:00 - fodbold 17:00</p>
-    <p>Liv skolefri 14:15</p>
-    ` }
-
-  if (ugedag == 4 /* && timen < 20 */ ) { document.getElementById("skema").innerHTML = `
-    <p>Lex skolefri 13:45 - badminton</p>
-    <p>Liv skolefri 13:00</p>
-    ` }
-
-  if (ugedag == 5 /* && timen < 20 */ ) { document.getElementById("skema").innerHTML = `
-    <p>Begge skolefri 13:30</p>
-    <p>Lex skoleidræt</p>
-    <p>Liv skal til gymnastik efter skole</p>
-    ` }
-
-  if (ugedag == 6 /* && timen < 20 */ ) { document.getElementById("skema").innerHTML = `
-    <p>Det er lørdag</p>
-    <p>og vi skal hygge os</p>
-    ` }
-
-  if (ugedag == 0 /* && timen < 20 */ ) { document.getElementById("skema").innerHTML = `
-    <p>Det er søndag</p>
-    <p>Tjek jeres <em>AULA</em> og <em>Meebook</em> for <strong>i morgen og tirsdag</strong></p>
-    ` }
+</div>
 
 
-// vejret
-    const api_url = "https://wttr.in/humlebaek?format=j1";
-    async function getWeather() {
-        const response = await fetch(api_url);
-        const data = await response.json();
-        const weather = data.current_condition[0];
-        const area = data.nearest_area[0];
-        let temp = weather.temp_C;
-        let uv = weather.uvIndex;
-        let pop = area.population;
-        let city = area.areaName[0].value;
-        document.getElementById("temp").innerHTML = "temp: " + temp + " UV: " + uv;
-    }
-    getWeather();
 
 
-    setTimeout(foo, 3600000);
+<div class="flex justify-between items-center">
+	
 
-})();
+	
 
-</script>
-
-    </article>
-
-    <article class="text-gray-700 sm:mx-12 mb-4">
-        <h1 class="font-bold font-thin text-3xl text-gray-700">
-            Page(/kursus/skills.md)
-        </h1>
-        
-    </article>
-
-    <article class="text-gray-700 sm:mx-12 mb-4">
-        <h1 class="font-bold font-thin text-3xl text-gray-700">
-            Page(/kursus/experience.md)
-        </h1>
-        
-    </article>
-
-    <article class="text-gray-700 sm:mx-12 mb-4">
-        <h1 class="font-bold font-thin text-3xl text-gray-700">
-            Page(/kursus/posts.md)
-        </h1>
-        <p>😞 There are no posts at the moment. 😞</p>
-
-    </article>
-
-    <article class="text-gray-700 sm:mx-12 mb-4">
-        <h1 class="font-bold font-thin text-3xl text-gray-700">
-            Page(/kursus/introduktion/_index.md)
-        </h1>
-        
-    </article>
-
-    <article class="text-gray-700 sm:mx-12 mb-4">
-        <h1 class="font-bold font-thin text-3xl text-gray-700">
-            Page(/kursus/anvendelse/_index.md)
-        </h1>
-        
-    </article>
-
-    <article class="text-gray-700 sm:mx-12 mb-4">
-        <h1 class="font-bold font-thin text-3xl text-gray-700">
-            Page(/kursus/contact.md)
-        </h1>
-        <p>Need help to open a fast-food ?
-Let’s talk about it !</p>
-
-    </article>
+	
+</div>
 
 
 	</main>
