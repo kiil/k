@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang='da' class=''>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name=viewport content="width=device-width, initial-scale=1">
+
+
+
+<meta name="description" content="Familien Kiil" />
+
+
+
+<title>
+	Kiils
+	 - Simpel og hurtig ordfrekvensanalyse i Nushell 
+</title>
+
+
+
+<link rel="icon" href="/favicon.ico">
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://www.kiils.dk/js/pico.min.f68158e607f7493b08ceb09d0d24efe0.js" intergrity="md5-9oFY5gf3STsIzrCdDSTv4A==" crossorigin="anonymous"></script>
+
+
+	
+
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/css/main.min.f7d31dbaede936cdbc9c2e57ee18dfbe.css" crossorigin="anonymous" media="screen"
+	integrity="md5-99Mduu3pNs28nC5X7hjfvg==">
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/css/syntax.min.560c6a0b6dbbe4a6683a2312fd91b499.css" crossorigin="anonymous"
+	integrity="md5-VgxqC2275KZoOiMS/ZG0mQ==" media="screen">
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/style/style.min.d41d8cd98f00b204e9800998ecf8427e.css" crossorigin="anonymous" media="screen"
+	integrity="md5-1B2M2Y8AsgTpgAmY7PhCfg==">
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/css/main.min.1b6695ede8a03de873124c10b957342b.css" crossorigin="anonymous" media="screen"
+	integrity="md5-G2aV7eigPehzEkwQuVc0Kw==">
+
+
+</head>
+
+<body class="min-h-screen bg-secondary-light dark:bg-secondary text-primary relative pb-24">
+	
+	<div id="top" class="dark"></div>
+
+<header class="w-full flex items-center justify-between px-5 mx-auto md:pt-8 md:max-w-5xl pt-5">
+	
+	<div class="flex items-center">
+		<a href="https://www.kiils.dk/" class="inline-block mx-1 font-bold no-underline select-none">
+			<h1 class="hidden md:block font-charter tracking-normal m-0">
+				Kiils
+			</h1>
+
+			<div class="md:hidden">
+				<div class="w-8 h-8 relative font-bold bg-white blend-diff">
+	<h1 class="absolute-center m-0 font-charter text-2xl text-gray-100 blend-diff select-none">
+		K
+	</h1>
+</div>
+
+			</div>
+		</a>
+		
+	</div>
+
+	<nav class="">
+		
+		<a href="/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/kursus/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 Hjem
+		</a>
+		
+		<a href="/blog/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 Blog
+		</a>
+		
+		<a href="/tags/orden"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 Orden
+		</a>
+		
+		<a href="/kontakt/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/kunde/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/priser/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/privacy/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+	</nav>
+</header>
+
+	
+
+	<main class="w-full px-4 pt-8 mx-auto md:max-w-4xl overflow-x-hidden md:overflow-visible ">
+<button onclick="window.history.back()" class="bg-transparent border-none font-bold">&larr;Tilbage</button>
+<h1 class="blog-title text-center mx-auto max-w-vw-5/6 text-4xl sm:text-5xl md:text-6xl">
+	Simpel og hurtig ordfrekvensanalyse i Nushell
+</h1>
+
+<div class="blog-content text-justify leading-loose mb-12 mx-auto sm:max-w-vw-5/6 text-md">
+	<p>En shell der egner sig godt til dataanalyse, er 
+
+
+
+
+<a href="https://www.nushell.sh/" 
+	class="underline "  target="_blank" rel="noopener"
+	>
+	Nushell
+</a>.</p>
+<p>Den egner sig også godt til databaseret tekstanalyse, eller kvantitativ tekstanalyse.</p>
+<p>Her et hurtigt eksempel på hvad Nushell kan.</p>
+<p>Jeg har en tekst i filen <code>livsfarlige-konspirationsteorier.da.md</code>.</p>
+<p>Antal linjer, ord og anslag i den tekst kan jeg få sådan her:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">open livsfarlige-konspirationsteorier.da.md | size
+</span></span></code></pre></div><p>så giver nushell svaret</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">╭───────────┬──────╮
+</span></span><span class="line"><span class="cl">│ lines     │ 51   │
+</span></span><span class="line"><span class="cl">│ words     │ 616  │
+</span></span><span class="line"><span class="cl">│ bytes     │ 3790 │
+</span></span><span class="line"><span class="cl">│ chars     │ 3713 │
+</span></span><span class="line"><span class="cl">│ graphemes │ 3713 │
+</span></span><span class="line"><span class="cl">╰───────────┴──────╯
+</span></span></code></pre></div><p>Et hurtigt overblik over sætnings- og afsnitslængde fås som følger</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">open livsfarlige-konspirationsteorier.da.md | lines
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">╭────┬──────────────────────────────────────────────────────────────────────────────────────────────╮
+</span></span><span class="line"><span class="cl">│  0 │ Nekrolog for en konspirationsteoretiker - leger du også med ilden?                           │
+</span></span><span class="line"><span class="cl">│  1 │                                                                                              │
+</span></span><span class="line"><span class="cl">│  2 │ Det starter ofte uskyldigt.                                                                  │
+</span></span><span class="line"><span class="cl">│  3 │                                                                                              │
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">...
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">│ 46 │ Hvil i fred.                                                                                 │
+</span></span><span class="line"><span class="cl">│ 47 │                                                                                              │
+</span></span><span class="line"><span class="cl">│ 48 │                                                                                              │
+</span></span><span class="line"><span class="cl">│ 49 │                                                                                              │
+</span></span><span class="line"><span class="cl">│ 50 │                                                                                              │
+</span></span><span class="line"><span class="cl">╰────┴──────────────────────────────────────────────────────────────────────────────────────────────╯
+</span></span></code></pre></div><p>Tokenisering af tekstfilen er så nemt som:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">open livsfarlige-konspirationsteorier.da.md | split words
+</span></span></code></pre></div><p>der giver</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">╭─────┬─────────────────────────╮
+</span></span><span class="line"><span class="cl">│   0 │ Nekrolog                │
+</span></span><span class="line"><span class="cl">│   1 │ for                     │
+</span></span><span class="line"><span class="cl">│   2 │ en                      │
+</span></span><span class="line"><span class="cl">│   3 │ konspirationsteoretiker │
+</span></span><span class="line"><span class="cl">│   4 │ leger                   │
+</span></span><span class="line"><span class="cl">│   5 │ du                      │
+</span></span><span class="line"><span class="cl">│   6 │ også                    │
+</span></span><span class="line"><span class="cl">│   7 │ med                     │
+</span></span><span class="line"><span class="cl">│   8 │ ilden                   │
+</span></span><span class="line"><span class="cl">│   9 │ Det                     │
+</span></span><span class="line"><span class="cl">│  10 │ starter                 │
+</span></span></code></pre></div><p>Hyppigheden af hvert ord (ordfrekvensanalyse) findes ved:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">open livsfarlige-konspirationsteorier.da.md | split words | uniq --count
+</span></span></code></pre></div><p>der giver</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">╭─────┬─────────────────────────┬───────╮
+</span></span><span class="line"><span class="cl">│   # │          value          │ count │
+</span></span><span class="line"><span class="cl">├─────┼─────────────────────────┼───────┤
+</span></span><span class="line"><span class="cl">│   0 │ Nekrolog                │     1 │
+</span></span><span class="line"><span class="cl">│   1 │ for                     │     7 │
+</span></span><span class="line"><span class="cl">│   2 │ en                      │    20 │
+</span></span><span class="line"><span class="cl">│   3 │ konspirationsteoretiker │     1 │
+</span></span><span class="line"><span class="cl">│   4 │ leger                   │     1 │
+</span></span><span class="line"><span class="cl">│   5 │ du                      │    13 │
+</span></span></code></pre></div><p>Og så sortere på den nye kolonne som hedder count:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">open livsfarlige-konspirationsteorier.da.md | split words | uniq --count | sort-by count --reverse
+</span></span></code></pre></div><p>der videre giver</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">╭─────┬─────────────────────────┬───────╮
+</span></span><span class="line"><span class="cl">│   # │          value          │ count │
+</span></span><span class="line"><span class="cl">├─────┼─────────────────────────┼───────┤
+</span></span><span class="line"><span class="cl">│   0 │ at                      │    21 │
+</span></span><span class="line"><span class="cl">│   1 │ en                      │    20 │
+</span></span><span class="line"><span class="cl">│   2 │ i                       │    19 │
+</span></span><span class="line"><span class="cl">│   3 │ som                     │    15 │
+</span></span><span class="line"><span class="cl">│   4 │ er                      │    15 │
+</span></span><span class="line"><span class="cl">│   5 │ og                      │    15 │
+</span></span><span class="line"><span class="cl">│   6 │ af                      │    14 │
+</span></span><span class="line"><span class="cl">│   7 │ du                      │    13 │
+</span></span><span class="line"><span class="cl">│   8 │ det                     │    10 │
+</span></span><span class="line"><span class="cl">│   9 │ dig                     │     9 │
+</span></span><span class="line"><span class="cl">│  10 │ ikke                    │     9 │
+</span></span><span class="line"><span class="cl">│  11 │ jeres                   │     8 │
+</span></span><span class="line"><span class="cl">│  12 │ med                     │     8 │
+</span></span><span class="line"><span class="cl">│  13 │ den                     │     7 │
+</span></span></code></pre></div><p>Her er tydeligvis brug for at bortsortere stopwords. Men det skulle nok have været gjort inden vi begyndte at tælle antal og sortere på hyppigheden af dem.</p>
+<p>Inden vi går tilbage, så lad os først tage en helt almindelig fil med et stopord på hver linje og lave den til en tabel i Nushell med kolonnenavn stopord.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">open stopord.txt | lines | wrap stopord
+</span></span></code></pre></div><p>giver</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">╭─────┬────────────╮
+</span></span><span class="line"><span class="cl">│   # │  stopord   │
+</span></span><span class="line"><span class="cl">├─────┼────────────┤
+</span></span><span class="line"><span class="cl">│   0 │ ad         │
+</span></span><span class="line"><span class="cl">│   1 │ af         │
+</span></span><span class="line"><span class="cl">│   2 │ aldrig     │
+</span></span><span class="line"><span class="cl">│   3 │ alene      │
+</span></span><span class="line"><span class="cl">│   4 │ alle       │
+</span></span><span class="line"><span class="cl">│   5 │ allerede   │
+</span></span><span class="line"><span class="cl">│   6 │ alligevel  │
+</span></span><span class="line"><span class="cl">│   7 │ alt        │
+</span></span><span class="line"><span class="cl">│   8 │ altid      │
+</span></span><span class="line"><span class="cl">...
+</span></span></code></pre></div><p>Vi &ldquo;gemmer&rdquo; tabellen i en variabel:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">let stopwords = ( open stopord.txt | lines | wrap stopord )
+</span></span></code></pre></div><p>Hvis vi nu går tilbage til vores tekst on konspirationers farlighed og deler den op i ord også med kolonnenavn <code>ord</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">open livsfarlige-konspirationsteorier.da.md | split words | wrap ord
+</span></span></code></pre></div><p>får vi</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">╭─────┬─────────────────────────╮
+</span></span><span class="line"><span class="cl">│   # │           ord           │
+</span></span><span class="line"><span class="cl">├─────┼─────────────────────────┤
+</span></span><span class="line"><span class="cl">│   0 │ Nekrolog                │
+</span></span><span class="line"><span class="cl">│   1 │ for                     │
+</span></span><span class="line"><span class="cl">│   2 │ en                      │
+</span></span><span class="line"><span class="cl">│   3 │ konspirationsteoretiker │
+</span></span><span class="line"><span class="cl">│   4 │ leger                   │
+</span></span><span class="line"><span class="cl">│   5 │ du                      │
+</span></span><span class="line"><span class="cl">│   6 │ også                    │
+</span></span><span class="line"><span class="cl">│   7 │ med                     │
+</span></span><span class="line"><span class="cl">│   8 │ ilden                   │
+</span></span><span class="line"><span class="cl">│   9 │ Det                     │
+</span></span><span class="line"><span class="cl">...
+</span></span></code></pre></div><p>Den tabel skal nu have fjernet alle ord som også findes i tabellen over stopord.</p>
+<p>Det kaldes teknisk set en &ldquo;antijoin&rdquo;</p>
+<p>Desværre kan Nushell endnu ikke lave en rigtig antijoin på tabeller (men det kan den på dataframes og det vender jeg tilbage til i næste artikel om nushell).</p>
+<p>Så i stedet gør vi sådan her:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">open livsfarlige-konspirationsteorier.da.md | split words | wrap ord | where ord in $stopwords.stopord == false
+</span></span></code></pre></div><p>og det giver så</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">╭─────┬─────────────────────────╮
+</span></span><span class="line"><span class="cl">│   # │           ord           │
+</span></span><span class="line"><span class="cl">├─────┼─────────────────────────┤
+</span></span><span class="line"><span class="cl">│   0 │ Nekrolog                │
+</span></span><span class="line"><span class="cl">│   1 │ konspirationsteoretiker │
+</span></span><span class="line"><span class="cl">│   2 │ leger                   │
+</span></span><span class="line"><span class="cl">│   3 │ ilden                   │
+</span></span><span class="line"><span class="cl">│   4 │ Det                     │
+</span></span><span class="line"><span class="cl">│   5 │ starter                 │
+</span></span><span class="line"><span class="cl">│   6 │ ofte                    │
+</span></span><span class="line"><span class="cl">│   7 │ uskyldigt               │
+</span></span><span class="line"><span class="cl">│   8 │ Du                      │
+</span></span><span class="line"><span class="cl">│   9 │ opdager                 │
+</span></span><span class="line"><span class="cl">│  10 │ mainstream              │
+</span></span><span class="line"><span class="cl">│  11 │ medierne                │
+</span></span><span class="line"><span class="cl">│  12 │ lyver                   │
+</span></span><span class="line"><span class="cl">...
+</span></span></code></pre></div><p>Som man ser, er stopwords fjernet, men ikke dem som er skrevet med stort.</p>
+<p>Så lad os &ldquo;downcase&rdquo; alle ord i teksten først med <code>str downcase</code> lige efter filnavnet:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">open livsfarlige-konspirationsteorier.da.md | str downcase | split words | wrap ord | where ord in $stopwords.stopord == false
+</span></span></code></pre></div><p>Det giver så</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">╭─────┬─────────────────────────╮
+</span></span><span class="line"><span class="cl">│   # │           ord           │
+</span></span><span class="line"><span class="cl">├─────┼─────────────────────────┤
+</span></span><span class="line"><span class="cl">│   0 │ nekrolog                │
+</span></span><span class="line"><span class="cl">│   1 │ konspirationsteoretiker │
+</span></span><span class="line"><span class="cl">│   2 │ leger                   │
+</span></span><span class="line"><span class="cl">│   3 │ ilden                   │
+</span></span><span class="line"><span class="cl">│   4 │ starter                 │
+</span></span><span class="line"><span class="cl">│   5 │ ofte                    │
+</span></span><span class="line"><span class="cl">│   6 │ uskyldigt               │
+</span></span><span class="line"><span class="cl">│   7 │ opdager                 │
+</span></span><span class="line"><span class="cl">│   8 │ mainstream              │
+</span></span><span class="line"><span class="cl">│   9 │ medierne                │
+</span></span><span class="line"><span class="cl">│  10 │ lyver                   │
+</span></span><span class="line"><span class="cl">│  11 │ lyver                   │
+</span></span><span class="line"><span class="cl">│  12 │ ligefrem                │
+</span></span><span class="line"><span class="cl">...
+</span></span></code></pre></div><p>Lad os gemme den rensede og &ldquo;downcasede&rdquo; tekst som variablen <code>tidy</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">let tidy = ( open livsfarlige-konspirationsteorier.da.md | str downcase | split words | wrap ord | where ord in $stopwords.stopord == false )
+</span></span></code></pre></div><p>Og hvis vi så tæller og sorterer igen</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$tidy.ord | uniq --count | sort-by count --reverse
+</span></span></code></pre></div><p>så får vi</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">╭─────┬─────────────────────────┬───────╮
+</span></span><span class="line"><span class="cl">│   # │          value          │ count │
+</span></span><span class="line"><span class="cl">├─────┼─────────────────────────┼───────┤
+</span></span><span class="line"><span class="cl">│   0 │ verden                  │     5 │
+</span></span><span class="line"><span class="cl">│   1 │ dag                     │     4 │
+</span></span><span class="line"><span class="cl">│   2 │ verdensopfattelse       │     4 │
+</span></span><span class="line"><span class="cl">│   3 │ mainstream              │     4 │
+</span></span><span class="line"><span class="cl">│   4 │ frelser                 │     3 │
+</span></span><span class="line"><span class="cl">│   5 │ hele                    │     3 │
+</span></span><span class="line"><span class="cl">│   6 │ alternative             │     3 │
+</span></span><span class="line"><span class="cl">│   7 │ begynder                │     3 │
+</span></span><span class="line"><span class="cl">│   8 │ magtfuld                │     2 │
+</span></span><span class="line"><span class="cl">│   9 │ pludselig               │     2 │
+</span></span><span class="line"><span class="cl">│  10 │ tager                   │     2 │
+</span></span><span class="line"><span class="cl">│  11 │ står                    │     2 │
+</span></span><span class="line"><span class="cl">│  12 │ tiden                   │     2 │
+</span></span></code></pre></div><p>som giver en ide om hvad teksten handler om.</p>
+<p>Desværre tager processen</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">benchmark {                                                                                           11/08/2022 11:00:49 
+</span></span><span class="line"><span class="cl">::: let stopwords = ( open stopord.txt | lines | wrap stopord )
+</span></span><span class="line"><span class="cl">::: let tidy = ( open livsfarlige-konspirationsteorier.da.md | str downcase | split words | wrap ord | where ord in $stopwords.stopord == false )
+</span></span><span class="line"><span class="cl">::: $tidy.ord | uniq --count | sort-by count --reverse }
+</span></span></code></pre></div><p>over en tiendedel af et sekund:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">145ms 516µs 353ns
+</span></span></code></pre></div><p>Næste gang ser jeg på om det kan gøres både mere elegant og hurtigere med dataframes i Nushell.</p>
+
+</div>
+
+
+<hr class="mb-6 mt-24">
+
+
+<div class="flex flex-wrap justify-between items-center">
+	
+	<div class=" w-full sm:w-1/2  mb-1 text-center sm:text-left overflow-ellipsis pr-1">
+		<a class="mr-4 no-underline" href="https://www.kiils.dk/blog/foraeldremoedet/">
+			<img src="/icons/top_arrow.svg" class="transform -rotate-90 inline-block">
+		</a>
+		<a href="https://www.kiils.dk/blog/foraeldremoedet/">
+			<span class="underline">Et forældremøde jeg sent vil glemme</span>
+		</a>
+	</div>
+	
+
+	
+	<div
+		class=" w-full sm:w-1/2  mt-1 text-center sm:text-right overflow-ellipsis pl-1">
+		<a href="https://www.kiils.dk/blog/nlp/nushell-dataframes/">
+			<span class="underline">Uhyre hurtig tekstanalyse med dataframes i Nushell</span>
+		</a>
+		<a class="ml-4 no-underline" href="https://www.kiils.dk/blog/nlp/nushell-dataframes/">
+			<img src="/icons/top_arrow.svg" class="transform rotate-90 inline-block">
+		</a>
+	</div>
+	
+</div>
+
+<hr class="my-6">
+<div class="flex justify-center items-center flex-wrap">
+	
+</div>
+<div class="mt-6"></div>
+
+
+	</main>
+
+	<div class="absolute bottom-0 w-full"><footer class="w-full h-24 text-center text-xs text-gray-400 bg-black relative">
+	<div class="w-full px-6 md:pt-0 md:mx-auto md:max-w-5xl flex flex-1 space-between items-center absolute-center">
+		<a href="https://www.kiils.dk/" class="absolute">
+			<div class="w-8 h-8 relative font-bold bg-white blend-diff">
+	<h1 class="absolute-center m-0 font-charter text-2xl text-gray-100 blend-diff select-none">
+		K
+	</h1>
+</div>
+
+		</a>
+
+		<div class="h-full flex-1">
+			<span class="select-none">
+			</span>
+		</div>
+	</div>
+</footer>
+
+	</div>
+</body>
+
+</html>

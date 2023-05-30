@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang='en' class=''>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name=viewport content="width=device-width, initial-scale=1">
+
+
+
+<meta name="description" content="Familien Kiil" />
+
+
+
+<title>
+	Kiils
+	 - Search 
+</title>
+
+
+
+<link rel="icon" href="/favicon.ico">
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://www.kiils.dk/js/pico.min.f68158e607f7493b08ceb09d0d24efe0.js" intergrity="md5-9oFY5gf3STsIzrCdDSTv4A==" crossorigin="anonymous"></script>
+
+
+	
+
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/css/main.min.f7d31dbaede936cdbc9c2e57ee18dfbe.css" crossorigin="anonymous" media="screen"
+	integrity="md5-99Mduu3pNs28nC5X7hjfvg==">
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/css/syntax.min.560c6a0b6dbbe4a6683a2312fd91b499.css" crossorigin="anonymous"
+	integrity="md5-VgxqC2275KZoOiMS/ZG0mQ==" media="screen">
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/style/style.min.d41d8cd98f00b204e9800998ecf8427e.css" crossorigin="anonymous" media="screen"
+	integrity="md5-1B2M2Y8AsgTpgAmY7PhCfg==">
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/css/main.min.1b6695ede8a03de873124c10b957342b.css" crossorigin="anonymous" media="screen"
+	integrity="md5-G2aV7eigPehzEkwQuVc0Kw==">
+
+
+</head>
+
+<body class="min-h-screen bg-secondary-light dark:bg-secondary text-primary relative pb-24">
+	
+	<div id="top" class="dark"></div>
+
+<header class="w-full flex items-center justify-between px-5 mx-auto md:pt-8 md:max-w-5xl pt-5">
+	
+	<div class="flex items-center">
+		<a href="https://www.kiils.dk/en/" class="inline-block mx-1 font-bold no-underline select-none">
+			<h1 class="hidden md:block font-charter tracking-normal m-0">
+				Kiils
+			</h1>
+
+			<div class="md:hidden">
+				<div class="w-8 h-8 relative font-bold bg-white blend-diff">
+	<h1 class="absolute-center m-0 font-charter text-2xl text-gray-100 blend-diff select-none">
+		K
+	</h1>
+</div>
+
+			</div>
+		</a>
+		
+		<div class="inline-block pl-2 ml-2 border-l border-gray-600">
+			
+			<a href="https://www.kiils.dk/search/" class="no-underline inline-block px-1">
+				<span class="font-bold">
+					DA
+				</span>
+			</a>
+			
+		</div>
+		
+	</div>
+
+	<nav class="">
+		
+		<a href="/en/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 Home
+		</a>
+		
+		<a href="/en/blog/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 Blog
+		</a>
+		
+		<a href="/en/tags/orden"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/en/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/en/domains/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/en/blog/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+	</nav>
+</header>
+
+	
+
+	<main class="w-full px-4 pt-8 mx-auto md:max-w-4xl overflow-x-hidden md:overflow-visible ">
+<article class="">
+	<h1 class="font-bold text-3xl text-gray-700">Search</h1>
+	
+ <script src="/js/lunr.js"></script>
+
+<script type="text/javascript">
+
+// define globale variables
+var idx, searchInput, searchResults = null
+var documents = []
+
+function renderSearchResults(results){
+
+    if (results.length > 0) {
+
+        // show max 10 results
+        if (results.length > 9){
+            results = results.slice(0,10)
+        }
+
+        // reset search results
+        searchResults.innerHTML = ''
+
+        // append results
+        results.forEach(result => {
+
+            // create result item
+            var article = document.createElement('article')
+            article.innerHTML = `
+            <div class="relative w-100 bg-white">
+
+            <div class="bg-white pa4 gray overflow-hidden">
+            <h3 class="f3 near-black ma0"><a class="link black dim" href="${result.ref}">${documents[result.ref].title}</a></h3>
+            </div>
+
+            </div>
+            <br>
+            `
+            searchResults.appendChild(article)
+        })
+
+    // if results are empty
+    } else {
+        searchResults.innerHTML = '<p>Ingen resultater.</p>'
+    }
+}
+
+function registerSearchHandler() {
+
+    // register on input event
+    searchInput.oninput = function(event) {
+
+        // remove search results if the user empties the search input field
+        if (searchInput.value == '') {
+
+            searchResults.innerHTML = ''
+        } else {
+
+            // get input value
+            var query = event.target.value
+
+            // run fuzzy search
+            var results = idx.search(query + '*')
+
+            // render results
+            renderSearchResults(results)
+        }
+    }
+
+    // set focus on search input and remove loading placeholder
+    searchInput.focus()
+    searchInput.placeholder = '⌕'
+}
+
+window.onload = function() {
+
+    // get dom elements
+    searchInput = document.getElementById('search-input')
+    searchResults = document.getElementById('search-results')
+
+    // request and index documents
+    fetch('/en/index.json', {
+        method: 'get'
+    }).then(
+        res => res.json()
+    ).then(
+        res => {
+
+            // index document
+            idx = lunr(function() {
+                this.ref('url')
+                this.field('title')
+                this.field('content')
+
+                res.forEach(function(doc) {
+                    this.add(doc)
+                    documents[doc.url] = {
+                        'title': doc.title,
+                        'content': doc.content,
+                    }
+                }, this)
+            })
+
+            // data is loaded, next register handler
+            registerSearchHandler()
+        }
+    ).catch(
+        err => {
+            searchResults.innerHTML = `<p>${err}</p>`
+        }
+    )
+}
+</script>
+
+
+
+
+
+
+
+
+
+<form class="pv4 black-80 w-100">
+    <label for="name" class="f6 b db mb2">Input keywords</label>
+    <input id="search-input" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
+    <small id="name-desc" class="f6 black-60 db mb2"> Looking for something you did not find? <a href="/en/contact/" class="link underline black-80 hover-blue">Contact Kiils</a></small>
+</form>
+
+
+<section id="search-results" class="search"></section>
+
+<style>
+input::placeholder {
+  text-align: right;
+}
+</style>
+
+</article>
+
+	</main>
+
+	<div class="absolute bottom-0 w-full"><footer class="w-full h-24 text-center text-xs text-gray-400 bg-black relative">
+	<div class="w-full px-6 md:pt-0 md:mx-auto md:max-w-5xl flex flex-1 space-between items-center absolute-center">
+		<a href="https://www.kiils.dk/en/" class="absolute">
+			<div class="w-8 h-8 relative font-bold bg-white blend-diff">
+	<h1 class="absolute-center m-0 font-charter text-2xl text-gray-100 blend-diff select-none">
+		K
+	</h1>
+</div>
+
+		</a>
+
+		<div class="h-full flex-1">
+			<span class="select-none">
+			</span>
+		</div>
+	</div>
+</footer>
+
+	</div>
+</body>
+
+</html>

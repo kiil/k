@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang='da' class=''>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name=viewport content="width=device-width, initial-scale=1">
+
+<meta name="description" content="Rådgivning, research og redaktionelt arbejde" />
+
+<title>
+	Kiils
+	 - Ydelser 
+</title>
+
+<link href="https://www.kiils.dk/kursus/index.xml" rel="alternate" type="application/rss+xml" title="Kiils" />
+
+
+
+<link rel="icon" href="/favicon.ico">
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://www.kiils.dk/js/pico.min.f68158e607f7493b08ceb09d0d24efe0.js" intergrity="md5-9oFY5gf3STsIzrCdDSTv4A==" crossorigin="anonymous"></script>
+
+
+	
+
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/css/main.min.f7d31dbaede936cdbc9c2e57ee18dfbe.css" crossorigin="anonymous" media="screen"
+	integrity="md5-99Mduu3pNs28nC5X7hjfvg==">
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/css/syntax.min.560c6a0b6dbbe4a6683a2312fd91b499.css" crossorigin="anonymous"
+	integrity="md5-VgxqC2275KZoOiMS/ZG0mQ==" media="screen">
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/style/style.min.d41d8cd98f00b204e9800998ecf8427e.css" crossorigin="anonymous" media="screen"
+	integrity="md5-1B2M2Y8AsgTpgAmY7PhCfg==">
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/css/main.min.1b6695ede8a03de873124c10b957342b.css" crossorigin="anonymous" media="screen"
+	integrity="md5-G2aV7eigPehzEkwQuVc0Kw==">
+
+
+</head>
+
+<body class="min-h-screen bg-secondary-light dark:bg-secondary text-primary relative pb-24">
+	
+	<div id="top" class="dark"></div>
+
+<header class="w-full flex items-center justify-between px-5 mx-auto md:pt-8 md:max-w-5xl pt-5">
+	
+	<div class="flex items-center">
+		<a href="https://www.kiils.dk/" class="inline-block mx-1 font-bold no-underline select-none">
+			<h1 class="hidden md:block font-charter tracking-normal m-0">
+				Kiils
+			</h1>
+
+			<div class="md:hidden">
+				<div class="w-8 h-8 relative font-bold bg-white blend-diff">
+	<h1 class="absolute-center m-0 font-charter text-2xl text-gray-100 blend-diff select-none">
+		K
+	</h1>
+</div>
+
+			</div>
+		</a>
+		
+	</div>
+
+	<nav class="">
+		
+		<a href="/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/kursus/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 Hjem
+		</a>
+		
+		<a href="/blog/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 Blog
+		</a>
+		
+		<a href="/tags/orden"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 Orden
+		</a>
+		
+		<a href="/kontakt/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/kunde/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/priser/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/privacy/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+	</nav>
+</header>
+
+	
+
+	<main class="w-full px-4 pt-8 mx-auto md:max-w-4xl overflow-x-hidden md:overflow-visible ">
+
+    <article class="text-gray-700 sm:mx-12 mb-4">
+        <h1 class="font-bold font-thin text-3xl text-gray-700">
+            Page(/kursus/hero.md)
+        </h1>
+        <h1 class="my-0 text-4xl sm:text-5xl md:text-6xl" id="dagen">Dagen</h1>
+<h1 id="idag"></h1>
+<h1 id="imorgen"></h1>
+<h1 id="skema"></h1>
+<h1 id="temp"></h1>
+<script>
+
+(function foo() {
+
+  const tidsstempel = Date.now();
+  const dato = new Date(tidsstempel);
+  //const uge = dato.getWeek();
+  //const lige = uge % 2;
+  const ugedag = dato.getDay();
+  //const timen = dato.getHours();
+  let day = ("0" + dato.getDate()).slice(-2);
+  let month = ("0" + (dato.getMonth() + 1)).slice(-2);
+  let year = dato.getFullYear();
+  let currentDate = `${year}-${month}-${day}`;
+  var imorgen = new Date();
+  imorgen.setDate(imorgen.getDate() + 1);
+  let mday = ("0" + imorgen.getDate()).slice(-2);
+  let mmonth = ("0" + (imorgen.getMonth() + 1)).slice(-2);
+  let myear = imorgen.getFullYear();
+  let mDate = `${myear}-${mmonth}-${mday}`;
+  document.getElementById("idag").innerHTML = currentDate;
+  document.getElementById("imorgen").innerHTML = mDate;
+
+  //if (lige == 0 && ugedag > 4) { alert("Lennart har weekend\n") }
+  //if (lige != 0 && ugedag > 4) { alert("Camilla har weekend\n") }
+
+  if (ugedag == 1 /* && timen < 20 */ ) { document.getElementById("skema").innerHTML = `
+    <p>Liv skolefri 13:30</p>
+    <p>Lex skolefri 14:15 - skal til fodbold 17:00</p>
+    ` }
+
+  if (ugedag == 2 /* && timen < 20 */ ) { document.getElementById("skema").innerHTML = `
+    <p>Begge skolefri kl 13:00</p>
+    <p>I dag skal Lex til badminton</p>
+    ` }
+
+  if (ugedag == 3 /* && timen < 20 */ ) { document.getElementById("skema").innerHTML = `
+    <p>Lex skolefri 15:00 - fodbold 17:00</p>
+    <p>Liv skolefri 14:15</p>
+    ` }
+
+  if (ugedag == 4 /* && timen < 20 */ ) { document.getElementById("skema").innerHTML = `
+    <p>Lex skolefri 13:45 - badminton</p>
+    <p>Liv skolefri 13:00</p>
+    ` }
+
+  if (ugedag == 5 /* && timen < 20 */ ) { document.getElementById("skema").innerHTML = `
+    <p>Begge skolefri 13:30</p>
+    <p>Lex skoleidræt</p>
+    <p>Liv skal til gymnastik efter skole</p>
+    ` }
+
+  if (ugedag == 6 /* && timen < 20 */ ) { document.getElementById("skema").innerHTML = `
+    <p>Det er lørdag</p>
+    <p>og vi skal hygge os</p>
+    ` }
+
+  if (ugedag == 0 /* && timen < 20 */ ) { document.getElementById("skema").innerHTML = `
+    <p>Det er søndag</p>
+    <p>Tjek jeres <em>AULA</em> og <em>Meebook</em> for <strong>i morgen og tirsdag</strong></p>
+    ` }
+
+
+// vejret
+    const api_url = "https://wttr.in/humlebaek?format=j1";
+    async function getWeather() {
+        const response = await fetch(api_url);
+        const data = await response.json();
+        const weather = data.current_condition[0];
+        const area = data.nearest_area[0];
+        let temp = weather.temp_C;
+        let uv = weather.uvIndex;
+        let pop = area.population;
+        let city = area.areaName[0].value;
+        document.getElementById("temp").innerHTML = "temp: " + temp + " UV: " + uv;
+    }
+    getWeather();
+
+
+    setTimeout(foo, 3600000);
+
+})();
+
+</script>
+
+    </article>
+
+    <article class="text-gray-700 sm:mx-12 mb-4">
+        <h1 class="font-bold font-thin text-3xl text-gray-700">
+            Page(/kursus/skills.md)
+        </h1>
+        
+    </article>
+
+    <article class="text-gray-700 sm:mx-12 mb-4">
+        <h1 class="font-bold font-thin text-3xl text-gray-700">
+            Page(/kursus/experience.md)
+        </h1>
+        
+    </article>
+
+    <article class="text-gray-700 sm:mx-12 mb-4">
+        <h1 class="font-bold font-thin text-3xl text-gray-700">
+            Page(/kursus/posts.md)
+        </h1>
+        <p>😞 There are no posts at the moment. 😞</p>
+
+    </article>
+
+    <article class="text-gray-700 sm:mx-12 mb-4">
+        <h1 class="font-bold font-thin text-3xl text-gray-700">
+            Page(/kursus/introduktion/_index.md)
+        </h1>
+        
+    </article>
+
+    <article class="text-gray-700 sm:mx-12 mb-4">
+        <h1 class="font-bold font-thin text-3xl text-gray-700">
+            Page(/kursus/anvendelse/_index.md)
+        </h1>
+        
+    </article>
+
+    <article class="text-gray-700 sm:mx-12 mb-4">
+        <h1 class="font-bold font-thin text-3xl text-gray-700">
+            Page(/kursus/contact.md)
+        </h1>
+        <p>Need help to open a fast-food ?
+Let’s talk about it !</p>
+
+    </article>
+
+
+	</main>
+
+	<div class="absolute bottom-0 w-full"><footer class="w-full h-24 text-center text-xs text-gray-400 bg-black relative">
+	<div class="w-full px-6 md:pt-0 md:mx-auto md:max-w-5xl flex flex-1 space-between items-center absolute-center">
+		<a href="https://www.kiils.dk/" class="absolute">
+			<div class="w-8 h-8 relative font-bold bg-white blend-diff">
+	<h1 class="absolute-center m-0 font-charter text-2xl text-gray-100 blend-diff select-none">
+		K
+	</h1>
+</div>
+
+		</a>
+
+		<div class="h-full flex-1">
+			<span class="select-none">
+			</span>
+		</div>
+	</div>
+</footer>
+
+	</div>
+</body>
+
+</html>

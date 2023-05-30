@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang='da' class=''>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name=viewport content="width=device-width, initial-scale=1">
+
+
+
+<meta name="description" content="Familien Kiil" />
+
+
+
+<title>
+	Kiils
+	 - Kan ChatGPT bruges til kvantitativ tekstanalyse? 
+</title>
+
+
+
+<link rel="icon" href="/favicon.ico">
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://www.kiils.dk/js/pico.min.f68158e607f7493b08ceb09d0d24efe0.js" intergrity="md5-9oFY5gf3STsIzrCdDSTv4A==" crossorigin="anonymous"></script>
+
+
+	
+
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/css/main.min.f7d31dbaede936cdbc9c2e57ee18dfbe.css" crossorigin="anonymous" media="screen"
+	integrity="md5-99Mduu3pNs28nC5X7hjfvg==">
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/css/syntax.min.560c6a0b6dbbe4a6683a2312fd91b499.css" crossorigin="anonymous"
+	integrity="md5-VgxqC2275KZoOiMS/ZG0mQ==" media="screen">
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/style/style.min.d41d8cd98f00b204e9800998ecf8427e.css" crossorigin="anonymous" media="screen"
+	integrity="md5-1B2M2Y8AsgTpgAmY7PhCfg==">
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/css/main.min.1b6695ede8a03de873124c10b957342b.css" crossorigin="anonymous" media="screen"
+	integrity="md5-G2aV7eigPehzEkwQuVc0Kw==">
+
+
+</head>
+
+<body class="min-h-screen bg-secondary-light dark:bg-secondary text-primary relative pb-24">
+	
+	<div id="top" class="dark"></div>
+
+<header class="w-full flex items-center justify-between px-5 mx-auto md:pt-8 md:max-w-5xl pt-5">
+	
+	<div class="flex items-center">
+		<a href="https://www.kiils.dk/" class="inline-block mx-1 font-bold no-underline select-none">
+			<h1 class="hidden md:block font-charter tracking-normal m-0">
+				Kiils
+			</h1>
+
+			<div class="md:hidden">
+				<div class="w-8 h-8 relative font-bold bg-white blend-diff">
+	<h1 class="absolute-center m-0 font-charter text-2xl text-gray-100 blend-diff select-none">
+		K
+	</h1>
+</div>
+
+			</div>
+		</a>
+		
+	</div>
+
+	<nav class="">
+		
+		<a href="/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/kursus/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 Hjem
+		</a>
+		
+		<a href="/blog/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 Blog
+		</a>
+		
+		<a href="/tags/orden"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 Orden
+		</a>
+		
+		<a href="/kontakt/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/kunde/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/priser/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/privacy/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+	</nav>
+</header>
+
+	
+
+	<main class="w-full px-4 pt-8 mx-auto md:max-w-4xl overflow-x-hidden md:overflow-visible ">
+<button onclick="window.history.back()" class="bg-transparent border-none font-bold">&larr;Tilbage</button>
+<h1 class="blog-title text-center mx-auto max-w-vw-5/6 text-4xl sm:text-5xl md:text-6xl">
+	Kan ChatGPT bruges til kvantitativ tekstanalyse?
+</h1>
+
+<div class="blog-content text-justify leading-loose mb-12 mx-auto sm:max-w-vw-5/6 text-md">
+	<p>En simpel form for kvantitativ tekstanalyse er ordfrekvensanalyse.</p>
+<p>Jeg har skrevet lidt om hvordan man kan lave 
+
+
+
+
+<a href="/erfaring/nlp/nushell/" 
+	class="underline "  target="_blank" rel="noopener"
+	>
+	ordfrekvensanalyse i nushell
+</a> og hvordan man kan lave ekstremt hurtig 
+
+
+
+
+
+
+<a href="/erfaring/nlp/nushell-dataframes/" 
+	class="underline break-words"  target="_blank" rel="noopener"
+	>
+	ordfrekvensanalyse på store mængder tekst med nushell og polar dataframes
+</a>.</p>
+<p>Nushell gav mig følgende resultat</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">╭─────┬───────────────────┬────────╮
+</span></span><span class="line"><span class="cl">│   # │         0         │ counts │
+</span></span><span class="line"><span class="cl">├─────┼───────────────────┼────────┤
+</span></span><span class="line"><span class="cl">│   0 │ verden            │      5 │
+</span></span><span class="line"><span class="cl">│   1 │ verdensopfattelse │      4 │
+</span></span><span class="line"><span class="cl">│   2 │ mainstream        │      4 │
+</span></span><span class="line"><span class="cl">│   3 │ dag               │      4 │
+</span></span><span class="line"><span class="cl">│   4 │ begynder          │      3 │
+</span></span><span class="line"><span class="cl">│   5 │ alternative       │      3 │
+</span></span><span class="line"><span class="cl">│   6 │ hele              │      3 │
+</span></span><span class="line"><span class="cl">│   7 │ frelser           │      3 │
+</span></span><span class="line"><span class="cl">│   8 │ ting              │      2 │
+</span></span><span class="line"><span class="cl">│   9 │ magtfuld          │      2 │
+</span></span></code></pre></div><p>på en tekst jeg skrev engang om livsfarlige konspirationsteorier: 
+
+
+
+
+
+
+<a href="https://www.folkets.dk/node/4401" 
+	class="underline break-words"  target="_blank" rel="noopener"
+	>
+	Nekrolog for en konspirationsteoretiker - leger du også med ilden?
+</a></p>
+<p>Og nushell med dataframes brugte kun 3 ms på det.</p>
+<p>Så hurtig var ChatGPT slet ikke faktisk har du sikkert lagt mærke til at den ofte er ret langsom. Men jeg fik alligevel nogle brugbare svar:</p>
+<p><strong>Indledende prompt:</strong> du er tekstanalytiker. jeg vil bede dig analysere teksten i den næste prompt jeg sender dig. Du skal give mig en liste over de mest brugte ord. Listen må ikke indeholde stopord.</p>
+<p><strong>ChatGPT:</strong> Ja, jeg kan analysere tekst for dig og give dig en liste over de mest brugte ord. Men først, vil du bede om give mig tekst for analysere?
+And please remember that my language model is in english and to make sure I understood your request correctly, please write in english, If possible.</p>
+<p>(Jeg vælger at ignorere ChatGPT&rsquo;s anmodning at skrive på engelsk - jeg lægger i stedet min føromtalte tekst om konspirationsteorier ind i næste prompt)</p>
+<p><strong>Prompt:</strong> [Her indsætter jeg bare hele min tekst]</p>
+<p>(Nu havde jeg jo faktisk glemt at sætte antal på i mit indledende prompt, det var dumt af mig for ChatGPT giver mig en lang liste over ord fra min tekst, dog uden stopord, så det er godt.)</p>
+<p><strong>ChatGPT:</strong> [lang liste over alle ord fra min tekst minus almindelige stopord]</p>
+<p><strong>Prompt:</strong> tak. giv mig kun de ti mest brugte ord i den tekst jeg gav dig før</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">**ChatGPT: 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Her er de ti mest brugte ord i den tekst, du gav mig:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Verdensopfattelse
+</span></span><span class="line"><span class="cl">Konspirationsteoretiker
+</span></span><span class="line"><span class="cl">Mainstream medierne
+</span></span><span class="line"><span class="cl">Alternative
+</span></span><span class="line"><span class="cl">Manipulerer
+</span></span><span class="line"><span class="cl">Skeptisk
+</span></span><span class="line"><span class="cl">Magtfulde
+</span></span><span class="line"><span class="cl">Hændelser
+</span></span><span class="line"><span class="cl">Elite
+</span></span><span class="line"><span class="cl">Frelser
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Bemærk at &#34;verdensopfattelse&#34; og &#34;konspirationsteoretiker&#34; er de mest brugte ordene i teksten, og &#34;mainstream medierne&#34;, &#34;alternative&#34;, &#34;manipulerer&#34;, &#34;skeptisk&#34; er de ord, der også bruges ofte i teksten, som relaterer direkte til emnet.
+</span></span></code></pre></div><p>Interessant. Den rammer nogle af ordene, men har udeladt &lsquo;verden&rsquo; som er det mest anvendte ord i teksten. Og ikke er et stopord.</p>
+<p>Så meget mindre nøjagtigt resultat, og den brugte meget, meget længere tid på at svare end dataframes i nushell.</p>
+<p>Men lad os prøve at spørge lidt mere ind til resultatet:</p>
+<p><strong>Prompt:</strong> kan du fortælle mig anal gange hvert ord blev brugt
+This content may violate our content policy. If you believe this to be in error, please submit your feedback — your input will aid our research in this area.</p>
+<p><strong>ChatGPT:</strong> Desværre kan jeg ikke give dig præcis <em>antal gange hvert ord blev brugt</em> i den givne tekst, da det kræver en teknologi som ikke er tilgængelig for mig. Men jeg kan give dig en liste med <em>ordene og deres hyppighed i teksten</em>.</p>
+<p>(jeg har markeret en selvmodsigelse som i min erfaring er typisk for ChatGPT)</p>
+<p><strong>Prompt:</strong> så gør det</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">ChatGPT
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Her er listen over ordene fra min tidligere analyse og deres hyppighed i teksten, arrangeret fra højest til lavest:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Verdensopfattelse: 8
+</span></span><span class="line"><span class="cl">Konspirationsteoretiker: 8
+</span></span><span class="line"><span class="cl">Mainstream medierne: 7
+</span></span><span class="line"><span class="cl">Alternative: 6
+</span></span><span class="line"><span class="cl">Manipulerer: 6
+</span></span><span class="line"><span class="cl">Skeptisk: 5
+</span></span><span class="line"><span class="cl">Magtfulde: 5
+</span></span><span class="line"><span class="cl">Hændelser: 4
+</span></span><span class="line"><span class="cl">Elite: 4
+</span></span><span class="line"><span class="cl">Frelser: 4
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Bemærk at dette er en skønnet hyppighed baseret på den tekst, jeg modtog, og der kan være mindre variationer i antallet.
+</span></span></code></pre></div><p>Tak for det lille forbehold. For ordet &lsquo;verdensopfattelse&rsquo; indgår faktisk kun i teksten fire gange, og ChatGPT overdriver også de andre ords hyppighed.</p>
+<p>Konklusion: Man skal være varsom med at bruge ChatGPT til kvantitativ tekstanalyse. Den rammer noget, men slet ikke præcist nok.</p>
+<p>Næste gang prøver jeg på engelsk :)</p>
+
+</div>
+
+
+<hr class="mb-6 mt-24">
+
+
+<div class="flex flex-wrap justify-between items-center">
+	
+	<div class=" w-full sm:w-1/2  mb-1 text-center sm:text-left overflow-ellipsis pr-1">
+		<a class="mr-4 no-underline" href="https://www.kiils.dk/blog/nlp/gorm-den-gamle/">
+			<img src="/icons/top_arrow.svg" class="transform -rotate-90 inline-block">
+		</a>
+		<a href="https://www.kiils.dk/blog/nlp/gorm-den-gamle/">
+			<span class="underline">Spørg ChatGPT rigtigt med danske prompts - var Gorm den Gamle smed i Hobro?</span>
+		</a>
+	</div>
+	
+
+	
+	<div
+		class=" w-full sm:w-1/2  mt-1 text-center sm:text-right overflow-ellipsis pl-1">
+		<a href="https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse-engelsk/">
+			<span class="underline">Går det bedre for ChatGPT med ordfrekvensanalyse på engelsk end det gjorde på dansk?</span>
+		</a>
+		<a class="ml-4 no-underline" href="https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse-engelsk/">
+			<img src="/icons/top_arrow.svg" class="transform rotate-90 inline-block">
+		</a>
+	</div>
+	
+</div>
+
+<hr class="my-6">
+<div class="flex justify-center items-center flex-wrap">
+	
+</div>
+<div class="mt-6"></div>
+
+
+	</main>
+
+	<div class="absolute bottom-0 w-full"><footer class="w-full h-24 text-center text-xs text-gray-400 bg-black relative">
+	<div class="w-full px-6 md:pt-0 md:mx-auto md:max-w-5xl flex flex-1 space-between items-center absolute-center">
+		<a href="https://www.kiils.dk/" class="absolute">
+			<div class="w-8 h-8 relative font-bold bg-white blend-diff">
+	<h1 class="absolute-center m-0 font-charter text-2xl text-gray-100 blend-diff select-none">
+		K
+	</h1>
+</div>
+
+		</a>
+
+		<div class="h-full flex-1">
+			<span class="select-none">
+			</span>
+		</div>
+	</div>
+</footer>
+
+	</div>
+</body>
+
+</html>

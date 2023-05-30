@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Store sprogmodeller on Kiils</title>
+    <link>https://www.kiils.dk/blog/sprogmodeller/</link>
+    <description>Recent content in Store sprogmodeller on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/blog/sprogmodeller/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hvad er store sprogmodeller</title>
+      <link>https://www.kiils.dk/blog/sprogmodeller/hvad-er-store-sprogmodeller/</link>
+      <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/sprogmodeller/hvad-er-store-sprogmodeller/</guid>
+      <description>Store sprogmodeller er matematiske funktioner der forholder tekst til tekst.
+Det er selvfølgelig en meget generel og abstrakt definition.
+Det følgende tager udgangspunkt i den nu mest udbredte og succesfulde type af store sprogmodeller, nemlig
+Med en inputstreng af tekst forudsiger en stor sprogmodel den tekst, der skal komme næste gang.
+Magien ved store sprogmodeller er, at ved at blive trænet i at minimere denne forudsigelsesfejl over store mængder tekst, ender modellerne med at lære begreber, der er nyttige til disse forudsigelser.</description>
+    </item>
+    
+    <item>
+      <title>Hvad kan store sprogmodeller</title>
+      <link>https://www.kiils.dk/blog/sprogmodeller/hvad-kan-store-sprogmodeller/</link>
+      <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/sprogmodeller/hvad-kan-store-sprogmodeller/</guid>
+      <description>Basalt set kan store sprogmodeller gætte ord ud fra en sammenhæng som brugeren angiver.
+Giver brugeren en stor sprogmodel følgende input:
+Om sommeren når solen skinner, elsker jeg at drikke en kold
+svarer sprogmodellen iced tea.
+Sprogmodellen afsøger så at sige sit corpus, al den tekst som sprogmodellen er blevet fodret med under træningen, for at finde det ord som har den største kobling til det input som brugeren har angivet.</description>
+    </item>
+    
+    <item>
+      <title>Hvordan fungerer store sprogmodeller</title>
+      <link>https://www.kiils.dk/blog/sprogmodeller/hvordan-fungerer-store-sprogmodeller/</link>
+      <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/sprogmodeller/hvordan-fungerer-store-sprogmodeller/</guid>
+      <description>Store sprogmodeller er matematiske funktioner der forholder tekst til tekst.
+Det er selvfølgelig en meget generel og abstrakt definition.
+Det følgende tager udgangspunkt i den nu mest udbredte og succesfulde type af store sprogmodeller, nemlig
+Med en inputstreng af tekst forudsiger en stor sprogmodel den tekst, der skal komme næste gang.
+Magien ved store sprogmodeller er, at ved at blive trænet i at minimere denne forudsigelsesfejl over store mængder tekst, ender modellerne med at lære begreber, der er nyttige til disse forudsigelser.</description>
+    </item>
+    
+    <item>
+      <title>5. Få styr på rækkefølgen og red verden</title>
+      <link>https://www.kiils.dk/blog/sprogmodeller/del-5-raekkefoelge/</link>
+      <pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/sprogmodeller/del-5-raekkefoelge/</guid>
+      <description>I kommunikation er rækkefølge af vores ord ofte helt afgørende.
+Nede på stranden hørte jeg et barn råbe til sin mor:
+— Se, mor. — Jeg har fundet en orange vandmand. Barnet har jo misforstået noget. Men det er måske sekundært i nuet. Så hvad er effektiv kommunikation i det her tilfælde?
+Lad os starte med hvad det ikke er:
+— Hvis du har fundet en vandmand som er er orange, så er det slet ikke en vandmand, men en .</description>
+    </item>
+    
+    <item>
+      <title>8. Rytme</title>
+      <link>https://www.kiils.dk/blog/sprogmodeller/del-8-rytme/</link>
+      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/sprogmodeller/del-8-rytme/</guid>
+      <description>Alle foregående dele af serien har ledt frem til denne om rytme
+Både staccato, korte sætninger og gentagelser kan skabe rytme
+En anden god grund til at give hver sin sætning en linje er at gentagelser får svært ved at gemme sig:
+Men de midler man benyttede for at fælde de nye medier, var ikke redelige. Man opfandt egne definitioner til formålet. Man spillede beskidt og slog under bæltestedet. Man fuskede med metoderne.</description>
+    </item>
+    
+  </channel>
+</rss>

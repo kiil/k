@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang='da' class=''>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name=viewport content="width=device-width, initial-scale=1">
+
+
+
+<meta name="description" content="Familien Kiil" />
+
+
+
+<title>
+	Kiils
+	 - Information overload - lad kunstig intelligens hjælpe dig 
+</title>
+
+
+
+<link rel="icon" href="/favicon.ico">
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://www.kiils.dk/js/pico.min.f68158e607f7493b08ceb09d0d24efe0.js" intergrity="md5-9oFY5gf3STsIzrCdDSTv4A==" crossorigin="anonymous"></script>
+
+
+	
+
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/css/main.min.f7d31dbaede936cdbc9c2e57ee18dfbe.css" crossorigin="anonymous" media="screen"
+	integrity="md5-99Mduu3pNs28nC5X7hjfvg==">
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/css/syntax.min.560c6a0b6dbbe4a6683a2312fd91b499.css" crossorigin="anonymous"
+	integrity="md5-VgxqC2275KZoOiMS/ZG0mQ==" media="screen">
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/style/style.min.d41d8cd98f00b204e9800998ecf8427e.css" crossorigin="anonymous" media="screen"
+	integrity="md5-1B2M2Y8AsgTpgAmY7PhCfg==">
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/css/main.min.1b6695ede8a03de873124c10b957342b.css" crossorigin="anonymous" media="screen"
+	integrity="md5-G2aV7eigPehzEkwQuVc0Kw==">
+
+
+</head>
+
+<body class="min-h-screen bg-secondary-light dark:bg-secondary text-primary relative pb-24">
+	
+	<div id="top" class="dark"></div>
+
+<header class="w-full flex items-center justify-between px-5 mx-auto md:pt-8 md:max-w-5xl pt-5">
+	
+	<div class="flex items-center">
+		<a href="https://www.kiils.dk/" class="inline-block mx-1 font-bold no-underline select-none">
+			<h1 class="hidden md:block font-charter tracking-normal m-0">
+				Kiils
+			</h1>
+
+			<div class="md:hidden">
+				<div class="w-8 h-8 relative font-bold bg-white blend-diff">
+	<h1 class="absolute-center m-0 font-charter text-2xl text-gray-100 blend-diff select-none">
+		K
+	</h1>
+</div>
+
+			</div>
+		</a>
+		
+	</div>
+
+	<nav class="">
+		
+		<a href="/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/kursus/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 Hjem
+		</a>
+		
+		<a href="/blog/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 Blog
+		</a>
+		
+		<a href="/tags/orden"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 Orden
+		</a>
+		
+		<a href="/kontakt/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/kunde/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/priser/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/privacy/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+	</nav>
+</header>
+
+	
+
+	<main class="w-full px-4 pt-8 mx-auto md:max-w-4xl overflow-x-hidden md:overflow-visible ">
+<button onclick="window.history.back()" class="bg-transparent border-none font-bold">&larr;Tilbage</button>
+<h1 class="blog-title text-center mx-auto max-w-vw-5/6 text-4xl sm:text-5xl md:text-6xl">
+	Information overload - lad kunstig intelligens hjælpe dig
+</h1>
+
+<div class="blog-content text-justify leading-loose mb-12 mx-auto sm:max-w-vw-5/6 text-md">
+	<p>Der er meget information og mange nyheder at forholde sig til.</p>
+<p>Du kan bruge ChatGPT til at skabe bedre overblik.</p>
+<p>Den metode som jeg vil vise her, består af to trin - første trin er at indhente de relevante data.</p>
+<p>Der bruger jeg nushell og følgende nushell plugin:</p>
+<p>
+
+
+
+
+
+
+<a href="https://github.com/nushell/nushell/tree/main/crates/nu_plugin_query" 
+	class="underline break-words"  target="_blank" rel="noopener"
+	>
+	https://github.com/nushell/nushell/tree/main/crates/nu_plugin_query
+</a></p>
+<p>På den måde giver:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">http get https://www.dr.dk/nyheder | query web -q &#39;h2 .dre-title-text &#39;
+</span></span></code></pre></div><p>Følgende overskrifter på listeform:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">╭────┬──────────────────────────────────────────────────────────────────────────────────────────────╮
+</span></span><span class="line"><span class="cl">│  0 │ 32-årig mand varetægtsfængsles frem til 11. maj                                              │
+</span></span><span class="line"><span class="cl">│  1 │ Regeringen vil inddrage Færøerne, når forsvarsforliget skal forhandles                       │
+</span></span><span class="line"><span class="cl">│  2 │ Godt nyt for danske forbrugere: Presset på producenternes priser aftager markant             │
+</span></span><span class="line"><span class="cl">│  3 │ Ikke let at finde et godt tidspunkt, siger Sofie Carsten Nielsen om at forlade dansk politik │
+</span></span><span class="line"><span class="cl">│  4 │ Busser erstatter tog på Sjælland på grund af signalproblemer                                 │
+</span></span><span class="line"><span class="cl">│  5 │ SAS-aktien stiger over 20 procent efter sidste uges store kursfald                           │
+</span></span><span class="line"><span class="cl">│  6 │ Støtten til små lufthavne er vidt forskellig - nu skal den rettes til                        │
+</span></span><span class="line"><span class="cl">│  7 │ I dag begynder den største militærøvelse i Sverige i 30 år                                   │
+</span></span><span class="line"><span class="cl">│  8 │ 32-årig mand fremstilles i grundlovsforhør klokken 11                                        │
+</span></span><span class="line"><span class="cl">│  9 │ Kemisk stof, der bruges i bildæk og kunstgræsbaner, er fundet i dansk drikkevand             │
+</span></span><span class="line"><span class="cl">│ 11 │ Holger Rune er nu i top 7 over de bedste tennisspillere i verden                             │
+</span></span><span class="line"><span class="cl">│ 12 │ Røde Kors&#39; genbrugsbutikker er en stor millionforretning                                     │
+</span></span><span class="line"><span class="cl">│ 13 │ Lunt vejr og blå himmel i hele landet                                                        │
+</span></span><span class="line"><span class="cl">│ 14 │ Den amerikanske jazzmusiker Ahmad Jamal er død                                               │
+</span></span><span class="line"><span class="cl">│ 15 │ Kampe fortsætter i Sudan trods forsøg på våbenhvile                                          │
+</span></span><span class="line"><span class="cl">│ 16 │ Kinas forsvarsminister: Båndet til Rusland er &#39;stærkere end alliancer under Den Kolde Krig&#39;  │
+</span></span><span class="line"><span class="cl">│ 17 │ 29-årig kvinde meldt savnet i Nordjylland: Nu er hun fundet                                  │
+</span></span><span class="line"><span class="cl">│ 18 │ Mestrene fra Odense Håndbold maser Aarhus i slutspilspremiere                                │
+</span></span><span class="line"><span class="cl">│ 19 │ Aalborg Pirates besejrer Hernings ishockeyherrer og udbygger forspringet i DM-serien         │
+</span></span><span class="line"><span class="cl">│ 20 │ Brøndby sætter en stopper for AGF&#39;s forrygende forår                                         │
+</span></span><span class="line"><span class="cl">│ 21 │ Norsk ambassadørbolig i Sudan er blevet ramt af en granat                                    │
+</span></span><span class="line"><span class="cl">│ 22 │ 25.000 nedlægger arbejdet i Norge, efter lønforhandlinger er brudt sammen                    │
+</span></span><span class="line"><span class="cl">│ 23 │ FC København slider sig til tops i Superligaen                                               │
+</span></span><span class="line"><span class="cl">│ 25 │ Pogacar knuser, som forventet, alle andre i Amstel Gold Race                                 │
+</span></span><span class="line"><span class="cl">│ 26 │ Dansk Folkepartis hovedbestyrelse har valgt ny næstformand                                   │
+</span></span><span class="line"><span class="cl">╰────┴──────────────────────────────────────────────────────────────────────────────────────────────╯
+</span></span></code></pre></div><p>Det er i sig selv ret kortfattet og giver et hurtigt overblik. Men ChatGPT kan fortætte det yderligere.</p>
+<p>Jeg bruger så ChatGPT gennem følgende bash-script:</p>
+<p>
+
+
+
+
+<a href="https://github.com/nitefood/ai-bash-gpt" 
+	class="underline "  target="_blank" rel="noopener"
+	>
+	https://github.com/nitefood/ai-bash-gpt
+</a></p>
+<p>Ved at benytte det script kan jeg lave &ldquo;pipelines&rdquo; - det vil sige jeg kan sende output fra den førnævnte kommando videre som input til ChatGPT som nu har forkortelsen <code>ai</code>. Sådan her:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">http get https://www.dr.dk/nyheder | query web -q &#39;h2 .dre-title-text &#39; | ai &#39;giv et kort referat&#39;
+</span></span></code></pre></div><p>Og ChatGPT returnerer</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">  En 32-årig mand er varetægtsfængslet, regeringen vil inddrage Færøerne i forsvarsforliget, presset på producenternes
+</span></span><span class="line"><span class="cl">  priser aftager, Sofie Carsten Nielsen taler om at forlade dansk politik, busser erstatter tog på Sjælland pga.      
+</span></span><span class="line"><span class="cl">  signalproblemer, SAS-aktien stiger, støtten til små lufthavne skal rettes, Sverige holder stor militærøvelse, kemisk
+</span></span><span class="line"><span class="cl">  stof fundet i dansk drikkevand, tennisspiller Holger Rune er nu blandt de bedste, Røde Kors&#39; genbrugsbutikker er en millionforretning, lunt vejr i hele landet, jazzmusiker Ahmad Jamal er død, kampe fortsætter i Sudan, Kinas forsvarsminister taler om bånd til Rusland, savnet kvinde i           
+</span></span><span class="line"><span class="cl">  Nordjylland er fundet, Odense Håndbold vinder over Aarhus, Aalborg Pirates slår Herning i ishockey, Brøndby stopper 
+</span></span><span class="line"><span class="cl">  AGFs gode form, norsk ambassadørbolig i Sudan ramt af granat, 25.000 nedlægger arbejdet i Norge, FC København topper
+</span></span><span class="line"><span class="cl">  Superligaen, Pogacar vinder Amstel Gold Race, Dansk Folkepartis hovedbestyrelse får ny næstformand.                           
+</span></span></code></pre></div><p>Da der i forvejen er tale om overskrifter, så er det ikke meget vundet ved den øvelse.</p>
+<p>Men hvad kan ChatGPT så bruges til når dit input er i overskriftsform?</p>
+<p>Med <code>ai -c</code> kan jeg bede ChatGPT om at fortsætte med at forholde sig til det første input.</p>
+<p>Så giver jeg et nyt prompt</p>
+<p><code>sorter efter sag</code></p>
+<p>Og får resultatet:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">  Her er overskrifterne sorteret efter sag:                                                                           
+</span></span><span class="line"><span class="cl">                                                                                                                    
+</span></span><span class="line"><span class="cl">  Forsvar og militær:                                                                                                 
+</span></span><span class="line"><span class="cl">                                                                                                                    
+</span></span><span class="line"><span class="cl">  • Regeringen vil inddrage Færøerne, når forsvarsforliget skal forhandles                                            
+</span></span><span class="line"><span class="cl">  • I dag begynder den største militærøvelse i Sverige i 30 år                                                        
+</span></span><span class="line"><span class="cl">  • Kinas forsvarsminister: Båndet til Rusland er &#39;stærkere end alliancer under Den Kolde Krig&#39;                       
+</span></span><span class="line"><span class="cl">                                                                                                                    
+</span></span><span class="line"><span class="cl">  Diverse:                                                                                                            
+</span></span><span class="line"><span class="cl">                                                                                                                    
+</span></span><span class="line"><span class="cl">  • Godt nyt for danske forbrugere: Presset på producenternes priser aftager markant                                  
+</span></span><span class="line"><span class="cl">  • SAS-aktien stiger over 20 procent efter sidste uges store kursfald                                                
+</span></span><span class="line"><span class="cl">  • Støtten til små lufthavne er vidt forskellig - nu skal den rettes til                                             
+</span></span><span class="line"><span class="cl">  • Kemisk stof, der bruges i bildæk og kunstgræsbaner, er fundet i dansk drikkevand                                  
+</span></span><span class="line"><span class="cl">  • Røde Kors&#39; genbrugsbutikker er en stor millionforretning                                                          
+</span></span><span class="line"><span class="cl">  • Lunt vejr og blå himmel i hele landet                                                                             
+</span></span><span class="line"><span class="cl">  • Den amerikanske jazzmusiker Ahmad Jamal er død                                                                    
+</span></span><span class="line"><span class="cl">  • Holger Rune er nu i top 7 over de bedste tennisspillere i verden                                                  
+</span></span><span class="line"><span class="cl">  • Pogacar knuser, som forventet, alle andre i Amstel Gold Race                                                      
+</span></span><span class="line"><span class="cl">  • Dansk Folkepartis hovedbestyrelse har valgt ny næstformand                                                        
+</span></span><span class="line"><span class="cl">                                                                                                                    
+</span></span><span class="line"><span class="cl">  Transport:                                                                                                          
+</span></span><span class="line"><span class="cl">                                                                                                                    
+</span></span><span class="line"><span class="cl">  • Busser erstatter tog på Sjælland på grund af signalproblemer                                                      
+</span></span><span class="line"><span class="cl">                                                                                                                    
+</span></span><span class="line"><span class="cl">  Forsvinden og fund:                                                                                                 
+</span></span><span class="line"><span class="cl">                                                                                                                    
+</span></span><span class="line"><span class="cl">  • 29-årig kvinde meldt savnet i Nordjylland: Nu er hun fundet                                                       
+</span></span><span class="line"><span class="cl">                                                                                                                    
+</span></span><span class="line"><span class="cl">  Sport:                                                                                                              
+</span></span><span class="line"><span class="cl">                                                                                                                    
+</span></span><span class="line"><span class="cl">  • Mestrene fra Odense Håndbold maser Aarhus i slutspilspremiere                                                     
+</span></span><span class="line"><span class="cl">  • Aalborg Pirates besejrer Hernings ishockeyherrer og udbygger forspringet i DM-serien                              
+</span></span><span class="line"><span class="cl">  • Brøndby sætter en stopper for AGF&#39;s forrygende forår                                                              
+</span></span><span class="line"><span class="cl">  • FC København slider sig til tops i Superligaen                                                                    
+</span></span><span class="line"><span class="cl">                                                                                                                    
+</span></span><span class="line"><span class="cl">  Anholdelser og fængslinger:                                                                                         
+</span></span><span class="line"><span class="cl">                                                                                                                    
+</span></span><span class="line"><span class="cl">  • 32-årig mand varetægtsfængsles frem til 11. maj                                                                   
+</span></span><span class="line"><span class="cl">  • 32-årig mand fremstilles i grundlovsforhør klokken 11
+</span></span></code></pre></div><p>Resultatet viser at ChatGPT stadig har nogle mangler hvad abstraktionsevne angår. Det kunne være interessant at se om GPT-4 klarede kategoriseringsopgaven bedre.</p>
+<p>Det er nemt at indsnævre resultaterne yderligere:</p>
+<p><code>kun sport</code> giver så</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">  Her er alle sportsrelaterede overskrifter:                                                                          
+</span></span><span class="line"><span class="cl">                                                                                                                    
+</span></span><span class="line"><span class="cl">  • Mestrene fra Odense Håndbold maser Aarhus i slutspilspremiere                                                     
+</span></span><span class="line"><span class="cl">  • Aalborg Pirates besejrer Hernings ishockeyherrer og udbygger forspringet i DM-serien                              
+</span></span><span class="line"><span class="cl">  • Brøndby sætter en stopper for AGF&#39;s forrygende forår                                                              
+</span></span><span class="line"><span class="cl">  • FC København slider sig til tops i Superligaen
+</span></span></code></pre></div>
+</div>
+
+
+<hr class="mb-6 mt-24">
+
+
+<div class="flex flex-wrap justify-between items-center">
+	
+	<div class=" w-full sm:w-1/2  mb-1 text-center sm:text-left overflow-ellipsis pr-1">
+		<a class="mr-4 no-underline" href="https://www.kiils.dk/blog/kommandoer-eller-prompts-instruer-gpt-korrekt/">
+			<img src="/icons/top_arrow.svg" class="transform -rotate-90 inline-block">
+		</a>
+		<a href="https://www.kiils.dk/blog/kommandoer-eller-prompts-instruer-gpt-korrekt/">
+			<span class="underline">Kommandoer eller prompts -  instruer GPT korrekt</span>
+		</a>
+	</div>
+	
+
+	
+	<div
+		class=" w-full sm:w-1/2  mt-1 text-center sm:text-right overflow-ellipsis pl-1">
+		<a href="https://www.kiils.dk/blog/giv-chatgpt-en-mere-personlig-skrivestil-fire-eksempler/">
+			<span class="underline">Få ChatGPT til at skrive mere personligt -- fire eksempler</span>
+		</a>
+		<a class="ml-4 no-underline" href="https://www.kiils.dk/blog/giv-chatgpt-en-mere-personlig-skrivestil-fire-eksempler/">
+			<img src="/icons/top_arrow.svg" class="transform rotate-90 inline-block">
+		</a>
+	</div>
+	
+</div>
+
+<hr class="my-6">
+<div class="flex justify-center items-center flex-wrap">
+	
+</div>
+<div class="mt-6"></div>
+
+
+	</main>
+
+	<div class="absolute bottom-0 w-full"><footer class="w-full h-24 text-center text-xs text-gray-400 bg-black relative">
+	<div class="w-full px-6 md:pt-0 md:mx-auto md:max-w-5xl flex flex-1 space-between items-center absolute-center">
+		<a href="https://www.kiils.dk/" class="absolute">
+			<div class="w-8 h-8 relative font-bold bg-white blend-diff">
+	<h1 class="absolute-center m-0 font-charter text-2xl text-gray-100 blend-diff select-none">
+		K
+	</h1>
+</div>
+
+		</a>
+
+		<div class="h-full flex-1">
+			<span class="select-none">
+			</span>
+		</div>
+	</div>
+</footer>
+
+	</div>
+</body>
+
+</html>

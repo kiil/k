@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang='da' class=''>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name=viewport content="width=device-width, initial-scale=1">
+
+<meta name="description" content="Giv brugerne hvad de vil have uden at forstyrre" />
+
+<title>
+	Kiils
+	 - Sådan satte jeg et dark theme op på Folkets uden at genere brugerne med flere valgmuligheder 
+</title>
+
+
+
+<link rel="icon" href="/favicon.ico">
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://www.kiils.dk/js/pico.min.f68158e607f7493b08ceb09d0d24efe0.js" intergrity="md5-9oFY5gf3STsIzrCdDSTv4A==" crossorigin="anonymous"></script>
+
+
+	
+
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/css/main.min.f7d31dbaede936cdbc9c2e57ee18dfbe.css" crossorigin="anonymous" media="screen"
+	integrity="md5-99Mduu3pNs28nC5X7hjfvg==">
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/css/syntax.min.560c6a0b6dbbe4a6683a2312fd91b499.css" crossorigin="anonymous"
+	integrity="md5-VgxqC2275KZoOiMS/ZG0mQ==" media="screen">
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/style/style.min.d41d8cd98f00b204e9800998ecf8427e.css" crossorigin="anonymous" media="screen"
+	integrity="md5-1B2M2Y8AsgTpgAmY7PhCfg==">
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/css/main.min.1b6695ede8a03de873124c10b957342b.css" crossorigin="anonymous" media="screen"
+	integrity="md5-G2aV7eigPehzEkwQuVc0Kw==">
+
+
+</head>
+
+<body class="min-h-screen bg-secondary-light dark:bg-secondary text-primary relative pb-24">
+	
+	<div id="top" class="dark"></div>
+
+<header class="w-full flex items-center justify-between px-5 mx-auto md:pt-8 md:max-w-5xl pt-5">
+	
+	<div class="flex items-center">
+		<a href="https://www.kiils.dk/" class="inline-block mx-1 font-bold no-underline select-none">
+			<h1 class="hidden md:block font-charter tracking-normal m-0">
+				Kiils
+			</h1>
+
+			<div class="md:hidden">
+				<div class="w-8 h-8 relative font-bold bg-white blend-diff">
+	<h1 class="absolute-center m-0 font-charter text-2xl text-gray-100 blend-diff select-none">
+		K
+	</h1>
+</div>
+
+			</div>
+		</a>
+		
+	</div>
+
+	<nav class="">
+		
+		<a href="/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/kursus/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 Hjem
+		</a>
+		
+		<a href="/blog/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 Blog
+		</a>
+		
+		<a href="/tags/orden"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 Orden
+		</a>
+		
+		<a href="/kontakt/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/kunde/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/priser/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/privacy/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+	</nav>
+</header>
+
+	
+
+	<main class="w-full px-4 pt-8 mx-auto md:max-w-4xl overflow-x-hidden md:overflow-visible ">
+<button onclick="window.history.back()" class="bg-transparent border-none font-bold">&larr;Tilbage</button>
+<h1 class="blog-title text-center mx-auto max-w-vw-5/6 text-4xl sm:text-5xl md:text-6xl">
+	Sådan satte jeg et dark theme op på Folkets uden at genere brugerne med flere valgmuligheder
+</h1>
+
+<div class="blog-content text-justify leading-loose mb-12 mx-auto sm:max-w-vw-5/6 text-md">
+	<p>I dag er der mange ting en bruger skal tage stilling til når han eller hun surfer ind på en hjemmeside.</p>
+<p>Vil man nu have cookies?</p>
+<p>Hvilke cookies vil man have?</p>
+<p>Vil man tilmeldes nyhedsbrev?</p>
+<p>Eller vil man have notifikationer?</p>
+<p>Nogle har også en chatbot som begynder at stille brugeren spørgsmål.</p>
+<p>Det sidste brugere har behov for er endnu en detalje at tage stilling til!</p>
+<p>Derfor var det vigtigt for mig at jeg kunne give brugerne af Folkets.dk mulighed for at vælge et mørkt tema, men uden at skulle spørge dem.</p>
+<p>Muligheden er der takket være to css media queries som hedder henholdsvis</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">@media (prefers-color-scheme: dark) {
+</span></span><span class="line"><span class="cl">}
+</span></span></code></pre></div><p>og</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">@media (prefers-color-scheme: light) {
+</span></span><span class="line"><span class="cl">}
+</span></span></code></pre></div><p>På den måde kunne jeg på simpel maner efterkomme brugerens ønske.</p>
+<p>Brugeren behøver kun at foretage valget een gang i sit operativ-system. Så gælder det automatisk på sites som er sat op til det. Nu også Folkets.</p>
+<p>Du kan læse mere om mulighederne her</p>
+<blockquote>
+<p>The prefers-color-scheme CSS media feature is used to detect if the user has requested a light or dark color theme.</p>
+</blockquote>
+<blockquote>
+<p>The user might indicate this preference through an operating system setting (e.g. light or dark mode) or a user agent setting.</p>
+</blockquote>
+<p>— 
+
+
+
+
+
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme" 
+	class="underline break-words"  target="_blank" rel="noopener"
+	>
+	prefers-color-scheme - CSS: Cascading Style Sheets | MDN
+</a></p>
+<p>Hvordan ser dark mode så ud på Folkets?</p>
+<p>Omtrent sådan her:</p>
+<figure><img src="/erfaring/brugervenlighed/darkmode.png"/><figcaption>
+            <h4>Dark mode på Folkets</h4>
+        </figcaption>
+</figure>
+
+
+</div>
+
+
+<hr class="mb-6 mt-24">
+
+
+<div class="flex flex-wrap justify-between items-center">
+	
+	<div class=" w-full sm:w-1/2  mb-1 text-center sm:text-left overflow-ellipsis pr-1">
+		<a class="mr-4 no-underline" href="https://www.kiils.dk/blog/seo/google-klima-succes/">
+			<img src="/icons/top_arrow.svg" class="transform -rotate-90 inline-block">
+		</a>
+		<a href="https://www.kiils.dk/blog/seo/google-klima-succes/">
+			<span class="underline">Klimaleksikon nummer et i Google på klima</span>
+		</a>
+	</div>
+	
+
+	
+	<div
+		class=" w-full sm:w-1/2  mt-1 text-center sm:text-right overflow-ellipsis pl-1">
+		<a href="https://www.kiils.dk/blog/klimavenlig-og-brugervenlig/">
+			<span class="underline">Med ny dark mode er klimaleksikon både mere bruger- og klimavenlig</span>
+		</a>
+		<a class="ml-4 no-underline" href="https://www.kiils.dk/blog/klimavenlig-og-brugervenlig/">
+			<img src="/icons/top_arrow.svg" class="transform rotate-90 inline-block">
+		</a>
+	</div>
+	
+</div>
+
+<hr class="my-6">
+<div class="flex justify-center items-center flex-wrap">
+	
+</div>
+<div class="mt-6"></div>
+
+
+	</main>
+
+	<div class="absolute bottom-0 w-full"><footer class="w-full h-24 text-center text-xs text-gray-400 bg-black relative">
+	<div class="w-full px-6 md:pt-0 md:mx-auto md:max-w-5xl flex flex-1 space-between items-center absolute-center">
+		<a href="https://www.kiils.dk/" class="absolute">
+			<div class="w-8 h-8 relative font-bold bg-white blend-diff">
+	<h1 class="absolute-center m-0 font-charter text-2xl text-gray-100 blend-diff select-none">
+		K
+	</h1>
+</div>
+
+		</a>
+
+		<div class="h-full flex-1">
+			<span class="select-none">
+			</span>
+		</div>
+	</div>
+</footer>
+
+	</div>
+</body>
+
+</html>

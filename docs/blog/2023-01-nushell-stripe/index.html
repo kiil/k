@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang='da' class=''>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name=viewport content="width=device-width, initial-scale=1">
+
+<meta name="description" content="Nushell gør det nemt at interagere med API" />
+
+<title>
+	Kiils
+	 - Nushell og stripes API 
+</title>
+
+
+
+<link rel="icon" href="/favicon.ico">
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://www.kiils.dk/js/pico.min.f68158e607f7493b08ceb09d0d24efe0.js" intergrity="md5-9oFY5gf3STsIzrCdDSTv4A==" crossorigin="anonymous"></script>
+
+
+	
+
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/css/main.min.f7d31dbaede936cdbc9c2e57ee18dfbe.css" crossorigin="anonymous" media="screen"
+	integrity="md5-99Mduu3pNs28nC5X7hjfvg==">
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/css/syntax.min.560c6a0b6dbbe4a6683a2312fd91b499.css" crossorigin="anonymous"
+	integrity="md5-VgxqC2275KZoOiMS/ZG0mQ==" media="screen">
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/style/style.min.d41d8cd98f00b204e9800998ecf8427e.css" crossorigin="anonymous" media="screen"
+	integrity="md5-1B2M2Y8AsgTpgAmY7PhCfg==">
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://www.kiils.dk/css/main.min.1b6695ede8a03de873124c10b957342b.css" crossorigin="anonymous" media="screen"
+	integrity="md5-G2aV7eigPehzEkwQuVc0Kw==">
+
+
+</head>
+
+<body class="min-h-screen bg-secondary-light dark:bg-secondary text-primary relative pb-24">
+	
+	<div id="top" class="dark"></div>
+
+<header class="w-full flex items-center justify-between px-5 mx-auto md:pt-8 md:max-w-5xl pt-5">
+	
+	<div class="flex items-center">
+		<a href="https://www.kiils.dk/" class="inline-block mx-1 font-bold no-underline select-none">
+			<h1 class="hidden md:block font-charter tracking-normal m-0">
+				Kiils
+			</h1>
+
+			<div class="md:hidden">
+				<div class="w-8 h-8 relative font-bold bg-white blend-diff">
+	<h1 class="absolute-center m-0 font-charter text-2xl text-gray-100 blend-diff select-none">
+		K
+	</h1>
+</div>
+
+			</div>
+		</a>
+		
+	</div>
+
+	<nav class="">
+		
+		<a href="/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/kursus/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 Hjem
+		</a>
+		
+		<a href="/blog/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 Blog
+		</a>
+		
+		<a href="/tags/orden"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 Orden
+		</a>
+		
+		<a href="/kontakt/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/kunde/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/priser/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+		<a href="/privacy/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 
+		</a>
+		
+	</nav>
+</header>
+
+	
+
+	<main class="w-full px-4 pt-8 mx-auto md:max-w-4xl overflow-x-hidden md:overflow-visible ">
+<button onclick="window.history.back()" class="bg-transparent border-none font-bold">&larr;Tilbage</button>
+<h1 class="blog-title text-center mx-auto max-w-vw-5/6 text-4xl sm:text-5xl md:text-6xl">
+	Nushell og stripes API
+</h1>
+
+<div class="blog-content text-justify leading-loose mb-12 mx-auto sm:max-w-vw-5/6 text-md">
+	<p>Nushell gør det nemt at interagere med data. Og nemt at hente oplysninger fra et API som leverer i json.</p>
+<p>For eksempel ønsker jeg at finde de 10 seneste betalinger til Folkets Avis.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">fetch https://api.stripe.com/v1/charges -u hemmeligkodeforfolketsavis | get data | select amount created | upsert created { get created | into datetime } | upsert amount { get amount | $in / 100 }
+</span></span></code></pre></div><p>Og jeg får de oplysninger tilbage som jeg har brug for.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">╭───┬─────────┬──────────────╮
+</span></span><span class="line"><span class="cl">│ # │ amount  │   created    │
+</span></span><span class="line"><span class="cl">├───┼─────────┼──────────────┤
+</span></span><span class="line"><span class="cl">│ 0 │      59 │ 2 hours ago  │
+</span></span><span class="line"><span class="cl">│ 1 │      59 │ 18 hours ago │
+</span></span><span class="line"><span class="cl">│ 2 │      62 │ 2 days ago   │
+</span></span><span class="line"><span class="cl">│ 3 │     699 │ 2 days ago   │
+</span></span><span class="line"><span class="cl">│ 4 │ 7498.75 │ 3 days ago   │
+</span></span><span class="line"><span class="cl">│ 5 │     400 │ 3 days ago   │
+</span></span><span class="line"><span class="cl">│ 6 │  569.47 │ 3 days ago   │
+</span></span><span class="line"><span class="cl">│ 7 │      59 │ 5 days ago   │
+</span></span><span class="line"><span class="cl">│ 8 │      29 │ 5 days ago   │
+</span></span><span class="line"><span class="cl">│ 9 │      62 │ a week ago   │
+</span></span><span class="line"><span class="cl">╰───┴─────────┴──────────────╯
+</span></span></code></pre></div><p>Det kan nemt integreres med PTA såsom hledger, så det er nemt at automatisere bogføring.</p>
+<h2 id="bonus">Bonus</h2>
+<p>En hurtig gennemgang af hvad one-lineren gør:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&gt; : ( 
+</span></span><span class="line"><span class="cl">∙     fetch https://api.stripe.com/v1/charges -u topsecret | 
+</span></span><span class="line"><span class="cl">∙     get data | 
+</span></span><span class="line"><span class="cl">∙     select amount created | 
+</span></span><span class="line"><span class="cl">∙     upsert created { get created | into datetime } | 
+</span></span><span class="line"><span class="cl">∙     upsert amount { get amount | $in / 100 }
+</span></span><span class="line"><span class="cl">∙   )
+</span></span></code></pre></div><p><code>fetch</code> fungerer her som <code>curl</code> og kommunikerer med stripes API.</p>
+<p><code>get data</code> henter tabellen &lsquo;data&rsquo; i det svar som kommer tilbage fra stripe.</p>
+<p><code>select amount created</code> tager søjlerne &lsquo;amount&rsquo; og &lsquo;created&rsquo; fra tabellen.</p>
+<p>Resten er transformationer som gør det lettere at forholde sig til data.</p>
+<p>For eksempel tager <code>{ get created | into datetime }</code> og forvandler et unix datestamp til et for mennesker mere letlæseligt datetime format.</p>
+
+</div>
+
+
+<hr class="mb-6 mt-24">
+
+
+<div class="flex flex-wrap justify-between items-center">
+	
+	<div class=" w-full sm:w-1/2  mb-1 text-center sm:text-left overflow-ellipsis pr-1">
+		<a class="mr-4 no-underline" href="https://www.kiils.dk/blog/nlp/chatgpt-google/">
+			<img src="/icons/top_arrow.svg" class="transform -rotate-90 inline-block">
+		</a>
+		<a href="https://www.kiils.dk/blog/nlp/chatgpt-google/">
+			<span class="underline">Google risikerer at straffe folk som inkluderer ordblinde i den demokratiske debat</span>
+		</a>
+	</div>
+	
+
+	
+	<div
+		class=" w-full sm:w-1/2  mt-1 text-center sm:text-right overflow-ellipsis pl-1">
+		<a href="https://www.kiils.dk/blog/20230207-chatgpt-hjaelper-ordblind/">
+			<span class="underline">Chatgpt hjælper ordblind - eller gør den?</span>
+		</a>
+		<a class="ml-4 no-underline" href="https://www.kiils.dk/blog/20230207-chatgpt-hjaelper-ordblind/">
+			<img src="/icons/top_arrow.svg" class="transform rotate-90 inline-block">
+		</a>
+	</div>
+	
+</div>
+
+<hr class="my-6">
+<div class="flex justify-center items-center flex-wrap">
+	
+</div>
+<div class="mt-6"></div>
+
+
+	</main>
+
+	<div class="absolute bottom-0 w-full"><footer class="w-full h-24 text-center text-xs text-gray-400 bg-black relative">
+	<div class="w-full px-6 md:pt-0 md:mx-auto md:max-w-5xl flex flex-1 space-between items-center absolute-center">
+		<a href="https://www.kiils.dk/" class="absolute">
+			<div class="w-8 h-8 relative font-bold bg-white blend-diff">
+	<h1 class="absolute-center m-0 font-charter text-2xl text-gray-100 blend-diff select-none">
+		K
+	</h1>
+</div>
+
+		</a>
+
+		<div class="h-full flex-1">
+			<span class="select-none">
+			</span>
+		</div>
+	</div>
+</footer>
+
+	</div>
+</body>
+
+</html>
