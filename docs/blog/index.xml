@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sådan lever vi on Kiils</title>
+    <title>Blog om kunstig intelligens og sprog on Kiils</title>
     <link>https://www.kiils.dk/blog/</link>
-    <description>Recent content in Sådan lever vi on Kiils</description>
+    <description>Recent content in Blog om kunstig intelligens og sprog on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
-    <lastBuildDate>Mon, 29 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Test</title>
-      <link>https://www.kiils.dk/blog/test/</link>
-      <pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.kiils.dk/blog/test/</guid>
-      <description>Test code
-Der er tre &amp;lt;div&amp;gt;Test&amp;lt;/div&amp;gt; </description>
-    </item>
-    
+    <lastBuildDate>Fri, 26 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ChatGPT med klar opfordring til politikerne: Anerkend at borgere kan have seksuelle relationer uden at voldtage nogen</title>
       <link>https://www.kiils.dk/blog/chatgpt-med-klar-opfordring-til-politikerne-anerkend-at-borgere-kan-have-seksuelle-relationer-uden-at-voldtage-nogen/</link>

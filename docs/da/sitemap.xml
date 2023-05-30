@@ -52,23 +52,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.kiils.dk/</loc>
-    <lastmod>2023-05-29T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.kiils.dk/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="da"
-                href="https://www.kiils.dk/"
-                />
-  </url><url>
     <loc>https://www.kiils.dk/blog/</loc>
-    <lastmod>2023-05-29T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -81,11 +66,6 @@
                 hreflang="da"
                 href="https://www.kiils.dk/blog/"
                 />
-  </url><url>
-    <loc>https://www.kiils.dk/blog/test/</loc>
-    <lastmod>2023-05-29T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url><url>
     <loc>https://www.kiils.dk/tools/chatgpt/</loc>
     <lastmod>2023-05-26T00:00:00+00:00</lastmod>
@@ -125,6 +105,21 @@
                 rel="alternate"
                 hreflang="da"
                 href="https://www.kiils.dk/emner/"
+                />
+  </url><url>
+    <loc>https://www.kiils.dk/</loc>
+    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kiils.dk/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="da"
+                href="https://www.kiils.dk/"
                 />
   </url><url>
     <loc>https://www.kiils.dk/emner/kunstig-intelligens/</loc>

@@ -86,23 +86,9 @@
     
     , 
     {
-        "url": "/",
-        "title": "Kiils",
-        "content": " Stærke tekster til en digital tidsalder "
-    }
-    
-    , 
-    {
         "url": "/blog/",
-        "title": "Sådan lever vi",
+        "title": "Blog om kunstig intelligens og sprog",
         "content": ""
-    }
-    
-    , 
-    {
-        "url": "/blog/test/",
-        "title": "Test",
-        "content": "Test code\nDer er tre \u0026lt;div\u0026gt;Test\u0026lt;/div\u0026gt; "
     }
     
     , 
@@ -131,6 +117,13 @@
         "url": "/emner/",
         "title": "Emner",
         "content": "Emner i det arbejde Kiils laver\n"
+    }
+    
+    , 
+    {
+        "url": "/",
+        "title": "Kiils",
+        "content": " Stærke tekster til en digital tidsalder "
     }
     
     , 
