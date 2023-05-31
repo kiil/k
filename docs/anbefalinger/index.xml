@@ -5,7 +5,8 @@
     <link>https://www.kiils.dk/anbefalinger/</link>
     <description>Recent content in Anbefalinger on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>da</language><atom:link href="https://www.kiils.dk/anbefalinger/index.xml" rel="self" type="application/rss+xml" />
+    <language>da</language>
+    <copyright>Kiils</copyright><atom:link href="https://www.kiils.dk/anbefalinger/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mine varmeste anbefalinger</title>
       <link>https://www.kiils.dk/anbefalinger/per-gastrofun/</link>

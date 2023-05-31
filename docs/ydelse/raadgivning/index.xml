@@ -6,6 +6,7 @@
     <description>Recent content in Rådgivning on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
+    <copyright>Kiils</copyright>
     <lastBuildDate>Fri, 03 Jun 2022 10:43:51 +0200</lastBuildDate><atom:link href="https://www.kiils.dk/ydelse/raadgivning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hjælp til indholdsstrategi</title>
@@ -40,9 +41,7 @@
       <pubDate>Mon, 23 May 2022 11:24:27 +0200</pubDate>
       
       <guid>https://www.kiils.dk/ydelse/raadgivning/miks/</guid>
-      <description>Hvordan sammensætter man det rette miks af tekster? Hvordan fastholder man læsernes interesse over tid? Og hvordan overrasker og udfordrer man dem uden at skræmme dem væk?
-Det handler om at skabe det rette miks af indhold. Det skal være målrettet, men ikke ensformigt. Det er lidt af en kunst som ikke kan sættes på formel.
-Det er nødvendigt at tage udgangspunkt i dit projekt og din målgruppe, og så lægger vi en plan som tager højde for de ting og giver dine læsere det de vil have, men på dine betingelser.</description>
+      <description>Hvordan sammensætter man det rette miks af tekster?</description>
     </item>
     
   </channel>

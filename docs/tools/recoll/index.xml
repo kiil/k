@@ -6,6 +6,7 @@
     <description>Recent content in Recoll on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
+    <copyright>Kiils</copyright>
     <lastBuildDate>Tue, 31 May 2022 12:24:26 +0200</lastBuildDate><atom:link href="https://www.kiils.dk/tools/recoll/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Smarte søgefunktioner i Recoll</title>
@@ -13,11 +14,7 @@
       <pubDate>Tue, 31 May 2022 12:24:26 +0200</pubDate>
       
       <guid>https://www.kiils.dk/blog/recoll-smart-s%C3%B8gning/</guid>
-      <description>Noget af det jeg manglede i MacOS Spotlight søgemaskinen, var en mere omfattende syntaks for søgning.
-Recoll er både smart og omfangsrig på det område.
-¶ Stemming Recoll er bygget på Xapian som faktisk har en dansk stemming-mekanisme.
-Stemming finder roden af et ord og de forskellige afledninger. På den måde får man flere resultater på en søgning, og nogle af dem vil være relevante nok.
-Med Recoll og Xapian tages der endda konkret højde for nøjagtig de ord som findes i dit indeks.</description>
+      <description>Noget af det jeg manglede i MacOS Spotlight søgemaskinen, var en mere omfattende syntaks for søgning.</description>
     </item>
     
     <item>
@@ -26,10 +23,7 @@ Med Recoll og Xapian tages der endda konkret højde for nøjagtig de ord som fin
       <pubDate>Mon, 30 May 2022 08:40:17 +0200</pubDate>
       
       <guid>https://www.kiils.dk/blog/recoll-fritekst-s%C3%B8gning/</guid>
-      <description>Hvordan holder man styr på sine egne tekster når man har over 10.000 af dem på sin laptop?
-Svaret er lokal fritekstsøgning.
-MacOS har spotlight indbygget som er okay til formålet, men alligevel lidt for begrænset.
-Jeg har brugt en del tid på at finde et værktøj som kunne indeksere mine filer på en ordentlig måde, så jeg altid hurtigt kunne finde noget i en tekst som jeg havde behov for at vide eller bruge.</description>
+      <description>Hvordan holder man styr på sine egne tekster når man har over 10.</description>
     </item>
     
   </channel>

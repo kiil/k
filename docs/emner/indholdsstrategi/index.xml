@@ -6,6 +6,7 @@
     <description>Recent content in Alt om Indholdsstrategi on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
+    <copyright>Kiils</copyright>
     <lastBuildDate>Fri, 03 Jun 2022 10:43:51 +0200</lastBuildDate><atom:link href="https://www.kiils.dk/emner/indholdsstrategi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hjælp til indholdsstrategi</title>
@@ -22,10 +23,7 @@
       <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/blog/seo/google-tidlig-indsats/</guid>
-      <description>Små medier kan markere sig ved at være først med på internationale navne. Og det er tilsyneladende også noget som giver bonus i søgeresultaterne.
-For ikke så længe tid siden skrev jeg et indlæg her på Kiils med titlen: Når de små medier overhaler de store :
-De små medier er generelt mere manøvredygtige end de store. Det gælder også på indholdsstrategien.
-Det betyder at små medier kan reagere hurtigt på internationale trends.</description>
+      <description>Små medier kan markere sig ved at være først med på internationale navne.</description>
     </item>
     
     <item>
@@ -34,12 +32,7 @@ Det betyder at små medier kan reagere hurtigt på internationale trends.</descr
       <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/blog/indhold/om-oplevelser-og-langsigtet-indholdsstrategi/</guid>
-      <description>Præmisserne på internettet ændrer sig hele tiden.
-Kan det så overhovedet betale sig at tænke langsigtet?
-Ja!
-Det er faktisk noget nær nødvendigt. Ikke mindst hvis du har planer om at hente trafik fra søgemaskiner som tillægger &amp;ldquo;historik&amp;rdquo; en stor betydning.
-Og det gør for eksempel Googles søgemaskine i min erfaring.
-(Jeg har Klimaleksikon.dk med hele ti år på nettet i næsten uforandret form at bygge den påstand på, men det vil jeg skrive om i et andet indlæg.</description>
+      <description>Præmisserne på internettet ændrer sig hele tiden.</description>
     </item>
     
     <item>
@@ -48,10 +41,7 @@ Og det gør for eksempel Googles søgemaskine i min erfaring.
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/blog/indhold/overhaling/</guid>
-      <description>Den korte afstand mellem læser og redaktion er en fordel.
-De små medier er generelt mere manøvredygtige end de store. Det gælder også på indholdsstrategien.
-Det betyder at små medier kan reagere hurtigt på internationale trends.
-Et eksempel på dette er at Folkets Avis har skrevet meget om Jordan Peterson. Det har de store danske medier ikke, på trods af at han er en meget omtalt mand i den internationale presse.</description>
+      <description>Den korte afstand mellem læser og redaktion er en fordel.</description>
     </item>
     
   </channel>

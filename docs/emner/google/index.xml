@@ -6,6 +6,7 @@
     <description>Recent content in Google on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
+    <copyright>Kiils</copyright>
     <lastBuildDate>Tue, 17 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/emner/google/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google risikerer at straffe folk som inkluderer ordblinde i den demokratiske debat</title>
@@ -13,9 +14,7 @@
       <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/blog/nlp/chatgpt-google/</guid>
-      <description>Jeg indså ret hurtigt at ChatGPT og andre lignende teknologier ville kunne blive en enorm hjælp for ordblinde.
-For i modsætning til en gammeldags stavekontrol er store sprogmodeller gode til at &amp;ldquo;analysere&amp;rdquo; naturligt sprog og dermed ikke bare rette stavefejl, men også syntaks og betydning.
-Som redaktør har jeg rettet en del tekster fra ordblinde, fordi jeg har ønsket at deres sproglige skavank ikke skulle komme i vejen for deres mulighed for at deltage i den demokratiske samtale.</description>
+      <description>Jeg indså ret hurtigt at ChatGPT og andre lignende teknologier ville kunne blive en enorm hjælp for ordblinde.</description>
     </item>
     
   </channel>

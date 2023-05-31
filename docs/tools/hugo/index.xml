@@ -6,6 +6,7 @@
     <description>Recent content in hugo on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
+    <copyright>Kiils</copyright>
     <lastBuildDate>Thu, 16 Jun 2022 12:10:31 +0200</lastBuildDate><atom:link href="https://www.kiils.dk/tools/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Udeluk bestemte indholdstyper fra søgeindeks i Hugo</title>
@@ -13,10 +14,7 @@
       <pubDate>Thu, 16 Jun 2022 12:10:31 +0200</pubDate>
       
       <guid>https://www.kiils.dk/blog/indholdstyper-soegeindeks-hugo/</guid>
-      <description>Jeg ønskede ikke mine micro-blogging &amp;ldquo;snippets&amp;rdquo; som jeg vil bruge på LinkedIn, skulle &amp;ldquo;forurene&amp;rdquo; søgeindekset her på Kiils.
-Derfor skiftede jeg
-[ {{ range $index, $value := where .Site.Pages &amp;#34;.Draft&amp;#34; false }} {{ if $index }}, {{ end }} { &amp;#34;url&amp;#34;: &amp;#34;{{ .RelPermalink }}&amp;#34;, &amp;#34;title&amp;#34;: &amp;#34;{{ .Title }}&amp;#34;, &amp;#34;content&amp;#34;: {{ .Content | plainify | jsonify }} } {{ end }} ] ud med
-[ {{ range $index, $value := where ( where .</description>
+      <description>Jeg ønskede ikke mine micro-blogging &amp;ldquo;snippets&amp;rdquo; som jeg vil bruge på LinkedIn, skulle &amp;ldquo;forurene&amp;rdquo; søgeindekset her på Kiils.</description>
     </item>
     
     <item>
@@ -25,11 +23,7 @@ Derfor skiftede jeg
       <pubDate>Wed, 08 Jun 2022 12:33:45 +0200</pubDate>
       
       <guid>https://www.kiils.dk/blog/2022-06-08t123345/</guid>
-      <description>Jeg ville gerne se hvordan min hjemmeside så ud på mobil inden jeg offentliggjorde den.
-Derfor havde jeg brug for at kunne indlæse den fra andre enheder end den enhed som kører hugo server.
-Det burde kunne gøres med - i mit tilfælde:
-hugo server --bind 192.168.0.NNN --baseURL http://pi Desværre gav det en connection refused.
-For at kunne tilgå hugo server på min raspberry pi, som kører linux, fra en anden enheds webbrowser, skulle jeg aktivere port 1313 for min aktuelle zone i firewall&amp;rsquo;en:</description>
+      <description>Jeg ville gerne se hvordan min hjemmeside så ud på mobil inden jeg offentliggjorde den.</description>
     </item>
     
     <item>

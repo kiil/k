@@ -6,6 +6,7 @@
     <description>Recent content in nushell on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
+    <copyright>Kiils</copyright>
     <lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/tools/nushell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nushell og stripes API</title>
@@ -31,13 +32,7 @@
       <pubDate>Tue, 08 Nov 2022 09:47:02 +0100</pubDate>
       
       <guid>https://www.kiils.dk/blog/nlp/nushell/</guid>
-      <description>En shell der egner sig godt til dataanalyse, er Nushell .
-Den egner sig også godt til databaseret tekstanalyse, eller kvantitativ tekstanalyse.
-Her et hurtigt eksempel på hvad Nushell kan.
-Jeg har en tekst i filen livsfarlige-konspirationsteorier.da.md.
-Antal linjer, ord og anslag i den tekst kan jeg få sådan her:
-open livsfarlige-konspirationsteorier.da.md | size så giver nushell svaret
-╭───────────┬──────╮ │ lines │ 51 │ │ words │ 616 │ │ bytes │ 3790 │ │ chars │ 3713 │ │ graphemes │ 3713 │ ╰───────────┴──────╯ Et hurtigt overblik over sætnings- og afsnitslængde fås som følger</description>
+      <description>En shell der egner sig godt til dataanalyse, er Nushell.</description>
     </item>
     
   </channel>

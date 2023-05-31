@@ -6,6 +6,7 @@
     <description>Recent content in SoMe on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
+    <copyright>Kiils</copyright>
     <lastBuildDate>Sun, 05 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/emner/some/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>En langsom pinefuld død på Facebook</title>
@@ -22,10 +23,7 @@
       <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/blog/some/delinger-bonus-linkedin/</guid>
-      <description>Læg relevante links på LinkedIn og forøg antallet af besøg til din profilside mangefold.
-For ganske nylig begyndte jeg via LinkedIn at dele links til min blog her på Kiils .
-I første omgang var hensigten at dele ud af de erfaringer, som opbygningen af et digitalt medie helt fra bunden, har givet mig. Og det er ikke så få!
-Jeg har brugt fem år på at skabe Folkets Avis , og i det tidsrum har jeg faktisk kun sporadisk haft tid til at bruge LinkedIn.</description>
+      <description>Læg relevante links på LinkedIn og forøg antallet af besøg til din profilside mangefold.</description>
     </item>
     
   </channel>

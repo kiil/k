@@ -6,6 +6,7 @@
     <description>Recent content in AutoGPT on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
+    <copyright>Kiils</copyright>
     <lastBuildDate>Tue, 02 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/tools/autogpt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Udvikl AulaGPT og bliv en levende legende</title>
@@ -13,11 +14,7 @@
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/blog/er-du-traet-af-aula-lad-aulagpt-klare-kommunikationen/</guid>
-      <description>Er du træt af Aula?
-Så er du ikke alene.
-Men problemet med Aula er ikke at Aula er dårlig software. Problemet er det underliggende problem som Aula ikke kan løse. Men prøver på at løse.
-Vi lever i en tid med mange beskeder og meget kommunikation og hvor alting skal stemmes af med alt og alle.
-Meget af det er kedeligt assistentarbejde nøjagtig af den type som skal klares af en kunstig intelligens i stedet for at du spilder din dyrebare tid på det.</description>
+      <description>Er du træt af Aula?</description>
     </item>
     
   </channel>

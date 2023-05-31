@@ -6,6 +6,7 @@
     <description>Recent content in Sociale medier on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
+    <copyright>Kiils</copyright>
     <lastBuildDate>Sat, 12 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/emner/sociale-medier/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Delinger giver bonus på LinkedIn</title>
@@ -13,10 +14,7 @@
       <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/blog/some/delinger-bonus-linkedin/</guid>
-      <description>Læg relevante links på LinkedIn og forøg antallet af besøg til din profilside mangefold.
-For ganske nylig begyndte jeg via LinkedIn at dele links til min blog her på Kiils .
-I første omgang var hensigten at dele ud af de erfaringer, som opbygningen af et digitalt medie helt fra bunden, har givet mig. Og det er ikke så få!
-Jeg har brugt fem år på at skabe Folkets Avis , og i det tidsrum har jeg faktisk kun sporadisk haft tid til at bruge LinkedIn.</description>
+      <description>Læg relevante links på LinkedIn og forøg antallet af besøg til din profilside mangefold.</description>
     </item>
     
     <item>
@@ -25,10 +23,7 @@ Jeg har brugt fem år på at skabe Folkets Avis , og i det tidsrum har jeg fakti
       <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/blog/trafik/kilder/</guid>
-      <description>2017 var et rekordår for Folkets Avis på mange måder.
-Således var også de samlede antal sidevisninger højere end noget tidligere år.
-Ser vi på anskaffelse skete der noget lidt overraskende. I hvert fald når man tager i betratning at antallet af fans på Folkets Avis Facebook side voksede pænt hen over året og nærmede sig 10.000 ved dets afslutning.
-For på trods af stigningen faldt antallet af brugere som blev sendt til Folkets Avis fra de sociale medier, og med de sociale medier menes praktisk taget ene og alene Facebook.</description>
+      <description>2017 var et rekordår for Folkets Avis på mange måder.</description>
     </item>
     
   </channel>

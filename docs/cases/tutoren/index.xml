@@ -6,6 +6,7 @@
     <description>Recent content in tutoren on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
+    <copyright>Kiils</copyright>
     <lastBuildDate>Wed, 10 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/cases/tutoren/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ægte individualiseret undervisning til alle med kunstig intelligens</title>
@@ -13,9 +14,7 @@
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/blog/aegte-individualiseret-undervisning-til-alle-med-kunstig-intelligens/</guid>
-      <description>For efterhånden en del år siden lavede jeg sammen med en kammerat hjemmesiden Tutoren .
-Ideen var at formidle kontakt mellem &amp;ldquo;tutorer&amp;rdquo;, som havde kompetencer inden for et bestemt område i kombination med evnen til at lære fra sig, og &amp;ldquo;elever&amp;rdquo; med et ønske om at få hjælp til at udvikle sig fagligt på selvsamme område.
-Hovedsagelig kom det i praksis til at dreje sig om det vi på dansk begyndte at kalde lektiehjælp.</description>
+      <description>For efterhånden en del år siden lavede jeg sammen med en kammerat hjemmesiden Tutoren.</description>
     </item>
     
   </channel>

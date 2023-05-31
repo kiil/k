@@ -6,6 +6,7 @@
     <description>Recent content in ChatGPT on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <copyright>Kiils</copyright>
     <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/en/tools/chatgpt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Humans should also be prompted properly</title>
@@ -13,10 +14,7 @@
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/en/blog/humans-should-also-be-prompted-properly/</guid>
-      <description>The other day I posted a few lines on Facebook.
-My intention was to point out what can be called perspective - that a case can be seen from several angles.
-Specifically, it was about &amp;ldquo;Store Bededag&amp;rdquo; and the many other more or less official holidays that spring offers in Denmark. And there are a lot of them.
-My point was that for a self-employed person who works from home, these could well be perceived as interruptions.</description>
+      <description>The other day I posted a few lines on Facebook.</description>
     </item>
     
     <item>
@@ -25,10 +23,7 @@ My point was that for a self-employed person who works from home, these could we
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/en/blog/how-chatgpt-made-my-surly-son-laugh/</guid>
-      <description>Recently I installed Marvin . Now, Marvin also happens to be the name of a dog dear to our family.
-So my kids kind of feel strongly about the name, and were both a bit offended about an Artificial Intelligence with the same name.
-But in this case Marvin is a
-batteries-included library for building AI-powered software. Marvin&amp;rsquo;s job is to integrate AI directly into your codebase by making it look and feel like any other function.</description>
+      <description>Recently I installed Marvin.</description>
     </item>
     
     <item>
@@ -37,10 +32,7 @@ batteries-included library for building AI-powered software. Marvin&amp;rsquo;s 
       <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/en/blog/chatgpt-glorified-markov-chain/</guid>
-      <description>Me: is chatgpt really just a glorified markov chain
-ChatGPT:
-ChatGPT is a type of language model that is based on the transformer architecture, which is a neural network-based approach to natural language processing. While the Markov Chain is a mathematical model that can be used to generate text, it is a relatively simple model compared to neural network-based models like ChatGPT.
-ChatGPT is trained on a massive amount of text data and uses a deep neural network with multiple layers to learn patterns in the data.</description>
+      <description>Me: is chatgpt really just a glorified markov chain</description>
     </item>
     
   </channel>

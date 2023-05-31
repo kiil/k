@@ -6,6 +6,7 @@
     <description>Recent content in salg on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
+    <copyright>Kiils</copyright>
     <lastBuildDate>Thu, 09 Jun 2022 12:56:22 +0200</lastBuildDate><atom:link href="https://www.kiils.dk/emner/salg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Når man ringer til en potentiel kunde, og bliver bedt om at sende en mail.</title>
@@ -13,12 +14,7 @@
       <pubDate>Thu, 09 Jun 2022 12:56:22 +0200</pubDate>
       
       <guid>https://www.kiils.dk/blog/mail-henvendelse/</guid>
-      <description>Hvordan følger man op på en kort telefonsamtale?
-Det kan være svært at vide om der er en reel interesse for ens ydelse, selvom man selv ser et klart behov.
-Og det kan være svært at vurdere om henstillingen &amp;ldquo;send en mail&amp;rdquo; udtrykker et reelt ønske om at modtage en mail.
-Men ofte giver det mening at følge op:
-Kære Xxxxx,
-Tak for den korte samtale på telefon omkring Xxxxxx Publications.</description>
+      <description>Hvordan følger man op på en kort telefonsamtale?</description>
     </item>
     
   </channel>

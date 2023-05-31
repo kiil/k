@@ -6,6 +6,7 @@
     <description>Recent content in fontforge on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <copyright>Kiils</copyright>
     <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/en/tools/fontforge/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Merging an emoji 😘 font into a text font ❤️</title>
@@ -13,11 +14,7 @@
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/en/blog/merging-an-emoji-font-into-a-text-font/</guid>
-      <description>I wanted to use the font Noto Sans with the Noto Emoji font for making an image overlay text in Hugo.
-I used Fontforge to merge the two fonts.
-At first the emoji font was much larger than the text font.
-In my case it only worked properly when
-Opening the text font first with &amp;lsquo;File -&amp;gt; Open File&amp;rsquo;. Then for &amp;lsquo;Element -&amp;gt; Font Info&amp;rsquo; under &amp;lsquo;General&amp;rsquo; setting &amp;lsquo;Em Size&amp;rsquo; to 2048.</description>
+      <description>I wanted to use the font Noto Sans with the Noto Emoji font for making an image overlay text in Hugo.</description>
     </item>
     
   </channel>

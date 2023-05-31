@@ -6,6 +6,7 @@
     <description>Recent content in tachyons on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
+    <copyright>Kiils</copyright>
     <lastBuildDate>Tue, 11 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/tools/tachyons/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sådan fik jeg perfekte 100 i mobilhastighed</title>
@@ -22,7 +23,7 @@
       <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/blog/frontend/bootstrap-4/</guid>
-      <description>Bootstrap 4 er næppe det nemmeste og hurtigste at prototype i længere. Og lidt for tungt hvis man virkelig går op i hastighed også på langsommere mobilforbindelser.</description>
+      <description>Bootstrap 4 er næppe det nemmeste og hurtigste at prototype i længere.</description>
     </item>
     
   </channel>

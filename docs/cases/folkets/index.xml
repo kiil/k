@@ -6,6 +6,7 @@
     <description>Recent content in FOLKETS on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
+    <copyright>Kiils</copyright>
     <lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/cases/folkets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sådan satte jeg et dark theme op på Folkets uden at genere brugerne med flere valgmuligheder</title>
@@ -76,7 +77,7 @@
       <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/blog/frontend/bootstrap-4/</guid>
-      <description>Bootstrap 4 er næppe det nemmeste og hurtigste at prototype i længere. Og lidt for tungt hvis man virkelig går op i hastighed også på langsommere mobilforbindelser.</description>
+      <description>Bootstrap 4 er næppe det nemmeste og hurtigste at prototype i længere.</description>
     </item>
     
     <item>
@@ -85,10 +86,7 @@
       <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/blog/seo/google-tidlig-indsats/</guid>
-      <description>Små medier kan markere sig ved at være først med på internationale navne. Og det er tilsyneladende også noget som giver bonus i søgeresultaterne.
-For ikke så længe tid siden skrev jeg et indlæg her på Kiils med titlen: Når de små medier overhaler de store :
-De små medier er generelt mere manøvredygtige end de store. Det gælder også på indholdsstrategien.
-Det betyder at små medier kan reagere hurtigt på internationale trends.</description>
+      <description>Små medier kan markere sig ved at være først med på internationale navne.</description>
     </item>
     
     <item>
@@ -97,12 +95,7 @@ Det betyder at små medier kan reagere hurtigt på internationale trends.</descr
       <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/blog/indhold/om-oplevelser-og-langsigtet-indholdsstrategi/</guid>
-      <description>Præmisserne på internettet ændrer sig hele tiden.
-Kan det så overhovedet betale sig at tænke langsigtet?
-Ja!
-Det er faktisk noget nær nødvendigt. Ikke mindst hvis du har planer om at hente trafik fra søgemaskiner som tillægger &amp;ldquo;historik&amp;rdquo; en stor betydning.
-Og det gør for eksempel Googles søgemaskine i min erfaring.
-(Jeg har Klimaleksikon.dk med hele ti år på nettet i næsten uforandret form at bygge den påstand på, men det vil jeg skrive om i et andet indlæg.</description>
+      <description>Præmisserne på internettet ændrer sig hele tiden.</description>
     </item>
     
     <item>
@@ -111,9 +104,7 @@ Og det gør for eksempel Googles søgemaskine i min erfaring.
       <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/blog/muren/redning/</guid>
-      <description>Folkets Avis er enestående i den forstand at mediet i modsætning til den øvrige danske presse fungerer helt uden mediestøtte.
-Det gør at den er skarpere end de andre medier i sin kritik af systemet og politikerne. Og det er godt for demokratiet.
-Men det skal heller ikke være nogen hemmelighed at det er lidt af en udfordring at få sådan en størrelse til at løbe rundt og give overskud.</description>
+      <description>Folkets Avis er enestående i den forstand at mediet i modsætning til den øvrige danske presse fungerer helt uden mediestøtte.</description>
     </item>
     
     <item>
@@ -131,10 +122,7 @@ Men det skal heller ikke være nogen hemmelighed at det er lidt af en udfordring
       <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/blog/trafik/kilder/</guid>
-      <description>2017 var et rekordår for Folkets Avis på mange måder.
-Således var også de samlede antal sidevisninger højere end noget tidligere år.
-Ser vi på anskaffelse skete der noget lidt overraskende. I hvert fald når man tager i betratning at antallet af fans på Folkets Avis Facebook side voksede pænt hen over året og nærmede sig 10.000 ved dets afslutning.
-For på trods af stigningen faldt antallet af brugere som blev sendt til Folkets Avis fra de sociale medier, og med de sociale medier menes praktisk taget ene og alene Facebook.</description>
+      <description>2017 var et rekordår for Folkets Avis på mange måder.</description>
     </item>
     
     <item>
@@ -143,10 +131,7 @@ For på trods af stigningen faldt antallet af brugere som blev sendt til Folkets
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/blog/indhold/overhaling/</guid>
-      <description>Den korte afstand mellem læser og redaktion er en fordel.
-De små medier er generelt mere manøvredygtige end de store. Det gælder også på indholdsstrategien.
-Det betyder at små medier kan reagere hurtigt på internationale trends.
-Et eksempel på dette er at Folkets Avis har skrevet meget om Jordan Peterson. Det har de store danske medier ikke, på trods af at han er en meget omtalt mand i den internationale presse.</description>
+      <description>Den korte afstand mellem læser og redaktion er en fordel.</description>
     </item>
     
   </channel>

@@ -6,6 +6,7 @@
     <description>Recent content in Kommunikation on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
+    <copyright>Kiils</copyright>
     <lastBuildDate>Fri, 02 Sep 2022 08:57:34 +0200</lastBuildDate><atom:link href="https://www.kiils.dk/emner/kommunikation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Et forældremøde jeg sent vil glemme</title>
@@ -13,11 +14,7 @@
       <pubDate>Fri, 02 Sep 2022 08:57:34 +0200</pubDate>
       
       <guid>https://www.kiils.dk/blog/foraeldremoedet/</guid>
-      <description>Forældremøder behøver ikke at være kedelige.
-For nylig var jeg til et forældremøde hvor omgangstonen mellem børnene på årgangen var på dagsordenen.
-Eller egentligt var det ikke kun mellem børnene at omgangstonen gav anledning til bekymrede miner.
-En lærer fortalte nemlig at en elev havde kaldt hende for &amp;ldquo;pisse ung&amp;rdquo;. Og bemærkede så at det havde hun nu egentligt ikke haft så meget imod.
-Så blev der eller grinet godt i forsamlingen.</description>
+      <description>Forældremøder behøver ikke at være kedelige.</description>
     </item>
     
   </channel>

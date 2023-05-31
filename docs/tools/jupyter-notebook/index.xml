@@ -6,6 +6,7 @@
     <description>Recent content in Jupyter Notebook on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
+    <copyright>Kiils</copyright>
     <lastBuildDate>Thu, 18 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/tools/jupyter-notebook/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Microsoft lancerer Guidance til effektiv styring af store sprogmodeller</title>
@@ -13,10 +14,7 @@
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/blog/microsoft-lancerer-guidance-til-effektiv-styring-af-store-sprogmodeller/</guid>
-      <description>Guidance, udviklet af Microsoft, giver dig mulighed for at kontrollere moderne store sprogmodeller mere effektivt end traditionelt med prompt engineering eller chaining.
-Guidance skal, som navnet antyder, bruges til at guide en sprogmodels output. Det gør Guidance ved at give mulighed for at strukturere både input, men også output gennem en skabelon.
-Mere specifikt:
-Guidance giver dig mulighed for at sammenflette generering, meddelelser og logisk kontrol i et enkelt kontinuerligt flow der matcher hvordan sprogmodellen faktisk behandler teksten.</description>
+      <description>Guidance, udviklet af Microsoft, giver dig mulighed for at kontrollere moderne store sprogmodeller mere effektivt end traditionelt med prompt engineering eller chaining.</description>
     </item>
     
   </channel>

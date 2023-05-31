@@ -6,6 +6,7 @@
     <description>Recent content in plotly on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
+    <copyright>Kiils</copyright>
     <lastBuildDate>Sat, 18 Feb 2023 08:35:10 +0100</lastBuildDate><atom:link href="https://www.kiils.dk/tools/plotly/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fra hledger tidsregnskab til treemap i dash</title>
@@ -13,10 +14,7 @@
       <pubDate>Sat, 18 Feb 2023 08:35:10 +0100</pubDate>
       
       <guid>https://www.kiils.dk/blog/20230218-fra-hledger-tidsregnskab-til-treemap-i-dash/</guid>
-      <description>Tidsforbrug registreret i ledger cli eller hledger kan rapporteres som
-3 administrativt:bureaukrati 6 administrativt:fundraising 7 administrativt:teknik 2 redaktionelt:feedback 1 redaktionelt:ideudvikling 5 redaktionelt:research:pressekontakt:frugtbar 5 redaktionelt:research:pressekontakt:unyttig 37 redaktionelt:skrive med kommandoen hledger -f folkets-tid.journal bal -c 1..
-Det er relativt nemt med nushell eller nvim eller andre værktøjer at omsætte til en csv som følger:
-values,domains,activities,details,status 3,administrativt,bureaukrati,None,None 6,administrativt,fundraising,None,None 7,administrativt,teknik,None,None 2,redaktionelt,feedback,None,None 1,redaktionelt,ideudvikling,None,None 5,redaktionelt,research,pressekontakt,frugtbar 5,redaktionelt,research,pressekontakt,unyttig 37,redaktionelt,skrive,None,None Og den fil kan så bruges med plotly til at lave en miniapp i dash:</description>
+      <description>Tidsforbrug registreret i ledger cli eller hledger kan rapporteres som</description>
     </item>
     
   </channel>

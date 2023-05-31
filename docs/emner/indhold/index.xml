@@ -6,6 +6,7 @@
     <description>Recent content in indhold on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
+    <copyright>Kiils</copyright>
     <lastBuildDate>Sun, 12 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/emner/indhold/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sidetal væk fra forsiden i pdf over Pandoc fra markdown</title>

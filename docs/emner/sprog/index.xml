@@ -6,6 +6,7 @@
     <description>Recent content in Sprog on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
+    <copyright>Kiils</copyright>
     <lastBuildDate>Mon, 24 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/emner/sprog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hvorfor taler ChatGPT som mine børn</title>
@@ -13,9 +14,7 @@
       <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/blog/hvorfor-taler-chatgpt-som-mine-born/</guid>
-      <description>Her et brudstykke fra en nylig snak med ChatGPT:
-Selvfølgelig, her er et eksempel på en kodeblok med Python-kode og kommentarer i markdown-format:
-# Dette program udskriver &amp;quot;Hej, verden!&amp;quot; på skærmen print(&amp;quot;Hej, verden!&amp;quot;) # Beregner summen af to tal og udskriver resultatet tal1 = 5 tal2 = 3 sum = tal1 + tal2 print(&amp;quot;Summen af&amp;quot;, tal1, &amp;quot;og&amp;quot;, tal2, &amp;quot;er&amp;quot;, sum) Her er kommentarerne både over og under den pågældende kode, i overensstemmelse med det, du requestede.</description>
+      <description>Her et brudstykke fra en nylig snak med ChatGPT:</description>
     </item>
     
     <item>
@@ -24,11 +23,7 @@ Selvfølgelig, her er et eksempel på en kodeblok med Python-kode og kommentarer
       <pubDate>Fri, 02 Sep 2022 08:57:34 +0200</pubDate>
       
       <guid>https://www.kiils.dk/blog/foraeldremoedet/</guid>
-      <description>Forældremøder behøver ikke at være kedelige.
-For nylig var jeg til et forældremøde hvor omgangstonen mellem børnene på årgangen var på dagsordenen.
-Eller egentligt var det ikke kun mellem børnene at omgangstonen gav anledning til bekymrede miner.
-En lærer fortalte nemlig at en elev havde kaldt hende for &amp;ldquo;pisse ung&amp;rdquo;. Og bemærkede så at det havde hun nu egentligt ikke haft så meget imod.
-Så blev der eller grinet godt i forsamlingen.</description>
+      <description>Forældremøder behøver ikke at være kedelige.</description>
     </item>
     
   </channel>
