@@ -19,14 +19,14 @@
   <meta name="theme-color" content="rgb(255,255,255)" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Søgning &middot; Kiils</title>
-    <meta name="title" content="Søgning &middot; Kiils" />
+  <title>Folkets.dk &middot; Kiils</title>
+    <meta name="title" content="Folkets.dk &middot; Kiils" />
   
-  <meta name="description" content="Tast søgeord i feltet Noget du ikke fandt?" />
+  <meta name="description" content="" />
   
   
   
-  <link rel="canonical" href="https://www.kiils.dk/search/" />
+  <link rel="canonical" href="https://www.kiils.dk/domain/folkets/" />
   
   
   
@@ -74,10 +74,10 @@
   
   
   
- <meta property="og:title" content="Søgning" />
-<meta property="og:description" content="Tast søgeord i feltet Noget du ikke fandt?" />
+ <meta property="og:title" content="Folkets.dk" />
+<meta property="og:description" content="" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.kiils.dk/search/" />
+<meta property="og:url" content="https://www.kiils.dk/domain/folkets/" />
 
 
 
@@ -90,26 +90,26 @@
 
 
 
-<meta property="og:image" content="/images/canvas_huf5a4a47d272c9e72b490e7eba58c5b9b_363_filter_5944147724289341887.png" /><meta property="article:section" content="" />
+<meta property="og:image" content="/images/canvas_huf5a4a47d272c9e72b490e7eba58c5b9b_363_filter_15517205985210998193.png" /><meta property="article:section" content="domain" />
 
 <meta property="og:site_name" content="Kiils" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Søgning"/>
-<meta name="twitter:description" content="Tast søgeord i feltet Noget du ikke fandt?"/>
+<meta name="twitter:title" content="Folkets.dk"/>
+<meta name="twitter:description" content=""/>
 
   
   <script type="application/ld+json">
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Velkommen til Kiils",
-    "name": "Søgning",
-    "headline": "Søgning",
+    "articleSection": "Domæner",
+    "name": "Folkets.dk",
+    "headline": "Folkets.dk",
     
-    "abstract": "Tast søgeord i feltet Noget du ikke fandt?",
+    
     "inLanguage": "da",
-    "url" : "https:\/\/www.kiils.dk\/search\/",
+    "url" : "https:\/\/www.kiils.dk\/domain\/folkets\/",
     "author" : {
       "@type": "Person",
       "name": "Lennart Kiil"
@@ -123,7 +123,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "10"
+    "wordCount": "0"
   }]
   </script>
 
@@ -175,6 +175,17 @@
 
       
       
+  <ul class="flex list-none flex-row">
+
+
+    
+    <li class="ml-2">
+        <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href="https://www.kiils.dk/en/domain/folkets/">English</a>
+    </li>
+    
+  </ul>
+
+
 
     </div>
     
@@ -403,6 +414,8 @@
   
     
   
+    
+  
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
@@ -412,11 +425,20 @@
   </li>
 
   
+  <li class="inline ">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/domain/"
+      >Domæner</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/search/"
-      >Søgning</a
+      href="/domain/folkets/"
+      >Folkets.dk</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -425,145 +447,11 @@
 
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        Søgning
+        Folkets.dk
       </h1>
     </header>
     <section class="max-w-full mt-6 prose dark:prose-invert">
       
- <script src="/js/lunr.js"></script>
-
-<script type="text/javascript">
-
-// define globale variables
-var idx, searchInput, searchResults = null
-var documents = []
-
-function renderSearchResults(results){
-
-    if (results.length > 0) {
-
-        // show max 10 results
-        if (results.length > 9){
-            results = results.slice(0,10)
-        }
-
-        // reset search results
-        searchResults.innerHTML = ''
-
-        // append results
-        results.forEach(result => {
-
-            // create result item
-            var article = document.createElement('article')
-            article.innerHTML = `
-            <div class="relative w-100 bg-white">
-
-            <div class="bg-white pa4 gray overflow-hidden">
-            <h3 class="f3 near-black ma0"><a class="link black dim" href="${result.ref}">${documents[result.ref].title}</a></h3>
-            </div>
-
-            </div>
-            <br>
-            `
-            searchResults.appendChild(article)
-        })
-
-    // if results are empty
-    } else {
-        searchResults.innerHTML = '<p>Ingen resultater.</p>'
-    }
-}
-
-function registerSearchHandler() {
-
-    // register on input event
-    searchInput.oninput = function(event) {
-
-        // remove search results if the user empties the search input field
-        if (searchInput.value == '') {
-
-            searchResults.innerHTML = ''
-        } else {
-
-            // get input value
-            var query = event.target.value
-
-            // run fuzzy search
-            var results = idx.search(query + '*')
-
-            // render results
-            renderSearchResults(results)
-        }
-    }
-
-    // set focus on search input and remove loading placeholder
-    searchInput.focus()
-    searchInput.placeholder = '⌕'
-}
-
-window.onload = function() {
-
-    // get dom elements
-    searchInput = document.getElementById('search-input')
-    searchResults = document.getElementById('search-results')
-
-    // request and index documents
-    fetch('/index.json', {
-        method: 'get'
-    }).then(
-        res => res.json()
-    ).then(
-        res => {
-
-            // index document
-            idx = lunr(function() {
-                this.ref('url')
-                this.field('title')
-                this.field('content')
-
-                res.forEach(function(doc) {
-                    this.add(doc)
-                    documents[doc.url] = {
-                        'title': doc.title,
-                        'content': doc.content,
-                    }
-                }, this)
-            })
-
-            // data is loaded, next register handler
-            registerSearchHandler()
-        }
-    ).catch(
-        err => {
-            searchResults.innerHTML = `<p>${err}</p>`
-        }
-    )
-}
-</script>
-
-
-
-
-
-
-
-
-
-<form class="pv4 black-80 w-100">
-    <label for="name" class="f6 b db mb2">Tast søgeord i feltet</label>
-    <input id="search-input" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
-    <small id="name-desc" class="f6 black-60 db mb2">Noget du ikke fandt? <a href="/kontakt/" class="link underline black-80 hover-blue">Kontakt Kiils</a></small>
-</form>
-
-
-<section id="search-results" class="search"></section>
-
-<style>
-input::placeholder {
-  text-align: right;
-}
-</style>
-
     </section>
     <footer class="pt-8">
       

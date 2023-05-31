@@ -135,7 +135,7 @@
   
     
       <url>
-            <loc>https://www.kiils.dk/en/domains/climate-encyclopedia/</loc>
+            <loc>https://www.kiils.dk/en/domain/climate-encyclopedia/</loc>
           </url>
     
   
@@ -143,32 +143,32 @@
   
     
       <url>
-            <loc>https://www.kiils.dk/en/domains/</loc>
+            <loc>https://www.kiils.dk/en/domain/</loc>
             <xhtml:link
               rel="alternate"
               hreflang="da"
-              href="https://www.kiils.dk/domains/"
+              href="https://www.kiils.dk/domain/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="https://www.kiils.dk/en/domains/"
+              href="https://www.kiils.dk/en/domain/"
               />
           </url>
     
   
     
       <url>
-            <loc>https://www.kiils.dk/en/domains/folkets/</loc>
+            <loc>https://www.kiils.dk/en/domain/folkets/</loc>
             <xhtml:link
               rel="alternate"
               hreflang="da"
-              href="https://www.kiils.dk/domains/folkets/"
+              href="https://www.kiils.dk/domain/folkets/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="https://www.kiils.dk/en/domains/folkets/"
+              href="https://www.kiils.dk/en/domain/folkets/"
               />
           </url>
     

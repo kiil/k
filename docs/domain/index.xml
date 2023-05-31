@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Domæner on Kiils</title>
-    <link>https://www.kiils.dk/domains/</link>
+    <link>https://www.kiils.dk/domain/</link>
     <description>Recent content in Domæner on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
-    <copyright>Kiils</copyright><atom:link href="https://www.kiils.dk/domains/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Kiils</copyright><atom:link href="https://www.kiils.dk/domain/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Folkets.dk</title>
-      <link>https://www.kiils.dk/domains/folkets/</link>
+      <link>https://www.kiils.dk/domain/folkets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.kiils.dk/domains/folkets/</guid>
+      <guid>https://www.kiils.dk/domain/folkets/</guid>
       <description></description>
     </item>
     

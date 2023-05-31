@@ -1063,10 +1063,10 @@
     
     <item>
       <title>Folkets.dk</title>
-      <link>https://www.kiils.dk/domains/folkets/</link>
+      <link>https://www.kiils.dk/domain/folkets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.kiils.dk/domains/folkets/</guid>
+      <guid>https://www.kiils.dk/domain/folkets/</guid>
       <description></description>
     </item>
     
@@ -1203,15 +1203,6 @@
       
       <guid>https://www.kiils.dk/kunde/statens-naturhistoriske-museum/</guid>
       <description>Formidling omkring biomimetik.</description>
-    </item>
-    
-    <item>
-      <title>Søgning</title>
-      <link>https://www.kiils.dk/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.kiils.dk/search/</guid>
-      <description>Tast søgeord i feltet Noget du ikke fandt?</description>
     </item>
     
     <item>
