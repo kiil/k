@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils</copyright>
-    <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hjælp til indholdsstrategi</title>
       <link>https://www.kiils.dk/ydelse/raadgivning/indholdsstrategi/</link>
@@ -96,6 +96,24 @@
       
       <guid>https://www.kiils.dk/ydelse/research/skattejagt/</guid>
       <description>Jeg finder &amp;ldquo;oplagte&amp;rdquo; forbedringer</description>
+    </item>
+    
+    <item>
+      <title>✍️ Kursus — Lær poet-teknikken og skriv som et menneske</title>
+      <link>https://www.kiils.dk/kursus/skriv-som-en-poet-og-lyd-som-et-menneske/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/kursus/skriv-som-en-poet-og-lyd-som-et-menneske/</guid>
+      <description>Hvordan skriver man så det fanger opmærksomheden?</description>
+    </item>
+    
+    <item>
+      <title>📈 Kursus — Sådan får du værdifulde 💎 data 💎 ud af tekst</title>
+      <link>https://www.kiils.dk/kursus/tekst-data/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/kursus/tekst-data/</guid>
+      <description>Med kunstig intelligens er det blevet muligt at lave værdifulde analyser af store mængder tekst - men hvordan gør man?</description>
     </item>
     
     <item>
@@ -1130,7 +1148,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/kontakt/</guid>
-      <description>Du kan ringe på telefon 40261872 eller skrive en mail direkte til lennartkiil@gmail.</description>
+      <description>Ring på telefon 40261872 eller skriv en mail til lennart@kiils.</description>
     </item>
     
     <item>

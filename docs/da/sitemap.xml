@@ -23,13 +23,6 @@
   
     
       <url>
-            <loc>https://www.kiils.dk/ydelse/</loc>
-            <lastmod>2022-06-03T10:43:51+02:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://www.kiils.dk/anbefalinger/</loc>
           </url>
     
@@ -78,6 +71,58 @@
   
     
       <url>
+            <loc>https://www.kiils.dk/kursus/skriv-som-en-poet-og-lyd-som-et-menneske/</loc>
+            <lastmod>2023-06-01T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/kursus/tekst-data/</loc>
+            <lastmod>2023-06-01T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/kursus/</loc>
+            <lastmod>2023-06-01T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/</loc>
+            <lastmod>2023-06-01T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://www.kiils.dk/en/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="da"
+              href="https://www.kiils.dk/"
+              />
+          </url>
+    
+  
+    
+      <url>
             <loc>https://www.kiils.dk/blog/</loc>
             <lastmod>2023-05-23T00:00:00+00:00</lastmod>
             <xhtml:link
@@ -119,8 +164,6 @@
     
   
     
-  
-    
       <url>
             <loc>https://www.kiils.dk/blog/giv-noget-af-dig-selv-til-chatgpt/</loc>
             <lastmod>2023-05-23T00:00:00+00:00</lastmod>
@@ -133,27 +176,6 @@
   
     
   
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/</loc>
-            <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://www.kiils.dk/en/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="da"
-              href="https://www.kiils.dk/"
-              />
-          </url>
     
   
     
@@ -285,8 +307,6 @@
     
   
     
-  
-    
       <url>
             <loc>https://www.kiils.dk/blog/spar-tid-med-kunstig-intelligens-sammenfat-et-word-dokument/</loc>
             <lastmod>2023-04-21T00:00:00+00:00</lastmod>
@@ -366,8 +386,6 @@
             <loc>https://www.kiils.dk/blog/dine-fejl-er-din-signatur/</loc>
             <lastmod>2023-04-12T00:00:00+00:00</lastmod>
           </url>
-    
-  
     
   
     
@@ -523,8 +541,6 @@
     
   
     
-  
-    
       <url>
             <loc>https://www.kiils.dk/blog/2023-01-nushell-stripe/</loc>
             <lastmod>2023-01-31T00:00:00+00:00</lastmod>
@@ -670,6 +686,13 @@
     
       <url>
             <loc>https://www.kiils.dk/ydelse/raadgivning/</loc>
+            <lastmod>2022-06-03T10:43:51+02:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/ydelse/</loc>
             <lastmod>2022-06-03T10:43:51+02:00</lastmod>
           </url>
     
@@ -1001,10 +1024,6 @@
     
   
     
-  
-    
-  
-    
       <url>
             <loc>https://www.kiils.dk/blog/frontend/klimaleksikon-tachyons-performance/</loc>
             <lastmod>2019-06-11T00:00:00+00:00</lastmod>
@@ -1068,8 +1087,6 @@
             <loc>https://www.kiils.dk/blog/muren/redning/</loc>
             <lastmod>2018-05-22T00:00:00+00:00</lastmod>
           </url>
-    
-  
     
   
     
@@ -1158,6 +1175,8 @@
       <url>
             <loc>https://www.kiils.dk/kunde/billetkontoret/</loc>
           </url>
+    
+  
     
   
     
