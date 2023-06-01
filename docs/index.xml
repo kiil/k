@@ -100,19 +100,19 @@
     
     <item>
       <title>✍️ Kursus — Lær poet-teknikken og skriv som et menneske</title>
-      <link>https://www.kiils.dk/kursus/skriv-som-en-poet-og-lyd-som-et-menneske/</link>
+      <link>https://www.kiils.dk/ydelse/kursus/skriv-som-en-poet-og-lyd-som-et-menneske/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.kiils.dk/kursus/skriv-som-en-poet-og-lyd-som-et-menneske/</guid>
+      <guid>https://www.kiils.dk/ydelse/kursus/skriv-som-en-poet-og-lyd-som-et-menneske/</guid>
       <description>Hvordan skriver man så det fanger opmærksomheden?</description>
     </item>
     
     <item>
       <title>📈 Kursus — Sådan får du værdifulde 💎 data 💎 ud af tekst</title>
-      <link>https://www.kiils.dk/kursus/tekst-data/</link>
+      <link>https://www.kiils.dk/ydelse/kursus/tekst-data/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.kiils.dk/kursus/tekst-data/</guid>
+      <guid>https://www.kiils.dk/ydelse/kursus/tekst-data/</guid>
       <description>Med kunstig intelligens er det blevet muligt at lave værdifulde analyser af store mængder tekst - men hvordan gør man?</description>
     </item>
     
@@ -1161,24 +1161,6 @@
     </item>
     
     <item>
-      <title>Priser</title>
-      <link>https://www.kiils.dk/priser/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.kiils.dk/priser/</guid>
-      <description>Prisen er ens for offentlige institutioner, virksomheder og privatpersoner.</description>
-    </item>
-    
-    <item>
-      <title>Privatliv</title>
-      <link>https://www.kiils.dk/privatliv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.kiils.dk/privatliv/</guid>
-      <description>Kiils bruger så få cookies som nærmest muligt.</description>
-    </item>
-    
-    <item>
       <title>PRO Ejendomme</title>
       <link>https://www.kiils.dk/kunde/videnplus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1230,6 +1212,15 @@
       
       <guid>https://www.kiils.dk/kunde/ugeskrift-for-l%C3%A6ger/</guid>
       <description>Artikler om robotteknologi og biomimetik og potentiale for brug i behandling og diagnostik.</description>
+    </item>
+    
+    <item>
+      <title>Venlig</title>
+      <link>https://www.kiils.dk/venlig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/venlig/</guid>
+      <description>Brugervenlig Overskuelig og ingen tracker cookies</description>
     </item>
     
     <item>

@@ -71,14 +71,14 @@
   
     
       <url>
-            <loc>https://www.kiils.dk/kursus/skriv-som-en-poet-og-lyd-som-et-menneske/</loc>
+            <loc>https://www.kiils.dk/ydelse/kursus/skriv-som-en-poet-og-lyd-som-et-menneske/</loc>
             <lastmod>2023-06-01T00:00:00+00:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>https://www.kiils.dk/kursus/tekst-data/</loc>
+            <loc>https://www.kiils.dk/ydelse/kursus/tekst-data/</loc>
             <lastmod>2023-06-01T00:00:00+00:00</lastmod>
           </url>
     
@@ -91,7 +91,7 @@
   
     
       <url>
-            <loc>https://www.kiils.dk/kursus/</loc>
+            <loc>https://www.kiils.dk/ydelse/kursus/</loc>
             <lastmod>2023-06-01T00:00:00+00:00</lastmod>
           </url>
     
@@ -118,6 +118,13 @@
               hreflang="da"
               href="https://www.kiils.dk/"
               />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/ydelse/</loc>
+            <lastmod>2023-06-01T00:00:00+00:00</lastmod>
           </url>
     
   
@@ -686,13 +693,6 @@
     
       <url>
             <loc>https://www.kiils.dk/ydelse/raadgivning/</loc>
-            <lastmod>2022-06-03T10:43:51+02:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/ydelse/</loc>
             <lastmod>2022-06-03T10:43:51+02:00</lastmod>
           </url>
     
@@ -1303,18 +1303,6 @@
   
     
       <url>
-            <loc>https://www.kiils.dk/priser/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/privatliv/</loc>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://www.kiils.dk/kunde/videnplus/</loc>
           </url>
     
@@ -1362,6 +1350,12 @@
     
       <url>
             <loc>https://www.kiils.dk/kunde/ugeskrift-for-l%C3%A6ger/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/venlig/</loc>
           </url>
     
   
