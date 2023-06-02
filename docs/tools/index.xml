@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils</copyright>
-    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/tools/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT</title>
+      <link>https://www.kiils.dk/tools/chatgpt/</link>
+      <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/tools/chatgpt/</guid>
+      <description>ChatGPT er en samtale-orienteret sprogmodel baseret på en ikke nærmere defineret viderudvikling af GPT-3 under OpenAi og microsoft.</description>
+    </item>
+    
     <item>
       <title>LLM</title>
       <link>https://www.kiils.dk/tools/llm/</link>
@@ -24,15 +33,6 @@
       
       <guid>https://www.kiils.dk/tools/markdown/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>ChatGPT</title>
-      <link>https://www.kiils.dk/tools/chatgpt/</link>
-      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.kiils.dk/tools/chatgpt/</guid>
-      <description>ChatGPT er en samtale-orienteret sprogmodel baseret på en ikke nærmere defineret viderudvikling af GPT-3 under OpenAi og microsoft.</description>
     </item>
     
     <item>

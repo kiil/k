@@ -70,6 +70,52 @@
     
   
     
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/ydelse/kursus/</loc>
+            <lastmod>2023-06-02T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/</loc>
+            <lastmod>2023-06-02T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://www.kiils.dk/en/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="da"
+              href="https://www.kiils.dk/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/ydelse/</loc>
+            <lastmod>2023-06-02T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/ydelse/kursus/kursus-fa-mere-ud-af-chatgpt/</loc>
+            <lastmod>2023-06-02T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
       <url>
             <loc>https://www.kiils.dk/ydelse/kursus/skriv-som-en-poet-og-lyd-som-et-menneske/</loc>
             <lastmod>2023-06-01T00:00:00+00:00</lastmod>
@@ -90,43 +136,6 @@
     
   
     
-      <url>
-            <loc>https://www.kiils.dk/ydelse/kursus/</loc>
-            <lastmod>2023-06-01T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/</loc>
-            <lastmod>2023-06-01T00:00:00+00:00</lastmod>
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://www.kiils.dk/en/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="da"
-              href="https://www.kiils.dk/"
-              />
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/ydelse/</loc>
-            <lastmod>2023-06-01T00:00:00+00:00</lastmod>
-          </url>
-    
   
     
       <url>
@@ -143,8 +152,6 @@
               href="https://www.kiils.dk/blog/"
               />
           </url>
-    
-  
     
   
     
