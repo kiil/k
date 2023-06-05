@@ -70,6 +70,37 @@
     
   
     
+      <url>
+            <loc>https://www.kiils.dk/resurser/</loc>
+            <lastmod>2023-06-03T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/resurser/starred/</loc>
+            <lastmod>2023-06-03T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/</loc>
+            <lastmod>2023-06-03T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://www.kiils.dk/en/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="da"
+              href="https://www.kiils.dk/"
+              />
+          </url>
+    
+  
+    
   
     
   
@@ -82,23 +113,6 @@
           </url>
     
   
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/</loc>
-            <lastmod>2023-06-02T00:00:00+00:00</lastmod>
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://www.kiils.dk/en/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="da"
-              href="https://www.kiils.dk/"
-              />
-          </url>
     
   
     
@@ -1190,7 +1204,7 @@
   
     
       <url>
-            <loc>https://www.kiils.dk/prompts/</loc>
+            <loc>https://www.kiils.dk/resurser/prompts/</loc>
           </url>
     
   
@@ -1230,17 +1244,7 @@
   
     
       <url>
-            <loc>https://www.kiils.dk/personas/</loc>
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://www.kiils.dk/en/personas/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="da"
-              href="https://www.kiils.dk/personas/"
-              />
+            <loc>https://www.kiils.dk/resurser/personas/</loc>
           </url>
     
   

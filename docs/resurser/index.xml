@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resurser on Kiils</title>
+    <link>https://www.kiils.dk/resurser/</link>
+    <description>Recent content in Resurser on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <copyright>Kiils</copyright>
+    <lastBuildDate>Sat, 03 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/resurser/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stjernet på Github</title>
+      <link>https://www.kiils.dk/resurser/starred/</link>
+      <pubDate>Sat, 03 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/resurser/starred/</guid>
+      <description>De seneste projekter jeg følger på Github, kan måske inspirere andre.</description>
+    </item>
+    
+    <item>
+      <title>Danske ChatGPT prompts</title>
+      <link>https://www.kiils.dk/resurser/prompts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/resurser/prompts/</guid>
+      <description>Det indledende prompt er afgørende for en brugbar samtale med ChatGPT.</description>
+    </item>
+    
+    <item>
+      <title>Generelle ChatGPT Personaer</title>
+      <link>https://www.kiils.dk/resurser/personas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/resurser/personas/</guid>
+      <description>I OpenAI&amp;rsquo;s ChatGPT bruges den indledende &amp;ldquo;system message&amp;rdquo; ofte til en prompt som opstiller et emne eller opgave for samtalen.</description>
+    </item>
+    
+  </channel>
+</rss>

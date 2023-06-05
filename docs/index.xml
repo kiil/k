@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils</copyright>
-    <lastBuildDate>Fri, 02 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hjælp til indholdsstrategi</title>
       <link>https://www.kiils.dk/ydelse/raadgivning/indholdsstrategi/</link>
@@ -96,6 +96,15 @@
       
       <guid>https://www.kiils.dk/ydelse/research/skattejagt/</guid>
       <description>Jeg finder &amp;ldquo;oplagte&amp;rdquo; forbedringer</description>
+    </item>
+    
+    <item>
+      <title>Stjernet på Github</title>
+      <link>https://www.kiils.dk/resurser/starred/</link>
+      <pubDate>Sat, 03 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/resurser/starred/</guid>
+      <description>De seneste projekter jeg følger på Github, kan måske inspirere andre.</description>
     </item>
     
     <item>
@@ -1072,10 +1081,10 @@
     
     <item>
       <title>Danske ChatGPT prompts</title>
-      <link>https://www.kiils.dk/prompts/</link>
+      <link>https://www.kiils.dk/resurser/prompts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.kiils.dk/prompts/</guid>
+      <guid>https://www.kiils.dk/resurser/prompts/</guid>
       <description>Det indledende prompt er afgørende for en brugbar samtale med ChatGPT.</description>
     </item>
     
@@ -1090,10 +1099,10 @@
     
     <item>
       <title>Generelle ChatGPT Personaer</title>
-      <link>https://www.kiils.dk/personas/</link>
+      <link>https://www.kiils.dk/resurser/personas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.kiils.dk/personas/</guid>
+      <guid>https://www.kiils.dk/resurser/personas/</guid>
       <description>I OpenAI&amp;rsquo;s ChatGPT bruges den indledende &amp;ldquo;system message&amp;rdquo; ofte til en prompt som opstiller et emne eller opgave for samtalen.</description>
     </item>
     

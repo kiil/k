@@ -3,6 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
+      <url>
+            <loc>https://www.kiils.dk/en/resources/</loc>
+          </url>
+    
+  
+    
   
     
       <url>
@@ -117,17 +123,7 @@
   
     
       <url>
-            <loc>https://www.kiils.dk/en/personas/</loc>
-            <xhtml:link
-              rel="alternate"
-              hreflang="da"
-              href="https://www.kiils.dk/personas/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://www.kiils.dk/en/personas/"
-              />
+            <loc>https://www.kiils.dk/en/resources/personas/</loc>
           </url>
     
   
