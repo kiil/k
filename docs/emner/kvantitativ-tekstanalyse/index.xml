@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kvantitativ tekstanalyse on Kiils</title>
+    <link>https://www.kiils.dk/emner/kvantitativ-tekstanalyse/</link>
+    <description>Recent content in kvantitativ tekstanalyse on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <copyright>Kiils</copyright>
+    <lastBuildDate>Thu, 12 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/emner/kvantitativ-tekstanalyse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT mansplainer ikke - men her botsplainer den helt vildt</title>
+      <link>https://www.kiils.dk/blog/nlp/chatgpt-botsplaining/</link>
+      <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/nlp/chatgpt-botsplaining/</guid>
+      <description>ChatGPT er stærk på engelsk og den skammer sig ikke over at de &amp;ldquo;mentale muskler&amp;rdquo; frem.</description>
+    </item>
+    
+    <item>
+      <title>Går det bedre for ChatGPT med ordfrekvensanalyse på engelsk end det gjorde på dansk?</title>
+      <link>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse-engelsk/</link>
+      <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse-engelsk/</guid>
+      <description>Da jeg bad ChatGPT udføre en frekvensanalyse på en dansk tekst talte den ordene to gange:</description>
+    </item>
+    
+    <item>
+      <title>Kan ChatGPT bruges til kvantitativ tekstanalyse?</title>
+      <link>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse/</guid>
+      <description>En simpel form for kvantitativ tekstanalyse er ordfrekvensanalyse.</description>
+    </item>
+    
+  </channel>
+</rss>

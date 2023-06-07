@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drupal 8 on Kiils</title>
+    <link>https://www.kiils.dk/tools/drupal-8/</link>
+    <description>Recent content in Drupal 8 on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <copyright>Kiils</copyright>
+    <lastBuildDate>Tue, 11 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/tools/drupal-8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sådan fik jeg perfekte 100 i mobilhastighed</title>
+      <link>https://www.kiils.dk/blog/frontend/klimaleksikon-tachyons-performance/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/frontend/klimaleksikon-tachyons-performance/</guid>
+      <description>Det er ikke nemt i et CMS</description>
+    </item>
+    
+  </channel>
+</rss>

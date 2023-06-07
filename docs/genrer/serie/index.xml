@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Serier on Kiils</title>
+    <link>https://www.kiils.dk/genrer/serie/</link>
+    <description>Recent content in Serier on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <copyright>Kiils</copyright>
+    <lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/genrer/serie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Skriv som en poet - ikke en bot</title>
+      <link>https://www.kiils.dk/blog/skriv-som-en-poet/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/skriv-som-en-poet/</guid>
+      <description>Poet-teknikken giver større sprogbevidsthed og bedre tekster</description>
+    </item>
+    
+    <item>
+      <title>Store sprogmodeller</title>
+      <link>https://www.kiils.dk/blog/sprogmodeller/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/sprogmodeller/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sproglige og literære virkemidler</title>
+      <link>https://www.kiils.dk/blog/virkemidler/</link>
+      <pubDate>Thu, 14 Jul 2022 13:31:41 +0200</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/virkemidler/</guid>
+      <description>Denne lille grammatik er fokuseret på de dele af sproget som er væsentligst for</description>
+    </item>
+    
+  </channel>
+</rss>

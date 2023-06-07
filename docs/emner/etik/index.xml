@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>etik on Kiils</title>
+    <link>https://www.kiils.dk/emner/etik/</link>
+    <description>Recent content in etik on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <copyright>Kiils</copyright>
+    <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/emner/etik/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Selvcensur gør GPT modeller dummere end de behøver at være</title>
+      <link>https://www.kiils.dk/blog/striks-selvcensur-gor-gpt-modeller-dummere-end-de-behover-at-vaere/</link>
+      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/striks-selvcensur-gor-gpt-modeller-dummere-end-de-behover-at-vaere/</guid>
+      <description>Et fordomsfrit og intelligent menneske kan forholde sig til problematiske emner uden at bifalde dem.</description>
+    </item>
+    
+  </channel>
+</rss>
