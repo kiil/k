@@ -70,6 +70,45 @@
     
   
     
+  
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/kursus/chatgpt-formiddag/</loc>
+            <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/kursus/</loc>
+            <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/</loc>
+            <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://www.kiils.dk/en/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="da"
+              href="https://www.kiils.dk/"
+              />
+          </url>
+    
+  
+    
       <url>
             <loc>https://www.kiils.dk/resurser/</loc>
             <lastmod>2023-06-03T00:00:00+00:00</lastmod>
@@ -85,41 +124,9 @@
   
     
       <url>
-            <loc>https://www.kiils.dk/</loc>
-            <lastmod>2023-06-03T00:00:00+00:00</lastmod>
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://www.kiils.dk/en/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="da"
-              href="https://www.kiils.dk/"
-              />
-          </url>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/kursus/</loc>
-            <lastmod>2023-06-02T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://www.kiils.dk/kursus/kursus-fa-mere-ud-af-chatgpt/</loc>
             <lastmod>2023-06-02T00:00:00+00:00</lastmod>
           </url>
-    
-  
     
   
     
