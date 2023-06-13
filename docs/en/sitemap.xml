@@ -172,32 +172,12 @@
     
       <url>
             <loc>https://www.kiils.dk/en/person/lennart/</loc>
-            <xhtml:link
-              rel="alternate"
-              hreflang="da"
-              href="https://www.kiils.dk/person/lennart/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://www.kiils.dk/en/person/lennart/"
-              />
           </url>
     
   
     
       <url>
             <loc>https://www.kiils.dk/en/person/</loc>
-            <xhtml:link
-              rel="alternate"
-              hreflang="da"
-              href="https://www.kiils.dk/person/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://www.kiils.dk/en/person/"
-              />
           </url>
     
   

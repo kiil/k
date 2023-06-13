@@ -99,23 +99,6 @@
     
   
     
-      <url>
-            <loc>https://www.kiils.dk/person/</loc>
-            <lastmod>2023-06-07T00:00:00+00:00</lastmod>
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://www.kiils.dk/en/person/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="da"
-              href="https://www.kiils.dk/person/"
-              />
-          </url>
-    
-  
-    
   
     
       <url>
@@ -1323,22 +1306,6 @@
   
     
       <url>
-            <loc>https://www.kiils.dk/person/lennart/</loc>
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://www.kiils.dk/en/person/lennart/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="da"
-              href="https://www.kiils.dk/person/lennart/"
-              />
-          </url>
-    
-  
-    
-      <url>
             <loc>https://www.kiils.dk/skribenter/lennart-kiil/</loc>
           </url>
     
@@ -1420,12 +1387,6 @@
     
       <url>
             <loc>https://www.kiils.dk/video/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/person/vincent/</loc>
           </url>
     
   
