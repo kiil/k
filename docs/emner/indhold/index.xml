@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>indhold on Kiils</title>
+    <link>https://www.kiils.dk/emner/indhold/</link>
+    <description>Recent content in indhold on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <copyright>Kiils</copyright>
+    <lastBuildDate>Sun, 12 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/emner/indhold/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sidetal væk fra forsiden i pdf over Pandoc fra markdown</title>
+      <link>https://www.kiils.dk/blog/tips-tricks/sidetal/</link>
+      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/tips-tricks/sidetal/</guid>
+      <description>Nogle gange vil man ikke have sidetal på titel-siden</description>
+    </item>
+    
+  </channel>
+</rss>

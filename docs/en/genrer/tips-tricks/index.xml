@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tips &amp; tricks on Kiils</title>
+    <link>https://www.kiils.dk/en/genrer/tips-tricks/</link>
+    <description>Recent content in Tips &amp; tricks on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Kiils</copyright>
+    <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/en/genrer/tips-tricks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Merging an emoji 😘 font into a text font ❤️</title>
+      <link>https://www.kiils.dk/en/blog/merging-an-emoji-font-into-a-text-font/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/en/blog/merging-an-emoji-font-into-a-text-font/</guid>
+      <description>I wanted to use the font Noto Sans with the Noto Emoji font for making an image overlay text in Hugo.</description>
+    </item>
+    
+  </channel>
+</rss>

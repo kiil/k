@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nushell on Kiils</title>
+    <link>https://www.kiils.dk/tools/nushell/</link>
+    <description>Recent content in nushell on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <copyright>Kiils</copyright>
+    <lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/tools/nushell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nushell og stripes API</title>
+      <link>https://www.kiils.dk/blog/2023-01-nushell-stripe/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/2023-01-nushell-stripe/</guid>
+      <description>Nushell gør det nemt at interagere med API</description>
+    </item>
+    
+    <item>
+      <title>Uhyre hurtig tekstanalyse med dataframes i Nushell</title>
+      <link>https://www.kiils.dk/blog/nlp/nushell-dataframes/</link>
+      <pubDate>Thu, 24 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/nlp/nushell-dataframes/</guid>
+      <description>Uhyggelig hurtig tekstanalyse med dataframes</description>
+    </item>
+    
+    <item>
+      <title>Simpel og hurtig ordfrekvensanalyse i Nushell</title>
+      <link>https://www.kiils.dk/blog/nlp/nushell/</link>
+      <pubDate>Tue, 08 Nov 2022 09:47:02 +0100</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/nlp/nushell/</guid>
+      <description>En shell der egner sig godt til dataanalyse, er Nushell.</description>
+    </item>
+    
+  </channel>
+</rss>
