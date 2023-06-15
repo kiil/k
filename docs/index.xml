@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils</copyright>
-    <lastBuildDate>Wed, 07 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hjælp til indholdsstrategi</title>
       <link>https://www.kiils.dk/ydelse/raadgivning/indholdsstrategi/</link>
@@ -96,6 +96,15 @@
       
       <guid>https://www.kiils.dk/ydelse/research/skattejagt/</guid>
       <description>Jeg finder &amp;ldquo;oplagte&amp;rdquo; forbedringer</description>
+    </item>
+    
+    <item>
+      <title>OpenAI lancerer function calling i API</title>
+      <link>https://www.kiils.dk/blog/openai-lancerer-function-calling-i-api/</link>
+      <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/blog/openai-lancerer-function-calling-i-api/</guid>
+      <description>Tidligere på året lancerede OpenAI plugins til deres slutbrugerprodukt, ChatGPT.</description>
     </item>
     
     <item>
@@ -1167,15 +1176,6 @@
       
       <guid>https://www.kiils.dk/kontakt/</guid>
       <description>Ring på telefon 40261872 eller skriv en mail til lennart@kiils.</description>
-    </item>
-    
-    <item>
-      <title>OpenAI lancerer function calling i API</title>
-      <link>https://www.kiils.dk/blog/openai-lancerer-function-calling-i-api/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.kiils.dk/blog/openai-lancerer-function-calling-i-api/</guid>
-      <description>Tidligere på året lancerede OpenAI plugins til deres slutbrugerprodukt, ChatGPT.</description>
     </item>
     
     <item>

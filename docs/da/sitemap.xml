@@ -70,9 +70,56 @@
     
   
     
+      <url>
+            <loc>https://www.kiils.dk/blog/</loc>
+            <lastmod>2023-06-15T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://www.kiils.dk/en/blog/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="da"
+              href="https://www.kiils.dk/blog/"
+              />
+          </url>
+    
   
     
   
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/blog/openai-lancerer-function-calling-i-api/</loc>
+            <lastmod>2023-06-15T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/</loc>
+            <lastmod>2023-06-15T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://www.kiils.dk/en/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="da"
+              href="https://www.kiils.dk/"
+              />
+          </url>
     
   
     
@@ -104,25 +151,6 @@
       <url>
             <loc>https://www.kiils.dk/resurser/</loc>
             <lastmod>2023-06-07T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/</loc>
-            <lastmod>2023-06-07T00:00:00+00:00</lastmod>
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://www.kiils.dk/en/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="da"
-              href="https://www.kiils.dk/"
-              />
           </url>
     
   
@@ -162,23 +190,6 @@
   
     
   
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/blog/</loc>
-            <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://www.kiils.dk/en/blog/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="da"
-              href="https://www.kiils.dk/blog/"
-              />
-          </url>
     
   
     
@@ -1310,14 +1321,6 @@
           </url>
     
   
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/blog/openai-lancerer-function-calling-i-api/</loc>
-          </url>
     
   
     
