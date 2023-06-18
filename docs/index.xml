@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils</copyright>
-    <lastBuildDate>Thu, 15 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hjælp til indholdsstrategi</title>
       <link>https://www.kiils.dk/ydelse/raadgivning/indholdsstrategi/</link>
@@ -675,7 +675,7 @@
     </item>
     
     <item>
-      <title>Bruge hugo server på lokalt netværk</title>
+      <title>Bruge Hugo server på lokalt netværk</title>
       <link>https://www.kiils.dk/blog/2022-06-08t123345/</link>
       <pubDate>Wed, 08 Jun 2022 12:33:45 +0200</pubDate>
       

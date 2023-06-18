@@ -45,11 +45,11 @@
     </item>
     
     <item>
-      <title>nvim</title>
-      <link>https://www.kiils.dk/tools/nvim/</link>
+      <title>Neovim</title>
+      <link>https://www.kiils.dk/tools/neovim/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.kiils.dk/tools/nvim/</guid>
+      <guid>https://www.kiils.dk/tools/neovim/</guid>
       <description></description>
     </item>
     
@@ -243,7 +243,7 @@
     </item>
     
     <item>
-      <title>hugo</title>
+      <title>Hugo</title>
       <link>https://www.kiils.dk/tools/hugo/</link>
       <pubDate>Thu, 16 Jun 2022 12:10:31 +0200</pubDate>
       
@@ -342,6 +342,15 @@
     </item>
     
     <item>
+      <title>Googles søgekonsol</title>
+      <link>https://www.kiils.dk/tools/googles-s%C3%B8gekonsol/</link>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/tools/googles-s%C3%B8gekonsol/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>atom</title>
       <link>https://www.kiils.dk/tools/atom/</link>
       <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
@@ -356,15 +365,6 @@
       <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/tools/latex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Googles-søgekonsol</title>
-      <link>https://www.kiils.dk/tools/googles-s%C3%B8gekonsol/</link>
-      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.kiils.dk/tools/googles-s%C3%B8gekonsol/</guid>
       <description></description>
     </item>
     
@@ -387,11 +387,11 @@
     </item>
     
     <item>
-      <title>bootstrap-4</title>
-      <link>https://www.kiils.dk/tools/bootstrap-4/</link>
+      <title>Bootstrap</title>
+      <link>https://www.kiils.dk/tools/bootstrap/</link>
       <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.kiils.dk/tools/bootstrap-4/</guid>
+      <guid>https://www.kiils.dk/tools/bootstrap/</guid>
       <description></description>
     </item>
     
@@ -423,7 +423,7 @@
     </item>
     
     <item>
-      <title>google-analytics</title>
+      <title>Google Analytics</title>
       <link>https://www.kiils.dk/tools/google-analytics/</link>
       <pubDate>Fri, 07 Jun 2019 00:00:00 +0000</pubDate>
       
