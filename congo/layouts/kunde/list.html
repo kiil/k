@@ -1,0 +1,39 @@
+{{ define "main" }}
+<article class="max-w-prose prose dark:prose-invert">
+  <header class="prose dark:prose-invert">
+    {{ if .Params.showBreadcrumbs | default (.Site.Params.list.showBreadcrumbs | default false) }}
+    {{ partial "breadcrumbs.html" . }}
+    {{ end }}
+    <h1>{{ .Title }}</h1>
+  </header>
+  <section>
+    <p>Utilfredse kunder: 0</p>
+    <ul>
+      {{- range first 3 (where .Site.RegularPages "Params.anbefaling" "ne" nil ) -}} 
+      <li>
+        <a href="{{ .Page.RelPermalink }}">{{ .Params.anbefaling }}</a>
+      </li>
+      {{ end }}
+    </ul>
+    <p>Tilfredse kunder: {{ len (where .Site.RegularPages "Type" "kunde" )  }}</p>
+    <div class="min-w-0 min-h-0 max-w-prose grow">
+      {{ .Content | emojify }}
+    </div>
+  </section>
+</article>
+
+{{ if .Data.Pages }}
+<section>
+  {{ range (.Paginate .Pages).Pages }}
+  {{ partial "article-link-simple.html" . }}
+  {{ end }}
+</section>
+{{ partial "pagination.html" . }}
+{{ else }}
+<section class="mt-10 prose dark:prose-invert">
+  <p class="py-8 border-t">
+  <em>{{ i18n "list.no_articles" | emojify }}</em>
+  </p>
+</section>
+{{ end }}
+{{ end }}

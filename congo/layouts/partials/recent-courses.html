@@ -1,0 +1,4 @@
+  <h2 class="mt-8 text-2xl font-extrabold">{{ i18n "shortcode.recent_courses" | emojify }}</h2>
+  {{ range first .Site.Params.homepage.recentLimit (.Paginate (where .Site.RegularPages "Type" "in" "kursus") .Site.Params.homepage.recentLimit).Pages }}
+    {{ partial "article-link-kursus.html" . }}
+  {{ end }}

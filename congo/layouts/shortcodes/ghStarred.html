@@ -1,0 +1,9 @@
+{{ $url := .Get "url" }}
+{{ range getJSON $url }}
+{{ $p := . }}
+## {{ $p.name }}
+<a href="{{ $p.html_url }}" target="_blank">{{ $p.full_name }}</a>
+<p>{{ $p.owner.login }} | Sprog: {{$p.language}} | Stjerner: {{$p.stargazers_count}} | Forks: {{$p.forks_count}}  {{if $p.archived}}| Archived{{end}}<br>
+Created at: {{substr $p.created_at 0 10}} Updated at: {{substr $p.updated_at 0 10}} Pushed at: {{substr $p.pushed_at 0 10}}</p>
+<p>{{ $p.description }}</p>
+{{ end }}

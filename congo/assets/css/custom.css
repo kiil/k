@@ -1,0 +1,6 @@
+.prose h2 del {text-decoration-thickness: 3px;}
+html {font-size: 13pt;}
+@media (min-width: 1024px) {
+.lg\:max-w-sm {max-width: 24rem;}
+.lg\:max-w-md {max-width: 28rem;}
+}

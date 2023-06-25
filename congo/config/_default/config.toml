@@ -1,0 +1,34 @@
+# -- Site Configuration --
+# Refer to the theme docs for more details about each of these parameters.
+# https://jpanther.github.io/congo/docs/getting-started/
+
+
+# KIILS
+baseURL = "https://www.kiils.dk/"
+publishDir = '../docs'
+defaultContentLanguage = "da"
+enableRobotsTXT = true
+paginate = 128
+summaryLength = 0
+
+[languages]
+
+[languages.da]
+contentDir = '/home/lk/Noter/x/k/da/'
+
+[languages.en]
+contentDir = '/home/lk/Noter/x/k/en/'
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+brands = "brands"
+cases = "cases"
+#cm = "cm"
+emner = "emner"
+tools = "tools"
+genrer = "genrer"
+tags = "tags"
+categories = "categories"
+person = "person"
