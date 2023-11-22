@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nvim on Kiils</title>
+    <link>https://www.kiils.dk/tools/nvim/</link>
+    <description>Recent content in nvim on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <copyright>Kiils CVR 35172831</copyright>
+    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.kiils.dk/tools/nvim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hvem er det næste geni - ChatGPT svarede forskelligt alt efter hvilken personlighed jeg tildelte den</title>
+      <link>https://www.kiils.dk/blog/personlighed/</link>
+      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/blog/personlighed/</guid>
+      <description>Samme prompt til alle ChatGPT-personaer:</description>
+    </item>
+    <item>
+      <title>Kunstig intelligens og journalistik</title>
+      <link>https://www.kiils.dk/blog/kunstig-intelligens-og-journalistik/</link>
+      <pubDate>Fri, 14 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/blog/kunstig-intelligens-og-journalistik/</guid>
+      <description>AI-Assisted Journalism: A New Era of Content Creation and News Reporting Table of Contents: Industry Transformation Impact on News Generation and Distribution Ethical Considerations for AI in Journalism Conclusion References</description>
+    </item>
+    <item>
+      <title>Hvordan får jeg ChatGPT til at droppe startkomma</title>
+      <link>https://www.kiils.dk/blog/hvordan-far-jeg-chatgpt-til-at-droppe-startkomma/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/blog/hvordan-far-jeg-chatgpt-til-at-droppe-startkomma/</guid>
+      <description>ChatGPT og andet værktøj baseret på store sprogmodeller sætter gammeldags grammatisk komme, inklusive det ellers ofte meget overflødige startkomma.</description>
+    </item>
+    <item>
+      <title>Hvad er forskellen på prompt deisgn og prompt engineering</title>
+      <link>https://www.kiils.dk/blog/hvad-er-forskellen-pa-prompt-deisgn-og-prompt-engineering/</link>
+      <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/blog/hvad-er-forskellen-pa-prompt-deisgn-og-prompt-engineering/</guid>
+      <description>Prompt design er mere overordnede betragtninger og hvad hensigten med et prompt er.</description>
+    </item>
+    <item>
+      <title>Hvad skal vi med generativ AI - har vi ikke mere end rigeligt indhold</title>
+      <link>https://www.kiils.dk/blog/hvad-skal-vi-med-generativ-ai-har-vi-ikke-mere-end-rigeligt-indhold/</link>
+      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/blog/hvad-skal-vi-med-generativ-ai-har-vi-ikke-mere-end-rigeligt-indhold/</guid>
+      <description>Assisterende sprogtekonologi.</description>
+    </item>
+  </channel>
+</rss>

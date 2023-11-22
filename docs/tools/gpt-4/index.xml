@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831</copyright>
-    <lastBuildDate>Wed, 12 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/tools/gpt-4/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.kiils.dk/tools/gpt-4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dine fejl er din signatur</title>
       <link>https://www.kiils.dk/blog/dine-fejl-er-din-signatur/</link>
       <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.kiils.dk/blog/dine-fejl-er-din-signatur/</guid>
       <description>Jo mere fejlfrit man skriver, jo mere ligner man en bot</description>
     </item>
-    
   </channel>
 </rss>

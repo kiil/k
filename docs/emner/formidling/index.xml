@@ -7,24 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831</copyright>
-    <lastBuildDate>Thu, 05 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/emner/formidling/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 May 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.kiils.dk/emner/formidling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Formidling i særklasse</title>
       <link>https://www.kiils.dk/ydelse/redaktionelt/formidling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.kiils.dk/ydelse/redaktionelt/formidling/</guid>
       <description>Formidling er en spidskompetence hos Kiils - få dit budskab sikkert igennem her</description>
     </item>
-    
     <item>
       <title>Det er svært at forklare min søn, men min datter forstår sine gear</title>
       <link>https://www.kiils.dk/blog/tanker/gear/</link>
       <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.kiils.dk/blog/tanker/gear/</guid>
       <description>Nogle gange er det nemt at forklare noget som ellers kan være ret svært</description>
     </item>
-    
   </channel>
 </rss>

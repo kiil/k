@@ -7,60 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831</copyright>
-    <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/genrer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.kiils.dk/genrer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Overvejelser</title>
       <link>https://www.kiils.dk/genrer/overvejelser/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.kiils.dk/genrer/overvejelser/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Notits</title>
       <link>https://www.kiils.dk/genrer/notits/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.kiils.dk/genrer/notits/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Serier</title>
       <link>https://www.kiils.dk/genrer/serie/</link>
       <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.kiils.dk/genrer/serie/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>bedrifter</title>
       <link>https://www.kiils.dk/genrer/bedrifter/</link>
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.kiils.dk/genrer/bedrifter/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>lifehacks</title>
       <link>https://www.kiils.dk/genrer/lifehacks/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://www.kiils.dk/genrer/lifehacks/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Polemik</title>
       <link>https://www.kiils.dk/genrer/polemik/</link>
       <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://www.kiils.dk/genrer/polemik/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

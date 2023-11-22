@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831</copyright>
-    <lastBuildDate>Wed, 15 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/tools/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.kiils.dk/tools/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automatisering med systemd</title>
       <link>https://www.kiils.dk/blog/20230215-automatisering-systemd/</link>
       <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.kiils.dk/blog/20230215-automatisering-systemd/</guid>
       <description>Gå til eller opret ~/.</description>
     </item>
-    
   </channel>
 </rss>

@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Kiils</copyright>
-    <lastBuildDate>Thu, 14 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/en/emner/stripe/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 May 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.kiils.dk/en/emner/stripe/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Servicebot.io is great</title>
       <link>https://www.kiils.dk/en/blog/servicebot-is-great/</link>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://www.kiils.dk/en/blog/servicebot-is-great/</guid>
       <description>Servicebot has my highest recommendation</description>
     </item>
-    
   </channel>
 </rss>

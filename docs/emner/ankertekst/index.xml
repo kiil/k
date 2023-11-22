@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831</copyright>
-    <lastBuildDate>Tue, 06 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/emner/ankertekst/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.kiils.dk/emner/ankertekst/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hvad betyder ankertekst?</title>
       <link>https://www.kiils.dk/blog/seo/hvad-betyder-ankertekst/</link>
       <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://www.kiils.dk/blog/seo/hvad-betyder-ankertekst/</guid>
       <description>I SEO-sprog nævnes ofte ankertekst, men hvad er det egentligt?</description>
     </item>
-    
   </channel>
 </rss>

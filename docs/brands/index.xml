@@ -7,51 +7,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831</copyright>
-    <lastBuildDate>Wed, 11 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/brands/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.kiils.dk/brands/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Folkets Avis</title>
       <link>https://www.kiils.dk/brands/folkets-avis/</link>
       <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://www.kiils.dk/brands/folkets-avis/</guid>
       <description>En dansk platform</description>
     </item>
-    
     <item>
       <title>digitalt</title>
       <link>https://www.kiils.dk/brands/digitalt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.kiils.dk/brands/digitalt/</guid>
       <description>Nutid og fremtid - altid online</description>
     </item>
-    
     <item>
       <title>Mediemøllen</title>
       <link>https://www.kiils.dk/brands/mediem%C3%B8llen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.kiils.dk/brands/mediem%C3%B8llen/</guid>
       <description>Analyser af medierne og deres rolle i samfund og politik</description>
     </item>
-    
     <item>
       <title>Oplevelser</title>
       <link>https://www.kiils.dk/brands/oplevelser/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.kiils.dk/brands/oplevelser/</guid>
       <description>Det gode i livet</description>
     </item>
-    
     <item>
       <title>Rævekagen</title>
       <link>https://www.kiils.dk/brands/r%C3%A6vekagen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://www.kiils.dk/brands/r%C3%A6vekagen/</guid>
       <description>Sjov med magthaverne</description>
     </item>
-    
   </channel>
 </rss>

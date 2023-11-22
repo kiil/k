@@ -4,6 +4,20 @@
   
     
       <url>
+            <loc>https://www.kiils.dk/kursus/chatgpt-formiddag/</loc>
+            <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/kursus/kursus-fa-mere-ud-af-chatgpt/</loc>
+            <lastmod>2023-06-02T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
             <loc>https://www.kiils.dk/ydelse/raadgivning/indholdsstrategi/</loc>
             <lastmod>2022-06-03T10:43:51+02:00</lastmod>
           </url>
@@ -70,37 +84,16 @@
     
   
     
-  
-    
-  
-    
       <url>
-            <loc>https://www.kiils.dk/link/</loc>
-            <lastmod>2023-06-18T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/</loc>
-            <lastmod>2023-06-18T00:00:00+00:00</lastmod>
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://www.kiils.dk/en/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="da"
-              href="https://www.kiils.dk/"
-              />
+            <loc>https://www.kiils.dk/blog/kan-man-stadig-regne-med-openai/</loc>
+            <lastmod>2023-11-22T00:00:00+00:00</lastmod>
           </url>
     
   
     
       <url>
             <loc>https://www.kiils.dk/blog/</loc>
-            <lastmod>2023-06-15T00:00:00+00:00</lastmod>
+            <lastmod>2023-11-22T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -119,9 +112,96 @@
     
   
     
+  
+    
+  
+    
       <url>
-            <loc>https://www.kiils.dk/blog/openai-lancerer-function-calling-i-api/</loc>
-            <lastmod>2023-06-15T00:00:00+00:00</lastmod>
+            <loc>https://www.kiils.dk/</loc>
+            <lastmod>2023-11-22T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://www.kiils.dk/en/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="da"
+              href="https://www.kiils.dk/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/blog/personlighed/</loc>
+            <lastmod>2023-07-17T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/blog/kunstig-intelligens-og-journalistik/</loc>
+            <lastmod>2023-07-14T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/blog/openai-lancerer-ny-sprogmodel-som-kan-programmere-sig-selv/</loc>
+            <lastmod>2023-07-11T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/blog/hvordan-far-jeg-chatgpt-til-at-droppe-startkomma/</loc>
+            <lastmod>2023-07-09T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/blog/hvad-er-forskellen-pa-prompt-deisgn-og-prompt-engineering/</loc>
+            <lastmod>2023-06-28T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/blog/tre-typer-store-sprogmodeller/</loc>
+            <lastmod>2023-06-28T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/blog/hvad-kan-man-bruge-store-sprogmodeller-til/</loc>
+            <lastmod>2023-06-26T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/blog/hvad-skal-vi-med-generativ-ai-har-vi-ikke-mere-end-rigeligt-indhold/</loc>
+            <lastmod>2023-06-22T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/link/</loc>
+            <lastmod>2023-06-22T00:00:00+00:00</lastmod>
           </url>
     
   
@@ -132,15 +212,28 @@
     
       <url>
             <loc>https://www.kiils.dk/kursus/</loc>
-            <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+            <lastmod>2023-06-21T00:00:00+00:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>https://www.kiils.dk/kursus/chatgpt-formiddag/</loc>
-            <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+            <loc>https://www.kiils.dk/kursus/effektive-arbejdsgange-med-chatgpt/</loc>
+            <lastmod>2023-06-21T00:00:00+00:00</lastmod>
           </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/blog/openai-lancerer-function-calling-i-api/</loc>
+            <lastmod>2023-06-15T00:00:00+00:00</lastmod>
+          </url>
+    
+  
     
   
     
@@ -167,13 +260,6 @@
       <url>
             <loc>https://www.kiils.dk/resurser/starred/</loc>
             <lastmod>2023-06-03T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/kursus/kursus-fa-mere-ud-af-chatgpt/</loc>
-            <lastmod>2023-06-02T00:00:00+00:00</lastmod>
           </url>
     
   
@@ -216,8 +302,6 @@
               href="https://www.kiils.dk/blog/chatgpt-skal-promptes-ordentligt-men-det-skal-mennesker-jo-ogsa/"
               />
           </url>
-    
-  
     
   
     

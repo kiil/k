@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831</copyright>
-    <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/emner/censur/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.kiils.dk/emner/censur/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Selvcensur gør GPT modeller dummere end de behøver at være</title>
       <link>https://www.kiils.dk/blog/striks-selvcensur-gor-gpt-modeller-dummere-end-de-behover-at-vaere/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.kiils.dk/blog/striks-selvcensur-gor-gpt-modeller-dummere-end-de-behover-at-vaere/</guid>
       <description>Et fordomsfrit og intelligent menneske kan forholde sig til problematiske emner uden at bifalde dem.</description>
     </item>
-    
   </channel>
 </rss>

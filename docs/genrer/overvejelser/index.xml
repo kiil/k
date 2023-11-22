@@ -7,24 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831</copyright>
-    <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/genrer/overvejelser/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.kiils.dk/genrer/overvejelser/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ChatGPT skal promptes ordentligt - men det skal mennesker jo også</title>
       <link>https://www.kiils.dk/blog/chatgpt-skal-promptes-ordentligt-men-det-skal-mennesker-jo-ogsa/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.kiils.dk/blog/chatgpt-skal-promptes-ordentligt-men-det-skal-mennesker-jo-ogsa/</guid>
       <description>Den anden dag lagde jeg et par linjer op på facebook.</description>
     </item>
-    
     <item>
       <title>Er det sådan censur ser ud?</title>
       <link>https://www.kiils.dk/blog/seo/corona/</link>
       <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://www.kiils.dk/blog/seo/corona/</guid>
       <description>Eller er Googles veje bare uransagelige</description>
     </item>
-    
   </channel>
 </rss>

@@ -7,24 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831</copyright>
-    <lastBuildDate>Sat, 12 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/emner/sociale-medier/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 May 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.kiils.dk/emner/sociale-medier/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Delinger giver bonus på LinkedIn</title>
       <link>https://www.kiils.dk/blog/some/delinger-bonus-linkedin/</link>
       <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://www.kiils.dk/blog/some/delinger-bonus-linkedin/</guid>
       <description>Læg relevante links på LinkedIn og forøg antallet af besøg til din profilside mangefold.</description>
     </item>
-    
     <item>
       <title>Sociale medier vigtige – men husk de andre trafikkilder</title>
       <link>https://www.kiils.dk/blog/trafik/kilder/</link>
       <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://www.kiils.dk/blog/trafik/kilder/</guid>
       <description>2017 var et rekordår for Folkets Avis på mange måder.</description>
     </item>
-    
   </channel>
 </rss>
