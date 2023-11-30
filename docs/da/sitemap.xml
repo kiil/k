@@ -85,15 +85,8 @@
   
     
       <url>
-            <loc>https://www.kiils.dk/blog/kan-man-stadig-regne-med-openai/</loc>
-            <lastmod>2023-11-22T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://www.kiils.dk/blog/</loc>
-            <lastmod>2023-11-22T00:00:00+00:00</lastmod>
+            <lastmod>2023-11-30T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -114,11 +107,18 @@
     
   
     
+      <url>
+            <loc>https://www.kiils.dk/blog/nu-er-det-let-at-kore-en-llm-pa-din-egen-computer/</loc>
+            <lastmod>2023-11-30T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
   
     
       <url>
             <loc>https://www.kiils.dk/</loc>
-            <lastmod>2023-11-22T00:00:00+00:00</lastmod>
+            <lastmod>2023-11-30T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -130,6 +130,15 @@
               href="https://www.kiils.dk/"
               />
           </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/blog/kan-man-stadig-regne-med-openai/</loc>
+            <lastmod>2023-11-22T00:00:00+00:00</lastmod>
+          </url>
+    
+  
     
   
     
@@ -164,8 +173,6 @@
             <loc>https://www.kiils.dk/blog/hvad-er-forskellen-pa-prompt-deisgn-og-prompt-engineering/</loc>
             <lastmod>2023-06-28T00:00:00+00:00</lastmod>
           </url>
-    
-  
     
   
     

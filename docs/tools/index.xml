@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Wed, 22 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Nov 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LLM</title>
+      <link>https://www.kiils.dk/tools/llm/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/llm/</guid>
+      <description></description>
+    </item>
     <item>
       <title>ChatGPT</title>
       <link>https://www.kiils.dk/tools/chatgpt/</link>
@@ -28,13 +35,6 @@
       <link>https://www.kiils.dk/tools/code-interpreter/</link>
       <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/code-interpreter/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>LLM</title>
-      <link>https://www.kiils.dk/tools/llm/</link>
-      <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/tools/llm/</guid>
       <description></description>
     </item>
     <item>
