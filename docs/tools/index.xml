@@ -7,8 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Thu, 30 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>aichat</title>
+      <link>https://www.kiils.dk/tools/aichat/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/aichat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ddgr</title>
+      <link>https://www.kiils.dk/tools/ddgr/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/ddgr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>nushell</title>
+      <link>https://www.kiils.dk/tools/nushell/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/nushell/</guid>
+      <description></description>
+    </item>
     <item>
       <title>LLM</title>
       <link>https://www.kiils.dk/tools/llm/</link>
@@ -189,13 +210,6 @@
       <link>https://www.kiils.dk/tools/systemd/</link>
       <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/systemd/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>nushell</title>
-      <link>https://www.kiils.dk/tools/nushell/</link>
-      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/tools/nushell/</guid>
       <description></description>
     </item>
     <item>

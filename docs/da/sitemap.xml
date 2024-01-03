@@ -85,8 +85,17 @@
   
     
       <url>
+            <loc>https://www.kiils.dk/blog/ai-mini-assistent-til-research-pa-internettet-med-nushell-aichat-og-ddgr/</loc>
+            <lastmod>2024-01-03T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
             <loc>https://www.kiils.dk/blog/</loc>
-            <lastmod>2023-11-30T00:00:00+00:00</lastmod>
+            <lastmod>2024-01-03T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -107,18 +116,13 @@
     
   
     
-      <url>
-            <loc>https://www.kiils.dk/blog/nu-er-det-let-at-kore-en-llm-pa-din-egen-computer/</loc>
-            <lastmod>2023-11-30T00:00:00+00:00</lastmod>
-          </url>
-    
   
     
   
     
       <url>
             <loc>https://www.kiils.dk/</loc>
-            <lastmod>2023-11-30T00:00:00+00:00</lastmod>
+            <lastmod>2024-01-03T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -129,6 +133,15 @@
               hreflang="da"
               href="https://www.kiils.dk/"
               />
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/blog/nu-er-det-let-at-kore-en-llm-pa-din-egen-computer/</loc>
+            <lastmod>2023-11-30T00:00:00+00:00</lastmod>
           </url>
     
   
@@ -675,8 +688,6 @@
             <loc>https://www.kiils.dk/blog/20230207-chatgpt-hjaelper-ordblind/</loc>
             <lastmod>2023-02-07T10:41:04+01:00</lastmod>
           </url>
-    
-  
     
   
     
