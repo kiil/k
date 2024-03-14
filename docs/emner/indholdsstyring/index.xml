@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Indholdsstyring on Kiils</title>
-    <link>https://www.kiils.dk/emner/indholdsstyring/</link>
+    <link>http://localhost:1313/emner/indholdsstyring/</link>
     <description>Recent content in Indholdsstyring on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Tue, 31 May 2022 12:24:26 +0200</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/emner/indholdsstyring/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/emner/indholdsstyring/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Smarte søgefunktioner i Recoll</title>
-      <link>https://www.kiils.dk/blog/recoll-smart-s%C3%B8gning/</link>
+      <link>http://localhost:1313/blog/recoll-smart-s%C3%B8gning/</link>
       <pubDate>Tue, 31 May 2022 12:24:26 +0200</pubDate>
-      <guid>https://www.kiils.dk/blog/recoll-smart-s%C3%B8gning/</guid>
+      <guid>http://localhost:1313/blog/recoll-smart-s%C3%B8gning/</guid>
       <description>Noget af det jeg manglede i MacOS Spotlight søgemaskinen, var en mere omfattende syntaks for søgning.</description>
     </item>
     <item>
       <title>Sådan holder man styr på 10.000 tekster</title>
-      <link>https://www.kiils.dk/blog/recoll-fritekst-s%C3%B8gning/</link>
+      <link>http://localhost:1313/blog/recoll-fritekst-s%C3%B8gning/</link>
       <pubDate>Mon, 30 May 2022 08:40:17 +0200</pubDate>
-      <guid>https://www.kiils.dk/blog/recoll-fritekst-s%C3%B8gning/</guid>
+      <guid>http://localhost:1313/blog/recoll-fritekst-s%C3%B8gning/</guid>
       <description>Hvordan holder man styr på sine egne tekster når man har over 10.</description>
     </item>
   </channel>

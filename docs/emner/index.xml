@@ -2,536 +2,529 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emner on Kiils</title>
-    <link>https://www.kiils.dk/emner/</link>
+    <link>http://localhost:1313/emner/</link>
     <description>Recent content in Emner on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Wed, 03 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/emner/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/emner/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hvad er kunstig intelligens</title>
-      <link>https://www.kiils.dk/emner/kunstig-intelligens/</link>
-      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/kunstig-intelligens/</guid>
+      <link>http://localhost:1313/emner/kunstig-intelligens/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/emner/kunstig-intelligens/</guid>
       <description>Kunstig intelligens kunstig intelligens er et stort område inden for datalogi om anvendelsen af computere til at efterligne menneskelig intelligens.</description>
     </item>
     <item>
       <title>Finansiering</title>
-      <link>https://www.kiils.dk/emner/finansiering/</link>
+      <link>http://localhost:1313/emner/finansiering/</link>
       <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/finansiering/</guid>
+      <guid>http://localhost:1313/emner/finansiering/</guid>
       <description></description>
     </item>
     <item>
       <title>Prompt</title>
-      <link>https://www.kiils.dk/emner/prompt/</link>
+      <link>http://localhost:1313/emner/prompt/</link>
       <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/prompt/</guid>
+      <guid>http://localhost:1313/emner/prompt/</guid>
       <description></description>
     </item>
     <item>
-      <title>taleteknologi</title>
-      <link>https://www.kiils.dk/emner/taleteknologi/</link>
-      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/taleteknologi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>emne</title>
-      <link>https://www.kiils.dk/emner/emne/</link>
+      <title>Emne</title>
+      <link>http://localhost:1313/emner/emne/</link>
       <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/emne/</guid>
+      <guid>http://localhost:1313/emner/emne/</guid>
       <description></description>
     </item>
     <item>
-      <title>strukturerede data</title>
-      <link>https://www.kiils.dk/emner/strukturerede-data/</link>
+      <title>Strukturerede Data</title>
+      <link>http://localhost:1313/emner/strukturerede-data/</link>
       <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/strukturerede-data/</guid>
+      <guid>http://localhost:1313/emner/strukturerede-data/</guid>
       <description></description>
     </item>
     <item>
-      <title>data</title>
-      <link>https://www.kiils.dk/emner/data/</link>
+      <title>Data</title>
+      <link>http://localhost:1313/emner/data/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/data/</guid>
+      <guid>http://localhost:1313/emner/data/</guid>
       <description></description>
     </item>
     <item>
       <title>Hvad er maskinlæring</title>
-      <link>https://www.kiils.dk/emner/maskinl%C3%A6ring/</link>
+      <link>http://localhost:1313/emner/maskinl%C3%A6ring/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/maskinl%C3%A6ring/</guid>
+      <guid>http://localhost:1313/emner/maskinl%C3%A6ring/</guid>
       <description>Maskinlæring maskinlæring er en gren af kunstig intelligens (AI) og datalogi der fokuserer på brugen af data og algoritmer til at efterligne den måde som levende væsener lærer på.</description>
     </item>
     <item>
       <title>Sprog</title>
-      <link>https://www.kiils.dk/emner/sprog/</link>
+      <link>http://localhost:1313/emner/sprog/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/sprog/</guid>
+      <guid>http://localhost:1313/emner/sprog/</guid>
       <description></description>
     </item>
     <item>
       <title>Intelligens</title>
-      <link>https://www.kiils.dk/emner/intelligens/</link>
+      <link>http://localhost:1313/emner/intelligens/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/intelligens/</guid>
+      <guid>http://localhost:1313/emner/intelligens/</guid>
       <description></description>
     </item>
     <item>
       <title>LLM</title>
-      <link>https://www.kiils.dk/emner/llm/</link>
+      <link>http://localhost:1313/emner/llm/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/llm/</guid>
+      <guid>http://localhost:1313/emner/llm/</guid>
       <description></description>
     </item>
     <item>
-      <title>læring</title>
-      <link>https://www.kiils.dk/emner/l%C3%A6ring/</link>
+      <title>Læring</title>
+      <link>http://localhost:1313/emner/l%C3%A6ring/</link>
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/l%C3%A6ring/</guid>
+      <guid>http://localhost:1313/emner/l%C3%A6ring/</guid>
       <description></description>
     </item>
     <item>
-      <title>redigering</title>
-      <link>https://www.kiils.dk/emner/redigering/</link>
+      <title>Redigering</title>
+      <link>http://localhost:1313/emner/redigering/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/redigering/</guid>
+      <guid>http://localhost:1313/emner/redigering/</guid>
       <description></description>
     </item>
     <item>
       <title>Skrivning</title>
-      <link>https://www.kiils.dk/emner/skrivning/</link>
+      <link>http://localhost:1313/emner/skrivning/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/skrivning/</guid>
+      <guid>http://localhost:1313/emner/skrivning/</guid>
       <description></description>
     </item>
     <item>
-      <title>drift</title>
-      <link>https://www.kiils.dk/emner/drift/</link>
+      <title>Drift</title>
+      <link>http://localhost:1313/emner/drift/</link>
       <pubDate>Wed, 26 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/drift/</guid>
+      <guid>http://localhost:1313/emner/drift/</guid>
       <description></description>
     </item>
     <item>
-      <title>censur</title>
-      <link>https://www.kiils.dk/emner/censur/</link>
+      <title>Censur</title>
+      <link>http://localhost:1313/emner/censur/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/censur/</guid>
+      <guid>http://localhost:1313/emner/censur/</guid>
       <description></description>
     </item>
     <item>
-      <title>etik</title>
-      <link>https://www.kiils.dk/emner/etik/</link>
+      <title>Etik</title>
+      <link>http://localhost:1313/emner/etik/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/etik/</guid>
+      <guid>http://localhost:1313/emner/etik/</guid>
       <description></description>
     </item>
     <item>
-      <title>datavisualisering</title>
-      <link>https://www.kiils.dk/emner/datavisualisering/</link>
+      <title>Datavisualisering</title>
+      <link>http://localhost:1313/emner/datavisualisering/</link>
       <pubDate>Sat, 18 Feb 2023 08:35:10 +0100</pubDate>
-      <guid>https://www.kiils.dk/emner/datavisualisering/</guid>
+      <guid>http://localhost:1313/emner/datavisualisering/</guid>
       <description></description>
     </item>
     <item>
-      <title>automatisering</title>
-      <link>https://www.kiils.dk/emner/automatisering/</link>
+      <title>Automatisering</title>
+      <link>http://localhost:1313/emner/automatisering/</link>
       <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/automatisering/</guid>
+      <guid>http://localhost:1313/emner/automatisering/</guid>
       <description></description>
     </item>
     <item>
-      <title>bogføring</title>
-      <link>https://www.kiils.dk/emner/bogf%C3%B8ring/</link>
+      <title>Bogføring</title>
+      <link>http://localhost:1313/emner/bogf%C3%B8ring/</link>
       <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/bogf%C3%B8ring/</guid>
+      <guid>http://localhost:1313/emner/bogf%C3%B8ring/</guid>
       <description></description>
     </item>
     <item>
-      <title>finanser</title>
-      <link>https://www.kiils.dk/emner/finanser/</link>
+      <title>Finanser</title>
+      <link>http://localhost:1313/emner/finanser/</link>
       <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/finanser/</guid>
+      <guid>http://localhost:1313/emner/finanser/</guid>
       <description></description>
     </item>
     <item>
-      <title>regnskab</title>
-      <link>https://www.kiils.dk/emner/regnskab/</link>
+      <title>Regnskab</title>
+      <link>http://localhost:1313/emner/regnskab/</link>
       <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/regnskab/</guid>
+      <guid>http://localhost:1313/emner/regnskab/</guid>
       <description></description>
     </item>
     <item>
       <title>Google</title>
-      <link>https://www.kiils.dk/emner/google/</link>
+      <link>http://localhost:1313/emner/google/</link>
       <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/google/</guid>
+      <guid>http://localhost:1313/emner/google/</guid>
       <description></description>
     </item>
     <item>
-      <title>inklusion</title>
-      <link>https://www.kiils.dk/emner/inklusion/</link>
+      <title>Inklusion</title>
+      <link>http://localhost:1313/emner/inklusion/</link>
       <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/inklusion/</guid>
+      <guid>http://localhost:1313/emner/inklusion/</guid>
       <description></description>
     </item>
     <item>
-      <title>nlp</title>
-      <link>https://www.kiils.dk/emner/nlp/</link>
+      <title>Nlp</title>
+      <link>http://localhost:1313/emner/nlp/</link>
       <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/nlp/</guid>
+      <guid>http://localhost:1313/emner/nlp/</guid>
       <description></description>
     </item>
     <item>
-      <title>kvantitativ tekstanalyse</title>
-      <link>https://www.kiils.dk/emner/kvantitativ-tekstanalyse/</link>
+      <title>Kvantitativ Tekstanalyse</title>
+      <link>http://localhost:1313/emner/kvantitativ-tekstanalyse/</link>
       <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/kvantitativ-tekstanalyse/</guid>
+      <guid>http://localhost:1313/emner/kvantitativ-tekstanalyse/</guid>
       <description></description>
     </item>
     <item>
       <title>Kommunikation</title>
-      <link>https://www.kiils.dk/emner/kommunikation/</link>
+      <link>http://localhost:1313/emner/kommunikation/</link>
       <pubDate>Fri, 02 Sep 2022 08:57:34 +0200</pubDate>
-      <guid>https://www.kiils.dk/emner/kommunikation/</guid>
+      <guid>http://localhost:1313/emner/kommunikation/</guid>
       <description></description>
     </item>
     <item>
-      <title>indholdshåndtering</title>
-      <link>https://www.kiils.dk/emner/indholdsh%C3%A5ndtering/</link>
+      <title>Indholdshåndtering</title>
+      <link>http://localhost:1313/emner/indholdsh%C3%A5ndtering/</link>
       <pubDate>Thu, 16 Jun 2022 12:10:31 +0200</pubDate>
-      <guid>https://www.kiils.dk/emner/indholdsh%C3%A5ndtering/</guid>
+      <guid>http://localhost:1313/emner/indholdsh%C3%A5ndtering/</guid>
       <description></description>
     </item>
     <item>
-      <title>salg</title>
-      <link>https://www.kiils.dk/emner/salg/</link>
+      <title>Salg</title>
+      <link>http://localhost:1313/emner/salg/</link>
       <pubDate>Thu, 09 Jun 2022 12:56:22 +0200</pubDate>
-      <guid>https://www.kiils.dk/emner/salg/</guid>
+      <guid>http://localhost:1313/emner/salg/</guid>
       <description></description>
     </item>
     <item>
       <title>Alt om Indholdsstrategi</title>
-      <link>https://www.kiils.dk/emner/indholdsstrategi/</link>
+      <link>http://localhost:1313/emner/indholdsstrategi/</link>
       <pubDate>Fri, 03 Jun 2022 10:43:51 +0200</pubDate>
-      <guid>https://www.kiils.dk/emner/indholdsstrategi/</guid>
+      <guid>http://localhost:1313/emner/indholdsstrategi/</guid>
       <description>Tænk over hvad du vil opnå med dine tekster &amp;mdash; effektiv kommunikation kræver fokus og planlægning</description>
     </item>
     <item>
       <title>Fritekstsøgning</title>
-      <link>https://www.kiils.dk/emner/friteksts%C3%B8gning/</link>
+      <link>http://localhost:1313/emner/friteksts%C3%B8gning/</link>
       <pubDate>Tue, 31 May 2022 12:24:26 +0200</pubDate>
-      <guid>https://www.kiils.dk/emner/friteksts%C3%B8gning/</guid>
+      <guid>http://localhost:1313/emner/friteksts%C3%B8gning/</guid>
       <description></description>
     </item>
     <item>
       <title>Indholdsstyring</title>
-      <link>https://www.kiils.dk/emner/indholdsstyring/</link>
+      <link>http://localhost:1313/emner/indholdsstyring/</link>
       <pubDate>Tue, 31 May 2022 12:24:26 +0200</pubDate>
-      <guid>https://www.kiils.dk/emner/indholdsstyring/</guid>
+      <guid>http://localhost:1313/emner/indholdsstyring/</guid>
       <description></description>
     </item>
     <item>
       <title>Grammatik</title>
-      <link>https://www.kiils.dk/emner/grammatik/</link>
+      <link>http://localhost:1313/emner/grammatik/</link>
       <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/grammatik/</guid>
+      <guid>http://localhost:1313/emner/grammatik/</guid>
       <description></description>
     </item>
     <item>
       <title>Korrektur</title>
-      <link>https://www.kiils.dk/emner/korrektur/</link>
+      <link>http://localhost:1313/emner/korrektur/</link>
       <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/korrektur/</guid>
+      <guid>http://localhost:1313/emner/korrektur/</guid>
       <description></description>
     </item>
     <item>
       <title>Retstavning</title>
-      <link>https://www.kiils.dk/emner/retstavning/</link>
+      <link>http://localhost:1313/emner/retstavning/</link>
       <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/retstavning/</guid>
+      <guid>http://localhost:1313/emner/retstavning/</guid>
       <description></description>
     </item>
     <item>
       <title>CLI</title>
-      <link>https://www.kiils.dk/emner/cli/</link>
+      <link>http://localhost:1313/emner/cli/</link>
       <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/cli/</guid>
+      <guid>http://localhost:1313/emner/cli/</guid>
       <description></description>
     </item>
     <item>
       <title>Effektivisering</title>
-      <link>https://www.kiils.dk/emner/effektivisering/</link>
+      <link>http://localhost:1313/emner/effektivisering/</link>
       <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/effektivisering/</guid>
+      <guid>http://localhost:1313/emner/effektivisering/</guid>
       <description></description>
     </item>
     <item>
       <title>KISS</title>
-      <link>https://www.kiils.dk/emner/kiss/</link>
+      <link>http://localhost:1313/emner/kiss/</link>
       <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/kiss/</guid>
+      <guid>http://localhost:1313/emner/kiss/</guid>
       <description></description>
     </item>
     <item>
       <title>Formidling</title>
-      <link>https://www.kiils.dk/emner/formidling/</link>
+      <link>http://localhost:1313/emner/formidling/</link>
       <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/formidling/</guid>
+      <guid>http://localhost:1313/emner/formidling/</guid>
       <description></description>
     </item>
     <item>
-      <title>rubrikker</title>
-      <link>https://www.kiils.dk/emner/rubrikker/</link>
+      <title>Rubrikker</title>
+      <link>http://localhost:1313/emner/rubrikker/</link>
       <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/rubrikker/</guid>
+      <guid>http://localhost:1313/emner/rubrikker/</guid>
       <description></description>
     </item>
     <item>
-      <title>sikkerhed</title>
-      <link>https://www.kiils.dk/emner/sikkerhed/</link>
+      <title>Sikkerhed</title>
+      <link>http://localhost:1313/emner/sikkerhed/</link>
       <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/sikkerhed/</guid>
+      <guid>http://localhost:1313/emner/sikkerhed/</guid>
       <description></description>
     </item>
     <item>
-      <title>sløring</title>
-      <link>https://www.kiils.dk/emner/sl%C3%B8ring/</link>
+      <title>Sløring</title>
+      <link>http://localhost:1313/emner/sl%C3%B8ring/</link>
       <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/sl%C3%B8ring/</guid>
+      <guid>http://localhost:1313/emner/sl%C3%B8ring/</guid>
       <description></description>
     </item>
     <item>
       <title>Programmering</title>
-      <link>https://www.kiils.dk/emner/programmering/</link>
+      <link>http://localhost:1313/emner/programmering/</link>
       <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/programmering/</guid>
+      <guid>http://localhost:1313/emner/programmering/</guid>
       <description></description>
     </item>
     <item>
-      <title>Venlig digitalisering</title>
-      <link>https://www.kiils.dk/emner/venlig-digitalisering/</link>
+      <title>Venlig Digitalisering</title>
+      <link>http://localhost:1313/emner/venlig-digitalisering/</link>
       <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/venlig-digitalisering/</guid>
+      <guid>http://localhost:1313/emner/venlig-digitalisering/</guid>
       <description></description>
     </item>
     <item>
       <title>Brugervenlig</title>
-      <link>https://www.kiils.dk/emner/brugervenlig/</link>
+      <link>http://localhost:1313/emner/brugervenlig/</link>
       <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/brugervenlig/</guid>
+      <guid>http://localhost:1313/emner/brugervenlig/</guid>
       <description></description>
     </item>
     <item>
       <title>Energibesparelse</title>
-      <link>https://www.kiils.dk/emner/energibesparelse/</link>
+      <link>http://localhost:1313/emner/energibesparelse/</link>
       <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/energibesparelse/</guid>
+      <guid>http://localhost:1313/emner/energibesparelse/</guid>
       <description></description>
     </item>
     <item>
       <title>Klimavenlig</title>
-      <link>https://www.kiils.dk/emner/klimavenlig/</link>
+      <link>http://localhost:1313/emner/klimavenlig/</link>
       <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/klimavenlig/</guid>
+      <guid>http://localhost:1313/emner/klimavenlig/</guid>
       <description></description>
     </item>
     <item>
       <title>Miljøvenlig</title>
-      <link>https://www.kiils.dk/emner/milj%C3%B8venlig/</link>
+      <link>http://localhost:1313/emner/milj%C3%B8venlig/</link>
       <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/milj%C3%B8venlig/</guid>
+      <guid>http://localhost:1313/emner/milj%C3%B8venlig/</guid>
       <description></description>
     </item>
     <item>
       <title>Brugervenlighed</title>
-      <link>https://www.kiils.dk/emner/brugervenlighed/</link>
+      <link>http://localhost:1313/emner/brugervenlighed/</link>
       <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/brugervenlighed/</guid>
+      <guid>http://localhost:1313/emner/brugervenlighed/</guid>
       <description></description>
     </item>
     <item>
       <title>Bæredygtighed</title>
-      <link>https://www.kiils.dk/emner/b%C3%A6redygtighed/</link>
+      <link>http://localhost:1313/emner/b%C3%A6redygtighed/</link>
       <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/b%C3%A6redygtighed/</guid>
+      <guid>http://localhost:1313/emner/b%C3%A6redygtighed/</guid>
       <description></description>
     </item>
     <item>
       <title>Design</title>
-      <link>https://www.kiils.dk/emner/design/</link>
+      <link>http://localhost:1313/emner/design/</link>
       <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/design/</guid>
+      <guid>http://localhost:1313/emner/design/</guid>
       <description></description>
     </item>
     <item>
       <title>Klimavenlighed</title>
-      <link>https://www.kiils.dk/emner/klimavenlighed/</link>
+      <link>http://localhost:1313/emner/klimavenlighed/</link>
       <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/klimavenlighed/</guid>
+      <guid>http://localhost:1313/emner/klimavenlighed/</guid>
       <description></description>
     </item>
     <item>
       <title>Valgmuligheder</title>
-      <link>https://www.kiils.dk/emner/valgmuligheder/</link>
+      <link>http://localhost:1313/emner/valgmuligheder/</link>
       <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/valgmuligheder/</guid>
+      <guid>http://localhost:1313/emner/valgmuligheder/</guid>
       <description></description>
     </item>
     <item>
-      <title>sortering</title>
-      <link>https://www.kiils.dk/emner/sortering/</link>
+      <title>Sortering</title>
+      <link>http://localhost:1313/emner/sortering/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/sortering/</guid>
+      <guid>http://localhost:1313/emner/sortering/</guid>
       <description></description>
     </item>
     <item>
-      <title>struktur</title>
-      <link>https://www.kiils.dk/emner/struktur/</link>
+      <title>Struktur</title>
+      <link>http://localhost:1313/emner/struktur/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/struktur/</guid>
+      <guid>http://localhost:1313/emner/struktur/</guid>
       <description></description>
     </item>
     <item>
-      <title>tips</title>
-      <link>https://www.kiils.dk/emner/tips/</link>
+      <title>Tips</title>
+      <link>http://localhost:1313/emner/tips/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/tips/</guid>
+      <guid>http://localhost:1313/emner/tips/</guid>
       <description></description>
     </item>
     <item>
-      <title>tricks</title>
-      <link>https://www.kiils.dk/emner/tricks/</link>
+      <title>Tricks</title>
+      <link>http://localhost:1313/emner/tricks/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/tricks/</guid>
+      <guid>http://localhost:1313/emner/tricks/</guid>
       <description></description>
     </item>
     <item>
-      <title>indhold</title>
-      <link>https://www.kiils.dk/emner/indhold/</link>
+      <title>Indhold</title>
+      <link>http://localhost:1313/emner/indhold/</link>
       <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/indhold/</guid>
+      <guid>http://localhost:1313/emner/indhold/</guid>
       <description></description>
     </item>
     <item>
       <title>SEO</title>
-      <link>https://www.kiils.dk/emner/seo/</link>
+      <link>http://localhost:1313/emner/seo/</link>
       <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/seo/</guid>
+      <guid>http://localhost:1313/emner/seo/</guid>
       <description></description>
     </item>
     <item>
-      <title>facebook</title>
-      <link>https://www.kiils.dk/emner/facebook/</link>
+      <title>Facebook</title>
+      <link>http://localhost:1313/emner/facebook/</link>
       <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/facebook/</guid>
+      <guid>http://localhost:1313/emner/facebook/</guid>
       <description></description>
     </item>
     <item>
-      <title>SoMe</title>
-      <link>https://www.kiils.dk/emner/some/</link>
+      <title>Some</title>
+      <link>http://localhost:1313/emner/some/</link>
       <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/some/</guid>
+      <guid>http://localhost:1313/emner/some/</guid>
       <description></description>
     </item>
     <item>
       <title>CopyDan</title>
-      <link>https://www.kiils.dk/emner/copydan/</link>
+      <link>http://localhost:1313/emner/copydan/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/copydan/</guid>
+      <guid>http://localhost:1313/emner/copydan/</guid>
       <description></description>
     </item>
     <item>
-      <title>fundraising</title>
-      <link>https://www.kiils.dk/emner/fundraising/</link>
+      <title>Fundraising</title>
+      <link>http://localhost:1313/emner/fundraising/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/fundraising/</guid>
+      <guid>http://localhost:1313/emner/fundraising/</guid>
       <description></description>
     </item>
     <item>
-      <title>økonomi</title>
-      <link>https://www.kiils.dk/emner/%C3%B8konomi/</link>
+      <title>Økonomi</title>
+      <link>http://localhost:1313/emner/%C3%B8konomi/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/%C3%B8konomi/</guid>
+      <guid>http://localhost:1313/emner/%C3%B8konomi/</guid>
       <description></description>
     </item>
     <item>
-      <title>crowdfunding</title>
-      <link>https://www.kiils.dk/emner/crowdfunding/</link>
+      <title>Crowdfunding</title>
+      <link>http://localhost:1313/emner/crowdfunding/</link>
       <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/crowdfunding/</guid>
+      <guid>http://localhost:1313/emner/crowdfunding/</guid>
       <description></description>
     </item>
     <item>
-      <title>cta</title>
-      <link>https://www.kiils.dk/emner/cta/</link>
+      <title>Cta</title>
+      <link>http://localhost:1313/emner/cta/</link>
       <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/cta/</guid>
+      <guid>http://localhost:1313/emner/cta/</guid>
       <description></description>
     </item>
     <item>
-      <title>journalistik</title>
-      <link>https://www.kiils.dk/emner/journalistik/</link>
+      <title>Journalistik</title>
+      <link>http://localhost:1313/emner/journalistik/</link>
       <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/journalistik/</guid>
+      <guid>http://localhost:1313/emner/journalistik/</guid>
       <description></description>
     </item>
     <item>
-      <title>ankertekst</title>
-      <link>https://www.kiils.dk/emner/ankertekst/</link>
+      <title>Ankertekst</title>
+      <link>http://localhost:1313/emner/ankertekst/</link>
       <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/ankertekst/</guid>
+      <guid>http://localhost:1313/emner/ankertekst/</guid>
       <description></description>
     </item>
     <item>
-      <title>linkbuilding</title>
-      <link>https://www.kiils.dk/emner/linkbuilding/</link>
+      <title>Linkbuilding</title>
+      <link>http://localhost:1313/emner/linkbuilding/</link>
       <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/linkbuilding/</guid>
+      <guid>http://localhost:1313/emner/linkbuilding/</guid>
       <description></description>
     </item>
     <item>
-      <title>ranking</title>
-      <link>https://www.kiils.dk/emner/ranking/</link>
+      <title>Ranking</title>
+      <link>http://localhost:1313/emner/ranking/</link>
       <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/ranking/</guid>
+      <guid>http://localhost:1313/emner/ranking/</guid>
       <description></description>
     </item>
     <item>
-      <title>frontend</title>
-      <link>https://www.kiils.dk/emner/frontend/</link>
+      <title>Frontend</title>
+      <link>http://localhost:1313/emner/frontend/</link>
       <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/frontend/</guid>
+      <guid>http://localhost:1313/emner/frontend/</guid>
       <description></description>
     </item>
     <item>
       <title>Ydelse</title>
-      <link>https://www.kiils.dk/emner/ydelse/</link>
+      <link>http://localhost:1313/emner/ydelse/</link>
       <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/ydelse/</guid>
+      <guid>http://localhost:1313/emner/ydelse/</guid>
       <description>Ydelse, på engelsk performance, er en meget væsentlig parameter i næsten alle digitale produkter.</description>
     </item>
     <item>
       <title>Alt om Abonnementsmodellen</title>
-      <link>https://www.kiils.dk/emner/abonnementsmodellen/</link>
+      <link>http://localhost:1313/emner/abonnementsmodellen/</link>
       <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/abonnementsmodellen/</guid>
+      <guid>http://localhost:1313/emner/abonnementsmodellen/</guid>
       <description> Abonnementsmodellen forbindes på engelsk ofte med SaaS, men den rette term er snarere subscription model # </description>
     </item>
     <item>
       <title>Lidt om LinkedIn</title>
-      <link>https://www.kiils.dk/emner/linkedin/</link>
+      <link>http://localhost:1313/emner/linkedin/</link>
       <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/linkedin/</guid>
+      <guid>http://localhost:1313/emner/linkedin/</guid>
       <description></description>
     </item>
     <item>
-      <title>Sociale medier</title>
-      <link>https://www.kiils.dk/emner/sociale-medier/</link>
+      <title>Sociale Medier</title>
+      <link>http://localhost:1313/emner/sociale-medier/</link>
       <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/sociale-medier/</guid>
+      <guid>http://localhost:1313/emner/sociale-medier/</guid>
       <description></description>
     </item>
   </channel>

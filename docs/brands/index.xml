@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Brands on Kiils</title>
-    <link>https://www.kiils.dk/brands/</link>
+    <link>http://localhost:1313/brands/</link>
     <description>Recent content in Brands on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Wed, 11 Mar 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/brands/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/brands/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Folkets Avis</title>
-      <link>https://www.kiils.dk/brands/folkets-avis/</link>
+      <link>http://localhost:1313/brands/folkets-avis/</link>
       <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/brands/folkets-avis/</guid>
+      <guid>http://localhost:1313/brands/folkets-avis/</guid>
       <description>En dansk platform</description>
     </item>
     <item>
       <title>digitalt</title>
-      <link>https://www.kiils.dk/brands/digitalt/</link>
+      <link>http://localhost:1313/brands/digitalt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/brands/digitalt/</guid>
+      <guid>http://localhost:1313/brands/digitalt/</guid>
       <description>Nutid og fremtid - altid online</description>
     </item>
     <item>
       <title>Mediemøllen</title>
-      <link>https://www.kiils.dk/brands/mediem%C3%B8llen/</link>
+      <link>http://localhost:1313/brands/mediem%C3%B8llen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/brands/mediem%C3%B8llen/</guid>
+      <guid>http://localhost:1313/brands/mediem%C3%B8llen/</guid>
       <description>Analyser af medierne og deres rolle i samfund og politik</description>
     </item>
     <item>
       <title>Oplevelser</title>
-      <link>https://www.kiils.dk/brands/oplevelser/</link>
+      <link>http://localhost:1313/brands/oplevelser/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/brands/oplevelser/</guid>
+      <guid>http://localhost:1313/brands/oplevelser/</guid>
       <description>Det gode i livet</description>
     </item>
     <item>
       <title>Rævekagen</title>
-      <link>https://www.kiils.dk/brands/r%C3%A6vekagen/</link>
+      <link>http://localhost:1313/brands/r%C3%A6vekagen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/brands/r%C3%A6vekagen/</guid>
+      <guid>http://localhost:1313/brands/r%C3%A6vekagen/</guid>
       <description>Sjov med magthaverne</description>
     </item>
   </channel>

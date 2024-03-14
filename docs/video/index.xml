@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Videoes on Kiils</title>
-    <link>https://www.kiils.dk/video/</link>
+    <link>http://localhost:1313/video/</link>
     <description>Recent content in Videoes on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <atom:link href="https://www.kiils.dk/video/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/video/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Video: Sådan bruger du danske ChatGPT prompts</title>
-      <link>https://www.kiils.dk/video/danske-chatgpt-prompts-intro-video/</link>
+      <link>http://localhost:1313/video/danske-chatgpt-prompts-intro-video/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/video/danske-chatgpt-prompts-intro-video/</guid>
+      <guid>http://localhost:1313/video/danske-chatgpt-prompts-intro-video/</guid>
       <description>Se hele listen over danske prompts</description>
     </item>
   </channel>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marvin on Kiils</title>
-    <link>https://www.kiils.dk/en/tools/marvin/</link>
+    <link>http://localhost:1313/en/tools/marvin/</link>
     <description>Recent content in Marvin on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
     <lastBuildDate>Mon, 22 May 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/en/tools/marvin/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/tools/marvin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>🦶 &#43; 🥔 = Potato foot 🤣 - and other examples of how ChatGPT made my son laugh. And why it is important</title>
-      <link>https://www.kiils.dk/en/blog/how-chatgpt-made-my-surly-son-laugh/</link>
+      <link>http://localhost:1313/en/blog/how-chatgpt-made-my-surly-son-laugh/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/en/blog/how-chatgpt-made-my-surly-son-laugh/</guid>
+      <guid>http://localhost:1313/en/blog/how-chatgpt-made-my-surly-son-laugh/</guid>
       <description>Recently I installed Marvin.</description>
     </item>
   </channel>

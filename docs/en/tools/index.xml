@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tools on Kiils</title>
-    <link>https://www.kiils.dk/en/tools/</link>
+    <link>http://localhost:1313/en/tools/</link>
     <description>Recent content in Tools on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
     <lastBuildDate>Mon, 24 Jul 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/en/tools/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>nvim</title>
-      <link>https://www.kiils.dk/en/tools/nvim/</link>
+      <title>Nvim</title>
+      <link>http://localhost:1313/en/tools/nvim/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/en/tools/nvim/</guid>
+      <guid>http://localhost:1313/en/tools/nvim/</guid>
       <description></description>
     </item>
     <item>
       <title>ChatGPT</title>
-      <link>https://www.kiils.dk/en/tools/chatgpt/</link>
+      <link>http://localhost:1313/en/tools/chatgpt/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/en/tools/chatgpt/</guid>
+      <guid>http://localhost:1313/en/tools/chatgpt/</guid>
       <description></description>
     </item>
     <item>
-      <title>fontforge</title>
-      <link>https://www.kiils.dk/en/tools/fontforge/</link>
+      <title>Fontforge</title>
+      <link>http://localhost:1313/en/tools/fontforge/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/en/tools/fontforge/</guid>
+      <guid>http://localhost:1313/en/tools/fontforge/</guid>
       <description></description>
     </item>
     <item>
       <title>Marvin</title>
-      <link>https://www.kiils.dk/en/tools/marvin/</link>
+      <link>http://localhost:1313/en/tools/marvin/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/en/tools/marvin/</guid>
+      <guid>http://localhost:1313/en/tools/marvin/</guid>
       <description></description>
     </item>
   </channel>

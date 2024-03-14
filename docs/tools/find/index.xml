@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>find on Kiils</title>
-    <link>https://www.kiils.dk/tools/find/</link>
-    <description>Recent content in find on Kiils</description>
+    <title>Find on Kiils</title>
+    <link>http://localhost:1313/tools/find/</link>
+    <description>Recent content in Find on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/tools/find/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tools/find/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Takket være ShellGPT kan alle nu få gavn af kommandolinjens superkræfter - se her hvordan</title>
-      <link>https://www.kiils.dk/blog/er-du-ved-at-opgive-kommandolinjen-fa-chatgpt-til-at-hjaelpe-dig/</link>
+      <link>http://localhost:1313/blog/er-du-ved-at-opgive-kommandolinjen-fa-chatgpt-til-at-hjaelpe-dig/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/blog/er-du-ved-at-opgive-kommandolinjen-fa-chatgpt-til-at-hjaelpe-dig/</guid>
+      <guid>http://localhost:1313/blog/er-du-ved-at-opgive-kommandolinjen-fa-chatgpt-til-at-hjaelpe-dig/</guid>
       <description>Jeg opdagede ved en tilfældighed at jeg i mine mange nylige indlæg her på Kiils/erfaringer i nogle tilfælde havde skrevet ChatGPT som chatGPT.</description>
     </item>
     <item>
       <title>Hurtigere alternativer til find og grep på Raspberry Pi</title>
-      <link>https://www.kiils.dk/blog/pi/pi-cli/</link>
+      <link>http://localhost:1313/blog/pi/pi-cli/</link>
       <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/blog/pi/pi-cli/</guid>
+      <guid>http://localhost:1313/blog/pi/pi-cli/</guid>
       <description>Hurtige værktøjer på en langsom computer</description>
     </item>
   </channel>

@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Person on Kiils</title>
-    <link>https://www.kiils.dk/en/person/</link>
+    <link>http://localhost:1313/en/person/</link>
     <description>Recent content in Person on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
-    <atom:link href="https://www.kiils.dk/en/person/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/person/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

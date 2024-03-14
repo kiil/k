@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>aichat on Kiils</title>
-    <link>https://www.kiils.dk/tools/aichat/</link>
-    <description>Recent content in aichat on Kiils</description>
+    <title>Aichat on Kiils</title>
+    <link>http://localhost:1313/tools/aichat/</link>
+    <description>Recent content in Aichat on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Wed, 03 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/tools/aichat/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tools/aichat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sådan hjælper ChatGPT og Nushell ordblinde Lars</title>
+      <link>http://localhost:1313/blog/sadan-hjaelper-chatgpt-og-nushell-ordblinde-lars/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/sadan-hjaelper-chatgpt-og-nushell-ordblinde-lars/</guid>
+      <description>At få ChatGPT til at rette en ordblinds tekst, har vist sig at være lidt af en udfordring.</description>
+    </item>
     <item>
       <title>AI: Mini-assistent til research på internettet med nushell, aichat og ddgr</title>
-      <link>https://www.kiils.dk/blog/ai-mini-assistent-til-research-pa-internettet-med-nushell-aichat-og-ddgr/</link>
+      <link>http://localhost:1313/blog/ai-mini-assistent-til-research-pa-internettet-med-nushell-aichat-og-ddgr/</link>
       <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/blog/ai-mini-assistent-til-research-pa-internettet-med-nushell-aichat-og-ddgr/</guid>
+      <guid>http://localhost:1313/blog/ai-mini-assistent-til-research-pa-internettet-med-nushell-aichat-og-ddgr/</guid>
       <description>Jo simplere, jo nemmere er at det at forstå hvad der foregår:</description>
     </item>
   </channel>

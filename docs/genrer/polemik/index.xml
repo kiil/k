@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Polemik on Kiils</title>
-    <link>https://www.kiils.dk/genrer/polemik/</link>
+    <link>http://localhost:1313/genrer/polemik/</link>
     <description>Recent content in Polemik on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Sun, 05 Jan 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/genrer/polemik/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/genrer/polemik/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>En langsom pinefuld død på Facebook</title>
-      <link>https://www.kiils.dk/blog/some/facebook/fald/</link>
+      <link>http://localhost:1313/blog/some/facebook/fald/</link>
       <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/blog/some/facebook/fald/</guid>
+      <guid>http://localhost:1313/blog/some/facebook/fald/</guid>
       <description>Facebook har ændret sig - hvordan får man succes?</description>
     </item>
   </channel>

@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Skrivning on Kiils</title>
-    <link>https://www.kiils.dk/emner/skrivning/</link>
+    <link>http://localhost:1313/emner/skrivning/</link>
     <description>Recent content in Skrivning on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Tue, 02 May 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/emner/skrivning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/emner/skrivning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Erfaren redaktør: ChatGPTs skrivetips ligner til forveksling mine egne - undtagen på et punkt</title>
-      <link>https://www.kiils.dk/blog/danmarks-mest-rutinerede-redaktor-anmelder-chatgpt/</link>
+      <link>http://localhost:1313/blog/danmarks-mest-rutinerede-redaktor-anmelder-chatgpt/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/blog/danmarks-mest-rutinerede-redaktor-anmelder-chatgpt/</guid>
+      <guid>http://localhost:1313/blog/danmarks-mest-rutinerede-redaktor-anmelder-chatgpt/</guid>
       <description>Jeg bad ChatGPT give nogle skrivetips.</description>
     </item>
     <item>
       <title>Fem eller 5</title>
-      <link>https://www.kiils.dk/blog/tal/</link>
+      <link>http://localhost:1313/blog/tal/</link>
       <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/blog/tal/</guid>
+      <guid>http://localhost:1313/blog/tal/</guid>
       <description>Hvornår skrives tal ud</description>
     </item>
     <item>
       <title>Jeg har skrevet over 10.000 tekster - her er den som betyder mest for mig selv</title>
-      <link>https://www.kiils.dk/blog/bedrifter/10000-tekster/</link>
+      <link>http://localhost:1313/blog/bedrifter/10000-tekster/</link>
       <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/blog/bedrifter/10000-tekster/</guid>
+      <guid>http://localhost:1313/blog/bedrifter/10000-tekster/</guid>
       <description>Jeg har skrevet langt over 10.</description>
     </item>
   </channel>

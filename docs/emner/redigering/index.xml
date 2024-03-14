@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>redigering on Kiils</title>
-    <link>https://www.kiils.dk/emner/redigering/</link>
-    <description>Recent content in redigering on Kiils</description>
+    <title>Redigering on Kiils</title>
+    <link>http://localhost:1313/emner/redigering/</link>
+    <description>Recent content in Redigering on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Tue, 02 May 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/emner/redigering/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/emner/redigering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Redigering af tekst</title>
-      <link>https://www.kiils.dk/ydelse/redaktionelt/redigering/</link>
+      <link>http://localhost:1313/ydelse/redaktionelt/redigering/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/ydelse/redaktionelt/redigering/</guid>
+      <guid>http://localhost:1313/ydelse/redaktionelt/redigering/</guid>
       <description>Kiils har redigeret tusindvis af tekster og kan hjælpe dig med dine</description>
     </item>
     <item>
       <title>Erfaren redaktør: ChatGPTs skrivetips ligner til forveksling mine egne - undtagen på et punkt</title>
-      <link>https://www.kiils.dk/blog/danmarks-mest-rutinerede-redaktor-anmelder-chatgpt/</link>
+      <link>http://localhost:1313/blog/danmarks-mest-rutinerede-redaktor-anmelder-chatgpt/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/blog/danmarks-mest-rutinerede-redaktor-anmelder-chatgpt/</guid>
+      <guid>http://localhost:1313/blog/danmarks-mest-rutinerede-redaktor-anmelder-chatgpt/</guid>
       <description>Jeg bad ChatGPT give nogle skrivetips.</description>
     </item>
     <item>
       <title>Pixelering er ikke længere sikker sløring</title>
-      <link>https://www.kiils.dk/blog/sikkerhed/pixelering/</link>
+      <link>http://localhost:1313/blog/sikkerhed/pixelering/</link>
       <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/blog/sikkerhed/pixelering/</guid>
+      <guid>http://localhost:1313/blog/sikkerhed/pixelering/</guid>
       <description>Brug ikke pixelering når tekst skal skjules</description>
     </item>
     <item>
       <title>Sidetal væk fra forsiden i pdf over Pandoc fra markdown</title>
-      <link>https://www.kiils.dk/blog/tips-tricks/sidetal/</link>
+      <link>http://localhost:1313/blog/tips-tricks/sidetal/</link>
       <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/blog/tips-tricks/sidetal/</guid>
+      <guid>http://localhost:1313/blog/tips-tricks/sidetal/</guid>
       <description>Nogle gange vil man ikke have sidetal på titel-siden</description>
     </item>
   </channel>

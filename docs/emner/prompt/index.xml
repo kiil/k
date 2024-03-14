@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Prompt on Kiils</title>
-    <link>https://www.kiils.dk/emner/prompt/</link>
+    <link>http://localhost:1313/emner/prompt/</link>
     <description>Recent content in Prompt on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Wed, 28 Jun 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/emner/prompt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/emner/prompt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hvad er forskellen på prompt design og prompt engineering</title>
-      <link>https://www.kiils.dk/blog/hvad-er-forskellen-pa-prompt-deisgn-og-prompt-engineering/</link>
+      <link>http://localhost:1313/blog/hvad-er-forskellen-pa-prompt-deisgn-og-prompt-engineering/</link>
       <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/blog/hvad-er-forskellen-pa-prompt-deisgn-og-prompt-engineering/</guid>
+      <guid>http://localhost:1313/blog/hvad-er-forskellen-pa-prompt-deisgn-og-prompt-engineering/</guid>
       <description>Prompt design er mere overordnede betragtninger og hvad hensigten med et prompt er.</description>
     </item>
   </channel>

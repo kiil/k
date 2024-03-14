@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lidt om LinkedIn on Kiils</title>
-    <link>https://www.kiils.dk/emner/linkedin/</link>
+    <link>http://localhost:1313/emner/linkedin/</link>
     <description>Recent content in Lidt om LinkedIn on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Sat, 12 May 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/emner/linkedin/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/emner/linkedin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Delinger giver bonus på LinkedIn</title>
-      <link>https://www.kiils.dk/blog/some/delinger-bonus-linkedin/</link>
+      <link>http://localhost:1313/blog/some/delinger-bonus-linkedin/</link>
       <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/blog/some/delinger-bonus-linkedin/</guid>
+      <guid>http://localhost:1313/blog/some/delinger-bonus-linkedin/</guid>
       <description>Læg relevante links på LinkedIn og forøg antallet af besøg til din profilside mangefold.</description>
     </item>
   </channel>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Valgmuligheder on Kiils</title>
-    <link>https://www.kiils.dk/emner/valgmuligheder/</link>
+    <link>http://localhost:1313/emner/valgmuligheder/</link>
     <description>Recent content in Valgmuligheder on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/emner/valgmuligheder/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/emner/valgmuligheder/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sådan satte jeg et dark theme op på Folkets uden at genere brugerne med flere valgmuligheder</title>
-      <link>https://www.kiils.dk/blog/brugervenlighed/brugerens-foretrukne-farvepalette-dark-mode-folkets/</link>
+      <link>http://localhost:1313/blog/brugervenlighed/brugerens-foretrukne-farvepalette-dark-mode-folkets/</link>
       <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/blog/brugervenlighed/brugerens-foretrukne-farvepalette-dark-mode-folkets/</guid>
+      <guid>http://localhost:1313/blog/brugervenlighed/brugerens-foretrukne-farvepalette-dark-mode-folkets/</guid>
       <description>Det er muligt at efterkomme brugernes ønsker uden at genere dem med yderligere forespørgsler</description>
     </item>
   </channel>

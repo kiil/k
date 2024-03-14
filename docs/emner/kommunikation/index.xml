@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kommunikation on Kiils</title>
-    <link>https://www.kiils.dk/emner/kommunikation/</link>
+    <link>http://localhost:1313/emner/kommunikation/</link>
     <description>Recent content in Kommunikation on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Fri, 02 Sep 2022 08:57:34 +0200</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/emner/kommunikation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/emner/kommunikation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Et forældremøde jeg sent vil glemme</title>
-      <link>https://www.kiils.dk/blog/foraeldremoedet/</link>
+      <link>http://localhost:1313/blog/foraeldremoedet/</link>
       <pubDate>Fri, 02 Sep 2022 08:57:34 +0200</pubDate>
-      <guid>https://www.kiils.dk/blog/foraeldremoedet/</guid>
+      <guid>http://localhost:1313/blog/foraeldremoedet/</guid>
       <description>Forældremøder behøver ikke at være kedelige.</description>
     </item>
   </channel>

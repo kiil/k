@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>inklusion on Kiils</title>
-    <link>https://www.kiils.dk/emner/inklusion/</link>
-    <description>Recent content in inklusion on Kiils</description>
+    <title>Inklusion on Kiils</title>
+    <link>http://localhost:1313/emner/inklusion/</link>
+    <description>Recent content in Inklusion on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Tue, 17 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/emner/inklusion/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/emner/inklusion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google risikerer at straffe folk som inkluderer ordblinde i den demokratiske debat</title>
-      <link>https://www.kiils.dk/blog/nlp/chatgpt-google/</link>
+      <link>http://localhost:1313/blog/nlp/chatgpt-google/</link>
       <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/blog/nlp/chatgpt-google/</guid>
+      <guid>http://localhost:1313/blog/nlp/chatgpt-google/</guid>
       <description>Jeg indså ret hurtigt at ChatGPT og andre lignende teknologier ville kunne blive en enorm hjælp for ordblinde.</description>
     </item>
   </channel>

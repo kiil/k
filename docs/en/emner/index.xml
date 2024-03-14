@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emner on Kiils</title>
-    <link>https://www.kiils.dk/en/emner/</link>
+    <link>http://localhost:1313/en/emner/</link>
     <description>Recent content in Emner on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
     <lastBuildDate>Mon, 24 Jul 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/en/emner/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/emner/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Finansiering</title>
-      <link>https://www.kiils.dk/en/emner/finansiering/</link>
+      <link>http://localhost:1313/en/emner/finansiering/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/en/emner/finansiering/</guid>
+      <guid>http://localhost:1313/en/emner/finansiering/</guid>
       <description></description>
     </item>
     <item>
       <title>Artificial Intelligence</title>
-      <link>https://www.kiils.dk/en/emner/artificial-intelligence/</link>
+      <link>http://localhost:1313/en/emner/artificial-intelligence/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/en/emner/artificial-intelligence/</guid>
+      <guid>http://localhost:1313/en/emner/artificial-intelligence/</guid>
       <description></description>
     </item>
     <item>
-      <title>kunstig intelligens</title>
-      <link>https://www.kiils.dk/en/emner/kunstig-intelligens/</link>
+      <title>Kunstig Intelligens</title>
+      <link>http://localhost:1313/en/emner/kunstig-intelligens/</link>
       <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/en/emner/kunstig-intelligens/</guid>
+      <guid>http://localhost:1313/en/emner/kunstig-intelligens/</guid>
       <description></description>
     </item>
     <item>
-      <title>nlp</title>
-      <link>https://www.kiils.dk/en/emner/nlp/</link>
+      <title>Nlp</title>
+      <link>http://localhost:1313/en/emner/nlp/</link>
       <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/en/emner/nlp/</guid>
+      <guid>http://localhost:1313/en/emner/nlp/</guid>
       <description></description>
     </item>
     <item>
-      <title>tekstskabelse</title>
-      <link>https://www.kiils.dk/en/emner/tekstskabelse/</link>
+      <title>Tekstskabelse</title>
+      <link>http://localhost:1313/en/emner/tekstskabelse/</link>
       <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/en/emner/tekstskabelse/</guid>
+      <guid>http://localhost:1313/en/emner/tekstskabelse/</guid>
       <description></description>
     </item>
     <item>
-      <title>billing</title>
-      <link>https://www.kiils.dk/en/emner/billing/</link>
+      <title>Billing</title>
+      <link>http://localhost:1313/en/emner/billing/</link>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/en/emner/billing/</guid>
+      <guid>http://localhost:1313/en/emner/billing/</guid>
       <description></description>
     </item>
     <item>
-      <title>payment</title>
-      <link>https://www.kiils.dk/en/emner/payment/</link>
+      <title>Payment</title>
+      <link>http://localhost:1313/en/emner/payment/</link>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/en/emner/payment/</guid>
+      <guid>http://localhost:1313/en/emner/payment/</guid>
       <description></description>
     </item>
     <item>
-      <title>stripe</title>
-      <link>https://www.kiils.dk/en/emner/stripe/</link>
+      <title>Stripe</title>
+      <link>http://localhost:1313/en/emner/stripe/</link>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/en/emner/stripe/</guid>
+      <guid>http://localhost:1313/en/emner/stripe/</guid>
       <description></description>
     </item>
   </channel>

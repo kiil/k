@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Genrer on Kiils</title>
-    <link>https://www.kiils.dk/genrer/</link>
+    <link>http://localhost:1313/genrer/</link>
     <description>Recent content in Genrer on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/genrer/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/genrer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Overvejelser</title>
-      <link>https://www.kiils.dk/genrer/overvejelser/</link>
+      <link>http://localhost:1313/genrer/overvejelser/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/genrer/overvejelser/</guid>
+      <guid>http://localhost:1313/genrer/overvejelser/</guid>
       <description></description>
     </item>
     <item>
       <title>Notits</title>
-      <link>https://www.kiils.dk/genrer/notits/</link>
+      <link>http://localhost:1313/genrer/notits/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/genrer/notits/</guid>
+      <guid>http://localhost:1313/genrer/notits/</guid>
       <description></description>
     </item>
     <item>
       <title>Serier</title>
-      <link>https://www.kiils.dk/genrer/serie/</link>
+      <link>http://localhost:1313/genrer/serie/</link>
       <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/genrer/serie/</guid>
+      <guid>http://localhost:1313/genrer/serie/</guid>
       <description></description>
     </item>
     <item>
-      <title>bedrifter</title>
-      <link>https://www.kiils.dk/genrer/bedrifter/</link>
+      <title>Bedrifter</title>
+      <link>http://localhost:1313/genrer/bedrifter/</link>
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/genrer/bedrifter/</guid>
+      <guid>http://localhost:1313/genrer/bedrifter/</guid>
       <description></description>
     </item>
     <item>
-      <title>lifehacks</title>
-      <link>https://www.kiils.dk/genrer/lifehacks/</link>
+      <title>Lifehacks</title>
+      <link>http://localhost:1313/genrer/lifehacks/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/genrer/lifehacks/</guid>
+      <guid>http://localhost:1313/genrer/lifehacks/</guid>
       <description></description>
     </item>
     <item>
       <title>Polemik</title>
-      <link>https://www.kiils.dk/genrer/polemik/</link>
+      <link>http://localhost:1313/genrer/polemik/</link>
       <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/genrer/polemik/</guid>
+      <guid>http://localhost:1313/genrer/polemik/</guid>
       <description></description>
     </item>
   </channel>

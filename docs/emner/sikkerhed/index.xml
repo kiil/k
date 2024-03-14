@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sikkerhed on Kiils</title>
-    <link>https://www.kiils.dk/emner/sikkerhed/</link>
-    <description>Recent content in sikkerhed on Kiils</description>
+    <title>Sikkerhed on Kiils</title>
+    <link>http://localhost:1313/emner/sikkerhed/</link>
+    <description>Recent content in Sikkerhed on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Wed, 23 Feb 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/emner/sikkerhed/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/emner/sikkerhed/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pixelering er ikke længere sikker sløring</title>
-      <link>https://www.kiils.dk/blog/sikkerhed/pixelering/</link>
+      <link>http://localhost:1313/blog/sikkerhed/pixelering/</link>
       <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/blog/sikkerhed/pixelering/</guid>
+      <guid>http://localhost:1313/blog/sikkerhed/pixelering/</guid>
       <description>Brug ikke pixelering når tekst skal skjules</description>
     </item>
   </channel>

@@ -1,40 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>nushell on Kiils</title>
-    <link>https://www.kiils.dk/tools/nushell/</link>
-    <description>Recent content in nushell on Kiils</description>
+    <title>Nushell on Kiils</title>
+    <link>http://localhost:1313/tools/nushell/</link>
+    <description>Recent content in Nushell on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Wed, 03 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/tools/nushell/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tools/nushell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sådan hjælper ChatGPT og Nushell ordblinde Lars</title>
+      <link>http://localhost:1313/blog/sadan-hjaelper-chatgpt-og-nushell-ordblinde-lars/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/sadan-hjaelper-chatgpt-og-nushell-ordblinde-lars/</guid>
+      <description>At få ChatGPT til at rette en ordblinds tekst, har vist sig at være lidt af en udfordring.</description>
+    </item>
     <item>
       <title>AI: Mini-assistent til research på internettet med nushell, aichat og ddgr</title>
-      <link>https://www.kiils.dk/blog/ai-mini-assistent-til-research-pa-internettet-med-nushell-aichat-og-ddgr/</link>
+      <link>http://localhost:1313/blog/ai-mini-assistent-til-research-pa-internettet-med-nushell-aichat-og-ddgr/</link>
       <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/blog/ai-mini-assistent-til-research-pa-internettet-med-nushell-aichat-og-ddgr/</guid>
+      <guid>http://localhost:1313/blog/ai-mini-assistent-til-research-pa-internettet-med-nushell-aichat-og-ddgr/</guid>
       <description>Jo simplere, jo nemmere er at det at forstå hvad der foregår:</description>
     </item>
     <item>
       <title>Nushell og stripes API</title>
-      <link>https://www.kiils.dk/blog/2023-01-nushell-stripe/</link>
+      <link>http://localhost:1313/blog/2023-01-nushell-stripe/</link>
       <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/blog/2023-01-nushell-stripe/</guid>
+      <guid>http://localhost:1313/blog/2023-01-nushell-stripe/</guid>
       <description>Nushell gør det nemt at interagere med API</description>
     </item>
     <item>
       <title>Uhyre hurtig tekstanalyse med dataframes i Nushell</title>
-      <link>https://www.kiils.dk/blog/nlp/nushell-dataframes/</link>
+      <link>http://localhost:1313/blog/nlp/nushell-dataframes/</link>
       <pubDate>Thu, 24 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/blog/nlp/nushell-dataframes/</guid>
+      <guid>http://localhost:1313/blog/nlp/nushell-dataframes/</guid>
       <description>Uhyggelig hurtig tekstanalyse med dataframes</description>
     </item>
     <item>
       <title>Simpel og hurtig ordfrekvensanalyse i Nushell</title>
-      <link>https://www.kiils.dk/blog/nlp/nushell/</link>
+      <link>http://localhost:1313/blog/nlp/nushell/</link>
       <pubDate>Tue, 08 Nov 2022 09:47:02 +0100</pubDate>
-      <guid>https://www.kiils.dk/blog/nlp/nushell/</guid>
+      <guid>http://localhost:1313/blog/nlp/nushell/</guid>
       <description>En shell der egner sig godt til dataanalyse, er Nushell.</description>
     </item>
   </channel>

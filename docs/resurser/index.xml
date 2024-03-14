@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resurser on Kiils</title>
-    <link>https://www.kiils.dk/resurser/</link>
+    <link>http://localhost:1313/resurser/</link>
     <description>Recent content in Resurser on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Wed, 07 Jun 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/resurser/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/resurser/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ordbog - fagtermer i kunstig intelligens</title>
-      <link>https://www.kiils.dk/resurser/ordbog/</link>
+      <link>http://localhost:1313/resurser/ordbog/</link>
       <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/resurser/ordbog/</guid>
+      <guid>http://localhost:1313/resurser/ordbog/</guid>
       <description>Basismodel # På engelsk base model eller foundation model.</description>
     </item>
     <item>
       <title>Stjernet på Github</title>
-      <link>https://www.kiils.dk/resurser/starred/</link>
+      <link>http://localhost:1313/resurser/starred/</link>
       <pubDate>Sat, 03 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/resurser/starred/</guid>
+      <guid>http://localhost:1313/resurser/starred/</guid>
       <description>De seneste projekter jeg følger på Github, kan måske inspirere andre.</description>
     </item>
     <item>
       <title>Danske ChatGPT prompts</title>
-      <link>https://www.kiils.dk/resurser/prompts/</link>
+      <link>http://localhost:1313/resurser/prompts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/resurser/prompts/</guid>
+      <guid>http://localhost:1313/resurser/prompts/</guid>
       <description>Det indledende prompt er afgørende for en brugbar samtale med ChatGPT.</description>
     </item>
     <item>
       <title>Generelle ChatGPT Personaer</title>
-      <link>https://www.kiils.dk/resurser/personas/</link>
+      <link>http://localhost:1313/resurser/personas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/resurser/personas/</guid>
+      <guid>http://localhost:1313/resurser/personas/</guid>
       <description>I OpenAI&amp;rsquo;s ChatGPT bruges den indledende &amp;ldquo;system message&amp;rdquo; ofte til en prompt som opstiller et emne eller opgave for samtalen.</description>
     </item>
   </channel>

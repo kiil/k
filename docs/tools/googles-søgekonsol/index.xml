@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Googles søgekonsol on Kiils</title>
-    <link>https://www.kiils.dk/tools/googles-s%C3%B8gekonsol/</link>
-    <description>Recent content in Googles søgekonsol on Kiils</description>
+    <title>Googles Søgekonsol on Kiils</title>
+    <link>http://localhost:1313/tools/googles-s%C3%B8gekonsol/</link>
+    <description>Recent content in Googles Søgekonsol on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Fri, 26 Mar 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/tools/googles-s%C3%B8gekonsol/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tools/googles-s%C3%B8gekonsol/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Klimaleksikon nummer et i Google på klima</title>
-      <link>https://www.kiils.dk/blog/seo/google-klima-succes/</link>
+      <link>http://localhost:1313/blog/seo/google-klima-succes/</link>
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/blog/seo/google-klima-succes/</guid>
+      <guid>http://localhost:1313/blog/seo/google-klima-succes/</guid>
       <description>Det tog 13 år at komme helt til tops</description>
     </item>
     <item>
       <title>Er det sådan censur ser ud?</title>
-      <link>https://www.kiils.dk/blog/seo/corona/</link>
+      <link>http://localhost:1313/blog/seo/corona/</link>
       <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/blog/seo/corona/</guid>
+      <guid>http://localhost:1313/blog/seo/corona/</guid>
       <description>Eller er Googles veje bare uransagelige</description>
     </item>
   </channel>
