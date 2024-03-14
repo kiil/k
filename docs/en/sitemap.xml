@@ -4,23 +4,23 @@
   
     
       <url>
-            <loc>http://localhost:1313/en/resource/</loc>
+            <loc>https://www.kiils.dk/en/resource/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/en/blog/</loc>
+            <loc>https://www.kiils.dk/en/blog/</loc>
             <lastmod>2023-07-24T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="da"
-              href="http://localhost:1313/blog/"
+              href="https://www.kiils.dk/blog/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="http://localhost:1313/en/blog/"
+              href="https://www.kiils.dk/en/blog/"
               />
           </url>
     
@@ -31,7 +31,7 @@
   
     
       <url>
-            <loc>http://localhost:1313/en/blog/making-taskwarrior-better-with-nushell/</loc>
+            <loc>https://www.kiils.dk/en/blog/making-taskwarrior-better-with-nushell/</loc>
             <lastmod>2023-07-24T00:00:00+00:00</lastmod>
           </url>
     
@@ -42,17 +42,17 @@
   
     
       <url>
-            <loc>http://localhost:1313/en/</loc>
+            <loc>https://www.kiils.dk/en/</loc>
             <lastmod>2023-07-24T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="da"
-              href="http://localhost:1313/"
+              href="https://www.kiils.dk/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="http://localhost:1313/en/"
+              href="https://www.kiils.dk/en/"
               />
           </url>
     
@@ -67,24 +67,24 @@
   
     
       <url>
-            <loc>http://localhost:1313/en/blog/humans-should-also-be-prompted-properly/</loc>
+            <loc>https://www.kiils.dk/en/blog/humans-should-also-be-prompted-properly/</loc>
             <lastmod>2023-05-23T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="da"
-              href="http://localhost:1313/blog/chatgpt-skal-promptes-ordentligt-men-det-skal-mennesker-jo-ogsa/"
+              href="https://www.kiils.dk/blog/chatgpt-skal-promptes-ordentligt-men-det-skal-mennesker-jo-ogsa/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="http://localhost:1313/en/blog/humans-should-also-be-prompted-properly/"
+              href="https://www.kiils.dk/en/blog/humans-should-also-be-prompted-properly/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/en/blog/merging-an-emoji-font-into-a-text-font/</loc>
+            <loc>https://www.kiils.dk/en/blog/merging-an-emoji-font-into-a-text-font/</loc>
             <lastmod>2023-05-23T00:00:00+00:00</lastmod>
           </url>
     
@@ -95,14 +95,14 @@
   
     
       <url>
-            <loc>http://localhost:1313/en/blog/how-chatgpt-made-my-surly-son-laugh/</loc>
+            <loc>https://www.kiils.dk/en/blog/how-chatgpt-made-my-surly-son-laugh/</loc>
             <lastmod>2023-05-22T00:00:00+00:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/en/blog/chatgpt-glorified-markov-chain/</loc>
+            <loc>https://www.kiils.dk/en/blog/chatgpt-glorified-markov-chain/</loc>
             <lastmod>2023-01-12T00:00:00+00:00</lastmod>
           </url>
     
@@ -125,7 +125,7 @@
   
     
       <url>
-            <loc>http://localhost:1313/en/blog/servicebot-is-great/</loc>
+            <loc>https://www.kiils.dk/en/blog/servicebot-is-great/</loc>
             <lastmod>2020-05-14T00:00:00+00:00</lastmod>
           </url>
     
@@ -134,7 +134,7 @@
   
     
       <url>
-            <loc>http://localhost:1313/en/resource/personas/</loc>
+            <loc>https://www.kiils.dk/en/resource/personas/</loc>
           </url>
     
   
@@ -144,54 +144,54 @@
   
     
       <url>
-            <loc>http://localhost:1313/en/domain/climate-encyclopedia/</loc>
+            <loc>https://www.kiils.dk/en/domain/climate-encyclopedia/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/en/domain/</loc>
+            <loc>https://www.kiils.dk/en/domain/</loc>
             <xhtml:link
               rel="alternate"
               hreflang="da"
-              href="http://localhost:1313/domain/"
+              href="https://www.kiils.dk/domain/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="http://localhost:1313/en/domain/"
+              href="https://www.kiils.dk/en/domain/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/en/domain/folkets/</loc>
+            <loc>https://www.kiils.dk/en/domain/folkets/</loc>
             <xhtml:link
               rel="alternate"
               hreflang="da"
-              href="http://localhost:1313/domain/folkets/"
+              href="https://www.kiils.dk/domain/folkets/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="http://localhost:1313/en/domain/folkets/"
+              href="https://www.kiils.dk/en/domain/folkets/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/en/person/lennart/</loc>
+            <loc>https://www.kiils.dk/en/person/lennart/</loc>
             <xhtml:link
               rel="alternate"
               hreflang="da"
-              href="http://localhost:1313/person/lennart/"
+              href="https://www.kiils.dk/person/lennart/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="http://localhost:1313/en/person/lennart/"
+              href="https://www.kiils.dk/en/person/lennart/"
               />
           </url>
     

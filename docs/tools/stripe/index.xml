@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stripe on Kiils</title>
-    <link>http://localhost:1313/tools/stripe/</link>
+    <link>https://www.kiils.dk/tools/stripe/</link>
     <description>Recent content in Stripe on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tools/stripe/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kiils.dk/tools/stripe/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nushell og stripes API</title>
-      <link>http://localhost:1313/blog/2023-01-nushell-stripe/</link>
+      <link>https://www.kiils.dk/blog/2023-01-nushell-stripe/</link>
       <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2023-01-nushell-stripe/</guid>
+      <guid>https://www.kiils.dk/blog/2023-01-nushell-stripe/</guid>
       <description>Nushell gør det nemt at interagere med API</description>
     </item>
   </channel>

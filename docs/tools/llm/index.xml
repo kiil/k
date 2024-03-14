@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LLM on Kiils</title>
-    <link>http://localhost:1313/tools/llm/</link>
+    <link>https://www.kiils.dk/tools/llm/</link>
     <description>Recent content in LLM on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Thu, 30 Nov 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tools/llm/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kiils.dk/tools/llm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nu er det let at køre en LLM på din egen computer</title>
-      <link>http://localhost:1313/blog/nu-er-det-let-at-kore-en-llm-pa-din-egen-computer/</link>
+      <link>https://www.kiils.dk/blog/nu-er-det-let-at-kore-en-llm-pa-din-egen-computer/</link>
       <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/nu-er-det-let-at-kore-en-llm-pa-din-egen-computer/</guid>
+      <guid>https://www.kiils.dk/blog/nu-er-det-let-at-kore-en-llm-pa-din-egen-computer/</guid>
       <description>Mozilla, som er mest kendt for browseren Firefox, har sammen med programmøren Justine Tunney gjort det nemt at køre en LLM lokalt på din egen computer.</description>
     </item>
     <item>
       <title>Tre typer store sprogmodeller</title>
-      <link>http://localhost:1313/blog/tre-typer-store-sprogmodeller/</link>
+      <link>https://www.kiils.dk/blog/tre-typer-store-sprogmodeller/</link>
       <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tre-typer-store-sprogmodeller/</guid>
+      <guid>https://www.kiils.dk/blog/tre-typer-store-sprogmodeller/</guid>
       <description>Generisk</description>
     </item>
     <item>
       <title>📈 Kursus — Sådan får du værdifulde 💎 data 💎 ud af tekst</title>
-      <link>http://localhost:1313/kursus/tekst-data/</link>
+      <link>https://www.kiils.dk/kursus/tekst-data/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/kursus/tekst-data/</guid>
+      <guid>https://www.kiils.dk/kursus/tekst-data/</guid>
       <description>Med kunstig intelligens er det blevet muligt at lave værdifulde analyser af store mængder tekst - men hvordan gør man?</description>
     </item>
   </channel>

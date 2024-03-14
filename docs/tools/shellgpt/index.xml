@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ShellGPT on Kiils</title>
-    <link>http://localhost:1313/tools/shellgpt/</link>
+    <link>https://www.kiils.dk/tools/shellgpt/</link>
     <description>Recent content in ShellGPT on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tools/shellgpt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kiils.dk/tools/shellgpt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Takket være ShellGPT kan alle nu få gavn af kommandolinjens superkræfter - se her hvordan</title>
-      <link>http://localhost:1313/blog/er-du-ved-at-opgive-kommandolinjen-fa-chatgpt-til-at-hjaelpe-dig/</link>
+      <link>https://www.kiils.dk/blog/er-du-ved-at-opgive-kommandolinjen-fa-chatgpt-til-at-hjaelpe-dig/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/er-du-ved-at-opgive-kommandolinjen-fa-chatgpt-til-at-hjaelpe-dig/</guid>
+      <guid>https://www.kiils.dk/blog/er-du-ved-at-opgive-kommandolinjen-fa-chatgpt-til-at-hjaelpe-dig/</guid>
       <description>Jeg opdagede ved en tilfældighed at jeg i mine mange nylige indlæg her på Kiils/erfaringer i nogle tilfælde havde skrevet ChatGPT som chatGPT.</description>
     </item>
   </channel>

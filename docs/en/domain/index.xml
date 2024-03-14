@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Domains on Kiils</title>
-    <link>http://localhost:1313/en/domain/</link>
+    <link>https://www.kiils.dk/en/domain/</link>
     <description>Recent content in Domains on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
-    <atom:link href="http://localhost:1313/en/domain/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kiils.dk/en/domain/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Climate Encyclopedia</title>
-      <link>http://localhost:1313/en/domain/climate-encyclopedia/</link>
+      <link>https://www.kiils.dk/en/domain/climate-encyclopedia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/domain/climate-encyclopedia/</guid>
+      <guid>https://www.kiils.dk/en/domain/climate-encyclopedia/</guid>
       <description></description>
     </item>
     <item>
       <title>Folkets.dk</title>
-      <link>http://localhost:1313/en/domain/folkets/</link>
+      <link>https://www.kiils.dk/en/domain/folkets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/domain/folkets/</guid>
+      <guid>https://www.kiils.dk/en/domain/folkets/</guid>
       <description>Pricing on www.</description>
     </item>
   </channel>

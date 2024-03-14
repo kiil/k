@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>digitalt on Kiils</title>
-    <link>http://localhost:1313/brands/digitalt/</link>
+    <link>https://www.kiils.dk/brands/digitalt/</link>
     <description>Recent content in digitalt on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <atom:link href="http://localhost:1313/brands/digitalt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kiils.dk/brands/digitalt/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

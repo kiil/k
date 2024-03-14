@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SEO on Kiils</title>
-    <link>http://localhost:1313/emner/seo/</link>
+    <link>https://www.kiils.dk/emner/seo/</link>
     <description>Recent content in SEO on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Wed, 11 Mar 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/emner/seo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kiils.dk/emner/seo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Er det sådan censur ser ud?</title>
-      <link>http://localhost:1313/blog/seo/corona/</link>
+      <link>https://www.kiils.dk/blog/seo/corona/</link>
       <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/seo/corona/</guid>
+      <guid>https://www.kiils.dk/blog/seo/corona/</guid>
       <description>Eller er Googles veje bare uransagelige</description>
     </item>
     <item>
       <title>Hvad betyder ankertekst?</title>
-      <link>http://localhost:1313/blog/seo/hvad-betyder-ankertekst/</link>
+      <link>https://www.kiils.dk/blog/seo/hvad-betyder-ankertekst/</link>
       <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/seo/hvad-betyder-ankertekst/</guid>
+      <guid>https://www.kiils.dk/blog/seo/hvad-betyder-ankertekst/</guid>
       <description>I SEO-sprog nævnes ofte ankertekst, men hvad er det egentligt?</description>
     </item>
     <item>
       <title>Lovende Google Discover klikrate (CTR)</title>
-      <link>http://localhost:1313/blog/seo/lovende-ctr-google-discover/</link>
+      <link>https://www.kiils.dk/blog/seo/lovende-ctr-google-discover/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/seo/lovende-ctr-google-discover/</guid>
+      <guid>https://www.kiils.dk/blog/seo/lovende-ctr-google-discover/</guid>
       <description>Googles Discover kan godt komme til at spille en rolle for trafik</description>
     </item>
     <item>
       <title>Google belønner tidlig indsats</title>
-      <link>http://localhost:1313/blog/seo/google-tidlig-indsats/</link>
+      <link>https://www.kiils.dk/blog/seo/google-tidlig-indsats/</link>
       <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/seo/google-tidlig-indsats/</guid>
+      <guid>https://www.kiils.dk/blog/seo/google-tidlig-indsats/</guid>
       <description>Små medier kan markere sig ved at være først med på internationale navne.</description>
     </item>
   </channel>

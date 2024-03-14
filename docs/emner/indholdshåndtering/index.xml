@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Indholdshåndtering on Kiils</title>
-    <link>http://localhost:1313/emner/indholdsh%C3%A5ndtering/</link>
+    <link>https://www.kiils.dk/emner/indholdsh%C3%A5ndtering/</link>
     <description>Recent content in Indholdshåndtering on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Thu, 16 Jun 2022 12:10:31 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/emner/indholdsh%C3%A5ndtering/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kiils.dk/emner/indholdsh%C3%A5ndtering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Udeluk bestemte indholdstyper fra søgeindeks i Hugo</title>
-      <link>http://localhost:1313/blog/indholdstyper-soegeindeks-hugo/</link>
+      <link>https://www.kiils.dk/blog/indholdstyper-soegeindeks-hugo/</link>
       <pubDate>Thu, 16 Jun 2022 12:10:31 +0200</pubDate>
-      <guid>http://localhost:1313/blog/indholdstyper-soegeindeks-hugo/</guid>
+      <guid>https://www.kiils.dk/blog/indholdstyper-soegeindeks-hugo/</guid>
       <description>Jeg ønskede ikke mine micro-blogging &amp;ldquo;snippets&amp;rdquo; som jeg vil bruge på LinkedIn, skulle &amp;ldquo;forurene&amp;rdquo; søgeindekset her på Kiils.</description>
     </item>
     <item>
       <title>Klimaleksikon nummer et i Google på klima</title>
-      <link>http://localhost:1313/blog/seo/google-klima-succes/</link>
+      <link>https://www.kiils.dk/blog/seo/google-klima-succes/</link>
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/seo/google-klima-succes/</guid>
+      <guid>https://www.kiils.dk/blog/seo/google-klima-succes/</guid>
       <description>Det tog 13 år at komme helt til tops</description>
     </item>
   </channel>

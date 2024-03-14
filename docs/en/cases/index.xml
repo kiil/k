@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cases on Kiils</title>
-    <link>http://localhost:1313/en/cases/</link>
+    <link>https://www.kiils.dk/en/cases/</link>
     <description>Recent content in Cases on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
     <lastBuildDate>Thu, 14 May 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/cases/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kiils.dk/en/cases/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Folkets</title>
-      <link>http://localhost:1313/en/cases/folkets/</link>
+      <link>https://www.kiils.dk/en/cases/folkets/</link>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/cases/folkets/</guid>
+      <guid>https://www.kiils.dk/en/cases/folkets/</guid>
       <description></description>
     </item>
   </channel>

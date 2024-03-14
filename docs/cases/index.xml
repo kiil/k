@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cases on Kiils</title>
-    <link>http://localhost:1313/cases/</link>
+    <link>https://www.kiils.dk/cases/</link>
     <description>Recent content in Cases on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/cases/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kiils.dk/cases/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Klimaleksikon</title>
-      <link>http://localhost:1313/cases/klimaleksikon/</link>
+      <link>https://www.kiils.dk/cases/klimaleksikon/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cases/klimaleksikon/</guid>
+      <guid>https://www.kiils.dk/cases/klimaleksikon/</guid>
       <description>Danmarks bedste og længstlevende side om klima</description>
     </item>
     <item>
       <title>Tutoren</title>
-      <link>http://localhost:1313/cases/tutoren/</link>
+      <link>https://www.kiils.dk/cases/tutoren/</link>
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cases/tutoren/</guid>
+      <guid>https://www.kiils.dk/cases/tutoren/</guid>
       <description></description>
     </item>
     <item>
       <title>24syv</title>
-      <link>http://localhost:1313/cases/24syv/</link>
+      <link>https://www.kiils.dk/cases/24syv/</link>
       <pubDate>Wed, 26 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cases/24syv/</guid>
+      <guid>https://www.kiils.dk/cases/24syv/</guid>
       <description></description>
     </item>
     <item>
       <title>FOLKETS</title>
-      <link>http://localhost:1313/cases/folkets/</link>
+      <link>https://www.kiils.dk/cases/folkets/</link>
       <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cases/folkets/</guid>
+      <guid>https://www.kiils.dk/cases/folkets/</guid>
       <description>En dansk platform</description>
     </item>
     <item>
       <title>Climate Encyclopedia</title>
-      <link>http://localhost:1313/cases/climate-encyclopedia/</link>
+      <link>https://www.kiils.dk/cases/climate-encyclopedia/</link>
       <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cases/climate-encyclopedia/</guid>
+      <guid>https://www.kiils.dk/cases/climate-encyclopedia/</guid>
       <description>Den engelske udgave af Klimaleksikon.dk</description>
     </item>
     <item>
       <title>Gastro Fun</title>
-      <link>http://localhost:1313/cases/gastrofun/</link>
+      <link>https://www.kiils.dk/cases/gastrofun/</link>
       <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cases/gastrofun/</guid>
+      <guid>https://www.kiils.dk/cases/gastrofun/</guid>
       <description>Artikler om mad og masser af opskrifter</description>
     </item>
     <item>
       <title>Coronakatastrofen</title>
-      <link>http://localhost:1313/cases/coronakatastrofen/</link>
+      <link>https://www.kiils.dk/cases/coronakatastrofen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cases/coronakatastrofen/</guid>
+      <guid>https://www.kiils.dk/cases/coronakatastrofen/</guid>
       <description>En bog om den store pandemi</description>
     </item>
   </channel>

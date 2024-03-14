@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Redaktionelt on Kiils</title>
-    <link>http://localhost:1313/ydelse/redaktionelt/</link>
+    <link>https://www.kiils.dk/ydelse/redaktionelt/</link>
     <description>Recent content in Redaktionelt on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Wed, 04 May 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/ydelse/redaktionelt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kiils.dk/ydelse/redaktionelt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Formidling i særklasse</title>
-      <link>http://localhost:1313/ydelse/redaktionelt/formidling/</link>
+      <link>https://www.kiils.dk/ydelse/redaktionelt/formidling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ydelse/redaktionelt/formidling/</guid>
+      <guid>https://www.kiils.dk/ydelse/redaktionelt/formidling/</guid>
       <description>Formidling er en spidskompetence hos Kiils - få dit budskab sikkert igennem her</description>
     </item>
     <item>
       <title>Redigering af tekst</title>
-      <link>http://localhost:1313/ydelse/redaktionelt/redigering/</link>
+      <link>https://www.kiils.dk/ydelse/redaktionelt/redigering/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ydelse/redaktionelt/redigering/</guid>
+      <guid>https://www.kiils.dk/ydelse/redaktionelt/redigering/</guid>
       <description>Kiils har redigeret tusindvis af tekster og kan hjælpe dig med dine</description>
     </item>
     <item>
       <title>Korrektur</title>
-      <link>http://localhost:1313/ydelse/redaktionelt/korrektur/</link>
+      <link>https://www.kiils.dk/ydelse/redaktionelt/korrektur/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ydelse/redaktionelt/korrektur/</guid>
+      <guid>https://www.kiils.dk/ydelse/redaktionelt/korrektur/</guid>
       <description>Få læst grundig korrektur</description>
     </item>
     <item>
       <title>Køb en tekst</title>
-      <link>http://localhost:1313/ydelse/redaktionelt/tekst/</link>
+      <link>https://www.kiils.dk/ydelse/redaktionelt/tekst/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ydelse/redaktionelt/tekst/</guid>
+      <guid>https://www.kiils.dk/ydelse/redaktionelt/tekst/</guid>
       <description></description>
     </item>
     <item>
       <title>Rubrikker der rykker</title>
-      <link>http://localhost:1313/ydelse/redaktionelt/rubrikker/</link>
+      <link>https://www.kiils.dk/ydelse/redaktionelt/rubrikker/</link>
       <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ydelse/redaktionelt/rubrikker/</guid>
+      <guid>https://www.kiils.dk/ydelse/redaktionelt/rubrikker/</guid>
       <description>Jeg har skrevet 10.</description>
     </item>
   </channel>

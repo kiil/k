@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Automatisering on Kiils</title>
-    <link>http://localhost:1313/emner/automatisering/</link>
+    <link>https://www.kiils.dk/emner/automatisering/</link>
     <description>Recent content in Automatisering on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Wed, 15 Feb 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/emner/automatisering/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kiils.dk/emner/automatisering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automatisering med systemd</title>
-      <link>http://localhost:1313/blog/20230215-automatisering-systemd/</link>
+      <link>https://www.kiils.dk/blog/20230215-automatisering-systemd/</link>
       <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/20230215-automatisering-systemd/</guid>
+      <guid>https://www.kiils.dk/blog/20230215-automatisering-systemd/</guid>
       <description>Gå til eller opret ~/.</description>
     </item>
   </channel>

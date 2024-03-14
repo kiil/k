@@ -2,186 +2,186 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ChatGPT on Kiils</title>
-    <link>http://localhost:1313/tools/chatgpt/</link>
+    <link>https://www.kiils.dk/tools/chatgpt/</link>
     <description>Recent content in ChatGPT on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tools/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kiils.dk/tools/chatgpt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kursus: Forstå ChatGPT på en formiddag</title>
-      <link>http://localhost:1313/kursus/chatgpt-formiddag/</link>
+      <link>https://www.kiils.dk/kursus/chatgpt-formiddag/</link>
       <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/kursus/chatgpt-formiddag/</guid>
+      <guid>https://www.kiils.dk/kursus/chatgpt-formiddag/</guid>
       <description>Halv-dags kursus: Forstå ChatGPT og få mere ud af samtalerne med den.</description>
     </item>
     <item>
       <title>Lær at bruge ChatGPT som arbejdsredskab</title>
-      <link>http://localhost:1313/kursus/kursus-fa-mere-ud-af-chatgpt/</link>
+      <link>https://www.kiils.dk/kursus/kursus-fa-mere-ud-af-chatgpt/</link>
       <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/kursus/kursus-fa-mere-ud-af-chatgpt/</guid>
+      <guid>https://www.kiils.dk/kursus/kursus-fa-mere-ud-af-chatgpt/</guid>
       <description>En-dags kursus som er tilpasset dit behov Overblik over mulighederne med ChatGPT.</description>
     </item>
     <item>
       <title>Sådan hjælper ChatGPT og Nushell ordblinde Lars</title>
-      <link>http://localhost:1313/blog/sadan-hjaelper-chatgpt-og-nushell-ordblinde-lars/</link>
+      <link>https://www.kiils.dk/blog/sadan-hjaelper-chatgpt-og-nushell-ordblinde-lars/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/sadan-hjaelper-chatgpt-og-nushell-ordblinde-lars/</guid>
+      <guid>https://www.kiils.dk/blog/sadan-hjaelper-chatgpt-og-nushell-ordblinde-lars/</guid>
       <description>At få ChatGPT til at rette en ordblinds tekst, har vist sig at være lidt af en udfordring.</description>
     </item>
     <item>
       <title>Altman er tilbage - men kan man stadig regne med OpenAI</title>
-      <link>http://localhost:1313/blog/kan-man-stadig-regne-med-openai/</link>
+      <link>https://www.kiils.dk/blog/kan-man-stadig-regne-med-openai/</link>
       <pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/kan-man-stadig-regne-med-openai/</guid>
+      <guid>https://www.kiils.dk/blog/kan-man-stadig-regne-med-openai/</guid>
       <description>Det har været en kaotisk uge for OpenAI, det amerikanske selskab bag den revolutionerende ChatGPT-teknologi.</description>
     </item>
     <item>
       <title>Hvad kan man bruge store sprogmodeller til</title>
-      <link>http://localhost:1313/blog/hvad-kan-man-bruge-store-sprogmodeller-til/</link>
+      <link>https://www.kiils.dk/blog/hvad-kan-man-bruge-store-sprogmodeller-til/</link>
       <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/hvad-kan-man-bruge-store-sprogmodeller-til/</guid>
+      <guid>https://www.kiils.dk/blog/hvad-kan-man-bruge-store-sprogmodeller-til/</guid>
       <description>Helt almindelige store sprogmodeller kan en hel del.</description>
     </item>
     <item>
       <title>OpenAI lancerer function calling i API</title>
-      <link>http://localhost:1313/blog/openai-lancerer-function-calling-i-api/</link>
+      <link>https://www.kiils.dk/blog/openai-lancerer-function-calling-i-api/</link>
       <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/openai-lancerer-function-calling-i-api/</guid>
+      <guid>https://www.kiils.dk/blog/openai-lancerer-function-calling-i-api/</guid>
       <description>Tidligere på året lancerede OpenAI plugins til deres slutbrugerprodukt, ChatGPT.</description>
     </item>
     <item>
       <title>ChatGPT skal promptes ordentligt - men det skal mennesker jo også</title>
-      <link>http://localhost:1313/blog/chatgpt-skal-promptes-ordentligt-men-det-skal-mennesker-jo-ogsa/</link>
+      <link>https://www.kiils.dk/blog/chatgpt-skal-promptes-ordentligt-men-det-skal-mennesker-jo-ogsa/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/chatgpt-skal-promptes-ordentligt-men-det-skal-mennesker-jo-ogsa/</guid>
+      <guid>https://www.kiils.dk/blog/chatgpt-skal-promptes-ordentligt-men-det-skal-mennesker-jo-ogsa/</guid>
       <description>Den anden dag lagde jeg et par linjer op på facebook.</description>
     </item>
     <item>
       <title>Jeg bad ChatGPT spå om min fremtid - svaret gav mig tårer i øjnene</title>
-      <link>http://localhost:1313/blog/jeg-gav-igen-chatgpt-adgang-til-min-dagbog-nu-kan-den-forudsige-min-fremtid/</link>
+      <link>https://www.kiils.dk/blog/jeg-gav-igen-chatgpt-adgang-til-min-dagbog-nu-kan-den-forudsige-min-fremtid/</link>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/jeg-gav-igen-chatgpt-adgang-til-min-dagbog-nu-kan-den-forudsige-min-fremtid/</guid>
+      <guid>https://www.kiils.dk/blog/jeg-gav-igen-chatgpt-adgang-til-min-dagbog-nu-kan-den-forudsige-min-fremtid/</guid>
       <description>ChatGPT er en stor sprogmodel.</description>
     </item>
     <item>
       <title>Erfaren redaktør: ChatGPTs skrivetips ligner til forveksling mine egne - undtagen på et punkt</title>
-      <link>http://localhost:1313/blog/danmarks-mest-rutinerede-redaktor-anmelder-chatgpt/</link>
+      <link>https://www.kiils.dk/blog/danmarks-mest-rutinerede-redaktor-anmelder-chatgpt/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/danmarks-mest-rutinerede-redaktor-anmelder-chatgpt/</guid>
+      <guid>https://www.kiils.dk/blog/danmarks-mest-rutinerede-redaktor-anmelder-chatgpt/</guid>
       <description>Jeg bad ChatGPT give nogle skrivetips.</description>
     </item>
     <item>
       <title>Hvorfor taler ChatGPT som mine børn</title>
-      <link>http://localhost:1313/blog/hvorfor-taler-chatgpt-som-mine-born/</link>
+      <link>https://www.kiils.dk/blog/hvorfor-taler-chatgpt-som-mine-born/</link>
       <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/hvorfor-taler-chatgpt-som-mine-born/</guid>
+      <guid>https://www.kiils.dk/blog/hvorfor-taler-chatgpt-som-mine-born/</guid>
       <description>Her et brudstykke fra en nylig snak med ChatGPT:</description>
     </item>
     <item>
       <title>Spar tid med kunstig intelligens - sammenfat et word dokument</title>
-      <link>http://localhost:1313/blog/spar-tid-med-kunstig-intelligens-sammenfat-et-word-dokument/</link>
+      <link>https://www.kiils.dk/blog/spar-tid-med-kunstig-intelligens-sammenfat-et-word-dokument/</link>
       <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/spar-tid-med-kunstig-intelligens-sammenfat-et-word-dokument/</guid>
+      <guid>https://www.kiils.dk/blog/spar-tid-med-kunstig-intelligens-sammenfat-et-word-dokument/</guid>
       <description>Når man har to børn, er der masser af kommunikation at forholde sig til.</description>
     </item>
     <item>
       <title>ChatGPT har en beskidt tankegang - her er beviset</title>
-      <link>http://localhost:1313/blog/chatgpt-har-en-uforbedrelig-beskidt-tankegang-her-er-beviset/</link>
+      <link>https://www.kiils.dk/blog/chatgpt-har-en-uforbedrelig-beskidt-tankegang-her-er-beviset/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/chatgpt-har-en-uforbedrelig-beskidt-tankegang-her-er-beviset/</guid>
+      <guid>https://www.kiils.dk/blog/chatgpt-har-en-uforbedrelig-beskidt-tankegang-her-er-beviset/</guid>
       <description>Bruger: hi</description>
     </item>
     <item>
       <title>Selvcensur gør GPT modeller dummere end de behøver at være</title>
-      <link>http://localhost:1313/blog/striks-selvcensur-gor-gpt-modeller-dummere-end-de-behover-at-vaere/</link>
+      <link>https://www.kiils.dk/blog/striks-selvcensur-gor-gpt-modeller-dummere-end-de-behover-at-vaere/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/striks-selvcensur-gor-gpt-modeller-dummere-end-de-behover-at-vaere/</guid>
+      <guid>https://www.kiils.dk/blog/striks-selvcensur-gor-gpt-modeller-dummere-end-de-behover-at-vaere/</guid>
       <description>Et fordomsfrit og intelligent menneske kan forholde sig til problematiske emner uden at bifalde dem.</description>
     </item>
     <item>
       <title>Takket være ShellGPT kan alle nu få gavn af kommandolinjens superkræfter - se her hvordan</title>
-      <link>http://localhost:1313/blog/er-du-ved-at-opgive-kommandolinjen-fa-chatgpt-til-at-hjaelpe-dig/</link>
+      <link>https://www.kiils.dk/blog/er-du-ved-at-opgive-kommandolinjen-fa-chatgpt-til-at-hjaelpe-dig/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/er-du-ved-at-opgive-kommandolinjen-fa-chatgpt-til-at-hjaelpe-dig/</guid>
+      <guid>https://www.kiils.dk/blog/er-du-ved-at-opgive-kommandolinjen-fa-chatgpt-til-at-hjaelpe-dig/</guid>
       <description>Jeg opdagede ved en tilfældighed at jeg i mine mange nylige indlæg her på Kiils/erfaringer i nogle tilfælde havde skrevet ChatGPT som chatGPT.</description>
     </item>
     <item>
       <title>Få ChatGPT til at skrive mere personligt -- fire eksempler</title>
-      <link>http://localhost:1313/blog/giv-chatgpt-en-mere-personlig-skrivestil-fire-eksempler/</link>
+      <link>https://www.kiils.dk/blog/giv-chatgpt-en-mere-personlig-skrivestil-fire-eksempler/</link>
       <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/giv-chatgpt-en-mere-personlig-skrivestil-fire-eksempler/</guid>
+      <guid>https://www.kiils.dk/blog/giv-chatgpt-en-mere-personlig-skrivestil-fire-eksempler/</guid>
       <description>I udgangspunktet er det bedste man kan sige om ChatGPT at den skriver korrekt grammatisk og uden stavefejl.</description>
     </item>
     <item>
       <title>Jeg gav ChatGPT adgang til min dagbog - det skulle jeg aldrig have gjort</title>
-      <link>http://localhost:1313/blog/jeg-gav-chatgpt-adgang-til-min-dagbog-det-skulle-jeg-aldrig-have-gjort/</link>
+      <link>https://www.kiils.dk/blog/jeg-gav-chatgpt-adgang-til-min-dagbog-det-skulle-jeg-aldrig-have-gjort/</link>
       <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/jeg-gav-chatgpt-adgang-til-min-dagbog-det-skulle-jeg-aldrig-have-gjort/</guid>
+      <guid>https://www.kiils.dk/blog/jeg-gav-chatgpt-adgang-til-min-dagbog-det-skulle-jeg-aldrig-have-gjort/</guid>
       <description>Jeg skrev tidligere at GPT-modellerne ikke har adgang til vores indre verden.</description>
     </item>
     <item>
       <title>Til tops i Google på 24 timer - gæt hvem skrev teksten</title>
-      <link>http://localhost:1313/blog/20230331-top-google-chat/</link>
+      <link>https://www.kiils.dk/blog/20230331-top-google-chat/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/20230331-top-google-chat/</guid>
+      <guid>https://www.kiils.dk/blog/20230331-top-google-chat/</guid>
       <description>Hvordan kommer Google til at behandle tekst som er skabt af kunstig intelligens?</description>
     </item>
     <item>
       <title>Chatgpt hjælper ordblind - eller gør den?</title>
-      <link>http://localhost:1313/blog/20230207-chatgpt-hjaelper-ordblind/</link>
+      <link>https://www.kiils.dk/blog/20230207-chatgpt-hjaelper-ordblind/</link>
       <pubDate>Tue, 07 Feb 2023 10:41:04 +0100</pubDate>
-      <guid>http://localhost:1313/blog/20230207-chatgpt-hjaelper-ordblind/</guid>
+      <guid>https://www.kiils.dk/blog/20230207-chatgpt-hjaelper-ordblind/</guid>
       <description>En ven som er ordblind ynder at deltage i den offentlige debat.</description>
     </item>
     <item>
       <title>Google risikerer at straffe folk som inkluderer ordblinde i den demokratiske debat</title>
-      <link>http://localhost:1313/blog/nlp/chatgpt-google/</link>
+      <link>https://www.kiils.dk/blog/nlp/chatgpt-google/</link>
       <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/nlp/chatgpt-google/</guid>
+      <guid>https://www.kiils.dk/blog/nlp/chatgpt-google/</guid>
       <description>Jeg indså ret hurtigt at ChatGPT og andre lignende teknologier ville kunne blive en enorm hjælp for ordblinde.</description>
     </item>
     <item>
       <title>ChatGPT mansplainer ikke - men her botsplainer den helt vildt</title>
-      <link>http://localhost:1313/blog/nlp/chatgpt-botsplaining/</link>
+      <link>https://www.kiils.dk/blog/nlp/chatgpt-botsplaining/</link>
       <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/nlp/chatgpt-botsplaining/</guid>
+      <guid>https://www.kiils.dk/blog/nlp/chatgpt-botsplaining/</guid>
       <description>ChatGPT er stærk på engelsk og den skammer sig ikke over at de &amp;ldquo;mentale muskler&amp;rdquo; frem.</description>
     </item>
     <item>
       <title>Går det bedre for ChatGPT med ordfrekvensanalyse på engelsk end det gjorde på dansk?</title>
-      <link>http://localhost:1313/blog/nlp/chatgpt-ordfrekvensanalyse-engelsk/</link>
+      <link>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse-engelsk/</link>
       <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/nlp/chatgpt-ordfrekvensanalyse-engelsk/</guid>
+      <guid>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse-engelsk/</guid>
       <description>Da jeg bad ChatGPT udføre en frekvensanalyse på en dansk tekst talte den ordene to gange:</description>
     </item>
     <item>
       <title>Kan ChatGPT bruges til kvantitativ tekstanalyse?</title>
-      <link>http://localhost:1313/blog/nlp/chatgpt-ordfrekvensanalyse/</link>
+      <link>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse/</link>
       <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/nlp/chatgpt-ordfrekvensanalyse/</guid>
+      <guid>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse/</guid>
       <description>En simpel form for kvantitativ tekstanalyse er ordfrekvensanalyse.</description>
     </item>
     <item>
       <title>Spørg ChatGPT rigtigt med danske prompts - var Gorm den Gamle smed i Hobro?</title>
-      <link>http://localhost:1313/blog/nlp/gorm-den-gamle/</link>
+      <link>https://www.kiils.dk/blog/nlp/gorm-den-gamle/</link>
       <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/nlp/gorm-den-gamle/</guid>
+      <guid>https://www.kiils.dk/blog/nlp/gorm-den-gamle/</guid>
       <description>Med ChatGPT gælder det om at stille spørgsmålene rigtigt, hvis man vil have de rigtige svar.</description>
     </item>
     <item>
       <title>Jeg spurgte ChatGPT om intelligens og svaret var overraskende menneskeligt</title>
-      <link>http://localhost:1313/blog/nlp/chatgpt/</link>
+      <link>https://www.kiils.dk/blog/nlp/chatgpt/</link>
       <pubDate>Thu, 05 Jan 2023 09:27:02 +0100</pubDate>
-      <guid>http://localhost:1313/blog/nlp/chatgpt/</guid>
+      <guid>https://www.kiils.dk/blog/nlp/chatgpt/</guid>
       <description>Jeg talte lidt med ChatGPT om intelligens og IQ-tests.</description>
     </item>
     <item>
       <title>Video: Sådan bruger du danske ChatGPT prompts</title>
-      <link>http://localhost:1313/video/danske-chatgpt-prompts-intro-video/</link>
+      <link>https://www.kiils.dk/video/danske-chatgpt-prompts-intro-video/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/video/danske-chatgpt-prompts-intro-video/</guid>
+      <guid>https://www.kiils.dk/video/danske-chatgpt-prompts-intro-video/</guid>
       <description>Se hele listen over danske prompts</description>
     </item>
   </channel>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tekstskabelse on Kiils</title>
-    <link>http://localhost:1313/en/emner/tekstskabelse/</link>
+    <link>https://www.kiils.dk/en/emner/tekstskabelse/</link>
     <description>Recent content in Tekstskabelse on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
     <lastBuildDate>Thu, 12 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/emner/tekstskabelse/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kiils.dk/en/emner/tekstskabelse/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Is ChatGPT more than a glorified Markov chain? Here is what ChatGPT itself has to say about that</title>
-      <link>http://localhost:1313/en/blog/chatgpt-glorified-markov-chain/</link>
+      <link>https://www.kiils.dk/en/blog/chatgpt-glorified-markov-chain/</link>
       <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/blog/chatgpt-glorified-markov-chain/</guid>
+      <guid>https://www.kiils.dk/en/blog/chatgpt-glorified-markov-chain/</guid>
       <description>Me: is chatgpt really just a glorified markov chain</description>
     </item>
   </channel>

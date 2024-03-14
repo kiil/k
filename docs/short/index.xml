@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shorts on Kiils</title>
-    <link>http://localhost:1313/short/</link>
+    <link>https://www.kiils.dk/short/</link>
     <description>Recent content in shorts on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <atom:link href="http://localhost:1313/short/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kiils.dk/short/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SoMe eller SeMig</title>
-      <link>http://localhost:1313/short/2022-06-16-105432/</link>
+      <link>https://www.kiils.dk/short/2022-06-16-105432/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/short/2022-06-16-105432/</guid>
+      <guid>https://www.kiils.dk/short/2022-06-16-105432/</guid>
       <description>Jeg kom til at smile 😊</description>
     </item>
   </channel>

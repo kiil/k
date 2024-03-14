@@ -2,375 +2,375 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tools on Kiils</title>
-    <link>http://localhost:1313/tools/</link>
+    <link>https://www.kiils.dk/tools/</link>
     <description>Recent content in Tools on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tools/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kiils.dk/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aichat</title>
-      <link>http://localhost:1313/tools/aichat/</link>
+      <link>https://www.kiils.dk/tools/aichat/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/aichat/</guid>
+      <guid>https://www.kiils.dk/tools/aichat/</guid>
       <description></description>
     </item>
     <item>
       <title>ChatGPT</title>
-      <link>http://localhost:1313/tools/chatgpt/</link>
+      <link>https://www.kiils.dk/tools/chatgpt/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/chatgpt/</guid>
+      <guid>https://www.kiils.dk/tools/chatgpt/</guid>
       <description>ChatGPT er en samtale-orienteret sprogmodel baseret på en ikke nærmere defineret viderudvikling af GPT-3 under OpenAi og microsoft.</description>
     </item>
     <item>
       <title>Cli</title>
-      <link>http://localhost:1313/tools/cli/</link>
+      <link>https://www.kiils.dk/tools/cli/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/cli/</guid>
+      <guid>https://www.kiils.dk/tools/cli/</guid>
       <description></description>
     </item>
     <item>
       <title>Nushell</title>
-      <link>http://localhost:1313/tools/nushell/</link>
+      <link>https://www.kiils.dk/tools/nushell/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/nushell/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ddgr</title>
-      <link>http://localhost:1313/tools/ddgr/</link>
-      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/ddgr/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>LLM</title>
-      <link>http://localhost:1313/tools/llm/</link>
-      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/llm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nvim</title>
-      <link>http://localhost:1313/tools/nvim/</link>
-      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/nvim/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Code Interpreter</title>
-      <link>http://localhost:1313/tools/code-interpreter/</link>
-      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/code-interpreter/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Værktøj</title>
-      <link>http://localhost:1313/tools/v%C3%A6rkt%C3%B8j/</link>
-      <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/v%C3%A6rkt%C3%B8j/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>OpenAI</title>
-      <link>http://localhost:1313/tools/openai/</link>
-      <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/openai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Markdown</title>
-      <link>http://localhost:1313/tools/markdown/</link>
-      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/markdown/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Neovim</title>
-      <link>http://localhost:1313/tools/neovim/</link>
-      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/neovim/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Guidance</title>
-      <link>http://localhost:1313/tools/guidance/</link>
-      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/guidance/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Jupyter Notebook</title>
-      <link>http://localhost:1313/tools/jupyter-notebook/</link>
-      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/jupyter-notebook/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>http://localhost:1313/tools/python/</link>
-      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>GPT</title>
-      <link>http://localhost:1313/tools/gpt/</link>
-      <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/gpt/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AutoGPT</title>
-      <link>http://localhost:1313/tools/autogpt/</link>
-      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/autogpt/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Langchain</title>
-      <link>http://localhost:1313/tools/langchain/</link>
-      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/langchain/</guid>
+      <guid>https://www.kiils.dk/tools/nushell/</guid>
       <description></description>
     </item>
     <item>
       <title>Pandoc</title>
-      <link>http://localhost:1313/tools/pandoc/</link>
-      <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/pandoc/</guid>
+      <link>https://www.kiils.dk/tools/pandoc/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/pandoc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ddgr</title>
+      <link>https://www.kiils.dk/tools/ddgr/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/ddgr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>https://www.kiils.dk/tools/llm/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nvim</title>
+      <link>https://www.kiils.dk/tools/nvim/</link>
+      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/nvim/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Code Interpreter</title>
+      <link>https://www.kiils.dk/tools/code-interpreter/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/code-interpreter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Værktøj</title>
+      <link>https://www.kiils.dk/tools/v%C3%A6rkt%C3%B8j/</link>
+      <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/v%C3%A6rkt%C3%B8j/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenAI</title>
+      <link>https://www.kiils.dk/tools/openai/</link>
+      <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/openai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>https://www.kiils.dk/tools/markdown/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neovim</title>
+      <link>https://www.kiils.dk/tools/neovim/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/neovim/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guidance</title>
+      <link>https://www.kiils.dk/tools/guidance/</link>
+      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/guidance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jupyter Notebook</title>
+      <link>https://www.kiils.dk/tools/jupyter-notebook/</link>
+      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/jupyter-notebook/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://www.kiils.dk/tools/python/</link>
+      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GPT</title>
+      <link>https://www.kiils.dk/tools/gpt/</link>
+      <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/gpt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AutoGPT</title>
+      <link>https://www.kiils.dk/tools/autogpt/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/autogpt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Langchain</title>
+      <link>https://www.kiils.dk/tools/langchain/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/langchain/</guid>
       <description></description>
     </item>
     <item>
       <title>Find</title>
-      <link>http://localhost:1313/tools/find/</link>
+      <link>https://www.kiils.dk/tools/find/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/find/</guid>
+      <guid>https://www.kiils.dk/tools/find/</guid>
       <description></description>
     </item>
     <item>
       <title>Sed</title>
-      <link>http://localhost:1313/tools/sed/</link>
+      <link>https://www.kiils.dk/tools/sed/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/sed/</guid>
+      <guid>https://www.kiils.dk/tools/sed/</guid>
       <description></description>
     </item>
     <item>
       <title>ShellGPT</title>
-      <link>http://localhost:1313/tools/shellgpt/</link>
+      <link>https://www.kiils.dk/tools/shellgpt/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/shellgpt/</guid>
+      <guid>https://www.kiils.dk/tools/shellgpt/</guid>
       <description></description>
     </item>
     <item>
       <title>Terminal</title>
-      <link>http://localhost:1313/tools/terminal/</link>
+      <link>https://www.kiils.dk/tools/terminal/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/terminal/</guid>
+      <guid>https://www.kiils.dk/tools/terminal/</guid>
       <description></description>
     </item>
     <item>
       <title>GPT-4</title>
-      <link>http://localhost:1313/tools/gpt-4/</link>
+      <link>https://www.kiils.dk/tools/gpt-4/</link>
       <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/gpt-4/</guid>
+      <guid>https://www.kiils.dk/tools/gpt-4/</guid>
       <description></description>
     </item>
     <item>
       <title>Dash</title>
-      <link>http://localhost:1313/tools/dash/</link>
+      <link>https://www.kiils.dk/tools/dash/</link>
       <pubDate>Sat, 18 Feb 2023 08:35:10 +0100</pubDate>
-      <guid>http://localhost:1313/tools/dash/</guid>
+      <guid>https://www.kiils.dk/tools/dash/</guid>
       <description></description>
     </item>
     <item>
       <title>Hledger</title>
-      <link>http://localhost:1313/tools/hledger/</link>
+      <link>https://www.kiils.dk/tools/hledger/</link>
       <pubDate>Sat, 18 Feb 2023 08:35:10 +0100</pubDate>
-      <guid>http://localhost:1313/tools/hledger/</guid>
+      <guid>https://www.kiils.dk/tools/hledger/</guid>
       <description></description>
     </item>
     <item>
       <title>Plotly</title>
-      <link>http://localhost:1313/tools/plotly/</link>
+      <link>https://www.kiils.dk/tools/plotly/</link>
       <pubDate>Sat, 18 Feb 2023 08:35:10 +0100</pubDate>
-      <guid>http://localhost:1313/tools/plotly/</guid>
+      <guid>https://www.kiils.dk/tools/plotly/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>http://localhost:1313/tools/linux/</link>
+      <link>https://www.kiils.dk/tools/linux/</link>
       <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/linux/</guid>
+      <guid>https://www.kiils.dk/tools/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Systemd</title>
-      <link>http://localhost:1313/tools/systemd/</link>
+      <link>https://www.kiils.dk/tools/systemd/</link>
       <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/systemd/</guid>
+      <guid>https://www.kiils.dk/tools/systemd/</guid>
       <description></description>
     </item>
     <item>
       <title>Stripe</title>
-      <link>http://localhost:1313/tools/stripe/</link>
+      <link>https://www.kiils.dk/tools/stripe/</link>
       <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/stripe/</guid>
+      <guid>https://www.kiils.dk/tools/stripe/</guid>
       <description></description>
     </item>
     <item>
       <title>DALL-E</title>
-      <link>http://localhost:1313/tools/dall-e/</link>
+      <link>https://www.kiils.dk/tools/dall-e/</link>
       <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/dall-e/</guid>
+      <guid>https://www.kiils.dk/tools/dall-e/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>http://localhost:1313/tools/hugo/</link>
+      <link>https://www.kiils.dk/tools/hugo/</link>
       <pubDate>Thu, 16 Jun 2022 12:10:31 +0200</pubDate>
-      <guid>http://localhost:1313/tools/hugo/</guid>
+      <guid>https://www.kiils.dk/tools/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Recoll</title>
-      <link>http://localhost:1313/tools/recoll/</link>
+      <link>https://www.kiils.dk/tools/recoll/</link>
       <pubDate>Tue, 31 May 2022 12:24:26 +0200</pubDate>
-      <guid>http://localhost:1313/tools/recoll/</guid>
+      <guid>https://www.kiils.dk/tools/recoll/</guid>
       <description></description>
     </item>
     <item>
       <title>Fd</title>
-      <link>http://localhost:1313/tools/fd/</link>
+      <link>https://www.kiils.dk/tools/fd/</link>
       <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/fd/</guid>
+      <guid>https://www.kiils.dk/tools/fd/</guid>
       <description></description>
     </item>
     <item>
       <title>Grep</title>
-      <link>http://localhost:1313/tools/grep/</link>
+      <link>https://www.kiils.dk/tools/grep/</link>
       <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/grep/</guid>
+      <guid>https://www.kiils.dk/tools/grep/</guid>
       <description></description>
     </item>
     <item>
       <title>Raspberry Pi</title>
-      <link>http://localhost:1313/tools/raspberry-pi/</link>
+      <link>https://www.kiils.dk/tools/raspberry-pi/</link>
       <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/raspberry-pi/</guid>
+      <guid>https://www.kiils.dk/tools/raspberry-pi/</guid>
       <description></description>
     </item>
     <item>
       <title>Rg</title>
-      <link>http://localhost:1313/tools/rg/</link>
+      <link>https://www.kiils.dk/tools/rg/</link>
       <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/rg/</guid>
+      <guid>https://www.kiils.dk/tools/rg/</guid>
       <description></description>
     </item>
     <item>
       <title>Vim</title>
-      <link>http://localhost:1313/tools/vim/</link>
+      <link>https://www.kiils.dk/tools/vim/</link>
       <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/vim/</guid>
+      <guid>https://www.kiils.dk/tools/vim/</guid>
       <description></description>
     </item>
     <item>
       <title>Dateutils</title>
-      <link>http://localhost:1313/tools/dateutils/</link>
+      <link>https://www.kiils.dk/tools/dateutils/</link>
       <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/dateutils/</guid>
+      <guid>https://www.kiils.dk/tools/dateutils/</guid>
       <description></description>
     </item>
     <item>
       <title>Fish</title>
-      <link>http://localhost:1313/tools/fish/</link>
+      <link>https://www.kiils.dk/tools/fish/</link>
       <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/fish/</guid>
+      <guid>https://www.kiils.dk/tools/fish/</guid>
       <description></description>
     </item>
     <item>
       <title>Css</title>
-      <link>http://localhost:1313/tools/css/</link>
+      <link>https://www.kiils.dk/tools/css/</link>
       <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/css/</guid>
+      <guid>https://www.kiils.dk/tools/css/</guid>
       <description></description>
     </item>
     <item>
       <title>Media Queries</title>
-      <link>http://localhost:1313/tools/media-queries/</link>
+      <link>https://www.kiils.dk/tools/media-queries/</link>
       <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/media-queries/</guid>
+      <guid>https://www.kiils.dk/tools/media-queries/</guid>
       <description></description>
     </item>
     <item>
       <title>Googles Søgekonsol</title>
-      <link>http://localhost:1313/tools/googles-s%C3%B8gekonsol/</link>
+      <link>https://www.kiils.dk/tools/googles-s%C3%B8gekonsol/</link>
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/googles-s%C3%B8gekonsol/</guid>
+      <guid>https://www.kiils.dk/tools/googles-s%C3%B8gekonsol/</guid>
       <description></description>
     </item>
     <item>
       <title>Atom</title>
-      <link>http://localhost:1313/tools/atom/</link>
+      <link>https://www.kiils.dk/tools/atom/</link>
       <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/atom/</guid>
+      <guid>https://www.kiils.dk/tools/atom/</guid>
       <description></description>
     </item>
     <item>
       <title>Latex</title>
-      <link>http://localhost:1313/tools/latex/</link>
+      <link>https://www.kiils.dk/tools/latex/</link>
       <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/latex/</guid>
+      <guid>https://www.kiils.dk/tools/latex/</guid>
       <description></description>
     </item>
     <item>
       <title>Donorbox</title>
-      <link>http://localhost:1313/tools/donorbox/</link>
+      <link>https://www.kiils.dk/tools/donorbox/</link>
       <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/donorbox/</guid>
+      <guid>https://www.kiils.dk/tools/donorbox/</guid>
       <description></description>
     </item>
     <item>
       <title>Perl</title>
-      <link>http://localhost:1313/tools/perl/</link>
+      <link>https://www.kiils.dk/tools/perl/</link>
       <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/perl/</guid>
+      <guid>https://www.kiils.dk/tools/perl/</guid>
       <description></description>
     </item>
     <item>
       <title>Bootstrap</title>
-      <link>http://localhost:1313/tools/bootstrap/</link>
+      <link>https://www.kiils.dk/tools/bootstrap/</link>
       <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/bootstrap/</guid>
+      <guid>https://www.kiils.dk/tools/bootstrap/</guid>
       <description></description>
     </item>
     <item>
       <title>Drupal 8</title>
-      <link>http://localhost:1313/tools/drupal-8/</link>
+      <link>https://www.kiils.dk/tools/drupal-8/</link>
       <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/drupal-8/</guid>
+      <guid>https://www.kiils.dk/tools/drupal-8/</guid>
       <description></description>
     </item>
     <item>
       <title>Pantheon</title>
-      <link>http://localhost:1313/tools/pantheon/</link>
+      <link>https://www.kiils.dk/tools/pantheon/</link>
       <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/pantheon/</guid>
+      <guid>https://www.kiils.dk/tools/pantheon/</guid>
       <description></description>
     </item>
     <item>
       <title>Tachyons</title>
-      <link>http://localhost:1313/tools/tachyons/</link>
+      <link>https://www.kiils.dk/tools/tachyons/</link>
       <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/tachyons/</guid>
+      <guid>https://www.kiils.dk/tools/tachyons/</guid>
       <description></description>
     </item>
     <item>
       <title>Google Analytics</title>
-      <link>http://localhost:1313/tools/google-analytics/</link>
+      <link>https://www.kiils.dk/tools/google-analytics/</link>
       <pubDate>Fri, 07 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/google-analytics/</guid>
+      <guid>https://www.kiils.dk/tools/google-analytics/</guid>
       <description></description>
     </item>
   </channel>

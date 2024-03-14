@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Some on Kiils</title>
-    <link>http://localhost:1313/emner/some/</link>
+    <link>https://www.kiils.dk/emner/some/</link>
     <description>Recent content in Some on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Sun, 05 Jan 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/emner/some/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kiils.dk/emner/some/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>En langsom pinefuld død på Facebook</title>
-      <link>http://localhost:1313/blog/some/facebook/fald/</link>
+      <link>https://www.kiils.dk/blog/some/facebook/fald/</link>
       <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/some/facebook/fald/</guid>
+      <guid>https://www.kiils.dk/blog/some/facebook/fald/</guid>
       <description>Facebook har ændret sig - hvordan får man succes?</description>
     </item>
     <item>
       <title>Delinger giver bonus på LinkedIn</title>
-      <link>http://localhost:1313/blog/some/delinger-bonus-linkedin/</link>
+      <link>https://www.kiils.dk/blog/some/delinger-bonus-linkedin/</link>
       <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/some/delinger-bonus-linkedin/</guid>
+      <guid>https://www.kiils.dk/blog/some/delinger-bonus-linkedin/</guid>
       <description>Læg relevante links på LinkedIn og forøg antallet af besøg til din profilside mangefold.</description>
     </item>
   </channel>

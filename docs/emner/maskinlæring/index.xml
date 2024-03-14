@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hvad er maskinlæring on Kiils</title>
-    <link>http://localhost:1313/emner/maskinl%C3%A6ring/</link>
+    <link>https://www.kiils.dk/emner/maskinl%C3%A6ring/</link>
     <description>Recent content in Hvad er maskinlæring on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/emner/maskinl%C3%A6ring/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kiils.dk/emner/maskinl%C3%A6ring/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>📈 Kursus — Sådan får du værdifulde 💎 data 💎 ud af tekst</title>
-      <link>http://localhost:1313/kursus/tekst-data/</link>
+      <link>https://www.kiils.dk/kursus/tekst-data/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/kursus/tekst-data/</guid>
+      <guid>https://www.kiils.dk/kursus/tekst-data/</guid>
       <description>Med kunstig intelligens er det blevet muligt at lave værdifulde analyser af store mængder tekst - men hvordan gør man?</description>
     </item>
   </channel>

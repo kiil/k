@@ -2,109 +2,109 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FOLKETS on Kiils</title>
-    <link>http://localhost:1313/cases/folkets/</link>
+    <link>https://www.kiils.dk/cases/folkets/</link>
     <description>Recent content in FOLKETS on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/cases/folkets/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kiils.dk/cases/folkets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sådan satte jeg et dark theme op på Folkets uden at genere brugerne med flere valgmuligheder</title>
-      <link>http://localhost:1313/blog/brugervenlighed/brugerens-foretrukne-farvepalette-dark-mode-folkets/</link>
+      <link>https://www.kiils.dk/blog/brugervenlighed/brugerens-foretrukne-farvepalette-dark-mode-folkets/</link>
       <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/brugervenlighed/brugerens-foretrukne-farvepalette-dark-mode-folkets/</guid>
+      <guid>https://www.kiils.dk/blog/brugervenlighed/brugerens-foretrukne-farvepalette-dark-mode-folkets/</guid>
       <description>Det er muligt at efterkomme brugernes ønsker uden at genere dem med yderligere forespørgsler</description>
     </item>
     <item>
       <title>Er det sådan censur ser ud?</title>
-      <link>http://localhost:1313/blog/seo/corona/</link>
+      <link>https://www.kiils.dk/blog/seo/corona/</link>
       <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/seo/corona/</guid>
+      <guid>https://www.kiils.dk/blog/seo/corona/</guid>
       <description>Eller er Googles veje bare uransagelige</description>
     </item>
     <item>
       <title>En langsom pinefuld død på Facebook</title>
-      <link>http://localhost:1313/blog/some/facebook/fald/</link>
+      <link>https://www.kiils.dk/blog/some/facebook/fald/</link>
       <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/some/facebook/fald/</guid>
+      <guid>https://www.kiils.dk/blog/some/facebook/fald/</guid>
       <description>Facebook har ændret sig - hvordan får man succes?</description>
     </item>
     <item>
       <title>Mellemrubrikker som indholdsoversigt</title>
-      <link>http://localhost:1313/blog/journalistik/mellemrubrikker-indholdsoversigt/</link>
+      <link>https://www.kiils.dk/blog/journalistik/mellemrubrikker-indholdsoversigt/</link>
       <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/journalistik/mellemrubrikker-indholdsoversigt/</guid>
+      <guid>https://www.kiils.dk/blog/journalistik/mellemrubrikker-indholdsoversigt/</guid>
       <description>Det handler om at give læseren overblik</description>
     </item>
     <item>
       <title>Hvad betyder ankertekst?</title>
-      <link>http://localhost:1313/blog/seo/hvad-betyder-ankertekst/</link>
+      <link>https://www.kiils.dk/blog/seo/hvad-betyder-ankertekst/</link>
       <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/seo/hvad-betyder-ankertekst/</guid>
+      <guid>https://www.kiils.dk/blog/seo/hvad-betyder-ankertekst/</guid>
       <description>I SEO-sprog nævnes ofte ankertekst, men hvad er det egentligt?</description>
     </item>
     <item>
       <title>FOLKETS meget hurtigere efter drop af bannere</title>
-      <link>http://localhost:1313/blog/frontend/hastighed-uden-bannere/</link>
+      <link>https://www.kiils.dk/blog/frontend/hastighed-uden-bannere/</link>
       <pubDate>Fri, 07 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/frontend/hastighed-uden-bannere/</guid>
+      <guid>https://www.kiils.dk/blog/frontend/hastighed-uden-bannere/</guid>
       <description>Nu er der data nok til at konkludere noget mere håndfast.</description>
     </item>
     <item>
       <title>Lovende Google Discover klikrate (CTR)</title>
-      <link>http://localhost:1313/blog/seo/lovende-ctr-google-discover/</link>
+      <link>https://www.kiils.dk/blog/seo/lovende-ctr-google-discover/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/seo/lovende-ctr-google-discover/</guid>
+      <guid>https://www.kiils.dk/blog/seo/lovende-ctr-google-discover/</guid>
       <description>Googles Discover kan godt komme til at spille en rolle for trafik</description>
     </item>
     <item>
       <title>Det nemmeste CSS framework</title>
-      <link>http://localhost:1313/blog/frontend/bootstrap-4/</link>
+      <link>https://www.kiils.dk/blog/frontend/bootstrap-4/</link>
       <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/frontend/bootstrap-4/</guid>
+      <guid>https://www.kiils.dk/blog/frontend/bootstrap-4/</guid>
       <description>Bootstrap 4 er næppe det nemmeste og hurtigste at prototype i længere.</description>
     </item>
     <item>
       <title>Google belønner tidlig indsats</title>
-      <link>http://localhost:1313/blog/seo/google-tidlig-indsats/</link>
+      <link>https://www.kiils.dk/blog/seo/google-tidlig-indsats/</link>
       <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/seo/google-tidlig-indsats/</guid>
+      <guid>https://www.kiils.dk/blog/seo/google-tidlig-indsats/</guid>
       <description>Små medier kan markere sig ved at være først med på internationale navne.</description>
     </item>
     <item>
       <title>Om oplevelser og langsigtet indholdsstrategi</title>
-      <link>http://localhost:1313/blog/indhold/om-oplevelser-og-langsigtet-indholdsstrategi/</link>
+      <link>https://www.kiils.dk/blog/indhold/om-oplevelser-og-langsigtet-indholdsstrategi/</link>
       <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/indhold/om-oplevelser-og-langsigtet-indholdsstrategi/</guid>
+      <guid>https://www.kiils.dk/blog/indhold/om-oplevelser-og-langsigtet-indholdsstrategi/</guid>
       <description>Præmisserne på internettet ændrer sig hele tiden.</description>
     </item>
     <item>
       <title>En redningsplan for Folkets Avis – sådan tilpasser jeg mig for at overleve</title>
-      <link>http://localhost:1313/blog/muren/redning/</link>
+      <link>https://www.kiils.dk/blog/muren/redning/</link>
       <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/muren/redning/</guid>
+      <guid>https://www.kiils.dk/blog/muren/redning/</guid>
       <description>Folkets Avis er enestående i den forstand at mediet i modsætning til den øvrige danske presse fungerer helt uden mediestøtte.</description>
     </item>
     <item>
       <title>Får jeg abonnenter nok til at leve af mit online-medie?</title>
-      <link>http://localhost:1313/blog/abo/abonnenter-nok/</link>
+      <link>https://www.kiils.dk/blog/abo/abonnenter-nok/</link>
       <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/abo/abonnenter-nok/</guid>
+      <guid>https://www.kiils.dk/blog/abo/abonnenter-nok/</guid>
       <description>Sandsynligvis ikke</description>
     </item>
     <item>
       <title>Sociale medier vigtige – men husk de andre trafikkilder</title>
-      <link>http://localhost:1313/blog/trafik/kilder/</link>
+      <link>https://www.kiils.dk/blog/trafik/kilder/</link>
       <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/trafik/kilder/</guid>
+      <guid>https://www.kiils.dk/blog/trafik/kilder/</guid>
       <description>2017 var et rekordår for Folkets Avis på mange måder.</description>
     </item>
     <item>
       <title>Når de små medier overhaler de store</title>
-      <link>http://localhost:1313/blog/indhold/overhaling/</link>
+      <link>https://www.kiils.dk/blog/indhold/overhaling/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/indhold/overhaling/</guid>
+      <guid>https://www.kiils.dk/blog/indhold/overhaling/</guid>
       <description>Den korte afstand mellem læser og redaktion er en fordel.</description>
     </item>
   </channel>

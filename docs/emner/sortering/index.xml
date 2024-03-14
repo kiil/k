@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sortering on Kiils</title>
-    <link>http://localhost:1313/emner/sortering/</link>
+    <link>https://www.kiils.dk/emner/sortering/</link>
     <description>Recent content in Sortering on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Wed, 02 Sep 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/emner/sortering/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kiils.dk/emner/sortering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HTML med toc fra markdown via pandoc</title>
-      <link>http://localhost:1313/blog/tips-tricks/html-med-toc-fra-markdown-via-pandoc/</link>
+      <link>https://www.kiils.dk/blog/tips-tricks/html-med-toc-fra-markdown-via-pandoc/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tips-tricks/html-med-toc-fra-markdown-via-pandoc/</guid>
+      <guid>https://www.kiils.dk/blog/tips-tricks/html-med-toc-fra-markdown-via-pandoc/</guid>
       <description>Plus en bonus</description>
     </item>
     <item>
       <title>Sorter markdown dokument</title>
-      <link>http://localhost:1313/blog/tips-tricks/sorter-markdown-efter-overskrifter/</link>
+      <link>https://www.kiils.dk/blog/tips-tricks/sorter-markdown-efter-overskrifter/</link>
       <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tips-tricks/sorter-markdown-efter-overskrifter/</guid>
+      <guid>https://www.kiils.dk/blog/tips-tricks/sorter-markdown-efter-overskrifter/</guid>
       <description>Sorter sektioner i markdown</description>
     </item>
   </channel>

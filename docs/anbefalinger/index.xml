@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anbefalinger on Kiils</title>
-    <link>http://localhost:1313/anbefalinger/</link>
+    <link>https://www.kiils.dk/anbefalinger/</link>
     <description>Recent content in Anbefalinger on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <atom:link href="http://localhost:1313/anbefalinger/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kiils.dk/anbefalinger/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mine varmeste anbefalinger</title>
-      <link>http://localhost:1313/anbefalinger/per-gastrofun/</link>
+      <link>https://www.kiils.dk/anbefalinger/per-gastrofun/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/anbefalinger/per-gastrofun/</guid>
+      <guid>https://www.kiils.dk/anbefalinger/per-gastrofun/</guid>
       <description>Per Asmussen fra Gastrofun</description>
     </item>
   </channel>

@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Genrer on Kiils</title>
-    <link>http://localhost:1313/en/genrer/</link>
+    <link>https://www.kiils.dk/en/genrer/</link>
     <description>Recent content in Genrer on Kiils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
     <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/genrer/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kiils.dk/en/genrer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tips &amp; Tricks</title>
-      <link>http://localhost:1313/en/genrer/tips--tricks/</link>
+      <link>https://www.kiils.dk/en/genrer/tips--tricks/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/genrer/tips--tricks/</guid>
+      <guid>https://www.kiils.dk/en/genrer/tips--tricks/</guid>
       <description></description>
     </item>
     <item>
       <title>Recommendation</title>
-      <link>http://localhost:1313/en/genrer/recommendation/</link>
+      <link>https://www.kiils.dk/en/genrer/recommendation/</link>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/genrer/recommendation/</guid>
+      <guid>https://www.kiils.dk/en/genrer/recommendation/</guid>
       <description></description>
     </item>
   </channel>
