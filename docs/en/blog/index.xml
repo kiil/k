@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
-    <lastBuildDate>Mon, 24 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/en/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Nushell 🐘 with Generative Artificial Intelligence 🤖</title>
+      <link>https://www.kiils.dk/en/blog/using-nushell-with-generative-artificial-intelligence/</link>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/blog/using-nushell-with-generative-artificial-intelligence/</guid>
+      <description>Requirements # Nushell Nushell - query plugin Aichat - CLI tool AI platforms Mission # Know a little about each large city in India</description>
+    </item>
     <item>
       <title>making taskwarrior better with nushell</title>
       <link>https://www.kiils.dk/en/blog/making-taskwarrior-better-with-nushell/</link>
