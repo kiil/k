@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nushell</title>
+      <link>https://www.kiils.dk/tools/nushell/</link>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/nushell/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Aichat</title>
       <link>https://www.kiils.dk/tools/aichat/</link>
@@ -28,13 +35,6 @@
       <link>https://www.kiils.dk/tools/cli/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/cli/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nushell</title>
-      <link>https://www.kiils.dk/tools/nushell/</link>
-      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/tools/nushell/</guid>
       <description></description>
     </item>
     <item>
