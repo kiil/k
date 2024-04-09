@@ -7,8 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/tools/aichat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Så let kører du DanskGPT på din laptop</title>
+      <link>https://www.kiils.dk/blog/sa-let-korer-du-danskgpt-pa-din-laptop/</link>
+      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/blog/sa-let-korer-du-danskgpt-pa-din-laptop/</guid>
+      <description>Du skal have et basalt kendskab til brug af kommandolinjen på din computer.</description>
+    </item>
+    <item>
+      <title>Sådan skrev jeg 20 artikler om de 20 største byrområder i Danmark på 20 sekunder</title>
+      <link>https://www.kiils.dk/blog/sadan-skrev-jeg-20-artikler-om-de-20-storste-byromrader-i-danmark-pa-20-sekunder/</link>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/blog/sadan-skrev-jeg-20-artikler-om-de-20-storste-byromrader-i-danmark-pa-20-sekunder/</guid>
+      <description>Forudsætninger # Nushell Nushell - query plugin Aichat - CLI tool AI platforms Mission # Skriv en kort tekst om de 20 største byer og byområder i Danmark.</description>
+    </item>
     <item>
       <title>Sådan hjælper ChatGPT og Nushell ordblinde Lars</title>
       <link>https://www.kiils.dk/blog/sadan-hjaelper-chatgpt-og-nushell-ordblinde-lars/</link>

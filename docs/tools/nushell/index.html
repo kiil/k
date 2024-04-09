@@ -22,7 +22,7 @@
   <title>Nushell &middot; Kiils</title>
     <meta name="title" content="Nushell &middot; Kiils" />
   
-  <meta name="description" content="" />
+  <meta name="description" content="Forstå Nushell og de relaterede produkter fra OpenAI" />
   
   
   
@@ -78,7 +78,7 @@
   
   
  <meta property="og:title" content="Nushell" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="Forstå Nushell og de relaterede produkter fra OpenAI" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.kiils.dk/tools/nushell/" />
 
@@ -96,7 +96,7 @@
 <meta property="og:image" content="/images/canvas_huf5a4a47d272c9e72b490e7eba58c5b9b_363_filter_13776134265473882458.png" />
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Nushell"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="Forstå Nushell og de relaterede produkter fra OpenAI"/>
 
   
   
@@ -431,6 +431,37 @@
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Nushell</h1>
   </header>
   <div class="flex flex-col max-w-full mt-0 lg:flex-row">
+    
+      <section class="order-first px-0 py-3 max-w-prose prose dark:prose-invert">
+        <h2 id="sådan-installerer-du-nushell" class="relative group">Sådan installerer du Nushell <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#s%c3%a5dan-installerer-du-nushell" aria-label="Anchor">#</a></span></h2>
+<p>Du skal have et basalt kendskab til brug af kommandolinjen på din computer.</p>
+<p>Følgende skulle fungere på MacOS og Linux. På Windows er det muligvis nødvendigt med mindre modifikationer.</p>
+<p>Vi skal bruge rust for at kunne installere aichat</p>
+<pre><code>curl https://sh.rustup.rs -sSf | sh
+</code></pre>
+<p>Nu kan vi installere <code>aichat</code></p>
+<pre><code>cargo install aichat
+</code></pre>
+<p>Sørg for at <code>aichat</code> er i din sti.</p>
+<p>Du skulle nu kunne bruge aichat fra kommandolinjen.</p>
+<h2 id="sådan-konfigurerer-du-nushell" class="relative group">Sådan konfigurerer du Nushell <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#s%c3%a5dan-konfigurerer-du-nushell" aria-label="Anchor">#</a></span></h2>
+<p>Første gang du bruger Nushell spørger den efter indstillinger.</p>
+<p>Du kan altid ændre opsætningen i filen <code>config.yaml</code>.</p>
+<p>På Linux findes den fil i følgende folder</p>
+<pre><code>~/.config/aichat
+</code></pre>
+<h2 id="sådan-bruger-du-nushell" class="relative group">Sådan bruger du Nushell <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#s%c3%a5dan-bruger-du-nushell" aria-label="Anchor">#</a></span></h2>
+<p>Nushell bruges fra kommandolinjen</p>
+<pre><code>aichat
+</code></pre>
+<h2 id="mere-om-nushell" class="relative group">Mere om Nushell <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#mere-om-nushell" aria-label="Anchor">#</a></span></h2>
+<p><a
+  href="https://github.com/sigoden/aichat"
+  
+  target="_blank" rel="noreferrer noopener"
+>sigoden/aichat: All-in-one CLI tool for 10+ AI platforms, including OpenAI(ChatGPT), Gemini, Claude, Mistral, LocalAI, Ollama, VertexAI, Ernie, Qianwen&hellip;</a></p>
+
+      </section>
     
     <section class="min-w-0 min-h-0 lg:ps-8">
       

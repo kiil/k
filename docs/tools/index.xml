@@ -7,21 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AIChat</title>
+      <link>https://www.kiils.dk/tools/aichat/</link>
+      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/aichat/</guid>
+      <description>AIChat er et værktøj til kommandolinjen der gør det nemt at benytte store sprogmodeller i skyen såvel som lokalt.</description>
+    </item>
+    <item>
+      <title>DanskGPT</title>
+      <link>https://www.kiils.dk/tools/danskgpt/</link>
+      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/danskgpt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ollama</title>
+      <link>https://www.kiils.dk/tools/ollama/</link>
+      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/ollama/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Nushell</title>
       <link>https://www.kiils.dk/tools/nushell/</link>
       <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/nushell/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AIChat</title>
-      <link>https://www.kiils.dk/tools/aichat/</link>
-      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/tools/aichat/</guid>
-      <description>AIChat er et værktøj til kommandolinjen der gør det nemt at benytte store sprogmodeller i skyen såvel som lokalt.</description>
+      <description>Sådan installerer du Nushell # Du skal have et basalt kendskab til brug af kommandolinjen på din computer.</description>
     </item>
     <item>
       <title>ChatGPT</title>

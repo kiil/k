@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DanskGPT on Kiils</title>
+    <link>https://www.kiils.dk/tools/danskgpt/</link>
+    <description>Recent content in DanskGPT on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
+    <lastBuildDate>Tue, 09 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.kiils.dk/tools/danskgpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Så let kører du DanskGPT på din laptop</title>
+      <link>https://www.kiils.dk/blog/sa-let-korer-du-danskgpt-pa-din-laptop/</link>
+      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/blog/sa-let-korer-du-danskgpt-pa-din-laptop/</guid>
+      <description>Du skal have et basalt kendskab til brug af kommandolinjen på din computer.</description>
+    </item>
+  </channel>
+</rss>
