@@ -1,0 +1,1386 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html
+  lang="da"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head>
+  <meta charset="utf-8" />
+  
+    <meta http-equiv="content-language" content="da" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="rgb(255,255,255)" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>Sådan indtænker I generativ kunstig intelligens på jeres område &middot; Kiils</title>
+    <meta name="title" content="Sådan indtænker I generativ kunstig intelligens på jeres område &middot; Kiils" />
+  
+  <meta name="description" content="Few-shot" />
+  
+  
+  
+  <link rel="canonical" href="https://www.kiils.dk/blog/2024-04-12-sadan-indtaenker-i-generativ-kunstig-intelligens-pa-jeres-omrade/" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.4370dda8052541b1f287c617ac317169117c0f2e24f32bc3e2a3cf3b9bc346a9.css"
+    integrity="sha256-Q3DdqAUlQbHyh8YXrDFxaRF8Dy4k8yvD4qPPO5vDRqk="
+  />
+  
+  
+  <script type="text/javascript" src="/js/appearance.min.022d0ebc3b46a335eb1c7ef79b7f2de143d7cd5156d433638592ef1ce5f8554e.js" integrity="sha256-Ai0OvDtGozXrHH73m38t4UPXzVFW1DNjhZLvHOX4VU4="></script>
+  
+    
+    
+    
+  
+  
+    
+    
+  
+  
+  
+    
+    <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.f29ffdffd9ab4cc95250c3c7196b2d5dae8ee6ef0a4139451073f90183ae7e31.js" integrity="sha256-8p/9/9mrTMlSUMPHGWstXa6O5u8KQTlFEHP5AYOufjE=" data-copy="Kopier" data-copied="Kopieret"></script>
+  
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+ <meta property="og:title" content="Sådan indtænker I generativ kunstig intelligens på jeres område" />
+<meta property="og:description" content="Few-shot" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.kiils.dk/blog/2024-04-12-sadan-indtaenker-i-generativ-kunstig-intelligens-pa-jeres-omrade/" />
+
+
+
+
+
+
+
+ 
+
+
+
+
+<meta property="og:image" content="/images/canvas_huf5a4a47d272c9e72b490e7eba58c5b9b_363_filter_17878447084170163878.png" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2024-04-12T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-04-12T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Sådan indtænker I generativ kunstig intelligens på jeres område"/>
+<meta name="twitter:description" content="Few-shot"/>
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Blog",
+    "name": "Sådan indtænker I generativ kunstig intelligens på jeres område",
+    "headline": "Sådan indtænker I generativ kunstig intelligens på jeres område",
+    
+    "abstract": "Few-shot",
+    "inLanguage": "da",
+    "url" : "https:\/\/www.kiils.dk\/blog\/2024-04-12-sadan-indtaenker-i-generativ-kunstig-intelligens-pa-jeres-omrade\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Lennart Kiil"
+    },
+    "copyrightYear": "2024",
+    "dateCreated": "2024-04-12T00:00:00\u002b00:00",
+    "datePublished": "2024-04-12T00:00:00\u002b00:00",
+    
+    "dateModified": "2024-04-12T00:00:00\u002b00:00",
+    
+    
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "5641"
+  }]
+  </script>
+
+
+  
+  <meta name="author" content="Lennart Kiil" />
+  
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+  
+  
+</head>
+<body
+    class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="font-bold pe-2 text-primary-600 dark:text-primary-400">&darr;</span
+        >Skip to main content</a
+      >
+    </div>
+    
+    
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral print:hidden sm:py-10">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="z-40 flex flex-row items-center">
+      <span class="text-xl">
+  <a
+    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+    rel="me"
+    href="/"
+    >Kiils</a
+  >
+</span>
+    </div>
+    
+      
+      <label id="menu-button" for="menu-controller" class="block sm:hidden">
+        <input type="checkbox" id="menu-controller" class="hidden" />
+        <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+          <span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+</span>
+        </div>
+        <div
+          id="menu-wrapper"
+          class="invisible fixed inset-0 z-30 m-auto h-full w-full cursor-default overflow-auto bg-neutral-100/50 opacity-0 backdrop-blur-sm transition-opacity dark:bg-neutral-900/50"
+        >
+          <ul
+            class="mx-auto flex w-full max-w-7xl list-none flex-col overflow-visible px-6 py-6 ltr:text-right rtl:text-left sm:px-14 sm:py-10 sm:pt-10 md:px-24 lg:px-32"
+          >
+            <li class="mb-1">
+              <span class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400"
+                ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span></span
+              >
+            </li>
+            
+              
+                <li class="group mb-1">
+                  
+                    <a
+                      href="/kursus/"
+                      title="Kurser ✍️"
+                      
+                      >
+                        <span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >Kurser</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+              
+                <li class="group mb-1">
+                  <button id="search-button-m0" title="Search (/)">
+                    <span
+                      class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                    >
+                      <span class="relative inline-block align-text-bottom px-1 icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+                    </span>
+                  </button>
+                </li>
+              
+            
+      <span class="px-6">
+  
+
+</span>
+          </ul>
+        </div>
+      </label>
+      
+      <ul class="hidden list-none flex-row ltr:text-right rtl:text-left sm:flex">
+        
+          
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+              
+                <a
+                  href="/kursus/"
+                  title="Kurser ✍️"
+                  
+                  >
+                    <span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Kurser</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+          
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+              <button id="search-button-m1" title="Search (/)">
+                <span
+                  class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                >
+                  <span class="relative inline-block align-text-bottom px-1 icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+                </span>
+              </button>
+            </li>
+          
+
+        
+      <span class="px-6">
+  
+
+</span>
+      </ul>
+    
+  </nav>
+</header>
+
+    
+    <div class="relative flex flex-col grow">
+      <main id="main-content" class="grow">
+        
+  <article>
+    <header class="max-w-prose">
+      
+        <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+    
+  
+    
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/"
+      >Velkommen til Kiils</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline ">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/blog/"
+      >Blog</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/blog/2024-04-12-sadan-indtaenker-i-generativ-kunstig-intelligens-pa-jeres-omrade/"
+      >Sådan indtænker I generativ kunstig intelligens på jeres område</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Sådan indtænker I generativ kunstig intelligens på jeres område
+      </h1>
+      <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2024-04-12 00:00:00 &#43;0000 UTC">12․ april 2024</time><span class="px-2 text-primary-500">&middot;</span><span>5641 ord</span><span class="px-2 text-primary-500">&middot;</span><span title="Læsetid">27 minutter</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+    <div class="my-1 text-xs leading-relaxed text-neutral-500 dark:text-neutral-400 ">
+      
+        
+      
+        
+      
+        
+      
+        
+          
+            <a
+              href="/emner/finansiering/"
+              class="rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >Finansiering</a
+            >
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+            <a
+              href="/tools/nvim/"
+              class="rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >Nvim</a
+            >
+          
+        
+      
+    </div>
+  
+
+
+      </div>
+      
+    </header>
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+      <div class="min-w-0 min-h-0 max-w-prose grow">
+        <p>Few-shot</p>
+<p>Hvor kan kunstig intelligens skabe mest værdi</p>
+<p>Hvordan får du kunstig intelligens til at spille sammen med jeres arbejdsgange og jeres marketing, slag og kommunikation</p>
+<p>Er det nok med vanilla LLM eller skal der andre ting til som &ldquo;function calling&rdquo;, RAG eller måske finetuning.</p>
+<p>Prompt engineering</p>
+<p>This guide shares strategies and tactics for getting better results from large language models (sometimes referred to as GPT models) like GPT-4. The methods described here can sometimes be deployed in combination for greater effect. We encourage experimentation to find the methods that work best for you.</p>
+<p>Some of the examples demonstrated here currently work only with our most capable model, gpt-4. In general, if you find that a model fails at a task and a more capable model is available, it&rsquo;s often worth trying again with the more capable model.</p>
+<p>You can also explore example prompts which showcase what our models are capable of:
+Prompt examples
+Explore prompt examples to learn what GPT models can do
+Six strategies for getting better results
+Write clear instructions</p>
+<p>These models can’t read your mind. If outputs are too long, ask for brief replies. If outputs are too simple, ask for expert-level writing. If you dislike the format, demonstrate the format you’d like to see. The less the model has to guess at what you want, the more likely you’ll get it.</p>
+<p>Tactics:</p>
+<pre><code>Include details in your query to get more relevant answers
+Ask the model to adopt a persona
+Use delimiters to clearly indicate distinct parts of the input
+Specify the steps required to complete a task
+Provide examples
+Specify the desired length of the output
+</code></pre>
+<p>Provide reference text</p>
+<p>Language models can confidently invent fake answers, especially when asked about esoteric topics or for citations and URLs. In the same way that a sheet of notes can help a student do better on a test, providing reference text to these models can help in answering with fewer fabrications.</p>
+<p>Tactics:</p>
+<pre><code>Instruct the model to answer using a reference text
+Instruct the model to answer with citations from a reference text
+</code></pre>
+<p>Split complex tasks into simpler subtasks</p>
+<p>Just as it is good practice in software engineering to decompose a complex system into a set of modular components, the same is true of tasks submitted to a language model. Complex tasks tend to have higher error rates than simpler tasks. Furthermore, complex tasks can often be re-defined as a workflow of simpler tasks in which the outputs of earlier tasks are used to construct the inputs to later tasks.</p>
+<p>Tactics:</p>
+<pre><code>Use intent classification to identify the most relevant instructions for a user query
+For dialogue applications that require very long conversations, summarize or filter previous dialogue
+Summarize long documents piecewise and construct a full summary recursively
+</code></pre>
+<p>Give the model time to &ldquo;think&rdquo;</p>
+<p>If asked to multiply 17 by 28, you might not know it instantly, but can still work it out with time. Similarly, models make more reasoning errors when trying to answer right away, rather than taking time to work out an answer. Asking for a &ldquo;chain of thought&rdquo; before an answer can help the model reason its way toward correct answers more reliably.</p>
+<p>Tactics:</p>
+<pre><code>Instruct the model to work out its own solution before rushing to a conclusion
+Use inner monologue or a sequence of queries to hide the model's reasoning process
+Ask the model if it missed anything on previous passes
+</code></pre>
+<p>Use external tools</p>
+<p>Compensate for the weaknesses of the model by feeding it the outputs of other tools. For example, a text retrieval system (sometimes called RAG or retrieval augmented generation) can tell the model about relevant documents. A code execution engine like OpenAI&rsquo;s Code Interpreter can help the model do math and run code. If a task can be done more reliably or efficiently by a tool rather than by a language model, offload it to get the best of both.</p>
+<p>Tactics:</p>
+<pre><code>Use embeddings-based search to implement efficient knowledge retrieval
+Use code execution to perform more accurate calculations or call external APIs
+Give the model access to specific functions
+</code></pre>
+<p>Test changes systematically</p>
+<p>Improving performance is easier if you can measure it. In some cases a modification to a prompt will achieve better performance on a few isolated examples but lead to worse overall performance on a more representative set of examples. Therefore to be sure that a change is net positive to performance it may be necessary to define a comprehensive test suite (also known an as an &ldquo;eval&rdquo;).</p>
+<p>Tactic:</p>
+<pre><code>Evaluate model outputs with reference to gold-standard answers
+</code></pre>
+<p>Tactics</p>
+<p>Each of the strategies listed above can be instantiated with specific tactics. These tactics are meant to provide ideas for things to try. They are by no means fully comprehensive, and you should feel free to try creative ideas not represented here.
+Strategy: Write clear instructions
+Tactic: Include details in your query to get more relevant answers</p>
+<p>In order to get a highly relevant response, make sure that requests provide any important details or context. Otherwise you are leaving it up to the model to guess what you mean.</p>
+<p>Worse	Better
+How do I add numbers in Excel?	How do I add up a row of dollar amounts in Excel? I want to do this automatically for a whole sheet of rows with all the totals ending up on the right in a column called &ldquo;Total&rdquo;.
+Who’s president?	Who was the president of Mexico in 2021, and how frequently are elections held?
+Write code to calculate the Fibonacci sequence.	Write a TypeScript function to efficiently calculate the Fibonacci sequence. Comment the code liberally to explain what each piece does and why it&rsquo;s written that way.
+Summarize the meeting notes.	Summarize the meeting notes in a single paragraph. Then write a markdown list of the speakers and each of their key points. Finally, list the next steps or action items suggested by the speakers, if any.
+Tactic: Ask the model to adopt a persona</p>
+<p>The system message can be used to specify the persona used by the model in its replies.
+SYSTEM
+When I ask for help to write something, you will reply with a document that contains at least one joke or playful comment in every paragraph.
+USER
+Write a thank you note to my steel bolt vendor for getting the delivery in on time and in short notice. This made it possible for us to deliver an important order.
+Open in Playground
+Tactic: Use delimiters to clearly indicate distinct parts of the input</p>
+<p>Delimiters like triple quotation marks, XML tags, section titles, etc. can help demarcate sections of text to be treated differently.
+USER
+Summarize the text delimited by triple quotes with a haiku.</p>
+<p>&ldquo;&ldquo;&ldquo;insert text here&rdquo;&rdquo;&rdquo;
+Open in Playground
+SYSTEM
+You will be provided with a pair of articles (delimited with XML tags) about the same topic. First summarize the arguments of each article. Then indicate which of them makes a better argument and explain why.
+USER</p>
+<article> insert first article here </article>
+<article> insert second article here </article>
+Open in Playground
+SYSTEM
+You will be provided with a thesis abstract and a suggested title for it. The thesis title should give the reader a good idea of the topic of the thesis but should also be eye-catching. If the title does not meet these criteria, suggest 5 alternatives.
+USER
+Abstract: insert abstract here
+<p>Title: insert title here
+Open in Playground</p>
+<p>For straightforward tasks such as these, using delimiters might not make a difference in the output quality. However, the more complex a task is the more important it is to disambiguate task details. Don’t make the model work to understand exactly what you are asking of them.
+Tactic: Specify the steps required to complete a task</p>
+<p>Some tasks are best specified as a sequence of steps. Writing the steps out explicitly can make it easier for the model to follow them.
+SYSTEM
+Use the following step-by-step instructions to respond to user inputs.</p>
+<p>Step 1 - The user will provide you with text in triple quotes. Summarize this text in one sentence with a prefix that says &ldquo;Summary: &ldquo;.</p>
+<p>Step 2 - Translate the summary from Step 1 into Spanish, with a prefix that says &ldquo;Translation: &ldquo;.
+USER
+&ldquo;&ldquo;&ldquo;insert text here&rdquo;&rdquo;&rdquo;
+Open in Playground
+Tactic: Provide examples</p>
+<p>Providing general instructions that apply to all examples is generally more efficient than demonstrating all permutations of a task by example, but in some cases providing examples may be easier. For example, if you intend for the model to copy a particular style of responding to user queries which is difficult to describe explicitly. This is known as &ldquo;few-shot&rdquo; prompting.
+SYSTEM
+Answer in a consistent style.
+USER
+Teach me about patience.
+ASSISTANT
+The river that carves the deepest valley flows from a modest spring; the grandest symphony originates from a single note; the most intricate tapestry begins with a solitary thread.
+USER
+Teach me about the ocean.
+Open in Playground
+Tactic: Specify the desired length of the output</p>
+<p>You can ask the model to produce outputs that are of a given target length. The targeted output length can be specified in terms of the count of words, sentences, paragraphs, bullet points, etc. Note however that instructing the model to generate a specific number of words does not work with high precision. The model can more reliably generate outputs with a specific number of paragraphs or bullet points.
+USER
+Summarize the text delimited by triple quotes in about 50 words.</p>
+<p>&ldquo;&ldquo;&ldquo;insert text here&rdquo;&rdquo;&rdquo;
+Open in Playground
+USER
+Summarize the text delimited by triple quotes in 2 paragraphs.</p>
+<p>&ldquo;&ldquo;&ldquo;insert text here&rdquo;&rdquo;&rdquo;
+Open in Playground
+USER
+Summarize the text delimited by triple quotes in 3 bullet points.</p>
+<p>&ldquo;&ldquo;&ldquo;insert text here&rdquo;&rdquo;&rdquo;
+Open in Playground
+Strategy: Provide reference text
+Tactic: Instruct the model to answer using a reference text</p>
+<p>If we can provide a model with trusted information that is relevant to the current query, then we can instruct the model to use the provided information to compose its answer.
+SYSTEM
+Use the provided articles delimited by triple quotes to answer questions. If the answer cannot be found in the articles, write &ldquo;I could not find an answer.&rdquo;
+USER
+&lt;insert articles, each delimited by triple quotes&gt;</p>
+<p>Question: <insert question here>
+Open in Playground</p>
+<p>Given that all models have limited context windows, we need some way to dynamically lookup information that is relevant to the question being asked. Embeddings can be used to implement efficient knowledge retrieval. See the tactic &ldquo;Use embeddings-based search to implement efficient knowledge retrieval&rdquo; for more details on how to implement this.
+Tactic: Instruct the model to answer with citations from a reference text</p>
+<p>If the input has been supplemented with relevant knowledge, it&rsquo;s straightforward to request that the model add citations to its answers by referencing passages from provided documents. Note that citations in the output can then be verified programmatically by string matching within the provided documents.
+SYSTEM
+You will be provided with a document delimited by triple quotes and a question. Your task is to answer the question using only the provided document and to cite the passage(s) of the document used to answer the question. If the document does not contain the information needed to answer this question then simply write: &ldquo;Insufficient information.&rdquo; If an answer to the question is provided, it must be annotated with a citation. Use the following format for to cite relevant passages ({&ldquo;citation&rdquo;: …}).
+USER
+&ldquo;&rdquo;&quot;<insert document here>&rdquo;&rdquo;&rdquo;</p>
+<p>Question: <insert question here>
+Open in Playground
+Strategy: Split complex tasks into simpler subtasks
+Tactic: Use intent classification to identify the most relevant instructions for a user query</p>
+<p>For tasks in which lots of independent sets of instructions are needed to handle different cases, it can be beneficial to first classify the type of query and to use that classification to determine which instructions are needed. This can be achieved by defining fixed categories and hardcoding instructions that are relevant for handling tasks in a given category. This process can also be applied recursively to decompose a task into a sequence of stages. The advantage of this approach is that each query will contain only those instructions that are required to perform the next stage of a task which can result in lower error rates compared to using a single query to perform the whole task. This can also result in lower costs since larger prompts cost more to run (see pricing information).</p>
+<p>Suppose for example that for a customer service application, queries could be usefully classified as follows:
+SYSTEM
+You will be provided with customer service queries. Classify each query into a primary category and a secondary category. Provide your output in json format with the keys: primary and secondary.</p>
+<p>Primary categories: Billing, Technical Support, Account Management, or General Inquiry.</p>
+<p>Billing secondary categories:</p>
+<ul>
+<li>Unsubscribe or upgrade</li>
+<li>Add a payment method</li>
+<li>Explanation for charge</li>
+<li>Dispute a charge</li>
+</ul>
+<p>Technical Support secondary categories:</p>
+<ul>
+<li>Troubleshooting</li>
+<li>Device compatibility</li>
+<li>Software updates</li>
+</ul>
+<p>Account Management secondary categories:</p>
+<ul>
+<li>Password reset</li>
+<li>Update personal information</li>
+<li>Close account</li>
+<li>Account security</li>
+</ul>
+<p>General Inquiry secondary categories:</p>
+<ul>
+<li>Product information</li>
+<li>Pricing</li>
+<li>Feedback</li>
+<li>Speak to a human
+USER
+I need to get my internet working again.
+Open in Playground</li>
+</ul>
+<p>Based on the classification of the customer query, a set of more specific instructions can be provided to a model for it to handle next steps. For example, suppose the customer requires help with &ldquo;troubleshooting&rdquo;.
+SYSTEM
+You will be provided with customer service inquiries that require troubleshooting in a technical support context. Help the user by:</p>
+<ul>
+<li>Ask them to check that all cables to/from the router are connected. Note that it is common for cables to come loose over time.</li>
+<li>If all cables are connected and the issue persists, ask them which router model they are using</li>
+<li>Now you will advise them how to restart their device:
+&ndash; If the model number is MTD-327J, advise them to push the red button and hold it for 5 seconds, then wait 5 minutes before testing the connection.
+&ndash; If the model number is MTD-327S, advise them to unplug and replug it, then wait 5 minutes before testing the connection.</li>
+<li>If the customer&rsquo;s issue persists after restarting the device and waiting 5 minutes, connect them to IT support by outputting {&ldquo;IT support requested&rdquo;}.</li>
+<li>If the user starts asking questions that are unrelated to this topic then confirm if they would like to end the current chat about troubleshooting and classify their request according to the following scheme:</li>
+</ul>
+<p>&lt;insert primary/secondary classification scheme from above here&gt;
+USER
+I need to get my internet working again.
+Open in Playground</p>
+<p>Notice that the model has been instructed to emit special strings to indicate when the state of the conversation changes. This enables us to turn our system into a state machine where the state determines which instructions are injected. By keeping track of state, what instructions are relevant at that state, and also optionally what state transitions are allowed from that state, we can put guardrails around the user experience that would be hard to achieve with a less structured approach.
+Tactic: For dialogue applications that require very long conversations, summarize or filter previous dialogue</p>
+<p>Since models have a fixed context length, dialogue between a user and an assistant in which the entire conversation is included in the context window cannot continue indefinitely.</p>
+<p>There are various workarounds to this problem, one of which is to summarize previous turns in the conversation. Once the size of the input reaches a predetermined threshold length, this could trigger a query that summarizes part of the conversation and the summary of the prior conversation could be included as part of the system message. Alternatively, prior conversation could be summarized asynchronously in the background throughout the entire conversation.</p>
+<p>An alternative solution is to dynamically select previous parts of the conversation that are most relevant to the current query. See the tactic &ldquo;Use embeddings-based search to implement efficient knowledge retrieval&rdquo;.
+Tactic: Summarize long documents piecewise and construct a full summary recursively</p>
+<p>Since models have a fixed context length, they cannot be used to summarize a text longer than the context length minus the length of the generated summary in a single query.</p>
+<p>To summarize a very long document such as a book we can use a sequence of queries to summarize each section of the document. Section summaries can be concatenated and summarized producing summaries of summaries. This process can proceed recursively until an entire document is summarized. If it’s necessary to use information about earlier sections in order to make sense of later sections, then a further trick that can be useful is to include a running summary of the text that precedes any given point in the book while summarizing content at that point. The effectiveness of this procedure for summarizing books has been studied in previous research by OpenAI using variants of GPT-3.
+Strategy: Give models time to &ldquo;think&rdquo;
+Tactic: Instruct the model to work out its own solution before rushing to a conclusion</p>
+<p>Sometimes we get better results when we explicitly instruct the model to reason from first principles before coming to a conclusion. Suppose for example we want a model to evaluate a student’s solution to a math problem. The most obvious way to approach this is to simply ask the model if the student&rsquo;s solution is correct or not.
+SYSTEM
+Determine if the student&rsquo;s solution is correct or not.
+USER
+Problem Statement: I&rsquo;m building a solar power installation and I need help working out the financials.</p>
+<ul>
+<li>Land costs $100 / square foot</li>
+<li>I can buy solar panels for $250 / square foot</li>
+<li>I negotiated a contract for maintenance that will cost me a flat $100k per year, and an additional $10 / square foot
+What is the total cost for the first year of operations as a function of the number of square feet.</li>
+</ul>
+<p>Student&rsquo;s Solution: Let x be the size of the installation in square feet.</p>
+<ol>
+<li>Land cost: 100x</li>
+<li>Solar panel cost: 250x</li>
+<li>Maintenance cost: 100,000 + 100x
+Total cost: 100x + 250x + 100,000 + 100x = 450x + 100,000
+ASSISTANT
+The student&rsquo;s solution is correct.
+Open in Playground</li>
+</ol>
+<p>But the student&rsquo;s solution is actually not correct! We can get the model to successfully notice this by prompting the model to generate its own solution first.
+SYSTEM
+First work out your own solution to the problem. Then compare your solution to the student&rsquo;s solution and evaluate if the student&rsquo;s solution is correct or not. Don&rsquo;t decide if the student&rsquo;s solution is correct until you have done the problem yourself.
+USER
+Problem Statement: I&rsquo;m building a solar power installation and I need help working out the financials.</p>
+<ul>
+<li>Land costs $100 / square foot</li>
+<li>I can buy solar panels for $250 / square foot</li>
+<li>I negotiated a contract for maintenance that will cost me a flat $100k per year, and an additional $10 / square foot
+What is the total cost for the first year of operations as a function of the number of square feet.</li>
+</ul>
+<p>Student&rsquo;s Solution: Let x be the size of the installation in square feet.</p>
+<ol>
+<li>Land cost: 100x</li>
+<li>Solar panel cost: 250x</li>
+<li>Maintenance cost: 100,000 + 100x
+Total cost: 100x + 250x + 100,000 + 100x = 450x + 100,000
+ASSISTANT
+Let x be the size of the installation in square feet.</li>
+<li>Land cost: 100x</li>
+<li>Solar panel cost: 250x</li>
+<li>Maintenance cost: 100,000 + 10x
+Total cost: 100x + 250x + 100,000 + 10x = 360x + 100,000</li>
+</ol>
+<p>The student&rsquo;s solution is incorrect. They made an error in the maintenance cost calculation, using 100x instead of 10x. The correct total cost for the first year of operations is 360x + 100,000.
+Open in Playground
+Tactic: Use inner monologue or a sequence of queries to hide the model&rsquo;s reasoning process</p>
+<p>The previous tactic demonstrates that it is sometimes important for the model to reason in detail about a problem before answering a specific question. For some applications, the reasoning process that a model uses to arrive at a final answer would be inappropriate to share with the user. For example, in tutoring applications we may want to encourage students to work out their own answers, but a model’s reasoning process about the student’s solution could reveal the answer to the student.</p>
+<p>Inner monologue is a tactic that can be used to mitigate this. The idea of inner monologue is to instruct the model to put parts of the output that are meant to be hidden from the user into a structured format that makes parsing them easy. Then before presenting the output to the user, the output is parsed and only part of the output is made visible.
+SYSTEM
+Follow these steps to answer the user queries.</p>
+<p>Step 1 - First work out your own solution to the problem. Don&rsquo;t rely on the student&rsquo;s solution since it may be incorrect. Enclose all your work for this step within triple quotes (&rdquo;&quot;&quot;).</p>
+<p>Step 2 - Compare your solution to the student&rsquo;s solution and evaluate if the student&rsquo;s solution is correct or not. Enclose all your work for this step within triple quotes (&quot;&quot;&quot;).</p>
+<p>Step 3 - If the student made a mistake, determine what hint you could give the student without giving away the answer. Enclose all your work for this step within triple quotes (&quot;&quot;&quot;).</p>
+<p>Step 4 - If the student made a mistake, provide the hint from the previous step to the student (outside of triple quotes). Instead of writing &ldquo;Step 4 - &hellip;&rdquo; write &ldquo;Hint:&rdquo;.
+USER
+Problem Statement: <insert problem statement></p>
+<p>Student Solution: <insert student solution>
+Open in Playground</p>
+<p>Alternatively, this can be achieved with a sequence of queries in which all except the last have their output hidden from the end user.</p>
+<p>First, we can ask the model to solve the problem on its own. Since this initial query doesn&rsquo;t require the student’s solution, it can be omitted. This provides the additional advantage that there is no chance that the model’s solution will be biased by the student’s attempted solution.
+USER
+<insert problem statement>
+Open in Playground</p>
+<p>Next, we can have the model use all available information to assess the correctness of the student’s solution.
+SYSTEM
+Compare your solution to the student&rsquo;s solution and evaluate if the student&rsquo;s solution is correct or not.
+USER
+Problem statement: &ldquo;&rdquo;&quot;<insert problem statement>&quot;&quot;&quot;</p>
+<p>Your solution: &ldquo;&rdquo;&quot;<insert model generated solution>&quot;&quot;&quot;</p>
+<p>Student’s solution: &ldquo;&rdquo;&quot;&lt;insert student&rsquo;s solution&gt;&quot;&quot;&quot;
+Open in Playground</p>
+<p>Finally, we can let the model use its own analysis to construct a reply in the persona of a helpful tutor.
+SYSTEM
+You are a math tutor. If the student made an error, offer a hint to the student in a way that does not reveal the answer. If the student did not make an error, simply offer them an encouraging comment.
+USER
+Problem statement: &ldquo;&rdquo;&quot;<insert problem statement>&quot;&quot;&quot;</p>
+<p>Your solution: &ldquo;&rdquo;&quot;<insert model generated solution>&quot;&quot;&quot;</p>
+<p>Student’s solution: &ldquo;&rdquo;&quot;&lt;insert student&rsquo;s solution&gt;&quot;&quot;&quot;</p>
+<p>Analysis: &ldquo;&rdquo;&quot;<insert model generated analysis from previous step>&quot;&quot;&quot;
+Open in Playground
+Tactic: Ask the model if it missed anything on previous passes</p>
+<p>Suppose that we are using a model to list excerpts from a source which are relevant to a particular question. After listing each excerpt the model needs to determine if it should start writing another or if it should stop. If the source document is large, it is common for a model to stop too early and fail to list all relevant excerpts. In that case, better performance can often be obtained by prompting the model with followup queries to find any excerpts it missed on previous passes.
+SYSTEM
+You will be provided with a document delimited by triple quotes. Your task is to select excerpts which pertain to the following question: &ldquo;What significant paradigm shifts have occurred in the history of artificial intelligence.&rdquo;</p>
+<p>Ensure that excerpts contain all relevant context needed to interpret them - in other words don&rsquo;t extract small snippets that are missing important context. Provide output in JSON format as follows:</p>
+<p>[{&ldquo;excerpt&rdquo;: &ldquo;&hellip;&rdquo;},
+&hellip;
+{&ldquo;excerpt&rdquo;: &ldquo;&hellip;&rdquo;}]
+USER
+&ldquo;&rdquo;&quot;<insert document here>&quot;&quot;&quot;
+ASSISTANT
+[{&ldquo;excerpt&rdquo;: &ldquo;the model writes an excerpt here&rdquo;},
+&hellip;
+{&ldquo;excerpt&rdquo;: &ldquo;the model writes another excerpt here&rdquo;}]
+USER
+Are there more relevant excerpts? Take care not to repeat excerpts. Also ensure that excerpts contain all relevant context needed to interpret them - in other words don&rsquo;t extract small snippets that are missing important context.
+Open in Playground
+Strategy: Use external tools
+Tactic: Use embeddings-based search to implement efficient knowledge retrieval</p>
+<p>A model can leverage external sources of information if provided as part of its input. This can help the model to generate more informed and up-to-date responses. For example, if a user asks a question about a specific movie, it may be useful to add high quality information about the movie (e.g. actors, director, etc…) to the model’s input. Embeddings can be used to implement efficient knowledge retrieval, so that relevant information can be added to the model input dynamically at run-time.</p>
+<p>A text embedding is a vector that can measure the relatedness between text strings. Similar or relevant strings will be closer together than unrelated strings. This fact, along with the existence of fast vector search algorithms means that embeddings can be used to implement efficient knowledge retrieval. In particular, a text corpus can be split up into chunks, and each chunk can be embedded and stored. Then a given query can be embedded and vector search can be performed to find the embedded chunks of text from the corpus that are most related to the query (i.e. closest together in the embedding space).</p>
+<p>Example implementations can be found in the OpenAI Cookbook. See the tactic “Instruct the model to use retrieved knowledge to answer queries” for an example of how to use knowledge retrieval to minimize the likelihood that a model will make up incorrect facts.
+Tactic: Use code execution to perform more accurate calculations or call external APIs</p>
+<p>Language models cannot be relied upon to perform arithmetic or long calculations accurately on their own. In cases where this is needed, a model can be instructed to write and run code instead of making its own calculations. In particular, a model can be instructed to put code that is meant to be run into a designated format such as triple backtick. After an output is produced, the code can be extracted and run. Finally, if necessary, the output from the code execution engine (i.e. Python interpreter) can be provided as an input to the model for the next query.
+SYSTEM
+You can write and execute Python code by enclosing it in triple backticks, e.g. <code>code goes here</code>. Use this to perform calculations.
+USER
+Find all real-valued roots of the following polynomial: 3<em>x**5 - 5</em>x<strong>4 - 3*x</strong>3 - 7*x - 10.
+Open in Playground</p>
+<p>Another good use case for code execution is calling external APIs. If a model is instructed in the proper use of an API, it can write code that makes use of it. A model can be instructed in how to use an API by providing it with documentation and/or code samples showing how to use the API.
+SYSTEM
+You can write and execute Python code by enclosing it in triple backticks. Also note that you have access to the following module to help users send messages to their friends:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">message</span>
+</span></span><span class="line"><span class="cl"><span class="n">message</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">to</span><span class="o">=</span><span class="s2">&#34;John&#34;</span><span class="p">,</span> <span class="n">message</span><span class="o">=</span><span class="s2">&#34;Hey, want to meetup after work?&#34;</span><span class="p">)</span><span class="err">```</span>
+</span></span><span class="line"><span class="cl"><span class="n">Open</span> <span class="ow">in</span> <span class="n">Playground</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">WARNING</span><span class="p">:</span> <span class="n">Executing</span> <span class="n">code</span> <span class="n">produced</span> <span class="n">by</span> <span class="n">a</span> <span class="n">model</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">inherently</span> <span class="n">safe</span> <span class="ow">and</span> <span class="n">precautions</span> <span class="n">should</span> <span class="n">be</span> <span class="n">taken</span> <span class="ow">in</span> <span class="nb">any</span> <span class="n">application</span> <span class="n">that</span> <span class="n">seeks</span> <span class="n">to</span> <span class="n">do</span> <span class="n">this</span><span class="o">.</span> <span class="n">In</span> <span class="n">particular</span><span class="p">,</span> <span class="n">a</span> <span class="n">sandboxed</span> <span class="n">code</span> <span class="n">execution</span> <span class="n">environment</span> <span class="ow">is</span> <span class="n">needed</span> <span class="n">to</span> <span class="n">limit</span> <span class="n">the</span> <span class="n">harm</span> <span class="n">that</span> <span class="n">untrusted</span> <span class="n">code</span> <span class="n">could</span> <span class="n">cause</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="n">Tactic</span><span class="p">:</span> <span class="n">Give</span> <span class="n">the</span> <span class="n">model</span> <span class="n">access</span> <span class="n">to</span> <span class="n">specific</span> <span class="n">functions</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">The</span> <span class="n">Chat</span> <span class="n">Completions</span> <span class="n">API</span> <span class="n">allows</span> <span class="n">passing</span> <span class="n">a</span> <span class="nb">list</span> <span class="n">of</span> <span class="n">function</span> <span class="n">descriptions</span> <span class="ow">in</span> <span class="n">requests</span><span class="o">.</span> <span class="n">This</span> <span class="n">enables</span> <span class="n">models</span> <span class="n">to</span> <span class="n">generate</span> <span class="n">function</span> <span class="n">arguments</span> <span class="n">according</span> <span class="n">to</span> <span class="n">the</span> <span class="n">provided</span> <span class="n">schemas</span><span class="o">.</span> <span class="n">Generated</span> <span class="n">function</span> <span class="n">arguments</span> <span class="n">are</span> <span class="n">returned</span> <span class="n">by</span> <span class="n">the</span> <span class="n">API</span> <span class="ow">in</span> <span class="n">JSON</span> <span class="nb">format</span> <span class="ow">and</span> <span class="n">can</span> <span class="n">be</span> <span class="n">used</span> <span class="n">to</span> <span class="n">execute</span> <span class="n">function</span> <span class="n">calls</span><span class="o">.</span> <span class="n">Output</span> <span class="n">provided</span> <span class="n">by</span> <span class="n">function</span> <span class="n">calls</span> <span class="n">can</span> <span class="n">then</span> <span class="n">be</span> <span class="n">fed</span> <span class="n">back</span> <span class="n">into</span> <span class="n">a</span> <span class="n">model</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">following</span> <span class="n">request</span> <span class="n">to</span> <span class="n">close</span> <span class="n">the</span> <span class="n">loop</span><span class="o">.</span> <span class="n">This</span> <span class="ow">is</span> <span class="n">the</span> <span class="n">recommended</span> <span class="n">way</span> <span class="n">of</span> <span class="n">using</span> <span class="n">OpenAI</span> <span class="n">models</span> <span class="n">to</span> <span class="n">call</span> <span class="n">external</span> <span class="n">functions</span><span class="o">.</span> <span class="n">To</span> <span class="n">learn</span> <span class="n">more</span> <span class="n">see</span> <span class="n">the</span> <span class="n">function</span> <span class="n">calling</span> <span class="n">section</span> <span class="ow">in</span> <span class="n">our</span> <span class="n">introductory</span> <span class="n">text</span> <span class="n">generation</span> <span class="n">guide</span> <span class="ow">and</span> <span class="n">more</span> <span class="n">function</span> <span class="n">calling</span> <span class="n">examples</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">OpenAI</span> <span class="n">Cookbook</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="n">Strategy</span><span class="p">:</span> <span class="n">Test</span> <span class="n">changes</span> <span class="n">systematically</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Sometimes</span> <span class="n">it</span> <span class="n">can</span> <span class="n">be</span> <span class="n">hard</span> <span class="n">to</span> <span class="n">tell</span> <span class="n">whether</span> <span class="n">a</span> <span class="n">change</span> <span class="err">—</span> <span class="n">e</span><span class="o">.</span><span class="n">g</span><span class="o">.</span><span class="p">,</span> <span class="n">a</span> <span class="n">new</span> <span class="n">instruction</span> <span class="ow">or</span> <span class="n">a</span> <span class="n">new</span> <span class="n">design</span> <span class="err">—</span> <span class="n">makes</span> <span class="n">your</span> <span class="n">system</span> <span class="n">better</span> <span class="ow">or</span> <span class="n">worse</span><span class="o">.</span> <span class="n">Looking</span> <span class="n">at</span> <span class="n">a</span> <span class="n">few</span> <span class="n">examples</span> <span class="n">may</span> <span class="n">hint</span> <span class="n">at</span> <span class="n">which</span> <span class="ow">is</span> <span class="n">better</span><span class="p">,</span> <span class="n">but</span> <span class="k">with</span> <span class="n">small</span> <span class="n">sample</span> <span class="n">sizes</span> <span class="n">it</span> <span class="n">can</span> <span class="n">be</span> <span class="n">hard</span> <span class="n">to</span> <span class="n">distinguish</span> <span class="n">between</span> <span class="n">a</span> <span class="n">true</span> <span class="n">improvement</span> <span class="ow">or</span> <span class="n">random</span> <span class="n">luck</span><span class="o">.</span> <span class="n">Maybe</span> <span class="n">the</span> <span class="n">change</span> <span class="n">helps</span> <span class="n">performance</span> <span class="n">on</span> <span class="n">some</span> <span class="n">inputs</span><span class="p">,</span> <span class="n">but</span> <span class="n">hurts</span> <span class="n">performance</span> <span class="n">on</span> <span class="n">others</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Evaluation</span> <span class="n">procedures</span> <span class="p">(</span><span class="ow">or</span> <span class="s2">&#34;evals&#34;</span><span class="p">)</span> <span class="n">are</span> <span class="n">useful</span> <span class="k">for</span> <span class="n">optimizing</span> <span class="n">system</span> <span class="n">designs</span><span class="o">.</span> <span class="n">Good</span> <span class="n">evals</span> <span class="n">are</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">Representative</span> <span class="n">of</span> <span class="n">real</span><span class="o">-</span><span class="n">world</span> <span class="n">usage</span> <span class="p">(</span><span class="ow">or</span> <span class="n">at</span> <span class="n">least</span> <span class="n">diverse</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Contain</span> <span class="n">many</span> <span class="n">test</span> <span class="n">cases</span> <span class="k">for</span> <span class="n">greater</span> <span class="n">statistical</span> <span class="n">power</span> <span class="p">(</span><span class="n">see</span> <span class="n">table</span> <span class="n">below</span> <span class="k">for</span> <span class="n">guidelines</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Easy</span> <span class="n">to</span> <span class="n">automate</span> <span class="ow">or</span> <span class="n">repeat</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Difference</span> <span class="n">to</span> <span class="n">detect</span>	<span class="n">Sample</span> <span class="n">size</span> <span class="n">needed</span> <span class="k">for</span> <span class="mi">95</span><span class="o">%</span> <span class="n">confidence</span>
+</span></span><span class="line"><span class="cl"><span class="mi">30</span><span class="o">%</span>	<span class="o">~</span><span class="mi">10</span>
+</span></span><span class="line"><span class="cl"><span class="mi">10</span><span class="o">%</span>	<span class="o">~</span><span class="mi">100</span>
+</span></span><span class="line"><span class="cl"><span class="mi">3</span><span class="o">%</span>	<span class="o">~</span><span class="mi">1</span><span class="p">,</span><span class="mi">000</span>
+</span></span><span class="line"><span class="cl"><span class="mi">1</span><span class="o">%</span>	<span class="o">~</span><span class="mi">10</span><span class="p">,</span><span class="mi">000</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Evaluation</span> <span class="n">of</span> <span class="n">outputs</span> <span class="n">can</span> <span class="n">be</span> <span class="n">done</span> <span class="n">by</span> <span class="n">computers</span><span class="p">,</span> <span class="n">humans</span><span class="p">,</span> <span class="ow">or</span> <span class="n">a</span> <span class="n">mix</span><span class="o">.</span> <span class="n">Computers</span> <span class="n">can</span> <span class="n">automate</span> <span class="n">evals</span> <span class="k">with</span> <span class="n">objective</span> <span class="n">criteria</span> <span class="p">(</span><span class="n">e</span><span class="o">.</span><span class="n">g</span><span class="o">.</span><span class="p">,</span> <span class="n">questions</span> <span class="k">with</span> <span class="n">single</span> <span class="n">correct</span> <span class="n">answers</span><span class="p">)</span> <span class="k">as</span> <span class="n">well</span> <span class="k">as</span> <span class="n">some</span> <span class="n">subjective</span> <span class="ow">or</span> <span class="n">fuzzy</span> <span class="n">criteria</span><span class="p">,</span> <span class="ow">in</span> <span class="n">which</span> <span class="n">model</span> <span class="n">outputs</span> <span class="n">are</span> <span class="n">evaluated</span> <span class="n">by</span> <span class="n">other</span> <span class="n">model</span> <span class="n">queries</span><span class="o">.</span> <span class="n">OpenAI</span> <span class="n">Evals</span> <span class="ow">is</span> <span class="n">an</span> <span class="nb">open</span><span class="o">-</span><span class="n">source</span> <span class="n">software</span> <span class="n">framework</span> <span class="n">that</span> <span class="n">provides</span> <span class="n">tools</span> <span class="k">for</span> <span class="n">creating</span> <span class="n">automated</span> <span class="n">evals</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Model</span><span class="o">-</span><span class="n">based</span> <span class="n">evals</span> <span class="n">can</span> <span class="n">be</span> <span class="n">useful</span> <span class="n">when</span> <span class="n">there</span> <span class="n">exists</span> <span class="n">a</span> <span class="nb">range</span> <span class="n">of</span> <span class="n">possible</span> <span class="n">outputs</span> <span class="n">that</span> <span class="n">would</span> <span class="n">be</span> <span class="n">considered</span> <span class="n">equally</span> <span class="n">high</span> <span class="ow">in</span> <span class="n">quality</span> <span class="p">(</span><span class="n">e</span><span class="o">.</span><span class="n">g</span><span class="o">.</span> <span class="k">for</span> <span class="n">questions</span> <span class="k">with</span> <span class="n">long</span> <span class="n">answers</span><span class="p">)</span><span class="o">.</span> <span class="n">The</span> <span class="n">boundary</span> <span class="n">between</span> <span class="n">what</span> <span class="n">can</span> <span class="n">be</span> <span class="n">realistically</span> <span class="n">evaluated</span> <span class="k">with</span> <span class="n">a</span> <span class="n">model</span><span class="o">-</span><span class="n">based</span> <span class="nb">eval</span> <span class="ow">and</span> <span class="n">what</span> <span class="n">requires</span> <span class="n">a</span> <span class="n">human</span> <span class="n">to</span> <span class="n">evaluate</span> <span class="ow">is</span> <span class="n">fuzzy</span> <span class="ow">and</span> <span class="ow">is</span> <span class="n">constantly</span> <span class="n">shifting</span> <span class="k">as</span> <span class="n">models</span> <span class="n">become</span> <span class="n">more</span> <span class="n">capable</span><span class="o">.</span> <span class="n">We</span> <span class="n">encourage</span> <span class="n">experimentation</span> <span class="n">to</span> <span class="n">figure</span> <span class="n">out</span> <span class="n">how</span> <span class="n">well</span> <span class="n">model</span><span class="o">-</span><span class="n">based</span> <span class="n">evals</span> <span class="n">can</span> <span class="n">work</span> <span class="k">for</span> <span class="n">your</span> <span class="n">use</span> <span class="k">case</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="n">Tactic</span><span class="p">:</span> <span class="n">Evaluate</span> <span class="n">model</span> <span class="n">outputs</span> <span class="k">with</span> <span class="n">reference</span> <span class="n">to</span> <span class="n">gold</span><span class="o">-</span><span class="n">standard</span> <span class="n">answers</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Suppose</span> <span class="n">it</span> <span class="ow">is</span> <span class="n">known</span> <span class="n">that</span> <span class="n">the</span> <span class="n">correct</span> <span class="n">answer</span> <span class="n">to</span> <span class="n">a</span> <span class="n">question</span> <span class="n">should</span> <span class="n">make</span> <span class="n">reference</span> <span class="n">to</span> <span class="n">a</span> <span class="n">specific</span> <span class="nb">set</span> <span class="n">of</span> <span class="n">known</span> <span class="n">facts</span><span class="o">.</span> <span class="n">Then</span> <span class="n">we</span> <span class="n">can</span> <span class="n">use</span> <span class="n">a</span> <span class="n">model</span> <span class="n">query</span> <span class="n">to</span> <span class="n">count</span> <span class="n">how</span> <span class="n">many</span> <span class="n">of</span> <span class="n">the</span> <span class="n">required</span> <span class="n">facts</span> <span class="n">are</span> <span class="n">included</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">answer</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">For</span> <span class="n">example</span><span class="p">,</span> <span class="n">using</span> <span class="n">the</span> <span class="n">following</span> <span class="n">system</span> <span class="n">message</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl"><span class="n">SYSTEM</span>
+</span></span><span class="line"><span class="cl"><span class="n">You</span> <span class="n">will</span> <span class="n">be</span> <span class="n">provided</span> <span class="k">with</span> <span class="n">text</span> <span class="n">delimited</span> <span class="n">by</span> <span class="n">triple</span> <span class="n">quotes</span> <span class="n">that</span> <span class="ow">is</span> <span class="n">supposed</span> <span class="n">to</span> <span class="n">be</span> <span class="n">the</span> <span class="n">answer</span> <span class="n">to</span> <span class="n">a</span> <span class="n">question</span><span class="o">.</span> <span class="n">Check</span> <span class="k">if</span> <span class="n">the</span> <span class="n">following</span> <span class="n">pieces</span> <span class="n">of</span> <span class="n">information</span> <span class="n">are</span> <span class="n">directly</span> <span class="n">contained</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">answer</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">-</span> <span class="n">Neil</span> <span class="n">Armstrong</span> <span class="n">was</span> <span class="n">the</span> <span class="n">first</span> <span class="n">person</span> <span class="n">to</span> <span class="n">walk</span> <span class="n">on</span> <span class="n">the</span> <span class="n">moon</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="o">-</span> <span class="n">The</span> <span class="n">date</span> <span class="n">Neil</span> <span class="n">Armstrong</span> <span class="n">first</span> <span class="n">walked</span> <span class="n">on</span> <span class="n">the</span> <span class="n">moon</span> <span class="n">was</span> <span class="n">July</span> <span class="mi">21</span><span class="p">,</span> <span class="mf">1969.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">For</span> <span class="n">each</span> <span class="n">of</span> <span class="n">these</span> <span class="n">points</span> <span class="n">perform</span> <span class="n">the</span> <span class="n">following</span> <span class="n">steps</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="mi">1</span> <span class="o">-</span> <span class="n">Restate</span> <span class="n">the</span> <span class="n">point</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="mi">2</span> <span class="o">-</span> <span class="n">Provide</span> <span class="n">a</span> <span class="n">citation</span> <span class="kn">from</span> <span class="nn">the</span> <span class="n">answer</span> <span class="n">which</span> <span class="ow">is</span> <span class="n">closest</span> <span class="n">to</span> <span class="n">this</span> <span class="n">point</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="mi">3</span> <span class="o">-</span> <span class="n">Consider</span> <span class="k">if</span> <span class="n">someone</span> <span class="n">reading</span> <span class="n">the</span> <span class="n">citation</span> <span class="n">who</span> <span class="n">doesn</span><span class="s1">&#39;t know the topic could directly infer the point. Explain why or why not before making up your mind.</span>
+</span></span><span class="line"><span class="cl"><span class="mi">4</span> <span class="o">-</span> <span class="n">Write</span> <span class="s2">&#34;yes&#34;</span> <span class="k">if</span> <span class="n">the</span> <span class="n">answer</span> <span class="n">to</span> <span class="mi">3</span> <span class="n">was</span> <span class="n">yes</span><span class="p">,</span> <span class="n">otherwise</span> <span class="n">write</span> <span class="s2">&#34;no&#34;</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Finally</span><span class="p">,</span> <span class="n">provide</span> <span class="n">a</span> <span class="n">count</span> <span class="n">of</span> <span class="n">how</span> <span class="n">many</span> <span class="s2">&#34;yes&#34;</span> <span class="n">answers</span> <span class="n">there</span> <span class="n">are</span><span class="o">.</span> <span class="n">Provide</span> <span class="n">this</span> <span class="n">count</span> <span class="k">as</span> <span class="p">{</span><span class="s2">&#34;count&#34;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">insert</span> <span class="n">count</span> <span class="n">here</span><span class="o">&gt;</span><span class="p">}</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Here</span><span class="s1">&#39;s an example input where both points are satisfied:</span>
+</span></span><span class="line"><span class="cl"><span class="n">SYSTEM</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="n">insert</span> <span class="n">system</span> <span class="n">message</span> <span class="n">above</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="n">USER</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;&#34;&#34;Neil Armstrong is famous for being the first human to set foot on the Moon. This historic event took place on July 21, 1969, during the Apollo 11 mission.&#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">Open</span> <span class="ow">in</span> <span class="n">Playground</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Here</span><span class="s1">&#39;s an example input where only one point is satisfied:</span>
+</span></span><span class="line"><span class="cl"><span class="n">SYSTEM</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="n">insert</span> <span class="n">system</span> <span class="n">message</span> <span class="n">above</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="n">USER</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;&#34;&#34;Neil Armstrong made history when he stepped off the lunar module, becoming the first person to walk on the moon.&#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">Open</span> <span class="ow">in</span> <span class="n">Playground</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Here</span><span class="s1">&#39;s an example input where none are satisfied:</span>
+</span></span><span class="line"><span class="cl"><span class="n">SYSTEM</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="n">insert</span> <span class="n">system</span> <span class="n">message</span> <span class="n">above</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="n">USER</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;&#34;&#34;In the summer of &#39;69, a voyage grand,
+</span></span></span><span class="line"><span class="cl"><span class="s2">Apollo 11, bold as legend&#39;s hand.
+</span></span></span><span class="line"><span class="cl"><span class="s2">Armstrong took a step, history unfurled,
+</span></span></span><span class="line"><span class="cl"><span class="s2">&#34;One small step,&#34; he said, for a new world.&#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">Open</span> <span class="ow">in</span> <span class="n">Playground</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">There</span> <span class="n">are</span> <span class="n">many</span> <span class="n">possible</span> <span class="n">variants</span> <span class="n">on</span> <span class="n">this</span> <span class="nb">type</span> <span class="n">of</span> <span class="n">model</span><span class="o">-</span><span class="n">based</span> <span class="nb">eval</span><span class="o">.</span> <span class="n">Consider</span> <span class="n">the</span> <span class="n">following</span> <span class="n">variation</span> <span class="n">which</span> <span class="n">tracks</span> <span class="n">the</span> <span class="n">kind</span> <span class="n">of</span> <span class="n">overlap</span> <span class="n">between</span> <span class="n">the</span> <span class="n">candidate</span> <span class="n">answer</span> <span class="ow">and</span> <span class="n">the</span> <span class="n">gold</span><span class="o">-</span><span class="n">standard</span> <span class="n">answer</span><span class="p">,</span> <span class="ow">and</span> <span class="n">also</span> <span class="n">tracks</span> <span class="n">whether</span> <span class="n">the</span> <span class="n">candidate</span> <span class="n">answer</span> <span class="n">contradicts</span> <span class="nb">any</span> <span class="n">part</span> <span class="n">of</span> <span class="n">the</span> <span class="n">gold</span><span class="o">-</span><span class="n">standard</span> <span class="n">answer</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="n">SYSTEM</span>
+</span></span><span class="line"><span class="cl"><span class="n">Use</span> <span class="n">the</span> <span class="n">following</span> <span class="n">steps</span> <span class="n">to</span> <span class="n">respond</span> <span class="n">to</span> <span class="n">user</span> <span class="n">inputs</span><span class="o">.</span> <span class="n">Fully</span> <span class="n">restate</span> <span class="n">each</span> <span class="n">step</span> <span class="n">before</span> <span class="n">proceeding</span><span class="o">.</span> <span class="n">i</span><span class="o">.</span><span class="n">e</span><span class="o">.</span> <span class="s2">&#34;Step 1: Reason...&#34;</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Step</span> <span class="mi">1</span><span class="p">:</span> <span class="n">Reason</span> <span class="n">step</span><span class="o">-</span><span class="n">by</span><span class="o">-</span><span class="n">step</span> <span class="n">about</span> <span class="n">whether</span> <span class="n">the</span> <span class="n">information</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">submitted</span> <span class="n">answer</span> <span class="n">compared</span> <span class="n">to</span> <span class="n">the</span> <span class="n">expert</span> <span class="n">answer</span> <span class="ow">is</span> <span class="n">either</span><span class="p">:</span> <span class="n">disjoint</span><span class="p">,</span> <span class="n">equal</span><span class="p">,</span> <span class="n">a</span> <span class="n">subset</span><span class="p">,</span> <span class="n">a</span> <span class="n">superset</span><span class="p">,</span> <span class="ow">or</span> <span class="n">overlapping</span> <span class="p">(</span><span class="n">i</span><span class="o">.</span><span class="n">e</span><span class="o">.</span> <span class="n">some</span> <span class="n">intersection</span> <span class="n">but</span> <span class="ow">not</span> <span class="n">subset</span><span class="o">/</span><span class="n">superset</span><span class="p">)</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Step</span> <span class="mi">2</span><span class="p">:</span> <span class="n">Reason</span> <span class="n">step</span><span class="o">-</span><span class="n">by</span><span class="o">-</span><span class="n">step</span> <span class="n">about</span> <span class="n">whether</span> <span class="n">the</span> <span class="n">submitted</span> <span class="n">answer</span> <span class="n">contradicts</span> <span class="nb">any</span> <span class="n">aspect</span> <span class="n">of</span> <span class="n">the</span> <span class="n">expert</span> <span class="n">answer</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Step</span> <span class="mi">3</span><span class="p">:</span> <span class="n">Output</span> <span class="n">a</span> <span class="n">JSON</span> <span class="nb">object</span> <span class="n">structured</span> <span class="n">like</span><span class="p">:</span> <span class="p">{</span><span class="s2">&#34;type_of_overlap&#34;</span><span class="p">:</span> <span class="s2">&#34;disjoint&#34;</span> <span class="ow">or</span> <span class="s2">&#34;equal&#34;</span> <span class="ow">or</span> <span class="s2">&#34;subset&#34;</span> <span class="ow">or</span> <span class="s2">&#34;superset&#34;</span> <span class="ow">or</span> <span class="s2">&#34;overlapping&#34;</span><span class="p">,</span> <span class="s2">&#34;contradiction&#34;</span><span class="p">:</span> <span class="n">true</span> <span class="ow">or</span> <span class="n">false</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Here</span><span class="s1">&#39;s an example input with a substandard answer which nonetheless does not contradict the expert answer:</span>
+</span></span><span class="line"><span class="cl"><span class="n">SYSTEM</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="n">insert</span> <span class="n">system</span> <span class="n">message</span> <span class="n">above</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="n">USER</span>
+</span></span><span class="line"><span class="cl"><span class="n">Question</span><span class="p">:</span> <span class="s2">&#34;&#34;&#34;What event is Neil Armstrong most famous for and on what date did it occur? Assume UTC time.&#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Submitted</span> <span class="n">Answer</span><span class="p">:</span> <span class="s2">&#34;&#34;&#34;Didn&#39;t he walk on the moon or something?&#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Expert</span> <span class="n">Answer</span><span class="p">:</span> <span class="s2">&#34;&#34;&#34;Neil Armstrong is most famous for being the first person to walk on the moon. This historic event occurred on July 21, 1969.&#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">Open</span> <span class="ow">in</span> <span class="n">Playground</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Here</span><span class="s1">&#39;s an example input with answer that directly contradicts the expert answer:</span>
+</span></span><span class="line"><span class="cl"><span class="n">SYSTEM</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="n">insert</span> <span class="n">system</span> <span class="n">message</span> <span class="n">above</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="n">USER</span>
+</span></span><span class="line"><span class="cl"><span class="n">Question</span><span class="p">:</span> <span class="s2">&#34;&#34;&#34;What event is Neil Armstrong most famous for and on what date did it occur? Assume UTC time.&#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Submitted</span> <span class="n">Answer</span><span class="p">:</span> <span class="s2">&#34;&#34;&#34;On the 21st of July 1969, Neil Armstrong became the second person to walk on the moon, following after Buzz Aldrin.&#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Expert</span> <span class="n">Answer</span><span class="p">:</span> <span class="s2">&#34;&#34;&#34;Neil Armstrong is most famous for being the first person to walk on the moon. This historic event occurred on July 21, 1969.&#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">Open</span> <span class="ow">in</span> <span class="n">Playground</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Here</span><span class="s1">&#39;s an example input with a correct answer that also provides a bit more detail than is necessary:</span>
+</span></span><span class="line"><span class="cl"><span class="n">SYSTEM</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="n">insert</span> <span class="n">system</span> <span class="n">message</span> <span class="n">above</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="n">USER</span>
+</span></span><span class="line"><span class="cl"><span class="n">Question</span><span class="p">:</span> <span class="s2">&#34;&#34;&#34;What event is Neil Armstrong most famous for and on what date did it occur? Assume UTC time.&#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Submitted</span> <span class="n">Answer</span><span class="p">:</span> <span class="s2">&#34;&#34;&#34;At approximately 02:56 UTC on July 21st 1969, Neil Armstrong became the first human to set foot on the lunar surface, marking a monumental achievement in human history.&#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Expert</span> <span class="n">Answer</span><span class="p">:</span> <span class="s2">&#34;&#34;&#34;Neil Armstrong is most famous for being the first person to walk on the moon. This historic event occurred on July 21, 1969.&#34;&#34;&#34;</span>
+</span></span></code></pre></div>
+      </div>
+    </section>
+    <footer class="pt-8 max-w-prose print:hidden">
+      
+  <div class="flex">
+    
+    <div class="place-self-center">
+      
+        <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+          Forfattet af
+        </div>
+        <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+          Lennart Kiil
+        </div>
+      
+      
+      <div class="text-2xl sm:text-lg">
+</div>
+    </div>
+  </div>
+
+
+      
+  
+  <section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
+    
+      
+        <a
+          class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          href="https://www.facebook.com/sharer/sharer.php?u=https://www.kiils.dk/blog/2024-04-12-sadan-indtaenker-i-generativ-kunstig-intelligens-pa-jeres-omrade/&amp;quote=S%c3%a5dan%20indt%c3%a6nker%20I%20generativ%20kunstig%20intelligens%20p%c3%a5%20jeres%20omr%c3%a5de"
+          title="Share on Facebook"
+          aria-label="Share on Facebook"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          href="https://twitter.com/intent/tweet/?url=https://www.kiils.dk/blog/2024-04-12-sadan-indtaenker-i-generativ-kunstig-intelligens-pa-jeres-omrade/&amp;text=S%c3%a5dan%20indt%c3%a6nker%20I%20generativ%20kunstig%20intelligens%20p%c3%a5%20jeres%20omr%c3%a5de"
+          title="Tweet on Twitter"
+          aria-label="Tweet on Twitter"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          href="https://tootpick.org/#text=https://www.kiils.dk/blog/2024-04-12-sadan-indtaenker-i-generativ-kunstig-intelligens-pa-jeres-omrade/%20S%c3%a5dan%20indt%c3%a6nker%20I%20generativ%20kunstig%20intelligens%20p%c3%a5%20jeres%20omr%c3%a5de"
+          title="Toot on Mastodon"
+          aria-label="Toot on Mastodon"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          href="https://pinterest.com/pin/create/bookmarklet/?url=https://www.kiils.dk/blog/2024-04-12-sadan-indtaenker-i-generativ-kunstig-intelligens-pa-jeres-omrade/&amp;description=S%c3%a5dan%20indt%c3%a6nker%20I%20generativ%20kunstig%20intelligens%20p%c3%a5%20jeres%20omr%c3%a5de"
+          title="Pin on Pinterest"
+          aria-label="Pin on Pinterest"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          href="https://reddit.com/submit/?url=https://www.kiils.dk/blog/2024-04-12-sadan-indtaenker-i-generativ-kunstig-intelligens-pa-jeres-omrade/&amp;resubmit=true&amp;title=S%c3%a5dan%20indt%c3%a6nker%20I%20generativ%20kunstig%20intelligens%20p%c3%a5%20jeres%20omr%c3%a5de"
+          title="Submit to Reddit"
+          aria-label="Submit to Reddit"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.kiils.dk/blog/2024-04-12-sadan-indtaenker-i-generativ-kunstig-intelligens-pa-jeres-omrade/&amp;title=S%c3%a5dan%20indt%c3%a6nker%20I%20generativ%20kunstig%20intelligens%20p%c3%a5%20jeres%20omr%c3%a5de"
+          title="Share on LinkedIn"
+          aria-label="Share on LinkedIn"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          href="mailto:?body=https://www.kiils.dk/blog/2024-04-12-sadan-indtaenker-i-generativ-kunstig-intelligens-pa-jeres-omrade/&amp;subject=S%c3%a5dan%20indt%c3%a6nker%20I%20generativ%20kunstig%20intelligens%20p%c3%a5%20jeres%20omr%c3%a5de"
+          title="Send via email"
+          aria-label="Send via email"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+</span></a
+        >
+      
+    
+  </section>
+
+
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="group flex" href="/blog/sa-let-korer-du-danskgpt-pa-din-laptop/">
+              <span
+                class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&larr;</span
+                ><span class="ltr:hidden rtl:inline">&rarr;</span></span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Så let kører du DanskGPT på din laptop</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-04-09 00:00:00 &#43;0000 UTC">9․ april 2024</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="group flex text-right" href="/blog/2024-04-15-hvad-daekker-en-konsulentlon/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Hvad dækker en konsulentløn</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-04-15 00:00:00 &#43;0000 UTC">15․ april 2024</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&rarr;</span
+                ><span class="ltr:hidden rtl:inline">&larr;</span></span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+
+        
+          <div class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12">
+            <a
+              href="#the-top"
+              class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+              aria-label="Scroll to top"
+              title="Scroll to top"
+            >
+              &uarr;
+            </a>
+          </div>
+        
+      </main><footer class="py-10 print:hidden">
+  
+  
+    <nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+      <ul class="flex justify-between list-none flex-col sm:flex-row">
+        
+          <li class="mb-2 ltr:text-right rtl:text-left sm:mb-0 sm:me-7 sm:last:me-0">
+            
+             
+                    <a href="/kontakt/" title="Kontakt">
+                        <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">Kontakt</span>
+                    </a>
+            
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+            
+          </li>
+        
+          <li class="mb-2 ltr:text-right rtl:text-left sm:mb-0 sm:me-7 sm:last:me-0">
+            
+             
+                    <a href="/kursus/" title="Kurser ✍️">
+                        <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">Kursus</span>
+                    </a>
+
+
+                    
+                        <ul>
+                        <li>
+                        <a href="/kursus/kursus-fa-mere-ud-af-chatgpt/" title="Lær at bruge ChatGPT som arbejdsredskab">
+                            <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">Anvendt ChatGPT</span>
+                        </a>
+                        </li>
+                      </ul>
+                    
+                        <ul>
+                        <li>
+                        <a href="/kursus/chatgpt-formiddag/" title="Kursus: Forstå ChatGPT på en formiddag">
+                            <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">Basic ChatGPT</span>
+                        </a>
+                        </li>
+                      </ul>
+                    
+                        <ul>
+                        <li>
+                        <a href="/kursus/effektive-arbejdsgange-med-chatgpt/" title="Kursus — Effektive arbejdsgange med ChatGPT">
+                            <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">ChatGPT workflows</span>
+                        </a>
+                        </li>
+                      </ul>
+                    
+                        <ul>
+                        <li>
+                        <a href="/kursus/skriv-som-en-poet-og-lyd-som-et-menneske/" title="✍️ Kursus — Lær poet-teknikken og skriv som et menneske">
+                            <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">Poet-teknikken</span>
+                        </a>
+                        </li>
+                      </ul>
+                    
+                        <ul>
+                        <li>
+                        <a href="/kursus/tekst-data/" title="📈 Kursus — Sådan får du værdifulde 💎 data 💎 ud af tekst">
+                            <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">Tekst ❤️  data</span>
+                        </a>
+                        </li>
+                      </ul>
+                    
+            
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+            
+          </li>
+        
+          <li class="mb-2 ltr:text-right rtl:text-left sm:mb-0 sm:me-7 sm:last:me-0">
+            
+             
+                    <a href="/resurser/" title="Resurser">
+                        <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">Resurser</span>
+                    </a>
+
+
+                    
+                        <ul>
+                        <li>
+                        <a href="/resurser/starred/" title="Stjernet på Github">
+                            <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">⭐ på Github</span>
+                        </a>
+                        </li>
+                      </ul>
+                    
+                        <ul>
+                        <li>
+                        <a href="/blog/" title="Blog">
+                            <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">🔈 Bloggen</span>
+                        </a>
+                        </li>
+                      </ul>
+                    
+                        <ul>
+                        <li>
+                        <a href="/link/" title="Links">
+                            <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">🔗 Links</span>
+                        </a>
+                        </li>
+                      </ul>
+                    
+                        <ul>
+                        <li>
+                        <a href="/resurser/ordbog/" title="Ordbog - fagtermer i kunstig intelligens">
+                            <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">🤖 Ordbog</span>
+                        </a>
+                        </li>
+                      </ul>
+                    
+                        <ul>
+                        <li>
+                        <a href="/resurser/personas/" title="Generelle ChatGPT Personaer">
+                            <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">🤖 Personas</span>
+                        </a>
+                        </li>
+                      </ul>
+                    
+                        <ul>
+                        <li>
+                        <a href="/resurser/prompts/" title="Danske ChatGPT prompts">
+                            <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">🤖 Prompts</span>
+                        </a>
+                        </li>
+                      </ul>
+                    
+                        <ul>
+                        <li>
+                        <a href="/tools/" title="Tools">
+                            <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">🧰 Tools</span>
+                        </a>
+                        </li>
+                      </ul>
+                    
+            
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+            
+          </li>
+        
+          <li class="mb-2 ltr:text-right rtl:text-left sm:mb-0 sm:me-7 sm:last:me-0">
+            
+             
+                    <a href="/ydelse/" title="Ydelser">
+                        <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">Ydelser</span>
+                    </a>
+
+
+                    
+                        <ul>
+                        <li>
+                        <a href="/kunde/" title="Kunder">
+                            <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">Kunder 🤗</span>
+                        </a>
+                        </li>
+                      </ul>
+                    
+                        <ul>
+                        <li>
+                        <a href="/ydelse/redaktionelt/" title="Redaktionelt">
+                            <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">Redaktionelt</span>
+                        </a>
+                        </li>
+                      </ul>
+                    
+                        <ul>
+                        <li>
+                        <a href="/ydelse/research/" title="Research">
+                            <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">Research</span>
+                        </a>
+                        </li>
+                      </ul>
+                    
+                        <ul>
+                        <li>
+                        <a href="/ydelse/raadgivning/" title="Rådgivning">
+                            <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">Rådgivning</span>
+                        </a>
+                        </li>
+                      </ul>
+                    
+            
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+            
+          </li>
+        
+          <li class="mb-2 ltr:text-right rtl:text-left sm:mb-0 sm:me-7 sm:last:me-0">
+            
+             
+                    <a href="/venlig/" title="Venlig">
+                        <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">🫂 🌿 🍪</span>
+                    </a>
+            
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+            
+          </li>
+        
+      </ul>
+    </nav>
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            Kiils CVR 35172831 &mdash; 7040-0002041753
+        </p>
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://git.io/hugo-congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
+      
+    </div>
+    
+    
+      <div
+        class="me-14 cursor-pointer text-sm text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+      >
+        <button id="appearance-switcher-0" type="button" aria-label="appearance switcher">
+          <div
+            class="flex h-12 w-12 items-center justify-center dark:hidden"
+            title="Switch to dark appearance"
+          >
+            <span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+          </div>
+          <div
+            class="hidden h-12 w-12 items-center justify-center dark:flex"
+            title="Switch to light appearance"
+          >
+            <span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+          </div>
+        </button>
+      </div>
+    
+  </div>
+  
+  
+</footer>
+<div
+  id="search-wrapper"
+  class="invisible fixed inset-0 z-50 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="https://www.kiils.dk/"
+>
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          <span class="relative inline-block align-text-bottom px-1 icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Søg"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)"
+      >
+        <span class="relative inline-block align-text-bottom px-1 icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+    </div>
+    
+<script type="text/javascript">
+(function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; typeof namespace === "string" ? (cal.ns[namespace] = api) && p(api, ar) : p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+Cal("init", {origin:"https://app.cal.com"});
+
+Cal("floatingButton", {"calLink":"kiils/15min","buttonText":"Book en tid"});
+Cal("ui", {"styles":{"branding":{"brandColor":"#000000"}},"hideEventTypeDetails":false});
+</script>
+
+  </body>
+</html>

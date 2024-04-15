@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Tue, 09 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nvim</title>
+      <link>https://www.kiils.dk/tools/nvim/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/nvim/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AIChat</title>
       <link>https://www.kiils.dk/tools/aichat/</link>
@@ -70,13 +77,6 @@
       <link>https://www.kiils.dk/tools/llm/</link>
       <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/llm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nvim</title>
-      <link>https://www.kiils.dk/tools/nvim/</link>
-      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/tools/nvim/</guid>
       <description></description>
     </item>
     <item>

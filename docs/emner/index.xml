@@ -7,21 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Tue, 09 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/emner/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alt om Indholdsstrategi</title>
+      <link>https://www.kiils.dk/emner/indholdsstrategi/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/emner/indholdsstrategi/</guid>
+      <description>Tænk over hvad du vil opnå med dine tekster &amp;mdash; effektiv kommunikation kræver fokus og planlægning</description>
+    </item>
+    <item>
+      <title>Finansiering</title>
+      <link>https://www.kiils.dk/emner/finansiering/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/emner/finansiering/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Hvad er kunstig intelligens</title>
       <link>https://www.kiils.dk/emner/kunstig-intelligens/</link>
       <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/emner/kunstig-intelligens/</guid>
       <description>Kunstig intelligens kunstig intelligens er et stort område inden for datalogi om anvendelsen af computere til at efterligne menneskelig intelligens.</description>
-    </item>
-    <item>
-      <title>Finansiering</title>
-      <link>https://www.kiils.dk/emner/finansiering/</link>
-      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/finansiering/</guid>
-      <description></description>
     </item>
     <item>
       <title>Prompt</title>
@@ -204,13 +211,6 @@
       <pubDate>Thu, 09 Jun 2022 12:56:22 +0200</pubDate>
       <guid>https://www.kiils.dk/emner/salg/</guid>
       <description></description>
-    </item>
-    <item>
-      <title>Alt om Indholdsstrategi</title>
-      <link>https://www.kiils.dk/emner/indholdsstrategi/</link>
-      <pubDate>Fri, 03 Jun 2022 10:43:51 +0200</pubDate>
-      <guid>https://www.kiils.dk/emner/indholdsstrategi/</guid>
-      <description>Tænk over hvad du vil opnå med dine tekster &amp;mdash; effektiv kommunikation kræver fokus og planlægning</description>
     </item>
     <item>
       <title>Fritekstsøgning</title>

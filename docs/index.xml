@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Tue, 09 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rådgivning om kunstig intelligens</title>
+      <link>https://www.kiils.dk/ydelse/raadgivning/kunstig-intelligens/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/ydelse/raadgivning/kunstig-intelligens/</guid>
+      <description>Har du behov for hjælp til kunstig intelligens</description>
+    </item>
     <item>
       <title>Kursus: Forstå ChatGPT på en formiddag</title>
       <link>https://www.kiils.dk/kursus/chatgpt-formiddag/</link>
@@ -92,6 +99,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/ydelse/research/skattejagt/</guid>
       <description>Jeg finder &amp;ldquo;oplagte&amp;rdquo; forbedringer</description>
+    </item>
+    <item>
+      <title>Hvad dækker en konsulentløn</title>
+      <link>https://www.kiils.dk/blog/2024-04-15-hvad-daekker-en-konsulentlon/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/blog/2024-04-15-hvad-daekker-en-konsulentlon/</guid>
+      <description>De f&amp;rsquo;ørste timer er ekstra dyre</description>
+    </item>
+    <item>
+      <title>Sådan indtænker I generativ kunstig intelligens på jeres område</title>
+      <link>https://www.kiils.dk/blog/2024-04-12-sadan-indtaenker-i-generativ-kunstig-intelligens-pa-jeres-omrade/</link>
+      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/blog/2024-04-12-sadan-indtaenker-i-generativ-kunstig-intelligens-pa-jeres-omrade/</guid>
+      <description>Few-shot</description>
     </item>
     <item>
       <title>Så let kører du DanskGPT på din laptop</title>
