@@ -5,6 +5,11 @@
 [goldmark.renderer]
 unsafe = true
 
+[goldmark.parser.attribute]
+block = true
+title = true
+
+
 [highlight]
 noClasses = false
 
