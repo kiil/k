@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assistants on Kiils</title>
+    <link>https://www.kiils.dk/tools/assistants/</link>
+    <description>Recent content in Assistants on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
+    <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.kiils.dk/tools/assistants/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nyt om OpenAI Assistant API - nu brugbar 👍</title>
+      <link>https://www.kiils.dk/blog/2024-04-22-nyt-om-openai-assistant-api/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/blog/2024-04-22-nyt-om-openai-assistant-api/</guid>
+      <description>OpenAI står stadig i spidsen for at udvikle og implementere nyskabende værktøjer og API&amp;rsquo;er baseret på avanceret sprogteknologi.</description>
+    </item>
+  </channel>
+</rss>
