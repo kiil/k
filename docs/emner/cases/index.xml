@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cases on Kiils</title>
+    <link>https://www.kiils.dk/emner/cases/</link>
+    <description>Recent content in Cases on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
+    <lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.kiils.dk/emner/cases/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sprogøre gav virksomhed succes med kunstig intelligens 👍</title>
+      <link>https://www.kiils.dk/blog/2024-04-18-uden-sprogkendskab-ingen-prompt-engineering/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/blog/2024-04-18-uden-sprogkendskab-ingen-prompt-engineering/</guid>
+      <description>For nylig hjalp jeg en kunde med at integrere en LLM i deres Fleet Management System.</description>
+    </item>
+  </channel>
+</rss>
