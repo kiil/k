@@ -93,7 +93,7 @@
     
       <url>
             <loc>https://www.kiils.dk/blog/</loc>
-            <lastmod>2024-04-24T00:00:00+00:00</lastmod>
+            <lastmod>2024-05-15T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -108,22 +108,9 @@
     
   
     
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/blog/2024-04-18-uden-sprogkendskab-ingen-prompt-engineering/</loc>
-            <lastmod>2024-04-24T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
       <url>
             <loc>https://www.kiils.dk/</loc>
-            <lastmod>2024-04-24T00:00:00+00:00</lastmod>
+            <lastmod>2024-05-15T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -134,6 +121,19 @@
               hreflang="da"
               href="https://www.kiils.dk/"
               />
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/blog/2024-04-18-uden-sprogkendskab-ingen-prompt-engineering/</loc>
+            <lastmod>2024-04-24T00:00:00+00:00</lastmod>
           </url>
     
   

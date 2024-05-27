@@ -4,7 +4,7 @@
     <title>Tools on Kiils</title>
     <link>https://www.kiils.dk/tools/</link>
     <description>Recent content in Tools on Kiils</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
     <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
@@ -12,392 +12,392 @@
     <item>
       <title>Assistants</title>
       <link>https://www.kiils.dk/tools/assistants/</link>
-      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/assistants/</guid>
       <description></description>
     </item>
     <item>
       <title>Marvin</title>
       <link>https://www.kiils.dk/tools/marvin/</link>
-      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/marvin/</guid>
       <description></description>
     </item>
     <item>
       <title>Nvim</title>
       <link>https://www.kiils.dk/tools/nvim/</link>
-      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/nvim/</guid>
       <description></description>
     </item>
     <item>
       <title>AIChat</title>
       <link>https://www.kiils.dk/tools/aichat/</link>
-      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/aichat/</guid>
       <description>AIChat er et værktøj til kommandolinjen der gør det nemt at benytte store sprogmodeller i skyen såvel som lokalt.</description>
     </item>
     <item>
       <title>DanskGPT</title>
       <link>https://www.kiils.dk/tools/danskgpt/</link>
-      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/danskgpt/</guid>
       <description></description>
     </item>
     <item>
       <title>Ollama</title>
       <link>https://www.kiils.dk/tools/ollama/</link>
-      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/ollama/</guid>
       <description></description>
     </item>
     <item>
       <title>Nushell</title>
       <link>https://www.kiils.dk/tools/nushell/</link>
-      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/nushell/</guid>
       <description>Sådan installerer du Nushell # Du skal have et basalt kendskab til brug af kommandolinjen på din computer.</description>
     </item>
     <item>
       <title>ChatGPT</title>
       <link>https://www.kiils.dk/tools/chatgpt/</link>
-      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/chatgpt/</guid>
       <description>ChatGPT er en samtale-orienteret sprogmodel baseret på en ikke nærmere defineret viderudvikling af GPT-3 under OpenAi og microsoft.</description>
     </item>
     <item>
       <title>Cli</title>
       <link>https://www.kiils.dk/tools/cli/</link>
-      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/cli/</guid>
       <description></description>
     </item>
     <item>
       <title>Pandoc</title>
       <link>https://www.kiils.dk/tools/pandoc/</link>
-      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/pandoc/</guid>
       <description></description>
     </item>
     <item>
       <title>Ddgr</title>
       <link>https://www.kiils.dk/tools/ddgr/</link>
-      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/ddgr/</guid>
       <description></description>
     </item>
     <item>
       <title>LLM</title>
       <link>https://www.kiils.dk/tools/llm/</link>
-      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/llm/</guid>
       <description></description>
     </item>
     <item>
       <title>Code Interpreter</title>
       <link>https://www.kiils.dk/tools/code-interpreter/</link>
-      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/code-interpreter/</guid>
       <description></description>
     </item>
     <item>
       <title>Værktøj</title>
       <link>https://www.kiils.dk/tools/v%C3%A6rkt%C3%B8j/</link>
-      <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/v%C3%A6rkt%C3%B8j/</guid>
       <description></description>
     </item>
     <item>
       <title>OpenAI</title>
       <link>https://www.kiils.dk/tools/openai/</link>
-      <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/openai/</guid>
       <description></description>
     </item>
     <item>
       <title>Markdown</title>
       <link>https://www.kiils.dk/tools/markdown/</link>
-      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/markdown/</guid>
       <description></description>
     </item>
     <item>
       <title>Neovim</title>
       <link>https://www.kiils.dk/tools/neovim/</link>
-      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/neovim/</guid>
       <description></description>
     </item>
     <item>
       <title>Guidance</title>
       <link>https://www.kiils.dk/tools/guidance/</link>
-      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/guidance/</guid>
       <description></description>
     </item>
     <item>
       <title>Jupyter Notebook</title>
       <link>https://www.kiils.dk/tools/jupyter-notebook/</link>
-      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/jupyter-notebook/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
       <link>https://www.kiils.dk/tools/python/</link>
-      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/python/</guid>
       <description></description>
     </item>
     <item>
       <title>GPT</title>
       <link>https://www.kiils.dk/tools/gpt/</link>
-      <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/gpt/</guid>
       <description></description>
     </item>
     <item>
       <title>AutoGPT</title>
       <link>https://www.kiils.dk/tools/autogpt/</link>
-      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/autogpt/</guid>
       <description></description>
     </item>
     <item>
       <title>Langchain</title>
       <link>https://www.kiils.dk/tools/langchain/</link>
-      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/langchain/</guid>
       <description></description>
     </item>
     <item>
       <title>Find</title>
       <link>https://www.kiils.dk/tools/find/</link>
-      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/find/</guid>
       <description></description>
     </item>
     <item>
       <title>Sed</title>
       <link>https://www.kiils.dk/tools/sed/</link>
-      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/sed/</guid>
       <description></description>
     </item>
     <item>
       <title>ShellGPT</title>
       <link>https://www.kiils.dk/tools/shellgpt/</link>
-      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/shellgpt/</guid>
       <description></description>
     </item>
     <item>
       <title>Terminal</title>
       <link>https://www.kiils.dk/tools/terminal/</link>
-      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/terminal/</guid>
       <description></description>
     </item>
     <item>
       <title>GPT-4</title>
       <link>https://www.kiils.dk/tools/gpt-4/</link>
-      <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/gpt-4/</guid>
       <description></description>
     </item>
     <item>
       <title>Dash</title>
       <link>https://www.kiils.dk/tools/dash/</link>
-      <pubDate>Sat, 18 Feb 2023 08:35:10 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/dash/</guid>
       <description></description>
     </item>
     <item>
       <title>Hledger</title>
       <link>https://www.kiils.dk/tools/hledger/</link>
-      <pubDate>Sat, 18 Feb 2023 08:35:10 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/hledger/</guid>
       <description></description>
     </item>
     <item>
       <title>Plotly</title>
       <link>https://www.kiils.dk/tools/plotly/</link>
-      <pubDate>Sat, 18 Feb 2023 08:35:10 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/plotly/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
       <link>https://www.kiils.dk/tools/linux/</link>
-      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Systemd</title>
       <link>https://www.kiils.dk/tools/systemd/</link>
-      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/systemd/</guid>
       <description></description>
     </item>
     <item>
       <title>Stripe</title>
       <link>https://www.kiils.dk/tools/stripe/</link>
-      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/stripe/</guid>
       <description></description>
     </item>
     <item>
       <title>DALL-E</title>
       <link>https://www.kiils.dk/tools/dall-e/</link>
-      <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/dall-e/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
       <link>https://www.kiils.dk/tools/hugo/</link>
-      <pubDate>Thu, 16 Jun 2022 12:10:31 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Recoll</title>
       <link>https://www.kiils.dk/tools/recoll/</link>
-      <pubDate>Tue, 31 May 2022 12:24:26 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/recoll/</guid>
       <description></description>
     </item>
     <item>
       <title>Fd</title>
       <link>https://www.kiils.dk/tools/fd/</link>
-      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/fd/</guid>
       <description></description>
     </item>
     <item>
       <title>Grep</title>
       <link>https://www.kiils.dk/tools/grep/</link>
-      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/grep/</guid>
       <description></description>
     </item>
     <item>
       <title>Raspberry Pi</title>
       <link>https://www.kiils.dk/tools/raspberry-pi/</link>
-      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/raspberry-pi/</guid>
       <description></description>
     </item>
     <item>
       <title>Rg</title>
       <link>https://www.kiils.dk/tools/rg/</link>
-      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/rg/</guid>
       <description></description>
     </item>
     <item>
       <title>Vim</title>
       <link>https://www.kiils.dk/tools/vim/</link>
-      <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/vim/</guid>
       <description></description>
     </item>
     <item>
       <title>Dateutils</title>
       <link>https://www.kiils.dk/tools/dateutils/</link>
-      <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/dateutils/</guid>
       <description></description>
     </item>
     <item>
       <title>Fish</title>
       <link>https://www.kiils.dk/tools/fish/</link>
-      <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/fish/</guid>
       <description></description>
     </item>
     <item>
       <title>Css</title>
       <link>https://www.kiils.dk/tools/css/</link>
-      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/css/</guid>
       <description></description>
     </item>
     <item>
       <title>Media Queries</title>
       <link>https://www.kiils.dk/tools/media-queries/</link>
-      <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/media-queries/</guid>
       <description></description>
     </item>
     <item>
       <title>Googles Søgekonsol</title>
       <link>https://www.kiils.dk/tools/googles-s%C3%B8gekonsol/</link>
-      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/googles-s%C3%B8gekonsol/</guid>
       <description></description>
     </item>
     <item>
       <title>Atom</title>
       <link>https://www.kiils.dk/tools/atom/</link>
-      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/atom/</guid>
       <description></description>
     </item>
     <item>
       <title>Latex</title>
       <link>https://www.kiils.dk/tools/latex/</link>
-      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/latex/</guid>
       <description></description>
     </item>
     <item>
       <title>Donorbox</title>
       <link>https://www.kiils.dk/tools/donorbox/</link>
-      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/donorbox/</guid>
       <description></description>
     </item>
     <item>
       <title>Perl</title>
       <link>https://www.kiils.dk/tools/perl/</link>
-      <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/perl/</guid>
       <description></description>
     </item>
     <item>
       <title>Bootstrap</title>
       <link>https://www.kiils.dk/tools/bootstrap/</link>
-      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/bootstrap/</guid>
       <description></description>
     </item>
     <item>
       <title>Drupal 8</title>
       <link>https://www.kiils.dk/tools/drupal-8/</link>
-      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/drupal-8/</guid>
       <description></description>
     </item>
     <item>
       <title>Pantheon</title>
       <link>https://www.kiils.dk/tools/pantheon/</link>
-      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/pantheon/</guid>
       <description></description>
     </item>
     <item>
       <title>Tachyons</title>
       <link>https://www.kiils.dk/tools/tachyons/</link>
-      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/tachyons/</guid>
       <description></description>
     </item>
     <item>
       <title>Google Analytics</title>
       <link>https://www.kiils.dk/tools/google-analytics/</link>
-      <pubDate>Fri, 07 Jun 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/google-analytics/</guid>
       <description></description>
     </item>
