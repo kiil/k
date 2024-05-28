@@ -1,48 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kurser ✍️ on Kiils</title>
+    <title>Kurser on Kiils</title>
     <link>https://www.kiils.dk/kursus/</link>
-    <description>Recent content in Kurser ✍️ on Kiils</description>
+    <description>Recent content in Kurser on Kiils</description>
     <generator>Hugo</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Wed, 21 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jun 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/kursus/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Kursus: Forstå ChatGPT på en formiddag</title>
+      <title>Kursus: Forstå ChatGPT på en formiddag 🦾</title>
       <link>https://www.kiils.dk/kursus/chatgpt-formiddag/</link>
       <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/kursus/chatgpt-formiddag/</guid>
       <description>Halv-dags kursus: Forstå ChatGPT og få mere ud af samtalerne med den.</description>
     </item>
     <item>
-      <title>Lær at bruge ChatGPT som arbejdsredskab</title>
+      <title>Kursus: Lær at bruge ChatGPT som arbejdsredskab 🧰</title>
       <link>https://www.kiils.dk/kursus/kursus-fa-mere-ud-af-chatgpt/</link>
       <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/kursus/kursus-fa-mere-ud-af-chatgpt/</guid>
-      <description>En-dags kursus som er tilpasset dit behov Overblik over mulighederne med ChatGPT.</description>
+      <description>En-dags kursus som er tilpasset dit behov Kurset her fokuserer på at integrere ChatGPT i det daglige arbejde.</description>
     </item>
     <item>
-      <title>Kursus — Effektive arbejdsgange med ChatGPT</title>
-      <link>https://www.kiils.dk/kursus/effektive-arbejdsgange-med-chatgpt/</link>
-      <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/kursus/effektive-arbejdsgange-med-chatgpt/</guid>
-      <description>Øg din produktivitet og få bedre kvalitet med gennemtænkte workflows.</description>
-    </item>
-    <item>
-      <title>✍️ Kursus — Lær poet-teknikken og skriv som et menneske</title>
+      <title>Kursus: Lær poet-teknikken og skriv som et menneske ✍️ </title>
       <link>https://www.kiils.dk/kursus/skriv-som-en-poet-og-lyd-som-et-menneske/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/kursus/skriv-som-en-poet-og-lyd-som-et-menneske/</guid>
       <description>Hvordan skriver man så det fanger opmærksomheden?</description>
-    </item>
-    <item>
-      <title>📈 Kursus — Sådan får du værdifulde 💎 data 💎 ud af tekst</title>
-      <link>https://www.kiils.dk/kursus/tekst-data/</link>
-      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/kursus/tekst-data/</guid>
-      <description>Med kunstig intelligens er det blevet muligt at lave værdifulde analyser af store mængder tekst - men hvordan gør man?</description>
     </item>
   </channel>
 </rss>

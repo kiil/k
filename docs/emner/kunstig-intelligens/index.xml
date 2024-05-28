@@ -10,18 +10,18 @@
     <lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/emner/kunstig-intelligens/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Kursus: Forstå ChatGPT på en formiddag</title>
+      <title>Kursus: Forstå ChatGPT på en formiddag 🦾</title>
       <link>https://www.kiils.dk/kursus/chatgpt-formiddag/</link>
       <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/kursus/chatgpt-formiddag/</guid>
       <description>Halv-dags kursus: Forstå ChatGPT og få mere ud af samtalerne med den.</description>
     </item>
     <item>
-      <title>Lær at bruge ChatGPT som arbejdsredskab</title>
+      <title>Kursus: Lær at bruge ChatGPT som arbejdsredskab 🧰</title>
       <link>https://www.kiils.dk/kursus/kursus-fa-mere-ud-af-chatgpt/</link>
       <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/kursus/kursus-fa-mere-ud-af-chatgpt/</guid>
-      <description>En-dags kursus som er tilpasset dit behov Overblik over mulighederne med ChatGPT.</description>
+      <description>En-dags kursus som er tilpasset dit behov Kurset her fokuserer på at integrere ChatGPT i det daglige arbejde.</description>
     </item>
     <item>
       <title>Sprogøre gav virksomhed succes med kunstig intelligens 👍</title>
@@ -99,13 +99,6 @@
       <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/blog/openai-lancerer-function-calling-i-api/</guid>
       <description>Tidligere på året lancerede OpenAI plugins til deres slutbrugerprodukt, ChatGPT.</description>
-    </item>
-    <item>
-      <title>📈 Kursus — Sådan får du værdifulde 💎 data 💎 ud af tekst</title>
-      <link>https://www.kiils.dk/kursus/tekst-data/</link>
-      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/kursus/tekst-data/</guid>
-      <description>Med kunstig intelligens er det blevet muligt at lave værdifulde analyser af store mængder tekst - men hvordan gør man?</description>
     </item>
     <item>
       <title>ChatGPT skal promptes ordentligt - men det skal mennesker jo også</title>
