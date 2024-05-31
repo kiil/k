@@ -11,7 +11,7 @@
     
       <url>
             <loc>https://www.kiils.dk/en/blog/</loc>
-            <lastmod>2024-03-22T00:00:00+00:00</lastmod>
+            <lastmod>2024-05-31T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="da"
@@ -21,6 +21,23 @@
               rel="alternate"
               hreflang="en"
               href="https://www.kiils.dk/en/blog/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/</loc>
+            <lastmod>2024-05-31T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="da"
+              href="https://www.kiils.dk/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://www.kiils.dk/en/"
               />
           </url>
     
@@ -42,23 +59,6 @@
               rel="alternate"
               hreflang="en"
               href="https://www.kiils.dk/en/blog/using-nushell-with-generative-artificial-intelligence/"
-              />
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/</loc>
-            <lastmod>2024-03-22T00:00:00+00:00</lastmod>
-            <xhtml:link
-              rel="alternate"
-              hreflang="da"
-              href="https://www.kiils.dk/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://www.kiils.dk/en/"
               />
           </url>
     
