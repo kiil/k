@@ -126,7 +126,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "292"
+    "wordCount": "288"
   }]
   </script>
 
@@ -428,7 +428,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2024-06-03 00:00:00 &#43;0000 UTC">3 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>292 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+      <time datetime="2024-06-03 00:00:00 &#43;0000 UTC">3 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>288 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
     
 
     
@@ -483,6 +483,7 @@
   target="_blank" rel="noreferrer noopener"
 >https://www.folkets.dk/rss.xml</a></p>
 <p>Nushell is great for working with structured data and has most of what I needed builtin. Except I needed to use the query plugin also.</p>
+<p>I used these:</p>
 <ul>
 <li><a
   href="https://www.nushell.sh/"
@@ -495,10 +496,10 @@
   target="_blank" rel="noreferrer noopener"
 >nu_plugin_query · nushell/nushell · GitHub</a></li>
 </ul>
-<p>Now to get the actual urls from the feed all I had to do was give this command at my terminal:</p>
-<pre><code> http get https://www.folkets.dk/rss.xml | query web -q item | each { |row| ($row.1 + '  ' + $row.3) } | to text | from ssv -n | rename title url | get url
+<p>Now to get the actual links from the feed all I had to do was give this command at my terminal:</p>
+<pre><code> http get https://www.folkets.dk/rss.xml | query web -q item | each { $in.3 | str trim }
 </code></pre>
-<p>There is an easier way to get the links:</p>
+<p>There is an easier way to get the links (but usually not in the same order as the source):</p>
 <pre><code> http get https://www.folkets.dk/rss.xml | query xml //item/link 
 </code></pre>
 <p>Then nushell gives me a simple table with the links like so:</p>
