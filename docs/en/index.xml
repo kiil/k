@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
-    <lastBuildDate>Fri, 31 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get items from rss feed with nushell</title>
+      <link>https://www.kiils.dk/en/blog/2024-06-03-get-items-from-rss-feed-with-nushell/</link>
+      <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/blog/2024-06-03-get-items-from-rss-feed-with-nushell/</guid>
+      <description>I wanted to get some links to some content on the Citizen&amp;rsquo;s journalism site Folkets to be able to work with this with AI.</description>
+    </item>
     <item>
       <title>How programming can help reduce mental load 🦾</title>
       <link>https://www.kiils.dk/en/blog/2024-05-31-how-programming-can-help-reduce-mental-load/</link>
