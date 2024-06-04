@@ -11,7 +11,7 @@
     
       <url>
             <loc>https://www.kiils.dk/en/blog/</loc>
-            <lastmod>2024-06-03T00:00:00+00:00</lastmod>
+            <lastmod>2024-06-04T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="da"
@@ -26,20 +26,22 @@
     
   
     
+  
+    
+  
+    
+  
+    
       <url>
-            <loc>https://www.kiils.dk/en/blog/2024-06-03-get-items-from-rss-feed-with-nushell/</loc>
-            <lastmod>2024-06-03T00:00:00+00:00</lastmod>
+            <loc>https://www.kiils.dk/en/blog/2024-06-04-tuc-as-a-basic-ai-data-structure/</loc>
+            <lastmod>2024-06-04T00:00:00+00:00</lastmod>
           </url>
-    
-  
-    
-  
     
   
     
       <url>
             <loc>https://www.kiils.dk/en/</loc>
-            <lastmod>2024-06-03T00:00:00+00:00</lastmod>
+            <lastmod>2024-06-04T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="da"
@@ -50,6 +52,13 @@
               hreflang="en"
               href="https://www.kiils.dk/en/"
               />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/blog/2024-06-03-get-items-from-rss-feed-with-nushell/</loc>
+            <lastmod>2024-06-03T00:00:00+00:00</lastmod>
           </url>
     
   
