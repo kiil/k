@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
-    <lastBuildDate>Tue, 04 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/en/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Working with tuc in nushell</title>
+      <link>https://www.kiils.dk/en/blog/2024-06-11-working-with-tuc-in-nushell/</link>
+      <pubDate>Tue, 11 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/blog/2024-06-11-working-with-tuc-in-nushell/</guid>
+      <description>Workflow:</description>
+    </item>
     <item>
       <title>tuc as text based data structure for online research</title>
       <link>https://www.kiils.dk/en/blog/2024-06-04-tuc-as-a-basic-ai-data-structure/</link>
