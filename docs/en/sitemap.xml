@@ -11,7 +11,7 @@
     
       <url>
             <loc>https://www.kiils.dk/en/blog/</loc>
-            <lastmod>2024-06-11T00:00:00+00:00</lastmod>
+            <lastmod>2024-06-22T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="da"
@@ -30,9 +30,18 @@
     
   
     
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/blog/2024-06-22-using-nushell-in-neovim/</loc>
+            <lastmod>2024-06-22T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
       <url>
             <loc>https://www.kiils.dk/en/</loc>
-            <lastmod>2024-06-11T00:00:00+00:00</lastmod>
+            <lastmod>2024-06-22T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="da"
@@ -104,8 +113,6 @@
             <loc>https://www.kiils.dk/en/blog/making-taskwarrior-better-with-nushell/</loc>
             <lastmod>2023-07-24T00:00:00+00:00</lastmod>
           </url>
-    
-  
     
   
     

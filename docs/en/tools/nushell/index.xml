@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
-    <lastBuildDate>Tue, 11 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/en/tools/nushell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using nushell in neovim</title>
+      <link>https://www.kiils.dk/en/blog/2024-06-22-using-nushell-in-neovim/</link>
+      <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/blog/2024-06-22-using-nushell-in-neovim/</guid>
+      <description>I took me a little while to completely getting nushell to work as the shell in neovim, but having nushell at my fingertips directly in my text editor was well worth the effort.</description>
+    </item>
     <item>
       <title>Working with tuc in nushell</title>
       <link>https://www.kiils.dk/en/blog/2024-06-11-working-with-tuc-in-nushell/</link>
