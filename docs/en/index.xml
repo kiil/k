@@ -14,7 +14,7 @@
       <link>https://www.kiils.dk/en/blog/2024-06-22-using-nushell-in-neovim/</link>
       <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-06-22-using-nushell-in-neovim/</guid>
-      <description>I took me a little while to completely getting nushell to work as the shell in neovim, but having nushell at my fingertips directly in my text editor was well worth the effort.</description>
+      <description>I took me a little while completely getting nushell to work as the shell in neovim, but having nushell at my fingertips directly in my text editor was well worth the effort.</description>
     </item>
     <item>
       <title>Working with tuc in nushell</title>
