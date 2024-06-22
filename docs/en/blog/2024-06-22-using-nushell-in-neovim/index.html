@@ -126,7 +126,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "108"
+    "wordCount": "163"
   }]
   </script>
 
@@ -428,7 +428,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2024-06-22 00:00:00 &#43;0000 UTC">22 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>108 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+      <time datetime="2024-06-22 00:00:00 &#43;0000 UTC">22 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>163 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
     
 
     
@@ -482,7 +482,7 @@
         <p>I took me a little while to completely getting nushell to work as the shell in neovim, but having nushell at my fingertips directly in my text editor was well worth the effort.</p>
 <p>I am using astronvim and altered the astrocore.lua file like so:</p>
 <pre><code>    shell = &quot;/home/lk/.cargo/bin/nu&quot;,
-    shellcmdflag = &quot;--stdin --no-newline -c&quot;,
+    shellcmdflag = &quot;--login --stdin --no-newline -c&quot;,
     shellredir = &quot;out+err&gt; %s&quot;,
     shellpipe = &quot;| complete | update stderr { ansi strip } | tee { get stderr | save --force --raw %s } | into record&quot;,
     shelltemp = false,
@@ -496,6 +496,13 @@
   
   target="_blank" rel="noreferrer noopener"
 >integrations/nvim/init.lua at main · nushell/integrations</a></p>
+<p>PS. I added the <code>--login</code> flag to get acces to my custom commands. They are very useful for me in nvim since I use it mainly to generate journalistic content. Especially my custom commands concerning aichat and &ldquo;tucs&rdquo;.</p>
+<p>To read more about tuc, see this blog posting:</p>
+<p><a
+  href="https://www.kiils.dk/en/blog/2024-06-11-working-with-tuc-in-nushell/"
+  
+  target="_blank" rel="noreferrer noopener"
+>Working with tuc in nushell · Kiils</a></p>
 
       </div>
     </section>
