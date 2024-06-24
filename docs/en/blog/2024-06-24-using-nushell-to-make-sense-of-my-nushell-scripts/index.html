@@ -490,15 +490,15 @@ cd -    # tilbage til Scripts
 </code></pre>
 <p><code>forklar</code> is Danish for &rsquo;explain&rsquo;.</p>
 <p>Running the above command will give me the following clear presentation of what is going on line by line in the script:</p>
-<p>╭───┬─────────────────────────┬──────────────────────────────────────────────────────────────────────────────────────────────╮
+<pre tabindex="0"><code>╭───┬─────────────────────────┬──────────────────────────────────────────────────────────────────────────────────────────────╮
 │ # │         comment         │                                             code                                             │
 ├───┼─────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────┤
-│ 0 │  opret markdown filer   │ open somefile.yaml | each {|row| $row.ai-content | opret fn &ndash;print-path $row.ai-title }     │
+│ 0 │  opret markdown filer   │ open somefile.yaml | each {|row| $row.ai-content | opret fn --print-path $row.ai-title }     │
 │ 1 │  skift til bibliotek    │ cd /home/lk/Noter/folkets.dk/Notitser/                                                       │
 │ 2 │  udgiv markdown filerne │ ls -f | get name | each { udgiv fn $in }                                                     │
 │ 3 │  tilbage til Scripts    │ cd -                                                                                         │
-╰───┴─────────────────────────┴──────────────────────────────────────────────────────────────────────────────────────────────╯</p>
-<p>The reason I can do this is because I have created a custom command in nushell called <code>forklar</code> like so:</p>
+╰───┴─────────────────────────┴──────────────────────────────────────────────────────────────────────────────────────────────╯
+</code></pre><p>The reason I can do this is because I have created a custom command in nushell called <code>forklar</code> like so:</p>
 <pre><code>def forklar [path: string] {
  cat $path | from csv -s '#' -c '#' -n | rename code comment | move comment --before code
 }
