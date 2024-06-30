@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
-    <lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/en/tools/nushell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deleting lines with nushell</title>
+      <link>https://www.kiils.dk/en/blog/2024-06-30-deleting-lines-with-nushell/</link>
+      <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/blog/2024-06-30-deleting-lines-with-nushell/</guid>
+      <description>When working with a lot of text it is oftentimes useful to be able to edit fast, including being able to remove whole lines starting with, containing er ending with specific words.</description>
+    </item>
     <item>
       <title>Using this simple nushell command to make sense of my many nushell scripts</title>
       <link>https://www.kiils.dk/en/blog/2024-06-24-using-nushell-to-make-sense-of-my-nushell-scripts/</link>
