@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Llm on Kiils</title>
+    <title>LLM on Kiils</title>
     <link>https://www.kiils.dk/en/tools/llm/</link>
-    <description>Recent content in Llm on Kiils</description>
+    <description>Recent content in LLM on Kiils</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
-    <lastBuildDate>Tue, 04 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/en/tools/llm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BER: The secret behind good AI-generated content</title>
+      <link>https://www.kiils.dk/en/blog/2024-07-14-the-secret-behind-good-ai-generated-content/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/blog/2024-07-14-the-secret-behind-good-ai-generated-content/</guid>
+      <description>I&amp;rsquo;ve created hundreds of articles and other content forms with the assistance of artificial intelligence, more specifically LLM-techonology.</description>
+    </item>
     <item>
       <title>tuc as text based data structure for online research</title>
       <link>https://www.kiils.dk/en/blog/2024-06-04-tuc-as-a-basic-ai-data-structure/</link>

@@ -10,6 +10,13 @@
   
     
       <url>
+            <loc>https://www.kiils.dk/en/blog/2024-07-14-the-secret-behind-good-ai-generated-content/</loc>
+            <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
             <loc>https://www.kiils.dk/en/blog/</loc>
             <lastmod>2024-07-14T00:00:00+00:00</lastmod>
             <xhtml:link
@@ -23,6 +30,10 @@
               href="https://www.kiils.dk/en/blog/"
               />
           </url>
+    
+  
+    
+  
     
   
     
@@ -52,8 +63,6 @@
     
   
     
-  
-    
       <url>
             <loc>https://www.kiils.dk/en/blog/2024-06-24-using-nushell-to-make-sense-of-my-nushell-scripts/</loc>
             <lastmod>2024-06-24T00:00:00+00:00</lastmod>
@@ -74,8 +83,6 @@
             <loc>https://www.kiils.dk/en/blog/2024-06-11-working-with-tuc-in-nushell/</loc>
             <lastmod>2024-06-11T00:00:00+00:00</lastmod>
           </url>
-    
-  
     
   
     
