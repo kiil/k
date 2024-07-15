@@ -10,15 +10,8 @@
   
     
       <url>
-            <loc>https://www.kiils.dk/en/blog/2024-07-14-the-secret-behind-good-ai-generated-content/</loc>
-            <lastmod>2024-07-14T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://www.kiils.dk/en/blog/</loc>
-            <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+            <lastmod>2024-07-15T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="da"
@@ -37,9 +30,20 @@
     
   
     
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/blog/2024-07-15-speeding-up-ai-assisted-content-generation-with-nushell-par-each/</loc>
+            <lastmod>2024-07-15T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
       <url>
             <loc>https://www.kiils.dk/en/</loc>
-            <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+            <lastmod>2024-07-15T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="da"
@@ -55,11 +59,18 @@
   
     
       <url>
-            <loc>https://www.kiils.dk/en/blog/2024-06-30-deleting-lines-with-nushell/</loc>
-            <lastmod>2024-06-30T00:00:00+00:00</lastmod>
+            <loc>https://www.kiils.dk/en/blog/2024-07-14-the-secret-behind-good-ai-generated-content/</loc>
+            <lastmod>2024-07-14T00:00:00+00:00</lastmod>
           </url>
     
   
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/blog/2024-06-30-deleting-lines-with-nushell/</loc>
+            <lastmod>2024-06-30T00:00:00+00:00</lastmod>
+          </url>
     
   
     
@@ -123,10 +134,6 @@
               href="https://www.kiils.dk/en/blog/using-nushell-with-generative-artificial-intelligence/"
               />
           </url>
-    
-  
-    
-  
     
   
     
