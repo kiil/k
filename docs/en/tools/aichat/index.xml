@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aichat on Kiils</title>
+    <link>https://www.kiils.dk/en/tools/aichat/</link>
+    <description>Recent content in Aichat on Kiils</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
+    <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.kiils.dk/en/tools/aichat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Speeding up ai-assisted content generation with nushell par-each</title>
+      <link>https://www.kiils.dk/en/blog/2024-07-15-speeding-up-ai-assisted-content-generation-with-nushell-par-each/</link>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/blog/2024-07-15-speeding-up-ai-assisted-content-generation-with-nushell-par-each/</guid>
+      <description>Given this json list of wrestlers</description>
+    </item>
+  </channel>
+</rss>
