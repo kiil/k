@@ -22,7 +22,7 @@
   <title>Creating a listicle with nushell and aichat and publishing it on a drupal site &middot; Kiils</title>
     <meta name="title" content="Creating a listicle with nushell and aichat and publishing it on a drupal site &middot; Kiils" />
   
-  <meta name="description" content="First get the list of interest." />
+  <meta name="description" content="So I want to publish a listicle on my website." />
   
   
   
@@ -77,7 +77,7 @@
   
   
  <meta property="og:title" content="Creating a listicle with nushell and aichat and publishing it on a drupal site" />
-<meta property="og:description" content="First get the list of interest." />
+<meta property="og:description" content="So I want to publish a listicle on my website." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/" />
 
@@ -99,7 +99,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Creating a listicle with nushell and aichat and publishing it on a drupal site">
-  <meta name="twitter:description" content="First get the list of interest.">
+  <meta name="twitter:description" content="So I want to publish a listicle on my website.">
 
   
   <script type="application/ld+json">
@@ -110,7 +110,7 @@
     "name": "Creating a listicle with nushell and aichat and publishing it on a drupal site",
     "headline": "Creating a listicle with nushell and aichat and publishing it on a drupal site",
     
-    "abstract": "First get the list of interest.",
+    "abstract": "So I want to publish a listicle on my website.",
     "inLanguage": "en",
     "url" : "https:\/\/www.kiils.dk\/en\/blog\/2024-07-16-creating-listicles-with-nushell-and-aichat\/",
     "author" : {
@@ -126,7 +126,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "1179"
+    "wordCount": "1375"
   }]
   </script>
 
@@ -428,7 +428,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2024-07-16 00:00:00 &#43;0000 UTC">16 July 2024</time><span class="px-2 text-primary-500">&middot;</span><span>1179 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span>
+      <time datetime="2024-07-16 00:00:00 &#43;0000 UTC">16 July 2024</time><span class="px-2 text-primary-500">&middot;</span><span>1375 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">7 mins</span>
     
 
     
@@ -485,8 +485,12 @@
     <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
       
       <div class="min-w-0 min-h-0 max-w-prose grow">
-        <p>First get the list of interest.</p>
-<p>For this I have coded my own nushell custom command which uses <code>&quot;response_format&quot;:{&quot;type&quot;:&quot;json_object&quot;}</code> which <code>aichat</code> does not. This allows me to cleanly get just the list items (the values) themselves every time.</p>
+        <p>So I want to publish a listicle on my website.</p>
+<p>It just so happens that listicles are among the content genres that are most effectively and convincingly assisted in their creation by generative artificial intelligence. I could explain whay this is, but in this blog I will instead show you how to create a listicle and publish it - all without ever leaving your shell 🤭.</p>
+<p>If you need ideas for listicles, I am sure GAI can help you with that too. I got the idea from my sons now former interest in the strange spectacle of wrestling.</p>
+<p>And I am a little curious about these colorful personalities myself.</p>
+<p>First, get the list of the best wrestlers.</p>
+<p>For this I have coded my own nushell custom command which uses <code>&quot;response_format&quot;:{&quot;type&quot;:&quot;json_object&quot;}</code>, which <code>aichat</code> does not. This allows me to cleanly get just the list items (the values) themselves, every time. No fluff.</p>
 <pre><code>  def lls [
    ...prompt: string
   ] {
@@ -520,7 +524,7 @@
 
   }
 </code></pre>
-<p>Running <code>lls greatest wrestlers of all time list</code> gives</p>
+<p>Running <code>lls greatest wrestlers of all time list</code> then gives</p>
 <pre><code>[
   &quot;Hulk Hogan&quot;,
   &quot;The Rock&quot;,
@@ -534,9 +538,15 @@
   &quot;Andre the Giant&quot;
 ]
 </code></pre>
+<p>I&rsquo;ll just trust Sam Altman here, since I do not posses the knowledge evaluate the list myself. So onwards with this list of GOATs in wrestling.</p>
 <p>The next step is to enrich the list with a brief description of each subject on the list. I do this like so:</p>
 <pre><code>let enriched = p | from json | wrap subject | insert description { aichat short description of $in.subject }
 </code></pre>
+<p>(I wish commands like <code>insert</code>, <code>upsert</code> and <code>update</code> could run in parallel like <code>par-each</code> can, but I currently do not think that is possible. See also <a
+  href="https://www.kiils.dk/en/blog/2024-07-15-speeding-up-ai-assisted-content-generation-with-nushell-par-each/"
+  
+  target="_blank" rel="noreferrer noopener"
+>Speeding up ai-assisted content generation with nushell par-each · Kiils</a>)</p>
 <p>In json the enriched variable then looks something like:</p>
 <pre><code>  [
     {
@@ -553,7 +563,8 @@
     },
     ...
 </code></pre>
-<p>This I then &ldquo;convert&rdquo; to markdown</p>
+<p>These descriptions confirm my suspicion that the best wrestlers are all highly entertaining personalities, as much as great athletes, if not mure so.</p>
+<p>This I then &ldquo;convert&rdquo; to markdown like so</p>
 <pre><code>let md = $enriched | each { $&quot;\n## ($in.subject)\n\n($in.description)\n&quot; } | to text
 </code></pre>
 <p>giving</p>
@@ -572,7 +583,8 @@
   Stone Cold Steve Austin, born Steven James Anderson, is a retired professional wrestler and actor who gained iconic status in the WWE during the late 1990s and early 2000s.
   ...
 </code></pre>
-<p>Then I edit this manually. When done. Next step is to ready the text for publishing on for example a drupal site. So I embed the markdown in json like so. And either manually or with ai assistence provide a title, and move the title before the content (only for my own viewing convenience)</p>
+<p>Then I edit this manually.</p>
+<p>Next step is to ready the text for publishing on a drupal site. So I embed the markdown in json. And either manually or with ai assistance provide a title, and finally move the title before the content (only for my own viewing convenience)</p>
 <pre><code>let jsontc = $md | to json | wrap content | insert title { 'GOATs and OGs of wrestling' } | select title content
 </code></pre>
 <p>giving</p>
