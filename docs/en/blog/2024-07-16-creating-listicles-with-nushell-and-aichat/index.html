@@ -126,7 +126,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "1375"
+    "wordCount": "1376"
   }]
   </script>
 
@@ -428,7 +428,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2024-07-16 00:00:00 &#43;0000 UTC">16 July 2024</time><span class="px-2 text-primary-500">&middot;</span><span>1375 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">7 mins</span>
+      <time datetime="2024-07-16 00:00:00 &#43;0000 UTC">16 July 2024</time><span class="px-2 text-primary-500">&middot;</span><span>1376 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">7 mins</span>
     
 
     
@@ -486,11 +486,11 @@
       
       <div class="min-w-0 min-h-0 max-w-prose grow">
         <p>So I want to publish a listicle on my website.</p>
-<p>It just so happens that listicles are among the content genres that are most effectively and convincingly assisted in their creation by generative artificial intelligence. I could explain whay this is, but in this blog I will instead show you how to create a listicle and publish it - all without ever leaving your shell 🤭.</p>
+<p>It just so happens that listicles are among the content genres that are most effectively and convincingly assisted in their creation by generative artificial intelligence. I could explain why this is, but in this blog I will instead show you how to create a listicle and publish it - all without ever leaving your shell 🤭.</p>
 <p>If you need ideas for listicles, I am sure GAI can help you with that too. I got the idea from my sons now former interest in the strange spectacle of wrestling.</p>
 <p>And I am a little curious about these colorful personalities myself.</p>
 <p>First, get the list of the best wrestlers.</p>
-<p>For this I have coded my own nushell custom command which uses <code>&quot;response_format&quot;:{&quot;type&quot;:&quot;json_object&quot;}</code>, which <code>aichat</code> does not. This allows me to cleanly get just the list items (the values) themselves, every time. No fluff.</p>
+<p>For this I have coded my own nushell custom command which uses <code>&quot;response_format&quot;:{&quot;type&quot;:&quot;json_object&quot;}</code>, which <code>aichat</code> does not. This allows me to cleanly get just the list items (the values) themselves, every time. No exceptions.</p>
 <pre><code>  def lls [
    ...prompt: string
   ] {
@@ -538,7 +538,7 @@
   &quot;Andre the Giant&quot;
 ]
 </code></pre>
-<p>I&rsquo;ll just trust Sam Altman here, since I do not posses the knowledge evaluate the list myself. So onwards with this list of GOATs in wrestling.</p>
+<p>I&rsquo;ll just trust Sam Altman here, since I do not posses the knowledge to evaluate the list myself. So onwards with this list of GOATs in wrestling.</p>
 <p>The next step is to enrich the list with a brief description of each subject on the list. I do this like so:</p>
 <pre><code>let enriched = p | from json | wrap subject | insert description { aichat short description of $in.subject }
 </code></pre>
