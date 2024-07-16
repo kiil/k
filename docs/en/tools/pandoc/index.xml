@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pandoc on Kiils</title>
+    <link>https://www.kiils.dk/en/tools/pandoc/</link>
+    <description>Recent content in Pandoc on Kiils</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
+    <lastBuildDate>Tue, 16 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.kiils.dk/en/tools/pandoc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating a listicle with nushell and aichat and publishing it on a drupal site</title>
+      <link>https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/</link>
+      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/</guid>
+      <description>So I want to publish a listicle on my website.</description>
+    </item>
+  </channel>
+</rss>
