@@ -19,8 +19,8 @@
   <meta name="theme-color" content="rgb(255,255,255)" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Creating listicles with nushell and aichat &middot; Kiils</title>
-    <meta name="title" content="Creating listicles with nushell and aichat &middot; Kiils" />
+  <title>Creating a listicle with nushell and aichat and publishing it on a drupal site &middot; Kiils</title>
+    <meta name="title" content="Creating a listicle with nushell and aichat and publishing it on a drupal site &middot; Kiils" />
   
   <meta name="description" content="First get the list of interest." />
   
@@ -76,7 +76,7 @@
   
   
   
- <meta property="og:title" content="Creating listicles with nushell and aichat" />
+ <meta property="og:title" content="Creating a listicle with nushell and aichat and publishing it on a drupal site" />
 <meta property="og:description" content="First get the list of interest." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/" />
@@ -92,13 +92,13 @@
 
 
 
-<meta property="og:image" content="/images/canvas_huf5a4a47d272c9e72b490e7eba58c5b9b_363_filter_1148598563675285567.png" /><meta property="article:section" content="blog" />
+<meta property="og:image" content="/images/canvas_huf5a4a47d272c9e72b490e7eba58c5b9b_363_filter_3011988991579557954.png" /><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2024-07-16T00:00:00+00:00" />
 <meta property="article:modified_time" content="2024-07-16T00:00:00+00:00" />
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Creating listicles with nushell and aichat">
+  <meta name="twitter:title" content="Creating a listicle with nushell and aichat and publishing it on a drupal site">
   <meta name="twitter:description" content="First get the list of interest.">
 
   
@@ -107,8 +107,8 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Blog",
-    "name": "Creating listicles with nushell and aichat",
-    "headline": "Creating listicles with nushell and aichat",
+    "name": "Creating a listicle with nushell and aichat and publishing it on a drupal site",
+    "headline": "Creating a listicle with nushell and aichat and publishing it on a drupal site",
     
     "abstract": "First get the list of interest.",
     "inLanguage": "en",
@@ -382,7 +382,7 @@
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
       href="/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/"
-      >Creating listicles with nushell and aichat</a
+      >Creating a listicle with nushell and aichat and publishing it on a drupal site</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -391,7 +391,7 @@
 
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        Creating listicles with nushell and aichat
+        Creating a listicle with nushell and aichat and publishing it on a drupal site
       </h1>
       <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -521,20 +521,22 @@
   }
 </code></pre>
 <p>Running <code>lls greatest wrestlers of all time list</code> gives</p>
-<p>[
-&ldquo;Hulk Hogan&rdquo;,
-&ldquo;The Rock&rdquo;,
-&ldquo;Stone Cold Steve Austin&rdquo;,
-&ldquo;John Cena&rdquo;,
-&ldquo;Ric Flair&rdquo;,
-&ldquo;Shawn Michaels&rdquo;,
-&ldquo;Undertaker&rdquo;,
-&ldquo;Bret Hart&rdquo;,
-&ldquo;Macho Man Randy Savage&rdquo;,
-&ldquo;Andre the Giant&rdquo;
-]</p>
+<pre><code>[
+  &quot;Hulk Hogan&quot;,
+  &quot;The Rock&quot;,
+  &quot;Stone Cold Steve Austin&quot;,
+  &quot;John Cena&quot;,
+  &quot;Ric Flair&quot;,
+  &quot;Shawn Michaels&quot;,
+  &quot;Undertaker&quot;,
+  &quot;Bret Hart&quot;,
+  &quot;Macho Man Randy Savage&quot;,
+  &quot;Andre the Giant&quot;
+]
+</code></pre>
 <p>The next step is to enrich the list with a brief description of each subject on the list. I do this like so:</p>
-<p>let enriched = p | from json | wrap subject | insert description { aichat short description of $in.subject }</p>
+<pre><code>let enriched = p | from json | wrap subject | insert description { aichat short description of $in.subject }
+</code></pre>
 <p>In json the enriched variable then looks something like:</p>
 <pre><code>  [
     {
@@ -667,7 +669,7 @@ In fact, you can read the translated, in Danish, version here:</p>
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://www.facebook.com/sharer/sharer.php?u=https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/&amp;quote=Creating%20listicles%20with%20nushell%20and%20aichat"
+          href="https://www.facebook.com/sharer/sharer.php?u=https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/&amp;quote=Creating%20a%20listicle%20with%20nushell%20and%20aichat%20and%20publishing%20it%20on%20a%20drupal%20site"
           title="Share on Facebook"
           aria-label="Share on Facebook"
           target="_blank"
@@ -680,7 +682,7 @@ In fact, you can read the translated, in Danish, version here:</p>
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://twitter.com/intent/tweet/?url=https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/&amp;text=Creating%20listicles%20with%20nushell%20and%20aichat"
+          href="https://twitter.com/intent/tweet/?url=https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/&amp;text=Creating%20a%20listicle%20with%20nushell%20and%20aichat%20and%20publishing%20it%20on%20a%20drupal%20site"
           title="Tweet on Twitter"
           aria-label="Tweet on Twitter"
           target="_blank"
@@ -693,7 +695,7 @@ In fact, you can read the translated, in Danish, version here:</p>
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://tootpick.org/#text=https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/%20Creating%20listicles%20with%20nushell%20and%20aichat"
+          href="https://tootpick.org/#text=https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/%20Creating%20a%20listicle%20with%20nushell%20and%20aichat%20and%20publishing%20it%20on%20a%20drupal%20site"
           title="Toot on Mastodon"
           aria-label="Toot on Mastodon"
           target="_blank"
@@ -706,7 +708,7 @@ In fact, you can read the translated, in Danish, version here:</p>
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://pinterest.com/pin/create/bookmarklet/?url=https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/&amp;description=Creating%20listicles%20with%20nushell%20and%20aichat"
+          href="https://pinterest.com/pin/create/bookmarklet/?url=https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/&amp;description=Creating%20a%20listicle%20with%20nushell%20and%20aichat%20and%20publishing%20it%20on%20a%20drupal%20site"
           title="Pin on Pinterest"
           aria-label="Pin on Pinterest"
           target="_blank"
@@ -719,7 +721,7 @@ In fact, you can read the translated, in Danish, version here:</p>
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://reddit.com/submit/?url=https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/&amp;resubmit=true&amp;title=Creating%20listicles%20with%20nushell%20and%20aichat"
+          href="https://reddit.com/submit/?url=https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/&amp;resubmit=true&amp;title=Creating%20a%20listicle%20with%20nushell%20and%20aichat%20and%20publishing%20it%20on%20a%20drupal%20site"
           title="Submit to Reddit"
           aria-label="Submit to Reddit"
           target="_blank"
@@ -732,7 +734,7 @@ In fact, you can read the translated, in Danish, version here:</p>
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/&amp;title=Creating%20listicles%20with%20nushell%20and%20aichat"
+          href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/&amp;title=Creating%20a%20listicle%20with%20nushell%20and%20aichat%20and%20publishing%20it%20on%20a%20drupal%20site"
           title="Share on LinkedIn"
           aria-label="Share on LinkedIn"
           target="_blank"
@@ -745,7 +747,7 @@ In fact, you can read the translated, in Danish, version here:</p>
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="mailto:?body=https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/&amp;subject=Creating%20listicles%20with%20nushell%20and%20aichat"
+          href="mailto:?body=https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/&amp;subject=Creating%20a%20listicle%20with%20nushell%20and%20aichat%20and%20publishing%20it%20on%20a%20drupal%20site"
           title="Send via email"
           aria-label="Send via email"
           target="_blank"
