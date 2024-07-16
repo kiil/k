@@ -569,7 +569,7 @@
     },
     ...
 </code></pre>
-<p>These descriptions confirm my suspicion that the best wrestlers are all highly entertaining personalities, as much as great athletes, if not mure so.</p>
+<p>These descriptions confirm my suspicion that the best wrestlers are all highly entertaining personalities, as much as great athletes, if not more so.</p>
 <p>This I then &ldquo;convert&rdquo; to markdown like so</p>
 <pre><code>let md = $enriched | each { $&quot;\n## ($in.subject)\n\n($in.description)\n&quot; } | to text
 </code></pre>
