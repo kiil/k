@@ -7,21 +7,21 @@
     <generator>Hugo</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/emner/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hvad er kunstig intelligens</title>
+      <link>https://www.kiils.dk/emner/kunstig-intelligens/</link>
+      <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/emner/kunstig-intelligens/</guid>
+      <description>Kunstig intelligens kunstig intelligens er et stort område inden for datalogi om anvendelsen af computere til at efterligne menneskelig intelligens.</description>
+    </item>
     <item>
       <title>Cases</title>
       <link>https://www.kiils.dk/emner/cases/</link>
       <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/emner/cases/</guid>
       <description></description>
-    </item>
-    <item>
-      <title>Hvad er kunstig intelligens</title>
-      <link>https://www.kiils.dk/emner/kunstig-intelligens/</link>
-      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/emner/kunstig-intelligens/</guid>
-      <description>Kunstig intelligens kunstig intelligens er et stort område inden for datalogi om anvendelsen af computere til at efterligne menneskelig intelligens.</description>
     </item>
     <item>
       <title>Alt om Indholdsstrategi</title>

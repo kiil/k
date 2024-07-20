@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/emner/kunstig-intelligens/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kursus: Forstå ChatGPT på en formiddag 🦾</title>
@@ -22,6 +22,13 @@
       <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/kursus/kursus-fa-mere-ud-af-chatgpt/</guid>
       <description>En-dags kursus som er tilpasset dit behov Kurset her fokuserer på at integrere ChatGPT i det daglige arbejde.</description>
+    </item>
+    <item>
+      <title>De 2 fundamentale arbejdsgange for ai-assisteret indhold</title>
+      <link>https://www.kiils.dk/blog/2024-07-20-de-2-fundamentale-arbejdsgange-for-ai-assisteret-indhold/</link>
+      <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/blog/2024-07-20-de-2-fundamentale-arbejdsgange-for-ai-assisteret-indhold/</guid>
+      <description>De to grundlæggende typer af arbejdsgange for indholdsskabelse, når man arbejder med LLM&amp;rsquo;er, er disse:</description>
     </item>
     <item>
       <title>Sprogøre gav virksomhed succes med kunstig intelligens 👍</title>
