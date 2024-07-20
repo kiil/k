@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
-    <lastBuildDate>Tue, 16 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/en/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The 2 basic workflows for ai-assisted content generation</title>
+      <link>https://www.kiils.dk/en/blog/2024-07-20-the-2-basic-workflows-for-ai-assisted-content-generation/</link>
+      <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/blog/2024-07-20-the-2-basic-workflows-for-ai-assisted-content-generation/</guid>
+      <description>The two basic kinds of content creation workflows when working with LLMs are these:</description>
+    </item>
     <item>
       <title>Creating a listicle with nushell and aichat and publishing it on a drupal site</title>
       <link>https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/</link>

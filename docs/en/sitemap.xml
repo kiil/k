@@ -9,11 +9,9 @@
     
   
     
-  
-    
       <url>
             <loc>https://www.kiils.dk/en/blog/</loc>
-            <lastmod>2024-07-16T00:00:00+00:00</lastmod>
+            <lastmod>2024-07-20T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="da"
@@ -29,23 +27,15 @@
   
     
       <url>
-            <loc>https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/</loc>
-            <lastmod>2024-07-16T00:00:00+00:00</lastmod>
+            <loc>https://www.kiils.dk/en/blog/2024-07-20-the-2-basic-workflows-for-ai-assisted-content-generation/</loc>
+            <lastmod>2024-07-20T00:00:00+00:00</lastmod>
           </url>
-    
-  
-    
-  
-    
-  
-    
-  
     
   
     
       <url>
             <loc>https://www.kiils.dk/en/</loc>
-            <lastmod>2024-07-16T00:00:00+00:00</lastmod>
+            <lastmod>2024-07-20T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="da"
@@ -57,6 +47,23 @@
               href="https://www.kiils.dk/en/"
               />
           </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/</loc>
+            <lastmod>2024-07-16T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
     
   
     
