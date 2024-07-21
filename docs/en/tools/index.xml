@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
-    <lastBuildDate>Tue, 16 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/en/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Llm</title>
+      <link>https://www.kiils.dk/en/tools/llm/</link>
+      <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/tools/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nushell</title>
+      <link>https://www.kiils.dk/en/tools/nushell/</link>
+      <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/tools/nushell/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Aichat</title>
       <link>https://www.kiils.dk/en/tools/aichat/</link>
@@ -24,24 +38,10 @@
       <description></description>
     </item>
     <item>
-      <title>Nushell</title>
-      <link>https://www.kiils.dk/en/tools/nushell/</link>
-      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/en/tools/nushell/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Pandoc</title>
       <link>https://www.kiils.dk/en/tools/pandoc/</link>
       <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/tools/pandoc/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>LLM</title>
-      <link>https://www.kiils.dk/en/tools/llm/</link>
-      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/en/tools/llm/</guid>
       <description></description>
     </item>
     <item>
