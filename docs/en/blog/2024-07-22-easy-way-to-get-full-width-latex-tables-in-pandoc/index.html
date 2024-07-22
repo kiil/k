@@ -126,7 +126,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "102"
+    "wordCount": "126"
   }]
   </script>
 
@@ -428,7 +428,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2024-07-22 00:00:00 &#43;0000 UTC">22 July 2024</time><span class="px-2 text-primary-500">&middot;</span><span>102 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+      <time datetime="2024-07-22 00:00:00 &#43;0000 UTC">22 July 2024</time><span class="px-2 text-primary-500">&middot;</span><span>126 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
     
 
     
@@ -490,31 +490,11 @@
         <p>Want tables in your pdf that fills out your page width?</p>
 <p>Some find that a table that spans the entire width of the page, looks better.</p>
 <p>When using markdown as input in pandoc, this can be done like so:</p>
-<table>
-<thead>
-<tr>
-<th>Phase</th>
-<th>Rate</th>
-<th>Timebudget</th>
-<th style="text-align:right">Subtotal</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Development</td>
-<td>360</td>
-<td>60</td>
-<td style="text-align:right">288000</td>
-</tr>
-<tr>
-<td>Integration</td>
-<td>240</td>
-<td>50</td>
-<td style="text-align:right">120000</td>
-</tr>
-</tbody>
-</table>
-<p>Notice the second line with the many dashes.</p>
+<pre tabindex="0"><code>| Phase            | Rate     | Timebudget | Subtotal |
+| ------------------------------------------------------ | -------- | ---------- | -------: |
+| Development      | 360      | 60         | 288000   |
+| Integration      | 240      | 50         | 120000   |
+</code></pre><p>Notice the second line with the many dashes.</p>
 <p>Just make one column really long like that.</p>
 <p>This will ensure the final pdf will have a table that fits the page width where the &ldquo;Phase&rdquo; column, in this example, takes up any width left over from the other columns in the table.</p>
 
