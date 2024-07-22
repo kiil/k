@@ -11,7 +11,7 @@
     
       <url>
             <loc>https://www.kiils.dk/en/blog/</loc>
-            <lastmod>2024-07-21T00:00:00+00:00</lastmod>
+            <lastmod>2024-07-22T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="da"
@@ -26,14 +26,18 @@
     
   
     
-  
-    
-  
-    
       <url>
-            <loc>https://www.kiils.dk/en/blog/2024-07-21-should-i-keep-input-and-output-separate-when-doing-ai-assisted-content-generation-in-nushell/</loc>
-            <lastmod>2024-07-21T00:00:00+00:00</lastmod>
+            <loc>https://www.kiils.dk/en/blog/2024-07-22-easy-way-to-get-full-width-latex-tables-in-pandoc/</loc>
+            <lastmod>2024-07-22T00:00:00+00:00</lastmod>
           </url>
+    
+  
+    
+  
+    
+  
+    
+  
     
   
     
@@ -41,7 +45,7 @@
     
       <url>
             <loc>https://www.kiils.dk/en/</loc>
-            <lastmod>2024-07-21T00:00:00+00:00</lastmod>
+            <lastmod>2024-07-22T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="da"
@@ -52,6 +56,17 @@
               hreflang="en"
               href="https://www.kiils.dk/en/"
               />
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/blog/2024-07-21-should-i-keep-input-and-output-separate-when-doing-ai-assisted-content-generation-in-nushell/</loc>
+            <lastmod>2024-07-21T00:00:00+00:00</lastmod>
           </url>
     
   
@@ -69,8 +84,6 @@
             <loc>https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/</loc>
             <lastmod>2024-07-16T00:00:00+00:00</lastmod>
           </url>
-    
-  
     
   
     
@@ -157,10 +170,6 @@
               href="https://www.kiils.dk/en/blog/using-nushell-with-generative-artificial-intelligence/"
               />
           </url>
-    
-  
-    
-  
     
   
     
