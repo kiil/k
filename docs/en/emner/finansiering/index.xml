@@ -7,15 +7,8 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
-    <lastBuildDate>Mon, 22 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jul 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/en/emner/finansiering/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Easy way to get full width latex tables in pandoc</title>
-      <link>https://www.kiils.dk/en/blog/2024-07-22-easy-way-to-get-full-width-latex-tables-in-pandoc/</link>
-      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/en/blog/2024-07-22-easy-way-to-get-full-width-latex-tables-in-pandoc/</guid>
-      <description>Want tables in your pdf that fills out your page width?</description>
-    </item>
     <item>
       <title>making taskwarrior better with nushell</title>
       <link>https://www.kiils.dk/en/blog/making-taskwarrior-better-with-nushell/</link>
