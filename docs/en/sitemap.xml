@@ -9,9 +9,11 @@
     
   
     
+  
+    
       <url>
             <loc>https://www.kiils.dk/en/blog/</loc>
-            <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+            <lastmod>2024-07-24T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="da"
@@ -26,20 +28,13 @@
     
   
     
-      <url>
-            <loc>https://www.kiils.dk/en/blog/2024-07-23-creating-pdf-tables-from-data-files-with-groff/</loc>
-            <lastmod>2024-07-23T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
   
     
   
     
       <url>
             <loc>https://www.kiils.dk/en/</loc>
-            <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+            <lastmod>2024-07-24T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="da"
@@ -55,11 +50,25 @@
   
     
       <url>
-            <loc>https://www.kiils.dk/en/blog/2024-07-22-easy-way-to-get-full-width-latex-tables-in-pandoc/</loc>
-            <lastmod>2024-07-22T00:00:00+00:00</lastmod>
+            <loc>https://www.kiils.dk/en/blog/2024-07-24-why-nushell-is-so-brilliant-for-working-with-ai/</loc>
+            <lastmod>2024-07-24T00:00:00+00:00</lastmod>
           </url>
     
   
+    
+      <url>
+            <loc>https://www.kiils.dk/en/blog/2024-07-23-creating-pdf-tables-from-data-files-with-groff/</loc>
+            <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/blog/2024-07-22-easy-way-to-get-full-width-latex-tables-in-pandoc/</loc>
+            <lastmod>2024-07-22T00:00:00+00:00</lastmod>
+          </url>
     
   
     
@@ -80,8 +89,6 @@
             <loc>https://www.kiils.dk/en/blog/2024-07-20-the-2-basic-workflows-for-ai-assisted-content-generation/</loc>
             <lastmod>2024-07-20T00:00:00+00:00</lastmod>
           </url>
-    
-  
     
   
     
