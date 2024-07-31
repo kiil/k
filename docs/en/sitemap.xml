@@ -30,10 +30,6 @@
     
   
     
-  
-    
-  
-    
       <url>
             <loc>https://www.kiils.dk/en/blog/2024-07-31-using-nushell-and-polars-on-weather-data-from-open-meteo/</loc>
             <lastmod>2024-07-31T00:00:00+00:00</lastmod>
@@ -55,8 +51,6 @@
               href="https://www.kiils.dk/en/"
               />
           </url>
-    
-  
     
   
     
@@ -142,6 +136,8 @@
     
   
     
+  
+    
       <url>
             <loc>https://www.kiils.dk/en/blog/2024-06-22-using-nushell-in-neovim/</loc>
             <lastmod>2024-06-22T00:00:00+00:00</lastmod>
@@ -193,6 +189,10 @@
               href="https://www.kiils.dk/en/blog/using-nushell-with-generative-artificial-intelligence/"
               />
           </url>
+    
+  
+    
+  
     
   
     

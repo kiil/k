@@ -10,10 +10,10 @@
     <lastBuildDate>Wed, 31 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/en/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Nvim</title>
-      <link>https://www.kiils.dk/en/tools/nvim/</link>
+      <title>Nushell</title>
+      <link>https://www.kiils.dk/en/tools/nushell/</link>
       <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/en/tools/nvim/</guid>
+      <guid>https://www.kiils.dk/en/tools/nushell/</guid>
       <description></description>
     </item>
     <item>
@@ -21,13 +21,6 @@
       <link>https://www.kiils.dk/en/tools/aichat/</link>
       <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/tools/aichat/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nushell</title>
-      <link>https://www.kiils.dk/en/tools/nushell/</link>
-      <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/en/tools/nushell/</guid>
       <description></description>
     </item>
     <item>
@@ -63,6 +56,13 @@
       <link>https://www.kiils.dk/en/tools/drupal/</link>
       <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/tools/drupal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nvim</title>
+      <link>https://www.kiils.dk/en/tools/nvim/</link>
+      <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/tools/nvim/</guid>
       <description></description>
     </item>
     <item>
