@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
-    <lastBuildDate>Wed, 24 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 31 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/en/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nvim</title>
+      <link>https://www.kiils.dk/en/tools/nvim/</link>
+      <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/tools/nvim/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Aichat</title>
       <link>https://www.kiils.dk/en/tools/aichat/</link>
@@ -56,13 +63,6 @@
       <link>https://www.kiils.dk/en/tools/drupal/</link>
       <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/tools/drupal/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nvim</title>
-      <link>https://www.kiils.dk/en/tools/nvim/</link>
-      <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/en/tools/nvim/</guid>
       <description></description>
     </item>
     <item>

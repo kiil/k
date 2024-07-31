@@ -19,14 +19,14 @@
   <meta name="theme-color" content="rgb(255,255,255)" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Why Nushell is so BRILLIANT at working with AI &middot; Kiils</title>
-    <meta name="title" content="Why Nushell is so BRILLIANT at working with AI &middot; Kiils" />
+  <title>Using nushell and polars on weather data from open-meteo to find windy days &middot; Kiils</title>
+    <meta name="title" content="Using nushell and polars on weather data from open-meteo to find windy days &middot; Kiils" />
   
-  <meta name="description" content="Fundamentally LLMs are all about relating text to text." />
+  <meta name="description" content="I windsurf and needed a way to get wind forecasts." />
   
   
   
-  <link rel="canonical" href="https://www.kiils.dk/en/blog/2024-07-24-why-nushell-is-so-brilliant-for-working-with-ai/" />
+  <link rel="canonical" href="https://www.kiils.dk/en/blog/2024-07-31-using-nushell-and-polars-on-weather-data-from-open-meteo/" />
   
   
   
@@ -76,10 +76,10 @@
   
   
   
- <meta property="og:title" content="Why Nushell is so BRILLIANT at working with AI" />
-<meta property="og:description" content="Fundamentally LLMs are all about relating text to text." />
+ <meta property="og:title" content="Using nushell and polars on weather data from open-meteo to find windy days" />
+<meta property="og:description" content="I windsurf and needed a way to get wind forecasts." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.kiils.dk/en/blog/2024-07-24-why-nushell-is-so-brilliant-for-working-with-ai/" />
+<meta property="og:url" content="https://www.kiils.dk/en/blog/2024-07-31-using-nushell-and-polars-on-weather-data-from-open-meteo/" />
 
 
 
@@ -92,14 +92,14 @@
 
 
 
-<meta property="og:image" content="/images/canvas_huf5a4a47d272c9e72b490e7eba58c5b9b_363_filter_7389649479587798807.png" /><meta property="article:section" content="blog" />
-<meta property="article:published_time" content="2024-07-24T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-07-24T00:00:00+00:00" />
+<meta property="og:image" content="/images/canvas_huf5a4a47d272c9e72b490e7eba58c5b9b_363_filter_1881509245582955490.png" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2024-07-31T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-07-31T00:00:00+00:00" />
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Why Nushell is so BRILLIANT at working with AI">
-  <meta name="twitter:description" content="Fundamentally LLMs are all about relating text to text.">
+  <meta name="twitter:title" content="Using nushell and polars on weather data from open-meteo to find windy days">
+  <meta name="twitter:description" content="I windsurf and needed a way to get wind forecasts.">
 
   
   <script type="application/ld+json">
@@ -107,26 +107,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Blog",
-    "name": "Why Nushell is so BRILLIANT at working with AI",
-    "headline": "Why Nushell is so BRILLIANT at working with AI",
+    "name": "Using nushell and polars on weather data from open-meteo to find windy days",
+    "headline": "Using nushell and polars on weather data from open-meteo to find windy days",
     
-    "abstract": "Fundamentally LLMs are all about relating text to text.",
+    "abstract": "I windsurf and needed a way to get wind forecasts.",
     "inLanguage": "en",
-    "url" : "https:\/\/www.kiils.dk\/en\/blog\/2024-07-24-why-nushell-is-so-brilliant-for-working-with-ai\/",
+    "url" : "https:\/\/www.kiils.dk\/en\/blog\/2024-07-31-using-nushell-and-polars-on-weather-data-from-open-meteo\/",
     "author" : {
       "@type": "Person",
       "name": "Lennart Kiil"
     },
     "copyrightYear": "2024",
-    "dateCreated": "2024-07-24T00:00:00\u002b00:00",
-    "datePublished": "2024-07-24T00:00:00\u002b00:00",
+    "dateCreated": "2024-07-31T00:00:00\u002b00:00",
+    "datePublished": "2024-07-31T00:00:00\u002b00:00",
     
-    "dateModified": "2024-07-24T00:00:00\u002b00:00",
+    "dateModified": "2024-07-31T00:00:00\u002b00:00",
     
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "1587"
+    "wordCount": "301"
   }]
   </script>
 
@@ -381,8 +381,8 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/en/blog/2024-07-24-why-nushell-is-so-brilliant-for-working-with-ai/"
-      >Why Nushell is so BRILLIANT at working with AI</a
+      href="/en/blog/2024-07-31-using-nushell-and-polars-on-weather-data-from-open-meteo/"
+      >Using nushell and polars on weather data from open-meteo to find windy days</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -391,7 +391,7 @@
 
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        Why Nushell is so BRILLIANT at working with AI
+        Using nushell and polars on weather data from open-meteo to find windy days
       </h1>
       <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -428,7 +428,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2024-07-24 00:00:00 &#43;0000 UTC">24 July 2024</time><span class="px-2 text-primary-500">&middot;</span><span>1587 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">8 mins</span>
+      <time datetime="2024-07-31 00:00:00 &#43;0000 UTC">31 July 2024</time><span class="px-2 text-primary-500">&middot;</span><span>301 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
     
 
     
@@ -446,25 +446,27 @@
         
       
         
-      
-        
-      
-        
-      
-        
-      
-        
           
             <a
-              href="/en/tools/nushell/"
+              href="/en/emner/finansiering/"
               class="rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
-              >Nushell</a
+              >Finansiering</a
             >
           
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
             <a
-              href="/en/tools/aichat/"
+              href="/en/tools/nvim/"
               class="rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
-              >Aichat</a
+              >Nvim</a
             >
           
         
@@ -479,265 +481,47 @@
     <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
       
       <div class="min-w-0 min-h-0 max-w-prose grow">
-        <p>Fundamentally LLMs are all about relating text to text.</p>
-<p>An LLM can complete, enrich or predict text by relating input text from the user to all the text relations already in the models interior.</p>
-<p>The person working with an LLM will want to benefit from its power and vast &ldquo;knowledge&rdquo; of language.</p>
-<p>Nushell is the best way I have found to do this in a way that is both systematic and, once you have learned the basics of Nushell, easy and straight forward.</p>
-<p>Let us have a look at an example. We have this table in Nushell:</p>
-<table>
-<thead>
-<tr>
-<th>name</th>
-<th>age</th>
-<th>hobbies</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Alice</td>
-<td>30</td>
-<td>reading</td>
-</tr>
-<tr>
-<td>Bob</td>
-<td>25</td>
-<td>gaming</td>
-</tr>
-<tr>
-<td>Charlie</td>
-<td>35</td>
-<td>photography</td>
-</tr>
-<tr>
-<td>Diana</td>
-<td>28</td>
-<td>painting</td>
-</tr>
-<tr>
-<td>Ethan</td>
-<td>22</td>
-<td>writing</td>
-</tr>
-</tbody>
-</table>
-<p>We want to create a small fiction about each of these persons.</p>
-<p>In Nushell then simply do:</p>
-<pre><code>$table | insert fiction { $in | aichat provide very short fiction based on input }
-</code></pre>
-<p>As you may have noticed I also use the terrific CLI tool <a
-  href="https://github.com/sigoden/aichat"
+        <p>I windsurf and needed a way to get wind forecasts.</p>
+<p>And recently a new feature was added to Nushell that makes it easy to consume the data from the Open-Meteo API.</p>
+<p>First we find the data we need here: <a
+  href="https://open-meteo.com/en/docs/dmi-api"
   
   target="_blank" rel="noreferrer noopener"
->AIChat</a></p>
-<p>Back to our example, we now have this:</p>
-<table>
-  <thead>
-    <tr>
-      <th>
-        name
-      </th>
-      <th>
-        age
-      </th>
-      <th>
-        hobbies
-      </th>
-      <th>
-        fiction
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        Alice
-      </td>
-      <td>
-        30
-      </td>
-      <td>
-        reading
-      </td>
-      <td>
-        Alice sat in her favorite nook, surrounded by towering stacks of novels. The scent of old pages filled the air as she flipped through a worn paperback, completely absorbed. Outside, the world buzzed, but within her pages, she traveled to distant lands and met captivating characters. 
-        <br>
-        <br>
-        One day, lost in a particularly gripping story, she stumbled upon a mystical map tucked between the chapters. It pulsed with an otherworldly glow. Curiosity igniting, she followed its path, embarking on an adventure beyond her wildest dreams. 
-        <br>
-        <br>
-        As she stepped into the world of the book, she realized that in every story, magic awaits those brave enough to read between the lines.
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Bob
-      </td>
-      <td>
-        25
-      </td>
-      <td>
-        gaming
-      </td>
-      <td>
-        In a bustling city, Bob, a 25-year-old gaming enthusiast, discovered a virtual realm where skills blurred reality. One fateful night, while battling a fearsome dragon, he unlocked a glitch—a portal that transported him into the digital landscape. 
-        <br>
-        <br>
-        Surrounded by pixelated wonders, Bob no longer had to worry about his mundane job. He wielded a sword forged from the essence of code, joined by allies he&#x27;d only dreamt of. With each victory, he felt alive, more than ever before, but a nagging question lingered: could he return to his world, or was this new home where he truly belonged? 
-        <br>
-        <br>
-        As the sun set over the glowing horizon, Bob looked back at the portal, the flickering light a reminder of the life he almost left behind. With a deep breath, he stepped forward into the adventure ahead.
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Charlie
-      </td>
-      <td>
-        35
-      </td>
-      <td>
-        photography
-      </td>
-      <td>
-        Charlie adjusted the lens on his camera, the early morning light dancing through the trees. He captured the world in frames, each click telling a story only he could see. 
-        <br>
-        <br>
-        One day, while wandering through a forgotten garden, he stumbled upon a faded photograph half-buried in the dirt. It showed a smiling girl with wildflowers in her hair, her eyes sparkling with joy. 
-        <br>
-        <br>
-        Intrigued, Charlie wanted to know her story. As he printed the photo, he noticed a date scribbled on the back—exactly fifty years ago. 
-        <br>
-        <br>
-        With each passing moment, he felt a connection, as if the girl was guiding him. Driven by curiosity, he set out to find her, believing that somewhere in the world, magic still lingered among the forgotten memories, waiting for someone to uncover them.
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Diana
-      </td>
-      <td>
-        28
-      </td>
-      <td>
-        painting
-      </td>
-      <td>
-        Diana stood before her easel, the fading light of the day streaming through the window. Each brushstroke whispered secrets of a world only she could see. As she painted, colors melded and flowed, reflecting not just landscapes, but her dreams, hopes, and fears.
-        <br>
-        <br>
-        Today, she tackled a piece she’d long envisioned—a towering oak nestled amidst a field of wildflowers. With each hue, memories flooded back: laughter shared under the sprawling branches, quiet afternoons spent in thoughtful solitude.
-        <br>
-        <br>
-        As the final details emerged, an inexplicable sense of peace washed over her. In that moment, Diana realized that through painting, she wasn&#x27;t just creating art; she was capturing the essence of her own life, boldly framed in vibrant colors and the rich aroma of oil paint.
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Ethan
-      </td>
-      <td>
-        22
-      </td>
-      <td>
-        writing
-      </td>
-      <td>
-        Ethan sat in the dim light of his cramped studio apartment, fingers poised over the keyboard. The scent of stale coffee lingered in the air as he wrestled with his latest story—a tale where words danced like shadows in the moonlight. 
-        <br>
-        <br>
-        At 22, his dreams were woven with ink, stretching beyond the walls that confined him. Characters whispered their secrets, pulling him deeper into worlds yet unexplored. He wrote not for fame, but for the heartbeat of creation, and tonight, the pulse of a new adventure throbbed in his veins.
-        <br>
-        <br>
-        As the clock ticked ominously toward midnight, the first sentence spilled forth, igniting the night with infinite possibilities. Ethan smiled, lost in his thoughts, because in the realm of fiction, he could always be more than just a struggling writer. Tonight, he would conquer galaxies.
-      </td>
-    </tr>
-  </tbody>
-</table>
-<p>In the above example we asked Nushell to relate each <strong>whole</strong> row to the LLM with the <code>$in</code> variable.</p>
-<p>If we instead want to relate just one cell from each row, this can easily be done like so:</p>
-<pre><code>$table | insert description { $in.hobbies | aichat provide very short one paragraph description of the hobby }
+>DMI Weather Model API | Open-Meteo.com</a></p>
+<p>From that page we get the following url to the API:</p>
+<pre><code>https://api.open-meteo.com/v1/forecast?latitude=55.934&amp;longitude=12.5048&amp;hourly=wind_speed_10m,wind_direction_10m&amp;wind_speed_unit=ms&amp;timezone=auto&amp;forecast_days=10&amp;models=dmi_seamless
 </code></pre>
-<p>Notice the <code>$in.hobbies</code> - only feeding each hobby cell in the table to the LLM this time around.</p>
-<p>Let us &ldquo;save&rdquo; the result in a new table, though:</p>
-<pre><code>let hobby = $table | insert description { $in.hobbies | aichat provide very short one paragraph description of the hobby }
+<p>We can easily inspect this from Nushell like so:</p>
+<pre><code>http get https://api.open-meteo.com/v1/forecast?latitude=55.934&amp;longitude=12.5048&amp;hourly=wind_speed_10m,wind_direction_10m&amp;wind_speed_unit=ms&amp;timezone=auto&amp;forecast_days=10&amp;models=dmi_seamless
 </code></pre>
-<p>Giving us this:</p>
-<table>
-<thead>
-<tr>
-<th>name</th>
-<th>age</th>
-<th>hobbies</th>
-<th>description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Alice</td>
-<td>30</td>
-<td>reading</td>
-<td>Reading is a captivating hobby that involves immersing oneself in written words, whether through books, articles, or poetry, to explore new ideas, cultures, and perspectives. It fosters imagination and critical thinking, allowing individuals to escape reality, learn, and grow. Moreover, reading can be a solitary pleasure or a shared experience, connecting people through discussions and book clubs, making it a versatile and enriching pastime.</td>
-</tr>
-<tr>
-<td>Bob</td>
-<td>25</td>
-<td>gaming</td>
-<td>Gaming is a popular hobby that involves playing video games across various platforms, including consoles, PCs, and mobile devices. It offers immersive experiences through interactive storytelling, competitive challenges, and social interaction with other players, whether locally or online. With a diverse range of genres—such as action, adventure, role-playing, and simulation—gaming appeals to people of all ages and backgrounds, fostering creativity, strategic thinking, and community engagement.</td>
-</tr>
-<tr>
-<td>Charlie</td>
-<td>35</td>
-<td>photography</td>
-<td>Photography is the art and practice of capturing light to create images, allowing individuals to express their creativity, document moments, and explore the world around them. With various styles ranging from landscapes and portraits to street photography and macro, it combines technical skills with artistic vision, enabling enthusiasts to convey stories and emotions through the lens. Whether using a professional camera or a smartphone, photography offers a rewarding way to observe and share the beauty in everyday life.</td>
-</tr>
-<tr>
-<td>Diana</td>
-<td>28</td>
-<td>painting</td>
-<td>Painting is a creative hobby that involves applying pigment to a surface, such as canvas, paper, or wood, to express emotions, ideas, or beauty. It allows individuals to explore their imagination and artistic skills, using various techniques and mediums like watercolors, acrylics, or oils. Whether for relaxation, personal expression, or social engagement, painting offers a fulfilling way to create visually captivating works and can be enjoyed by people of all ages and skill levels.</td>
-</tr>
-<tr>
-<td>Ethan</td>
-<td>22</td>
-<td>writing</td>
-<td>Writing is a creative hobby that involves expressing thoughts, ideas, and stories through written words. It can take many forms, including poetry, fiction, nonfiction, blogging, and journaling, allowing individuals to explore their imagination, share personal experiences, or convey information. Whether for personal enjoyment, therapeutic reasons, or the aspiration to publish, writing offers a fulfilling way to articulate one&rsquo;s voice and connect with others.</td>
-</tr>
-</tbody>
-</table>
-<p>In case we are only interested in the hobby descriptions, Nushell makes it very easy to select only that column like so:</p>
-<pre><code>$hobby | select description
+<p>Let us save these data in a variable:</p>
+<pre><code>let wind = http get https://api.open-meteo.com/v1/forecast?latitude=55.934&amp;longitude=12.5048&amp;hourly=wind_speed_10m,wind_direction_10m&amp;wind_speed_unit=ms&amp;timezone=auto&amp;forecast_days=10&amp;models=dmi_seamless
 </code></pre>
-<table>
-<thead>
-<tr>
-<th>description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Reading is a captivating hobby that involves immersing oneself in written words, whether through books, articles, or poetry, to explore new ideas, cultures, and perspectives. It fosters imagination and critical thinking, allowing individuals to escape reality, learn, and grow. Moreover, reading can be a solitary pleasure or a shared experience, connecting people through discussions and book clubs, making it a versatile and enriching pastime.</td>
-</tr>
-<tr>
-<td>Gaming is a popular hobby that involves playing video games across various platforms, including consoles, PCs, and mobile devices. It offers immersive experiences through interactive storytelling, competitive challenges, and social interaction with other players, whether locally or online. With a diverse range of genres—such as action, adventure, role-playing, and simulation—gaming appeals to people of all ages and backgrounds, fostering creativity, strategic thinking, and community engagement.</td>
-</tr>
-<tr>
-<td>Photography is the art and practice of capturing light to create images, allowing individuals to express their creativity, document moments, and explore the world around them. With various styles ranging from landscapes and portraits to street photography and macro, it combines technical skills with artistic vision, enabling enthusiasts to convey stories and emotions through the lens. Whether using a professional camera or a smartphone, photography offers a rewarding way to observe and share the beauty in everyday life.</td>
-</tr>
-</tbody>
-</table>
-<p>&hellip; and so on.</p>
-<p>I need to 🏊 now. But remember, I&rsquo;ve only just scratched the surface here.</p>
-<p>The possibilities for relating text, specific parts of texts and text-based structured data to the immense power of LLMs with nushell are almost endless.</p>
-<p>You can read more about Nushell here: <a
-  href="https://www.kiils.dk/en/tools/nushell/"
-  
-  target="_blank" rel="noreferrer noopener"
->Nushell · Kiils</a></p>
-<p>Also make sure to visit the Nushell homepage here: <a
-  href="https://www.nushell.sh/"
-  
-  target="_blank" rel="noreferrer noopener"
->Nushell</a></p>
+<p>This we now turn into a dataframe based on the colums:</p>
+<pre><code>let dfwind = $wind | get hourly | polars into-df --as-columns 
+</code></pre>
+<p>Finally, let us make the datetime relative to now:</p>
+<pre><code>let $final = $dfwind | polars with-column ($dfwind | polars get time | polars as-datetime &quot;%Y-%m-%dT%H:%M&quot; ) --name datetime
+</code></pre>
+<p>We can then turn this dataframe back into stadard nu:</p>
+<pre><code>let nuwind = $final | polars into-nu
+</code></pre>
+<p>And then it is easy to find any datetimes with enough wind:</p>
+<pre><code>$nuwind | where wind_speed_10m &gt; 5
+</code></pre>
+<p>Seems like I will have to wait a week to go wind-🏄:</p>
+<pre tabindex="0"><code class="language-nu" data-lang="nu">╭───┬──────────────────┬────────────────┬────────────────────┬───────────╮
+│ # │       time       │ wind_speed_10m │ wind_direction_10m │ datetime  │
+├───┼──────────────────┼────────────────┼────────────────────┼───────────┤
+│ 0 │ 2024-08-07T09:00 │           5.22 │                144 │ in a week │
+│ 1 │ 2024-08-07T10:00 │           5.75 │                149 │ in a week │
+│ 2 │ 2024-08-07T11:00 │           6.08 │                153 │ in a week │
+│ 3 │ 2024-08-07T12:00 │           6.45 │                156 │ in a week │
+│ 4 │ 2024-08-07T13:00 │           6.61 │                160 │ in a week │
+│ 5 │ 2024-08-07T14:00 │           6.48 │                163 │ in a week │
+│ 6 │ 2024-08-07T15:00 │           5.77 │                166 │ in a week │
+╰───┴──────────────────┴────────────────┴────────────────────┴───────────╯
+</code></pre><p>Note: The above polars flag <code>--as-colums</code> assume you have the latest nushell and latest polars plugin.</p>
 
       </div>
     </section>
@@ -768,7 +552,7 @@
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://www.facebook.com/sharer/sharer.php?u=https://www.kiils.dk/en/blog/2024-07-24-why-nushell-is-so-brilliant-for-working-with-ai/&amp;quote=Why%20Nushell%20is%20so%20BRILLIANT%20at%20working%20with%20AI"
+          href="https://www.facebook.com/sharer/sharer.php?u=https://www.kiils.dk/en/blog/2024-07-31-using-nushell-and-polars-on-weather-data-from-open-meteo/&amp;quote=Using%20nushell%20and%20polars%20on%20weather%20data%20from%20open-meteo%20to%20find%20windy%20days"
           title="Share on Facebook"
           aria-label="Share on Facebook"
           target="_blank"
@@ -781,7 +565,7 @@
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://twitter.com/intent/tweet/?url=https://www.kiils.dk/en/blog/2024-07-24-why-nushell-is-so-brilliant-for-working-with-ai/&amp;text=Why%20Nushell%20is%20so%20BRILLIANT%20at%20working%20with%20AI"
+          href="https://twitter.com/intent/tweet/?url=https://www.kiils.dk/en/blog/2024-07-31-using-nushell-and-polars-on-weather-data-from-open-meteo/&amp;text=Using%20nushell%20and%20polars%20on%20weather%20data%20from%20open-meteo%20to%20find%20windy%20days"
           title="Tweet on Twitter"
           aria-label="Tweet on Twitter"
           target="_blank"
@@ -794,7 +578,7 @@
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://tootpick.org/#text=https://www.kiils.dk/en/blog/2024-07-24-why-nushell-is-so-brilliant-for-working-with-ai/%20Why%20Nushell%20is%20so%20BRILLIANT%20at%20working%20with%20AI"
+          href="https://tootpick.org/#text=https://www.kiils.dk/en/blog/2024-07-31-using-nushell-and-polars-on-weather-data-from-open-meteo/%20Using%20nushell%20and%20polars%20on%20weather%20data%20from%20open-meteo%20to%20find%20windy%20days"
           title="Toot on Mastodon"
           aria-label="Toot on Mastodon"
           target="_blank"
@@ -807,7 +591,7 @@
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://pinterest.com/pin/create/bookmarklet/?url=https://www.kiils.dk/en/blog/2024-07-24-why-nushell-is-so-brilliant-for-working-with-ai/&amp;description=Why%20Nushell%20is%20so%20BRILLIANT%20at%20working%20with%20AI"
+          href="https://pinterest.com/pin/create/bookmarklet/?url=https://www.kiils.dk/en/blog/2024-07-31-using-nushell-and-polars-on-weather-data-from-open-meteo/&amp;description=Using%20nushell%20and%20polars%20on%20weather%20data%20from%20open-meteo%20to%20find%20windy%20days"
           title="Pin on Pinterest"
           aria-label="Pin on Pinterest"
           target="_blank"
@@ -820,7 +604,7 @@
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://reddit.com/submit/?url=https://www.kiils.dk/en/blog/2024-07-24-why-nushell-is-so-brilliant-for-working-with-ai/&amp;resubmit=true&amp;title=Why%20Nushell%20is%20so%20BRILLIANT%20at%20working%20with%20AI"
+          href="https://reddit.com/submit/?url=https://www.kiils.dk/en/blog/2024-07-31-using-nushell-and-polars-on-weather-data-from-open-meteo/&amp;resubmit=true&amp;title=Using%20nushell%20and%20polars%20on%20weather%20data%20from%20open-meteo%20to%20find%20windy%20days"
           title="Submit to Reddit"
           aria-label="Submit to Reddit"
           target="_blank"
@@ -833,7 +617,7 @@
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.kiils.dk/en/blog/2024-07-24-why-nushell-is-so-brilliant-for-working-with-ai/&amp;title=Why%20Nushell%20is%20so%20BRILLIANT%20at%20working%20with%20AI"
+          href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.kiils.dk/en/blog/2024-07-31-using-nushell-and-polars-on-weather-data-from-open-meteo/&amp;title=Using%20nushell%20and%20polars%20on%20weather%20data%20from%20open-meteo%20to%20find%20windy%20days"
           title="Share on LinkedIn"
           aria-label="Share on LinkedIn"
           target="_blank"
@@ -846,7 +630,7 @@
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="mailto:?body=https://www.kiils.dk/en/blog/2024-07-24-why-nushell-is-so-brilliant-for-working-with-ai/&amp;subject=Why%20Nushell%20is%20so%20BRILLIANT%20at%20working%20with%20AI"
+          href="mailto:?body=https://www.kiils.dk/en/blog/2024-07-31-using-nushell-and-polars-on-weather-data-from-open-meteo/&amp;subject=Using%20nushell%20and%20polars%20on%20weather%20data%20from%20open-meteo%20to%20find%20windy%20days"
           title="Send via email"
           aria-label="Send via email"
           target="_blank"
@@ -869,7 +653,7 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="group flex" href="/en/blog/2024-07-23-creating-pdf-tables-from-data-files-with-groff/">
+            <a class="group flex" href="/en/blog/2024-07-24-why-nushell-is-so-brilliant-for-working-with-ai/">
               <span
                 class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
                 ><span class="ltr:inline rtl:hidden">&larr;</span
@@ -878,11 +662,11 @@
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Creating pdf tables from data files with groff</span
+                  >Why Nushell is so BRILLIANT at working with AI</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2024-07-23 00:00:00 &#43;0000 UTC">23 July 2024</time>
+                    <time datetime="2024-07-24 00:00:00 &#43;0000 UTC">24 July 2024</time>
                   
                 </span>
               </span>
@@ -890,25 +674,6 @@
           
         </span>
         <span>
-          
-            <a class="group flex text-right" href="/en/blog/2024-07-31-using-nushell-and-polars-on-weather-data-from-open-meteo/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Using nushell and polars on weather data from open-meteo to find windy days</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2024-07-31 00:00:00 &#43;0000 UTC">31 July 2024</time>
-                  
-                </span>
-              </span>
-              <span
-                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
-                ><span class="ltr:inline rtl:hidden">&rarr;</span
-                ><span class="ltr:hidden rtl:inline">&larr;</span></span
-              >
-            </a>
           
         </span>
       </div>
