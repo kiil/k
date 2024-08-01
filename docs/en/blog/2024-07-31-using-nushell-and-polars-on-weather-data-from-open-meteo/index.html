@@ -493,7 +493,7 @@
 <pre><code>let dfwind = $wind | get hourly | polars into-df --as-columns 
 </code></pre>
 <p>Finally, let us make the datetime relative to now:</p>
-<pre><code>let $final = $dfwind | polars with-column ($dfwind | polars get time | polars as-datetime &quot;%Y-%m-%dT%H:%M&quot; ) --name datetime
+<pre><code>let final = $dfwind | polars with-column ($dfwind | polars get time | polars as-datetime &quot;%Y-%m-%dT%H:%M&quot; ) --name datetime
 </code></pre>
 <p>We can then turn this dataframe back into stadard nu:</p>
 <pre><code>let nuwind = $final | polars into-nu
