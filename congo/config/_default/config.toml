@@ -14,10 +14,10 @@ summaryLength = 0
 [languages]
 
 [languages.da]
-contentDir = '/home/lk/Noter/kiils.dk/da/'
+contentDir = '/home/lk/Web/kiils.dk/da/'
 
 [languages.en]
-contentDir = '/home/lk/Noter/kiils.dk/en/'
+contentDir = '/home/lk/Web/kiils.dk/en/'
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]

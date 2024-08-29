@@ -92,8 +92,15 @@
   
     
       <url>
+            <loc>https://www.kiils.dk/blog/2024-08-29-anthropic-afslorer-claudes-systemprompts/</loc>
+            <lastmod>2024-08-29T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
             <loc>https://www.kiils.dk/blog/</loc>
-            <lastmod>2024-07-20T00:00:00+00:00</lastmod>
+            <lastmod>2024-08-29T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -108,10 +115,7 @@
     
   
     
-      <url>
-            <loc>https://www.kiils.dk/blog/2024-07-20-de-2-fundamentale-arbejdsgange-for-ai-assisteret-indhold/</loc>
-            <lastmod>2024-07-20T00:00:00+00:00</lastmod>
-          </url>
+  
     
   
     
@@ -121,7 +125,7 @@
     
       <url>
             <loc>https://www.kiils.dk/</loc>
-            <lastmod>2024-07-20T00:00:00+00:00</lastmod>
+            <lastmod>2024-08-29T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -132,6 +136,13 @@
               hreflang="da"
               href="https://www.kiils.dk/"
               />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/blog/2024-07-20-de-2-fundamentale-arbejdsgange-for-ai-assisteret-indhold/</loc>
+            <lastmod>2024-07-20T00:00:00+00:00</lastmod>
           </url>
     
   
@@ -153,8 +164,6 @@
             <loc>https://www.kiils.dk/blog/2024-04-22-nyt-om-openai-assistant-api/</loc>
             <lastmod>2024-04-23T00:00:00+00:00</lastmod>
           </url>
-    
-  
     
   
     
@@ -248,8 +257,6 @@
             <loc>https://www.kiils.dk/blog/personlighed/</loc>
             <lastmod>2023-07-17T00:00:00+00:00</lastmod>
           </url>
-    
-  
     
   
     
