@@ -11,7 +11,7 @@
     
       <url>
             <loc>https://www.kiils.dk/en/blog/</loc>
-            <lastmod>2024-07-31T00:00:00+00:00</lastmod>
+            <lastmod>2024-09-19T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="da"
@@ -26,20 +26,22 @@
     
   
     
-  
-    
-  
-    
       <url>
-            <loc>https://www.kiils.dk/en/blog/2024-07-31-using-nushell-and-polars-on-weather-data-from-open-meteo/</loc>
-            <lastmod>2024-07-31T00:00:00+00:00</lastmod>
+            <loc>https://www.kiils.dk/en/blog/2024-09-19-inspecting-yaml-frontmatter-in-markdown-files-with-nushell/</loc>
+            <lastmod>2024-09-19T00:00:00+00:00</lastmod>
           </url>
+    
+  
+    
+  
+    
+  
     
   
     
       <url>
             <loc>https://www.kiils.dk/en/</loc>
-            <lastmod>2024-07-31T00:00:00+00:00</lastmod>
+            <lastmod>2024-09-19T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="da"
@@ -50,6 +52,13 @@
               hreflang="en"
               href="https://www.kiils.dk/en/"
               />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/blog/2024-07-31-using-nushell-and-polars-on-weather-data-from-open-meteo/</loc>
+            <lastmod>2024-07-31T00:00:00+00:00</lastmod>
           </url>
     
   
