@@ -7,168 +7,175 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
-    <lastBuildDate>Thu, 19 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analysing the entire Holy in less than a second</title>
+      <link>https://www.kiils.dk/en/blog/2024-10-03-analysing-the-holy-bible-with-nushell-in-under-a-second/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/blog/2024-10-03-analysing-the-holy-bible-with-nushell-in-under-a-second/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Inspecting yaml frontmatter in markdown files with nushell</title>
       <link>https://www.kiils.dk/en/blog/2024-09-19-inspecting-yaml-frontmatter-in-markdown-files-with-nushell/</link>
       <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-09-19-inspecting-yaml-frontmatter-in-markdown-files-with-nushell/</guid>
-      <description>Markdown is widely used when working with text based generative artificial intelligence.</description>
+      <description></description>
     </item>
     <item>
       <title>Using nushell and polars on weather data from open-meteo to find windy days</title>
       <link>https://www.kiils.dk/en/blog/2024-07-31-using-nushell-and-polars-on-weather-data-from-open-meteo/</link>
       <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-07-31-using-nushell-and-polars-on-weather-data-from-open-meteo/</guid>
-      <description>I windsurf and needed a way to get wind forecasts.</description>
+      <description></description>
     </item>
     <item>
       <title>Why Nushell is so BRILLIANT at working with AI</title>
       <link>https://www.kiils.dk/en/blog/2024-07-24-why-nushell-is-so-brilliant-for-working-with-ai/</link>
       <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-07-24-why-nushell-is-so-brilliant-for-working-with-ai/</guid>
-      <description>Fundamentally LLMs are all about relating text to text.</description>
+      <description></description>
     </item>
     <item>
       <title>Creating pdf tables from data files with groff</title>
       <link>https://www.kiils.dk/en/blog/2024-07-23-creating-pdf-tables-from-data-files-with-groff/</link>
       <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-07-23-creating-pdf-tables-from-data-files-with-groff/</guid>
-      <description>Given a comma separated file with two columns named test.</description>
+      <description></description>
     </item>
     <item>
       <title>Easy way to get full width latex tables in pandoc</title>
       <link>https://www.kiils.dk/en/blog/2024-07-22-easy-way-to-get-full-width-latex-tables-in-pandoc/</link>
       <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-07-22-easy-way-to-get-full-width-latex-tables-in-pandoc/</guid>
-      <description>Want tables in your pdf that fills out your page width?</description>
+      <description></description>
     </item>
     <item>
       <title>Should I keep input and output separate when doing AI-assisted content generation in nushell</title>
       <link>https://www.kiils.dk/en/blog/2024-07-21-should-i-keep-input-and-output-separate-when-doing-ai-assisted-content-generation-in-nushell/</link>
       <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-07-21-should-i-keep-input-and-output-separate-when-doing-ai-assisted-content-generation-in-nushell/</guid>
-      <description>It depends.</description>
+      <description></description>
     </item>
     <item>
       <title>The 2 basic workflows for ai-assisted content generation</title>
       <link>https://www.kiils.dk/en/blog/2024-07-20-the-2-basic-workflows-for-ai-assisted-content-generation/</link>
       <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-07-20-the-2-basic-workflows-for-ai-assisted-content-generation/</guid>
-      <description>The two basic kinds of content creation workflows when working with LLMs are these:</description>
+      <description></description>
     </item>
     <item>
       <title>Creating a listicle with nushell and aichat and publishing it on a drupal site</title>
       <link>https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/</link>
       <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/</guid>
-      <description>So I want to publish a listicle on my website.</description>
+      <description></description>
     </item>
     <item>
       <title>Speeding up ai-assisted content generation with nushell par-each</title>
       <link>https://www.kiils.dk/en/blog/2024-07-15-speeding-up-ai-assisted-content-generation-with-nushell-par-each/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-07-15-speeding-up-ai-assisted-content-generation-with-nushell-par-each/</guid>
-      <description>Given this json list of wrestlers</description>
+      <description></description>
     </item>
     <item>
       <title>BER: The secret behind good AI-generated content</title>
       <link>https://www.kiils.dk/en/blog/2024-07-14-the-secret-behind-good-ai-generated-content/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-07-14-the-secret-behind-good-ai-generated-content/</guid>
-      <description>I&amp;rsquo;ve created hundreds of articles and other content forms with the assistance of artificial intelligence, more specifically LLM-techonology.</description>
+      <description></description>
     </item>
     <item>
       <title>Deleting lines with nushell</title>
       <link>https://www.kiils.dk/en/blog/2024-06-30-deleting-lines-with-nushell/</link>
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-06-30-deleting-lines-with-nushell/</guid>
-      <description>When working with a lot of text it is oftentimes useful to be able to edit fast, including being able to remove whole lines starting with, containing er ending with specific words.</description>
+      <description></description>
     </item>
     <item>
       <title>Using this simple nushell command to make sense of my many nushell scripts</title>
       <link>https://www.kiils.dk/en/blog/2024-06-24-using-nushell-to-make-sense-of-my-nushell-scripts/</link>
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-06-24-using-nushell-to-make-sense-of-my-nushell-scripts/</guid>
-      <description>I use nushell in companion with generative artificiel intelligence a lot to automate simple journalistic workflows.</description>
+      <description></description>
     </item>
     <item>
       <title>Using nushell in neovim</title>
       <link>https://www.kiils.dk/en/blog/2024-06-22-using-nushell-in-neovim/</link>
       <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-06-22-using-nushell-in-neovim/</guid>
-      <description>I took me a little while completely getting nushell to work as the shell in neovim, but having nushell at my fingertips directly in my text editor was well worth the effort.</description>
+      <description></description>
     </item>
     <item>
       <title>Working with tuc in nushell</title>
       <link>https://www.kiils.dk/en/blog/2024-06-11-working-with-tuc-in-nushell/</link>
       <pubDate>Tue, 11 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-06-11-working-with-tuc-in-nushell/</guid>
-      <description>Workflow:</description>
+      <description></description>
     </item>
     <item>
       <title>tuc as text based data structure for online research</title>
       <link>https://www.kiils.dk/en/blog/2024-06-04-tuc-as-a-basic-ai-data-structure/</link>
       <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-06-04-tuc-as-a-basic-ai-data-structure/</guid>
-      <description>I do a lot of research online.</description>
+      <description></description>
     </item>
     <item>
       <title>Get items from rss feed with nushell 🐘</title>
       <link>https://www.kiils.dk/en/blog/2024-06-03-get-items-from-rss-feed-with-nushell/</link>
       <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-06-03-get-items-from-rss-feed-with-nushell/</guid>
-      <description>I wanted to get some links to some content on the Citizen&amp;rsquo;s journalism site Folkets to be able to work with this with AI.</description>
+      <description></description>
     </item>
     <item>
       <title>How programming can help reduce mental load 🦾</title>
       <link>https://www.kiils.dk/en/blog/2024-05-31-how-programming-can-help-reduce-mental-load/</link>
       <pubDate>Fri, 31 May 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-05-31-how-programming-can-help-reduce-mental-load/</guid>
-      <description>Welcome to aichat 0.</description>
+      <description></description>
     </item>
     <item>
       <title>Using Nushell 🐘 with Generative Artificial Intelligence 🤖</title>
       <link>https://www.kiils.dk/en/blog/using-nushell-with-generative-artificial-intelligence/</link>
       <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/using-nushell-with-generative-artificial-intelligence/</guid>
-      <description>Requirements # Nushell Nushell - query plugin Aichat - CLI tool AI platforms Mission # Know a little about each large city in India</description>
+      <description></description>
     </item>
     <item>
       <title>making taskwarrior better with nushell</title>
       <link>https://www.kiils.dk/en/blog/making-taskwarrior-better-with-nushell/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/making-taskwarrior-better-with-nushell/</guid>
-      <description>Works with:</description>
+      <description></description>
     </item>
     <item>
       <title>Humans should also be prompted properly</title>
       <link>https://www.kiils.dk/en/blog/humans-should-also-be-prompted-properly/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/humans-should-also-be-prompted-properly/</guid>
-      <description>The other day I posted a few lines on Facebook.</description>
+      <description></description>
     </item>
     <item>
       <title>Merging an emoji 😘 font into a text font ❤️</title>
       <link>https://www.kiils.dk/en/blog/merging-an-emoji-font-into-a-text-font/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/merging-an-emoji-font-into-a-text-font/</guid>
-      <description>I wanted to use the font Noto Sans with the Noto Emoji font for making an image overlay text in Hugo.</description>
+      <description></description>
     </item>
     <item>
       <title>🦶 &#43; 🥔 = Potato foot 🤣 - and other examples of how ChatGPT made my son laugh. And why it is important</title>
       <link>https://www.kiils.dk/en/blog/how-chatgpt-made-my-surly-son-laugh/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/how-chatgpt-made-my-surly-son-laugh/</guid>
-      <description>Recently I installed Marvin.</description>
+      <description></description>
     </item>
     <item>
       <title>Is ChatGPT more than a glorified Markov chain? Here is what ChatGPT itself has to say about that</title>
       <link>https://www.kiils.dk/en/blog/chatgpt-glorified-markov-chain/</link>
       <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/chatgpt-glorified-markov-chain/</guid>
-      <description>Me: is chatgpt really just a glorified markov chain</description>
+      <description></description>
     </item>
     <item>
       <title>Servicebot.io is great</title>
@@ -182,7 +189,7 @@
       <link>https://www.kiils.dk/en/resource/personas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/resource/personas/</guid>
-      <description>Writing styles for ChatGPT, use in initial &amp;ldquo;system message&amp;rdquo;.</description>
+      <description></description>
     </item>
     <item>
       <title>Climate Encyclopedia</title>
@@ -196,7 +203,7 @@
       <link>https://www.kiils.dk/en/domain/folkets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/domain/folkets/</guid>
-      <description>Pricing on www.</description>
+      <description></description>
     </item>
     <item>
       <title>Lennart Kiil</title>

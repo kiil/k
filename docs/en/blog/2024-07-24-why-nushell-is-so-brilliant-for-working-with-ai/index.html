@@ -22,7 +22,7 @@
   <title>Why Nushell is so BRILLIANT at working with AI &middot; Kiils</title>
     <meta name="title" content="Why Nushell is so BRILLIANT at working with AI &middot; Kiils" />
   
-  <meta name="description" content="Fundamentally LLMs are all about relating text to text." />
+  <meta name="description" content="" />
   
   
   
@@ -77,7 +77,7 @@
   
   
  <meta property="og:title" content="Why Nushell is so BRILLIANT at working with AI" />
-<meta property="og:description" content="Fundamentally LLMs are all about relating text to text." />
+<meta property="og:description" content="" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.kiils.dk/en/blog/2024-07-24-why-nushell-is-so-brilliant-for-working-with-ai/" />
 
@@ -99,7 +99,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Why Nushell is so BRILLIANT at working with AI">
-  <meta name="twitter:description" content="Fundamentally LLMs are all about relating text to text.">
+  <meta name="twitter:description" content="AI and language">
 
   
   <script type="application/ld+json">
@@ -110,7 +110,7 @@
     "name": "Why Nushell is so BRILLIANT at working with AI",
     "headline": "Why Nushell is so BRILLIANT at working with AI",
     
-    "abstract": "Fundamentally LLMs are all about relating text to text.",
+    
     "inLanguage": "en",
     "url" : "https:\/\/www.kiils.dk\/en\/blog\/2024-07-24-why-nushell-is-so-brilliant-for-working-with-ai\/",
     "author" : {
@@ -146,9 +146,6 @@
   
   
   
-  
-
-
 
 
   
@@ -485,40 +482,40 @@
 <p>Nushell is the best way I have found to do this in a way that is both systematic and, once you have learned the basics of Nushell, easy and straight forward.</p>
 <p>Let us have a look at an example. We have this table in Nushell:</p>
 <table>
-<thead>
-<tr>
-<th>name</th>
-<th>age</th>
-<th>hobbies</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Alice</td>
-<td>30</td>
-<td>reading</td>
-</tr>
-<tr>
-<td>Bob</td>
-<td>25</td>
-<td>gaming</td>
-</tr>
-<tr>
-<td>Charlie</td>
-<td>35</td>
-<td>photography</td>
-</tr>
-<tr>
-<td>Diana</td>
-<td>28</td>
-<td>painting</td>
-</tr>
-<tr>
-<td>Ethan</td>
-<td>22</td>
-<td>writing</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">age</th>
+          <th style="text-align: left">hobbies</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Alice</td>
+          <td style="text-align: left">30</td>
+          <td style="text-align: left">reading</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Bob</td>
+          <td style="text-align: left">25</td>
+          <td style="text-align: left">gaming</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Charlie</td>
+          <td style="text-align: left">35</td>
+          <td style="text-align: left">photography</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Diana</td>
+          <td style="text-align: left">28</td>
+          <td style="text-align: left">painting</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ethan</td>
+          <td style="text-align: left">22</td>
+          <td style="text-align: left">writing</td>
+      </tr>
+  </tbody>
 </table>
 <p>We want to create a small fiction about each of these persons.</p>
 <p>In Nushell then simply do:</p>
@@ -663,67 +660,67 @@
 </code></pre>
 <p>Giving us this:</p>
 <table>
-<thead>
-<tr>
-<th>name</th>
-<th>age</th>
-<th>hobbies</th>
-<th>description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Alice</td>
-<td>30</td>
-<td>reading</td>
-<td>Reading is a captivating hobby that involves immersing oneself in written words, whether through books, articles, or poetry, to explore new ideas, cultures, and perspectives. It fosters imagination and critical thinking, allowing individuals to escape reality, learn, and grow. Moreover, reading can be a solitary pleasure or a shared experience, connecting people through discussions and book clubs, making it a versatile and enriching pastime.</td>
-</tr>
-<tr>
-<td>Bob</td>
-<td>25</td>
-<td>gaming</td>
-<td>Gaming is a popular hobby that involves playing video games across various platforms, including consoles, PCs, and mobile devices. It offers immersive experiences through interactive storytelling, competitive challenges, and social interaction with other players, whether locally or online. With a diverse range of genres—such as action, adventure, role-playing, and simulation—gaming appeals to people of all ages and backgrounds, fostering creativity, strategic thinking, and community engagement.</td>
-</tr>
-<tr>
-<td>Charlie</td>
-<td>35</td>
-<td>photography</td>
-<td>Photography is the art and practice of capturing light to create images, allowing individuals to express their creativity, document moments, and explore the world around them. With various styles ranging from landscapes and portraits to street photography and macro, it combines technical skills with artistic vision, enabling enthusiasts to convey stories and emotions through the lens. Whether using a professional camera or a smartphone, photography offers a rewarding way to observe and share the beauty in everyday life.</td>
-</tr>
-<tr>
-<td>Diana</td>
-<td>28</td>
-<td>painting</td>
-<td>Painting is a creative hobby that involves applying pigment to a surface, such as canvas, paper, or wood, to express emotions, ideas, or beauty. It allows individuals to explore their imagination and artistic skills, using various techniques and mediums like watercolors, acrylics, or oils. Whether for relaxation, personal expression, or social engagement, painting offers a fulfilling way to create visually captivating works and can be enjoyed by people of all ages and skill levels.</td>
-</tr>
-<tr>
-<td>Ethan</td>
-<td>22</td>
-<td>writing</td>
-<td>Writing is a creative hobby that involves expressing thoughts, ideas, and stories through written words. It can take many forms, including poetry, fiction, nonfiction, blogging, and journaling, allowing individuals to explore their imagination, share personal experiences, or convey information. Whether for personal enjoyment, therapeutic reasons, or the aspiration to publish, writing offers a fulfilling way to articulate one&rsquo;s voice and connect with others.</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">age</th>
+          <th style="text-align: left">hobbies</th>
+          <th style="text-align: left">description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Alice</td>
+          <td style="text-align: left">30</td>
+          <td style="text-align: left">reading</td>
+          <td style="text-align: left">Reading is a captivating hobby that involves immersing oneself in written words, whether through books, articles, or poetry, to explore new ideas, cultures, and perspectives. It fosters imagination and critical thinking, allowing individuals to escape reality, learn, and grow. Moreover, reading can be a solitary pleasure or a shared experience, connecting people through discussions and book clubs, making it a versatile and enriching pastime.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Bob</td>
+          <td style="text-align: left">25</td>
+          <td style="text-align: left">gaming</td>
+          <td style="text-align: left">Gaming is a popular hobby that involves playing video games across various platforms, including consoles, PCs, and mobile devices. It offers immersive experiences through interactive storytelling, competitive challenges, and social interaction with other players, whether locally or online. With a diverse range of genres—such as action, adventure, role-playing, and simulation—gaming appeals to people of all ages and backgrounds, fostering creativity, strategic thinking, and community engagement.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Charlie</td>
+          <td style="text-align: left">35</td>
+          <td style="text-align: left">photography</td>
+          <td style="text-align: left">Photography is the art and practice of capturing light to create images, allowing individuals to express their creativity, document moments, and explore the world around them. With various styles ranging from landscapes and portraits to street photography and macro, it combines technical skills with artistic vision, enabling enthusiasts to convey stories and emotions through the lens. Whether using a professional camera or a smartphone, photography offers a rewarding way to observe and share the beauty in everyday life.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Diana</td>
+          <td style="text-align: left">28</td>
+          <td style="text-align: left">painting</td>
+          <td style="text-align: left">Painting is a creative hobby that involves applying pigment to a surface, such as canvas, paper, or wood, to express emotions, ideas, or beauty. It allows individuals to explore their imagination and artistic skills, using various techniques and mediums like watercolors, acrylics, or oils. Whether for relaxation, personal expression, or social engagement, painting offers a fulfilling way to create visually captivating works and can be enjoyed by people of all ages and skill levels.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ethan</td>
+          <td style="text-align: left">22</td>
+          <td style="text-align: left">writing</td>
+          <td style="text-align: left">Writing is a creative hobby that involves expressing thoughts, ideas, and stories through written words. It can take many forms, including poetry, fiction, nonfiction, blogging, and journaling, allowing individuals to explore their imagination, share personal experiences, or convey information. Whether for personal enjoyment, therapeutic reasons, or the aspiration to publish, writing offers a fulfilling way to articulate one&rsquo;s voice and connect with others.</td>
+      </tr>
+  </tbody>
 </table>
 <p>In case we are only interested in the hobby descriptions, Nushell makes it very easy to select only that column like so:</p>
 <pre><code>$hobby | select description
 </code></pre>
 <table>
-<thead>
-<tr>
-<th>description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Reading is a captivating hobby that involves immersing oneself in written words, whether through books, articles, or poetry, to explore new ideas, cultures, and perspectives. It fosters imagination and critical thinking, allowing individuals to escape reality, learn, and grow. Moreover, reading can be a solitary pleasure or a shared experience, connecting people through discussions and book clubs, making it a versatile and enriching pastime.</td>
-</tr>
-<tr>
-<td>Gaming is a popular hobby that involves playing video games across various platforms, including consoles, PCs, and mobile devices. It offers immersive experiences through interactive storytelling, competitive challenges, and social interaction with other players, whether locally or online. With a diverse range of genres—such as action, adventure, role-playing, and simulation—gaming appeals to people of all ages and backgrounds, fostering creativity, strategic thinking, and community engagement.</td>
-</tr>
-<tr>
-<td>Photography is the art and practice of capturing light to create images, allowing individuals to express their creativity, document moments, and explore the world around them. With various styles ranging from landscapes and portraits to street photography and macro, it combines technical skills with artistic vision, enabling enthusiasts to convey stories and emotions through the lens. Whether using a professional camera or a smartphone, photography offers a rewarding way to observe and share the beauty in everyday life.</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Reading is a captivating hobby that involves immersing oneself in written words, whether through books, articles, or poetry, to explore new ideas, cultures, and perspectives. It fosters imagination and critical thinking, allowing individuals to escape reality, learn, and grow. Moreover, reading can be a solitary pleasure or a shared experience, connecting people through discussions and book clubs, making it a versatile and enriching pastime.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Gaming is a popular hobby that involves playing video games across various platforms, including consoles, PCs, and mobile devices. It offers immersive experiences through interactive storytelling, competitive challenges, and social interaction with other players, whether locally or online. With a diverse range of genres—such as action, adventure, role-playing, and simulation—gaming appeals to people of all ages and backgrounds, fostering creativity, strategic thinking, and community engagement.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Photography is the art and practice of capturing light to create images, allowing individuals to express their creativity, document moments, and explore the world around them. With various styles ranging from landscapes and portraits to street photography and macro, it combines technical skills with artistic vision, enabling enthusiasts to convey stories and emotions through the lens. Whether using a professional camera or a smartphone, photography offers a rewarding way to observe and share the beauty in everyday life.</td>
+      </tr>
+  </tbody>
 </table>
 <p>&hellip; and so on.</p>
 <p>I need to 🏊 now. But remember, I&rsquo;ve only just scratched the surface here.</p>
