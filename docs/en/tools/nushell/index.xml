@@ -17,14 +17,14 @@
       <description></description>
     </item>
     <item>
-      <title>Inspecting yaml frontmatter in markdown files with nushell</title>
+      <title>Inspecting yaml frontmatter in markdown files with Nushell</title>
       <link>https://www.kiils.dk/en/blog/2024-09-19-inspecting-yaml-frontmatter-in-markdown-files-with-nushell/</link>
       <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-09-19-inspecting-yaml-frontmatter-in-markdown-files-with-nushell/</guid>
       <description></description>
     </item>
     <item>
-      <title>Using nushell and polars on weather data from open-meteo to find windy days</title>
+      <title>Using Nushell and polars on weather data from open-meteo to find windy days</title>
       <link>https://www.kiils.dk/en/blog/2024-07-31-using-nushell-and-polars-on-weather-data-from-open-meteo/</link>
       <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-07-31-using-nushell-and-polars-on-weather-data-from-open-meteo/</guid>
@@ -38,49 +38,49 @@
       <description></description>
     </item>
     <item>
-      <title>Should I keep input and output separate when doing AI-assisted content generation in nushell</title>
+      <title>Should I keep input and output separate when doing AI-assisted content generation in Nushell</title>
       <link>https://www.kiils.dk/en/blog/2024-07-21-should-i-keep-input-and-output-separate-when-doing-ai-assisted-content-generation-in-nushell/</link>
       <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-07-21-should-i-keep-input-and-output-separate-when-doing-ai-assisted-content-generation-in-nushell/</guid>
       <description></description>
     </item>
     <item>
-      <title>Creating a listicle with nushell and aichat and publishing it on a drupal site</title>
+      <title>Creating a listicle with Nushell and aichat and publishing it on a drupal site</title>
       <link>https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/</link>
       <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/</guid>
       <description></description>
     </item>
     <item>
-      <title>Speeding up ai-assisted content generation with nushell par-each</title>
+      <title>Speeding up ai-assisted content generation with Nushell par-each</title>
       <link>https://www.kiils.dk/en/blog/2024-07-15-speeding-up-ai-assisted-content-generation-with-nushell-par-each/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-07-15-speeding-up-ai-assisted-content-generation-with-nushell-par-each/</guid>
       <description></description>
     </item>
     <item>
-      <title>Deleting lines with nushell</title>
+      <title>Deleting lines with Nushell</title>
       <link>https://www.kiils.dk/en/blog/2024-06-30-deleting-lines-with-nushell/</link>
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-06-30-deleting-lines-with-nushell/</guid>
       <description></description>
     </item>
     <item>
-      <title>Using this simple nushell command to make sense of my many nushell scripts</title>
+      <title>Using this simple Nushell command to make sense of my many Nushell scripts</title>
       <link>https://www.kiils.dk/en/blog/2024-06-24-using-nushell-to-make-sense-of-my-nushell-scripts/</link>
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-06-24-using-nushell-to-make-sense-of-my-nushell-scripts/</guid>
       <description></description>
     </item>
     <item>
-      <title>Using nushell in neovim</title>
+      <title>Using Nushell in neovim</title>
       <link>https://www.kiils.dk/en/blog/2024-06-22-using-nushell-in-neovim/</link>
       <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-06-22-using-nushell-in-neovim/</guid>
       <description></description>
     </item>
     <item>
-      <title>Working with tuc in nushell</title>
+      <title>Working with tuc in Nushell</title>
       <link>https://www.kiils.dk/en/blog/2024-06-11-working-with-tuc-in-nushell/</link>
       <pubDate>Tue, 11 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-06-11-working-with-tuc-in-nushell/</guid>
@@ -94,7 +94,7 @@
       <description></description>
     </item>
     <item>
-      <title>Get items from rss feed with nushell 🐘</title>
+      <title>Get items from rss feed with Nushell 🐘</title>
       <link>https://www.kiils.dk/en/blog/2024-06-03-get-items-from-rss-feed-with-nushell/</link>
       <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2024-06-03-get-items-from-rss-feed-with-nushell/</guid>

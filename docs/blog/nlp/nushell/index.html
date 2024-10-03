@@ -423,7 +423,7 @@
 <p>Jeg har en tekst i filen <code>livsfarlige-konspirationsteorier.da.md</code>.</p>
 <p>Antal linjer, ord og anslag i den tekst kan jeg få sådan her:</p>
 <pre tabindex="0"><code>open livsfarlige-konspirationsteorier.da.md | size
-</code></pre><p>så giver nushell svaret</p>
+</code></pre><p>så giver Nushell svaret</p>
 <pre tabindex="0"><code>╭───────────┬──────╮
 │ lines     │ 51   │
 │ words     │ 616  │
@@ -532,7 +532,7 @@
 ...
 </code></pre><p>Den tabel skal nu have fjernet alle ord som også findes i tabellen over stopord.</p>
 <p>Det kaldes teknisk set en &ldquo;antijoin&rdquo;</p>
-<p>Desværre kan Nushell endnu ikke lave en rigtig antijoin på tabeller (men det kan den på dataframes og det vender jeg tilbage til i næste artikel om nushell).</p>
+<p>Desværre kan Nushell endnu ikke lave en rigtig antijoin på tabeller (men det kan den på dataframes og det vender jeg tilbage til i næste artikel om Nushell).</p>
 <p>Så i stedet gør vi sådan her:</p>
 <pre tabindex="0"><code>open livsfarlige-konspirationsteorier.da.md | split words | wrap ord | where ord in $stopwords.stopord == false
 </code></pre><p>og det giver så</p>

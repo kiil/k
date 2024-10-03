@@ -486,7 +486,7 @@ And I try to use AI to assist me.</p>
 │ 1 │ url     │
 │ 2 │ content │
 ╰───┴─────────╯
-</code></pre><p>In nushell this corresponds to a record with 3 keys:</p>
+</code></pre><p>In Nushell this corresponds to a record with 3 keys:</p>
 <pre tabindex="0"><code>record&lt;title: string, url: string, content: string&gt;
 </code></pre><p>With some content this could look like so:</p>
 <pre tabindex="0"><code>╭─────────┬────────────────────────────────────────────────╮
@@ -498,7 +498,7 @@ And I try to use AI to assist me.</p>
 │         │ sweet dreams tonight or some nightmares and we │
 │         │  decided maybe a little bit of both uh we have │
 │         │  a lot to discuss what the future looks like   │
-</code></pre><p>With nushell I can easily convert this to <code>json</code></p>
+</code></pre><p>With Nushell I can easily convert this to <code>json</code></p>
 <p><code>$record | to json</code></p>
 <pre tabindex="0"><code>{
     &#34;title&#34;: &#34;About 50% Of Jobs Will Be Displaced By AI Within 3 Years - YouTube&#34;,
@@ -532,7 +532,7 @@ content: hu and I have been talking backstage and we were deciding should we giv
 │   │                                                                    │                                             │ ere/lennart-kiil &#34;Vis brugerprofil.&#34;)_    │
 │   │                                                                    │                                             │ _—                                        │
 │   │                                                                    │                                             │ Onsdag den 28. feb 2024, 09:17_           │
-</code></pre><p>When nushell is given a list of records it turns them into a table as seen above.</p>
+</code></pre><p>When Nushell is given a list of records it turns them into a table as seen above.</p>
 <p>I could also save the table as a new variable like so:</p>
 <p><code>let research = $record | append $secondrecord</code></p>
 <p>Then when my tuc-table includes all the research I need, often between 5 and 25 records, I can feed the tuc as JSON to an LLM to analyze it or to give it some other form.</p>
@@ -678,7 +678,7 @@ content: hu and I have been talking backstage and we were deciding should we giv
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Get items from rss feed with nushell 🐘</span
+                  >Get items from rss feed with Nushell 🐘</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
@@ -695,7 +695,7 @@ content: hu and I have been talking backstage and we were deciding should we giv
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Working with tuc in nushell</span
+                  >Working with tuc in Nushell</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
