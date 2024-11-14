@@ -9,6 +9,8 @@
     
   
     
+  
+    
       <url>
             <loc>https://www.kiils.dk/en/blog/</loc>
             <lastmod>2024-11-14T00:00:00+00:00</lastmod>
@@ -22,6 +24,19 @@
               hreflang="en"
               href="https://www.kiils.dk/en/blog/"
               />
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/blog/2024-11-14-using-rag-when-writing-job-applications/</loc>
+            <lastmod>2024-11-14T00:00:00+00:00</lastmod>
           </url>
     
   
@@ -54,8 +69,6 @@
     
   
     
-  
-    
       <url>
             <loc>https://www.kiils.dk/en/blog/2024-09-19-inspecting-yaml-frontmatter-in-markdown-files-with-nushell/</loc>
             <lastmod>2024-09-19T00:00:00+00:00</lastmod>
@@ -69,8 +82,6 @@
             <loc>https://www.kiils.dk/en/blog/2024-07-31-using-nushell-and-polars-on-weather-data-from-open-meteo/</loc>
             <lastmod>2024-07-31T00:00:00+00:00</lastmod>
           </url>
-    
-  
     
   
     
@@ -207,8 +218,6 @@
               href="https://www.kiils.dk/en/blog/using-nushell-with-generative-artificial-intelligence/"
               />
           </url>
-    
-  
     
   
     

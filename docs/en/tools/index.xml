@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
-    <lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/en/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aichat</title>
+      <link>https://www.kiils.dk/en/tools/aichat/</link>
+      <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/tools/aichat/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Nushell</title>
       <link>https://www.kiils.dk/en/tools/nushell/</link>
@@ -28,13 +35,6 @@
       <link>https://www.kiils.dk/en/tools/markdown/</link>
       <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/tools/markdown/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Aichat</title>
-      <link>https://www.kiils.dk/en/tools/aichat/</link>
-      <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/en/tools/aichat/</guid>
       <description></description>
     </item>
     <item>
