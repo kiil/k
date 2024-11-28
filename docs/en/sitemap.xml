@@ -304,7 +304,25 @@
   
     
       <url>
+            <loc>https://www.kiils.dk/en/clients/aarhus-universitet/</loc>
+          </url>
+    
+  
+    
+      <url>
             <loc>https://www.kiils.dk/en/resource/personas/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/clients/berlingske/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/clients/billetkontoret/</loc>
           </url>
     
   
@@ -314,7 +332,25 @@
   
     
       <url>
+            <loc>https://www.kiils.dk/en/clients/chuboe/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/clients/</loc>
+          </url>
+    
+  
+    
+      <url>
             <loc>https://www.kiils.dk/en/domain/climate-encyclopedia/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/clients/dansk-industri/</loc>
           </url>
     
   
@@ -352,6 +388,30 @@
   
     
       <url>
+            <loc>https://www.kiils.dk/en/clients/gentofte-hospital/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/clients/hideaways/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/clients/illustreret-videnskab/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/clients/ingeni%C3%B8ren/</loc>
+          </url>
+    
+  
+    
+      <url>
             <loc>https://www.kiils.dk/en/person/lennart/</loc>
             <xhtml:link
               rel="alternate"
@@ -367,7 +427,43 @@
     
   
     
+      <url>
+            <loc>https://www.kiils.dk/en/clients/per-asmussen/</loc>
+          </url>
+    
   
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/clients/videnplus/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/clients/region-syddanmark/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/clients/rigshospitalet/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/clients/statens-naturhistoriske-museum/</loc>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/clients/ugeskrift-for-l%C3%A6ger/</loc>
+          </url>
     
   
 </urlset>

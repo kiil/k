@@ -192,6 +192,13 @@
       <description>Servicebot has my highest recommendation</description>
     </item>
     <item>
+      <title>Aarhus Universitet</title>
+      <link>https://www.kiils.dk/en/clients/aarhus-universitet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/clients/aarhus-universitet/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Awesome ChatGPT Personas</title>
       <link>https://www.kiils.dk/en/resource/personas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -199,10 +206,38 @@
       <description></description>
     </item>
     <item>
+      <title>Berlingske</title>
+      <link>https://www.kiils.dk/en/clients/berlingske/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/clients/berlingske/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Billetkontoret A/S</title>
+      <link>https://www.kiils.dk/en/clients/billetkontoret/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/clients/billetkontoret/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chuboe</title>
+      <link>https://www.kiils.dk/en/clients/chuboe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/clients/chuboe/</guid>
+      <description>Chuboe ERP</description>
+    </item>
+    <item>
       <title>Climate Encyclopedia</title>
       <link>https://www.kiils.dk/en/domain/climate-encyclopedia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/domain/climate-encyclopedia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dansk Industri</title>
+      <link>https://www.kiils.dk/en/clients/dansk-industri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/clients/dansk-industri/</guid>
       <description></description>
     </item>
     <item>
@@ -213,10 +248,80 @@
       <description></description>
     </item>
     <item>
+      <title>Gentofte Hospital</title>
+      <link>https://www.kiils.dk/en/clients/gentofte-hospital/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/clients/gentofte-hospital/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hideaways</title>
+      <link>https://www.kiils.dk/en/clients/hideaways/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/clients/hideaways/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Illustreret Videnskab</title>
+      <link>https://www.kiils.dk/en/clients/illustreret-videnskab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/clients/illustreret-videnskab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ingeniøren</title>
+      <link>https://www.kiils.dk/en/clients/ingeni%C3%B8ren/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/clients/ingeni%C3%B8ren/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Lennart Kiil</title>
       <link>https://www.kiils.dk/en/person/lennart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/person/lennart/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Per Asmussen</title>
+      <link>https://www.kiils.dk/en/clients/per-asmussen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/clients/per-asmussen/</guid>
+      <description>Jeg giver Kiils mine varmeste anbefalinger</description>
+    </item>
+    <item>
+      <title>PRO Ejendomme</title>
+      <link>https://www.kiils.dk/en/clients/videnplus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/clients/videnplus/</guid>
+      <description>VidenPlus udgiver magasinet PRO Ejendomme</description>
+    </item>
+    <item>
+      <title>Region Syddanmark</title>
+      <link>https://www.kiils.dk/en/clients/region-syddanmark/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/clients/region-syddanmark/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rigshospitalet</title>
+      <link>https://www.kiils.dk/en/clients/rigshospitalet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/clients/rigshospitalet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Statens naturhistoriske museum</title>
+      <link>https://www.kiils.dk/en/clients/statens-naturhistoriske-museum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/clients/statens-naturhistoriske-museum/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ugeskrift for læger</title>
+      <link>https://www.kiils.dk/en/clients/ugeskrift-for-l%C3%A6ger/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/clients/ugeskrift-for-l%C3%A6ger/</guid>
       <description></description>
     </item>
   </channel>
