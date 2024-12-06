@@ -22,7 +22,7 @@
   <title>Nushell &middot; Kiils</title>
     <meta name="title" content="Nushell &middot; Kiils" />
   
-  <meta name="description" content="Forstå Nushell og de relaterede produkter fra OpenAI" />
+  <meta name="description" content="Installer og brug Nushell" />
   
   
   
@@ -78,7 +78,7 @@
   
   
  <meta property="og:title" content="Nushell" />
-<meta property="og:description" content="Forstå Nushell og de relaterede produkter fra OpenAI" />
+<meta property="og:description" content="Installer og brug Nushell" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.kiils.dk/tools/nushell/" />
 
@@ -98,7 +98,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Nushell">
-  <meta name="twitter:description" content="Forstå Nushell og de relaterede produkter fra OpenAI">
+  <meta name="twitter:description" content="Installer og brug Nushell">
 
   
   
@@ -438,30 +438,31 @@
         <h2 id="sådan-installerer-du-nushell" class="relative group">Sådan installerer du Nushell <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#s%c3%a5dan-installerer-du-nushell" aria-label="Anchor">#</a></span></h2>
 <p>Du skal have et basalt kendskab til brug af kommandolinjen på din computer.</p>
 <p>Følgende skulle fungere på MacOS og Linux. På Windows er det muligvis nødvendigt med mindre modifikationer.</p>
-<p>Vi skal bruge rust for at kunne installere aichat</p>
+<p>Vi skal bruge rust for at kunne installere Nushell</p>
 <pre><code>curl https://sh.rustup.rs -sSf | sh
 </code></pre>
-<p>Nu kan vi installere <code>aichat</code></p>
-<pre><code>cargo install aichat
+<p>Nu kan vi installere <code>nushell</code></p>
+<pre><code>cargo install nushell
 </code></pre>
-<p>Sørg for at <code>aichat</code> er i din sti.</p>
-<p>Du skulle nu kunne bruge aichat fra kommandolinjen.</p>
+<p>Sørg for at <code>nushell</code> er i din sti.</p>
+<p>Du skulle nu kunne bruge Nushell fra kommandolinjen.</p>
 <h2 id="sådan-konfigurerer-du-nushell" class="relative group">Sådan konfigurerer du Nushell <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#s%c3%a5dan-konfigurerer-du-nushell" aria-label="Anchor">#</a></span></h2>
 <p>Første gang du bruger Nushell spørger den efter indstillinger.</p>
-<p>Du kan altid ændre opsætningen i filen <code>config.yaml</code>.</p>
-<p>På Linux findes den fil i følgende folder</p>
-<pre><code>~/.config/aichat
+<p>Du kan altid ændre opsætningen i filerne <code>config.nu</code> og <code>env.nu</code>.</p>
+<p>På Linux findes de filer i følgende folder</p>
+<pre><code>~/.config/nushell
 </code></pre>
 <h2 id="sådan-bruger-du-nushell" class="relative group">Sådan bruger du Nushell <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#s%c3%a5dan-bruger-du-nushell" aria-label="Anchor">#</a></span></h2>
-<p>Nushell bruges fra kommandolinjen</p>
-<pre><code>aichat
+<p>Nushell bruges i din terminal, tast</p>
+<pre><code>nu
 </code></pre>
+<p>og du bruger nu Nushell som REPL.</p>
 <h2 id="mere-om-nushell" class="relative group">Mere om Nushell <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#mere-om-nushell" aria-label="Anchor">#</a></span></h2>
 <p><a
-  href="https://github.com/sigoden/aichat"
+  href="https://www.nushell.sh/"
   
   target="_blank" rel="noreferrer noopener"
->sigoden/aichat: All-in-one CLI tool for 10+ AI platforms, including OpenAI(ChatGPT), Gemini, Claude, Mistral, LocalAI, Ollama, VertexAI, Ernie, Qianwen&hellip;</a></p>
+>Nushell</a></p>
 
       </section>
     

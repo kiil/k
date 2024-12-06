@@ -22,7 +22,7 @@
   <title>Nushell &middot; Kiils</title>
     <meta name="title" content="Nushell &middot; Kiils" />
   
-  <meta name="description" content="AI and language" />
+  <meta name="description" content="Install and use Nushell" />
   
   
   
@@ -78,7 +78,7 @@
   
   
  <meta property="og:title" content="Nushell" />
-<meta property="og:description" content="AI and language" />
+<meta property="og:description" content="Install and use Nushell" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.kiils.dk/en/tools/nushell/" />
 
@@ -98,7 +98,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Nushell">
-  <meta name="twitter:description" content="AI and language">
+  <meta name="twitter:description" content="Install and use Nushell">
 
   
   
@@ -497,6 +497,38 @@
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Nushell</h1>
   </header>
   <div class="flex flex-col max-w-full mt-0 lg:flex-row">
+    
+      <section class="order-first px-0 py-3 max-w-prose prose dark:prose-invert">
+        <h2 id="how-to-install-nushell" class="relative group">How to install Nushell <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how-to-install-nushell" aria-label="Anchor">#</a></span></h2>
+<p>You must have a basic knowledge of using the command line on your computer.</p>
+<p>The following should work on MacOS and Linux. On Windows, minor modifications may be necessary.</p>
+<p>We need rust to be able to install Nushell</p>
+<pre><code>curl https://sh.rustup.rs -sSf | sh
+</code></pre>
+<p>Now we can install Nushell</p>
+<pre><code>cargo install nushell
+</code></pre>
+<p>Make sure <code>nushell</code> is in your path.</p>
+<p>You should now be able to use Nushell from the command line.</p>
+<h2 id="how-to-configure-nushell" class="relative group">How to configure Nushell <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how-to-configure-nushell" aria-label="Anchor">#</a></span></h2>
+<p>The first time you use Nushell it asks for settings.</p>
+<p>You can always change the configuration in the files <code>config.nu</code> and <code>env.nu</code>.</p>
+<p>On Linux, the files are located in the following folder</p>
+<pre><code>~/.config/nushell
+</code></pre>
+<h2 id="how-to-use-nushell" class="relative group">How to use Nushell <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how-to-use-nushell" aria-label="Anchor">#</a></span></h2>
+<p>Nushell is used in your terminal, key</p>
+<pre><code>not
+</code></pre>
+<p>and you are now using Nushell as the REPL.</p>
+<h2 id="more-about-nushell" class="relative group">More about Nushell <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#more-about-nushell" aria-label="Anchor">#</a></span></h2>
+<p><a
+  href="https://www.nushell.sh/"
+  
+  target="_blank" rel="noreferrer noopener"
+>Nushell</a></p>
+
+      </section>
     
     <section class="min-w-0 min-h-0 lg:ps-8">
       
@@ -1533,6 +1565,38 @@
                         <li>
                         <a href="/en/domain/folkets/" title="Folkets.dk">
                             <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">Folkets.dk</span>
+                        </a>
+                        </li>
+                      </ul>
+                    
+            
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+            
+          </li>
+        
+          <li class="mb-2 ltr:text-right rtl:text-left sm:mb-0 sm:me-7 sm:last:me-0">
+            
+             
+                    <a href="" title="">
+                        <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">Resurser</span>
+                    </a>
+
+
+                    
+                        <ul>
+                        <li>
+                        <a href="/en/tools/" title="Tools">
+                            <span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">🧰 Tools</span>
                         </a>
                         </li>
                       </ul>
