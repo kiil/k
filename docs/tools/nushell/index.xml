@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/tools/nushell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Planlægning med Nushell, AI og khal</title>
+      <link>https://www.kiils.dk/blog/storskrald/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/blog/storskrald/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Sådan skrev jeg 20 artikler om de 20 største byrområder i Danmark på 20 sekunder</title>
       <link>https://www.kiils.dk/blog/sadan-skrev-jeg-20-artikler-om-de-20-storste-byromrader-i-danmark-pa-20-sekunder/</link>

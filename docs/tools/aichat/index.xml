@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Tue, 09 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/tools/aichat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Planlægning med Nushell, AI og khal</title>
+      <link>https://www.kiils.dk/blog/storskrald/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/blog/storskrald/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Så let kører du DanskGPT på din laptop</title>
       <link>https://www.kiils.dk/blog/sa-let-korer-du-danskgpt-pa-din-laptop/</link>

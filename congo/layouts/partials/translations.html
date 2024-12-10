@@ -9,7 +9,7 @@
 {{ with page }}
   {{ if .IsTranslated }}
     {{ $currentLang := .Page.Lang }}
-    {{ if site.IsMultiLingual }}
+    {{ if hugo.IsMultilingual }}
       <div class="relative group">
         <button
           class="flex items-center justify-end w-full transition-colors group-dark:hover:text-primary-400 group-hover:text-primary-600"
