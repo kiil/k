@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Thu, 30 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/tools/llm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Giver det mening at lade en kunstig intelligens give udtryk for sine holdninger 🤔</title>
+      <link>https://www.kiils.dk/blog/2024-12-18-giver-det-mening-at-lade-ai-give-udtryk-for-sine-holdninger/</link>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/blog/2024-12-18-giver-det-mening-at-lade-ai-give-udtryk-for-sine-holdninger/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Nu er det let at køre en LLM på din egen computer</title>
       <link>https://www.kiils.dk/blog/nu-er-det-let-at-kore-en-llm-pa-din-egen-computer/</link>
