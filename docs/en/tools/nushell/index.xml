@@ -10,7 +10,7 @@
     <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/en/tools/nushell/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Use Nushell&#39;s `format pattern` to create dynamic LLM prompts</title>
+      <title>Use `format pattern` in Nushell to create dynamic LLM prompts</title>
       <link>https://www.kiils.dk/en/blog/2025-01-01-use-nushells-format-pattern-to-create-dynamic-llm-prompts/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/blog/2025-01-01-use-nushells-format-pattern-to-create-dynamic-llm-prompts/</guid>
