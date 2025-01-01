@@ -93,7 +93,7 @@
     
       <url>
             <loc>https://www.kiils.dk/blog/</loc>
-            <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+            <lastmod>2025-01-01T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -108,12 +108,12 @@
     
   
     
-  
-    
       <url>
-            <loc>https://www.kiils.dk/blog/2024-12-18-giver-det-mening-at-lade-ai-give-udtryk-for-sine-holdninger/</loc>
-            <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+            <loc>https://www.kiils.dk/blog/2025-01-01-brug-nushells-format-pattern-til-at-skabe-dynamiske-llm-prompts/</loc>
+            <lastmod>2025-01-01T00:00:00+00:00</lastmod>
           </url>
+    
+  
     
   
     
@@ -125,7 +125,7 @@
     
       <url>
             <loc>https://www.kiils.dk/</loc>
-            <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+            <lastmod>2025-01-01T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -136,6 +136,13 @@
               hreflang="da"
               href="https://www.kiils.dk/"
               />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/blog/2024-12-18-giver-det-mening-at-lade-ai-give-udtryk-for-sine-holdninger/</loc>
+            <lastmod>2024-12-18T00:00:00+00:00</lastmod>
           </url>
     
   

@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>da</language>
     <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nushell</title>
+      <link>https://www.kiils.dk/tools/nushell/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/tools/nushell/</guid>
+      <description></description>
+    </item>
     <item>
       <title>LLM</title>
       <link>https://www.kiils.dk/tools/llm/</link>
@@ -28,13 +35,6 @@
       <link>https://www.kiils.dk/tools/khal/</link>
       <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/tools/khal/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nushell</title>
-      <link>https://www.kiils.dk/tools/nushell/</link>
-      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/tools/nushell/</guid>
       <description></description>
     </item>
     <item>

@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
-    <lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/en/tools/nushell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use Nushell&#39;s `format pattern` to create dynamic LLM prompts</title>
+      <link>https://www.kiils.dk/en/blog/2025-01-01-use-nushells-format-pattern-to-create-dynamic-llm-prompts/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/blog/2025-01-01-use-nushells-format-pattern-to-create-dynamic-llm-prompts/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Analysing the entire Holy Bible in less than a second</title>
       <link>https://www.kiils.dk/en/blog/2024-10-03-analysing-the-holy-bible-with-nushell-in-under-a-second/</link>

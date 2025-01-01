@@ -10,15 +10,8 @@
   
     
       <url>
-            <loc>https://www.kiils.dk/en/blog/2024-12-12-i-asked-openais-latest-and-greatest-model-to-analyze-mangiones-manifesto-here-is-the-result/</loc>
-            <lastmod>2024-12-12T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://www.kiils.dk/en/blog/</loc>
-            <lastmod>2024-12-12T00:00:00+00:00</lastmod>
+            <lastmod>2025-01-01T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="da"
@@ -33,9 +26,24 @@
     
   
     
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/blog/2025-01-01-use-nushells-format-pattern-to-create-dynamic-llm-prompts/</loc>
+            <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
       <url>
             <loc>https://www.kiils.dk/en/</loc>
-            <lastmod>2024-12-12T00:00:00+00:00</lastmod>
+            <lastmod>2025-01-01T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="da"
@@ -50,7 +58,10 @@
     
   
     
-  
+      <url>
+            <loc>https://www.kiils.dk/en/blog/2024-12-12-i-asked-openais-latest-and-greatest-model-to-analyze-mangiones-manifesto-here-is-the-result/</loc>
+            <lastmod>2024-12-12T00:00:00+00:00</lastmod>
+          </url>
     
   
     
@@ -69,8 +80,6 @@
             <loc>https://www.kiils.dk/en/blog/2024-10-03-analysing-the-holy-bible-with-nushell-in-under-a-second/</loc>
             <lastmod>2024-10-03T00:00:00+00:00</lastmod>
           </url>
-    
-  
     
   
     
@@ -282,8 +291,6 @@
             <loc>https://www.kiils.dk/en/blog/chatgpt-glorified-markov-chain/</loc>
             <lastmod>2023-01-12T00:00:00+00:00</lastmod>
           </url>
-    
-  
     
   
     
