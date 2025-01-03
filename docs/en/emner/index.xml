@@ -7,15 +7,8 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/en/emner/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Kunstig Intelligens</title>
-      <link>https://www.kiils.dk/en/emner/kunstig-intelligens/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/en/emner/kunstig-intelligens/</guid>
-      <description></description>
-    </item>
     <item>
       <title>RAG</title>
       <link>https://www.kiils.dk/en/emner/rag/</link>
@@ -35,6 +28,13 @@
       <link>https://www.kiils.dk/en/emner/artificial-intelligence/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/emner/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kunstig Intelligens</title>
+      <link>https://www.kiils.dk/en/emner/kunstig-intelligens/</link>
+      <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/emner/kunstig-intelligens/</guid>
       <description></description>
     </item>
     <item>
