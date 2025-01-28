@@ -125,7 +125,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "187"
+    "wordCount": "394"
   }]
   </script>
 
@@ -424,7 +424,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2024-06-22 00:00:00 &#43;0000 UTC">22 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>187 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+      <time datetime="2024-06-22 00:00:00 &#43;0000 UTC">22 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>394 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
     
 
     
@@ -492,6 +492,61 @@
   
   target="_blank" rel="noreferrer noopener"
 >integrations/nvim/init.lua at main · Nushell/integrations</a></p>
+<p>Xavier <a
+  href="https://xav.ie/"
+  
+  target="_blank" rel="noreferrer noopener"
+>xav.ie</a> was so helpful as to provide some further details for people using some other (posix) shells in addition to Nushell.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl">  <span class="c1">-- better nu support in nvim</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">-- https://www.kiils.dk/en/blog/2024-06-22-using-nushell-in-neovim/</span>
+</span></span><span class="line"><span class="cl">  <span class="kd">local</span> <span class="n">posix_shell_options</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">shellcmdflag</span> <span class="o">=</span> <span class="s2">&#34;-c&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">shellpipe</span> <span class="o">=</span> <span class="s2">&#34;2&gt;&amp;1 | tee&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">shellquote</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">shellredir</span> <span class="o">=</span> <span class="s2">&#34;&gt;%s 2&gt;&amp;1&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">shelltemp</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">shellxescape</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">shellxquote</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="kd">local</span> <span class="n">nu_shell_options</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">shellcmdflag</span> <span class="o">=</span> <span class="s2">&#34;--login --stdin --no-newline -c&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">shellpipe</span> <span class="o">=</span> <span class="s2">&#34;| complete | update stderr { ansi strip } | tee { get stderr | save --force --raw %s } | into record&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">shellquote</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">shellredir</span> <span class="o">=</span> <span class="s2">&#34;out+err&gt; %s&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">shelltemp</span> <span class="o">=</span> <span class="kc">false</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">shellxescape</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">shellxquote</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="kd">local</span> <span class="kr">function</span> <span class="nf">set_options</span><span class="p">(</span><span class="n">options</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="kr">in</span> <span class="n">pairs</span><span class="p">(</span><span class="n">options</span><span class="p">)</span> <span class="kr">do</span>
+</span></span><span class="line"><span class="cl">      <span class="n">vim.opt</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">end</span>
+</span></span><span class="line"><span class="cl">  <span class="kr">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="kd">local</span> <span class="kr">function</span> <span class="nf">apply_shell_options</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">-- check if the shell ends with &#34;nu&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">if</span> <span class="n">vim.opt</span><span class="p">.</span><span class="n">shell</span><span class="p">:</span><span class="n">get</span><span class="p">():</span><span class="n">match</span><span class="p">(</span><span class="s2">&#34;nu$&#34;</span><span class="p">)</span> <span class="o">~=</span> <span class="kc">nil</span> <span class="kr">then</span>
+</span></span><span class="line"><span class="cl">      <span class="n">set_options</span><span class="p">(</span><span class="n">nu_shell_options</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">else</span>
+</span></span><span class="line"><span class="cl">      <span class="n">set_options</span><span class="p">(</span><span class="n">posix_shell_options</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">end</span>
+</span></span><span class="line"><span class="cl">  <span class="kr">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">apply_shell_options</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1">-- listen for changes to the shell option</span>
+</span></span><span class="line"><span class="cl">  <span class="n">vim.api</span><span class="p">.</span><span class="n">nvim_create_autocmd</span><span class="p">(</span><span class="s2">&#34;OptionSet&#34;</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">pattern</span> <span class="o">=</span> <span class="s2">&#34;shell&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">callback</span> <span class="o">=</span> <span class="kr">function</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">      <span class="n">apply_shell_options</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">end</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="p">})</span>
+</span></span></code></pre></div><blockquote>
+<p>As you can see, it just makes it so it only applies <code>nu</code> options if your shell is already <code>nu</code> (mine inherits from <code>$env.SHELL</code>). If your shell is not <code>nu</code>, then it uses the posix shell options (the defaults).</p>
+</blockquote>
+<p>Thanks, Xavier!</p>
 <p>PS. I added the <code>--login</code> flag to get acces to my custom commands. They are very useful for me in nvim since I use it mainly to generate journalistic content. Especially my custom commands concerning aichat and &ldquo;tucs&rdquo;.</p>
 <p>To read more about tuc and generative ai, see this blog posting:</p>
 <p><a
@@ -680,6 +735,17 @@
     </footer>
   </article>
 
+        
+          <div class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12">
+            <a
+              href="#the-top"
+              class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+              aria-label="Scroll to top"
+              title="Scroll to top"
+            >
+              &uarr;
+            </a>
+          </div>
         
       </main><footer class="py-10 print:hidden">
   
