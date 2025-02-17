@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/en/tools/nushell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Send email from the command line with Nushell and Himalaya</title>
+      <link>https://www.kiils.dk/en/blog/2025-02-06-send-mail-from-the-command-line-with-nushell-and-himalaya/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/blog/2025-02-06-send-mail-from-the-command-line-with-nushell-and-himalaya/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Use `format pattern` in Nushell to create dynamic LLM prompts</title>
       <link>https://www.kiils.dk/en/blog/2025-01-01-use-nushells-format-pattern-to-create-dynamic-llm-prompts/</link>

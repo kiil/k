@@ -7,20 +7,27 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kiils.dk/en/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>LLM</title>
-      <link>https://www.kiils.dk/en/tools/llm/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.kiils.dk/en/tools/llm/</guid>
+      <title>Himalaya</title>
+      <link>https://www.kiils.dk/en/tools/himalaya/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/tools/himalaya/</guid>
       <description></description>
     </item>
     <item>
       <title>Nushell</title>
       <link>https://www.kiils.dk/en/tools/nushell/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://www.kiils.dk/en/tools/nushell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>https://www.kiils.dk/en/tools/llm/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.kiils.dk/en/tools/llm/</guid>
       <description></description>
     </item>
     <item>
