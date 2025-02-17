@@ -12,17 +12,17 @@
       {{ .Content | emojify }}
     </section>
 
-    {{ $data := dict }}
-    {{ $url := "https://raw.githubusercontent.com/kiil/awesome-chatgpt-personas/main/personas.csv" }}
-    {{ with resources.GetRemote $url }}
-    {{ with .Err }}
+{{ $data := dict }}
+{{ $url := "https://raw.githubusercontent.com/kiil/awesome-chatgpt-personas/main/personas.csv" }}
+{{ with try (resources.GetRemote $url) }}
+  {{ with .Err }}
     {{ errorf "%s" . }}
-    {{ else }}
+  {{ else with .Value }}
     {{ $data = . | transform.Unmarshal }}
-    {{ end }}
-    {{ else }}
+  {{ else }}
     {{ errorf "Unable to get remote resource %q" $url }}
-    {{ end }}
+  {{ end }}
+{{ end }}
 
     <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
         <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
