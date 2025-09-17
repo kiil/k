@@ -11,7 +11,7 @@
     
       <url>
             <loc>https://www.kiils.dk/en/blog/</loc>
-            <lastmod>2025-02-06T00:00:00+00:00</lastmod>
+            <lastmod>2025-05-12T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="da"
@@ -21,6 +21,23 @@
               rel="alternate"
               hreflang="en"
               href="https://www.kiils.dk/en/blog/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.kiils.dk/en/</loc>
+            <lastmod>2025-05-12T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="da"
+              href="https://www.kiils.dk/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://www.kiils.dk/en/"
               />
           </url>
     
@@ -36,23 +53,6 @@
           </url>
     
   
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/</loc>
-            <lastmod>2025-02-06T00:00:00+00:00</lastmod>
-            <xhtml:link
-              rel="alternate"
-              hreflang="da"
-              href="https://www.kiils.dk/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://www.kiils.dk/en/"
-              />
-          </url>
     
   
     

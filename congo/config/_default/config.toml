@@ -8,7 +8,7 @@ baseURL = "https://www.kiils.dk/"
 publishDir = '../docs'
 defaultContentLanguage = "da"
 enableRobotsTXT = true
-paginate = 128
+# paginate = 128
 summaryLength = 0
 
 [languages]

@@ -1,0 +1,57 @@
+{{ $data := dict }}
+{{ $url := .Get "url" }}
+{{ with try (resources.GetRemote $url) }}
+  {{ with .Err }}
+    {{ errorf "%s" . }}
+  {{ else with .Value }}
+    {{ $data = . | transform.Unmarshal }}
+  {{ else }}
+    {{ errorf "Unable to get remote resource %q" $url }}
+  {{ end }}
+{{ end }}
+
+<section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+<div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
+<div class="toc py-6 print:hidden lg:sticky lg:top-10">
+{{ range $i, $r := $data }}
+ {{ if ne $i 0 }}
+ <li class="data-heading"><a href="#{{ index $r 0 | lower }}">{{ index $r 0 }}</a></li>
+ {{ end }}
+{{ end }}
+</div>
+</div>
+
+<div class="min-w-0 min-h-0 max-w-prose grow">
+{{ range $i, $r := $data }}
+ {{ if ne $i 0 }}
+<h2 class="data-heading">{{ index $r 0 }}</h2>
+<p class="data-paragraph">{{ index $r 1 }}</p>
+ {{ end }}
+{{ end }}
+</div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+<script>anchors.add();</script>
+<script>
+  document.querySelectorAll("p.data-paragraph").forEach((x) => {
+    x.setAttribute('contentEditable', true);
+    const button = document.createElement('button');
+    button.style.border = '0';
+    button.style.borderRadius = '3px';
+    button.style.fontSize = '1rem';
+    button.style.marginRight = '0.5rem';
+    button.style.padding = '0';
+    button.style.backgroundColor = 'transparent';
+    button.innerHTML = '✂️';
+    button.addEventListener('click', async () => {
+      if (navigator.clipboard) {
+        await navigator.clipboard.writeText(x.innerText);
+        alert('Prompt kopieret, nu kan du kopiere den over i chatGPT.');
+      } else {
+        alert('Your browser does not support clipboard copy. Please select the prompt and copy.')
+      }
+    }, false);
+    x.previousElementSibling.prepend(button);
+  });
+</script>
