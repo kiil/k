@@ -43,8 +43,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.e33c506e13d66c3acb8ac88fc5f1392595e8d96ec83aa786abe3ffcddba22b30.css"
-    integrity="sha256-4zxQbhPWbDrLisiPxfE5JZXo2W7IOqeGq&#43;P/zduiKzA="
+    href="/css/main.bundle.min.a3f8180caa912f4ed88104b3e3113e19b69d622d4c1ac4df7271ee3b82bee46a.css"
+    integrity="sha256-o/gYDKqRL07YgQSz4xE&#43;GbadYi1MGsTfcnHuO4K&#43;5Go="
   />
   
   
@@ -125,7 +125,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "492"
+    "wordCount": "630"
   }]
   </script>
 
@@ -335,7 +335,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">3 October 2024</time><span class="px-2 text-primary-500">&middot;</span><span>492 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
+      <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">3 October 2024</time><span class="px-2 text-primary-500">&middot;</span><span>630 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
     
 
     
@@ -386,7 +386,22 @@
     <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
       
       <div class="min-w-0 min-h-0 max-w-prose grow">
-        <p>Word frequency analysis is important in quantitative text analysis.</p>
+        <p>UPDATE jan 2025:</p>
+<hr>
+<p>Nushell and the polars plugin have both evolved a lot since this was written.</p>
+<p>The nushell polars plugin code below must be updated like so:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-nu" data-lang="nu"><span class="line"><span class="cl"><span class="k">def</span><span class="w"> </span>bible<span class="w"> </span><span class="o">[]</span><span class="w"> </span><span class="o">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">let</span><span class="w"> </span><span class="nv">corp</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">open</span><span class="w"> </span>--raw<span class="w"> </span>bible.txt<span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="k">str</span><span class="w"> </span>downcase<span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="k">split</span><span class="w"> </span>words<span class="w"> </span><span class="p">|</span><span class="w"> </span>polars<span class="w"> </span><span class="k">into</span>-df<span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">let</span><span class="w"> </span><span class="nv">stop</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">[</span>i<span class="w"> </span>a<span class="w"> </span>an<span class="w"> </span>and<span class="w"> </span>are<span class="w"> </span>as<span class="w"> </span>at<span class="w"> </span>be<span class="w"> </span>by<span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="k">from</span><span class="w"> </span>how<span class="w"> </span>in<span class="w"> </span>is<span class="w"> </span>it<span class="w"> </span>of<span class="w"> </span>on<span class="w"> </span>or<span class="w"> </span>that<span class="w"> </span>the<span class="w"> </span>this<span class="w"> </span><span class="k">to</span><span class="w"> </span>was<span class="w"> </span>what<span class="w"> </span>when<span class="w"> </span><span class="k">where</span><span class="w"> </span>who<span class="w"> </span>will<span class="w"> </span>with<span class="w"> </span>the<span class="o">]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">let</span><span class="w"> </span><span class="nv">tidy</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">$corp</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>polars<span class="w"> </span>with-column<span class="w"> </span><span class="o">(</span>polars<span class="w"> </span>col<span class="w"> </span><span class="m">0</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>polars<span class="w"> </span>is-in<span class="w"> </span><span class="nv">$stop</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>polars<span class="w"> </span>as<span class="w"> </span>wordin<span class="o">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">               </span><span class="p">|</span><span class="w"> </span>polars<span class="w"> </span><span class="k">filter</span><span class="w"> </span><span class="o">((</span>polars<span class="w"> </span>col<span class="w"> </span>wordin<span class="o">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span>false<span class="w"> </span><span class="o">)</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>polars<span class="w"> </span><span class="k">drop</span><span class="w"> </span>wordin<span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">let</span><span class="w"> </span><span class="nv">freq</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">$tidy</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>polars<span class="w"> </span>value-counts<span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">let</span><span class="w"> </span><span class="k">sort</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">$freq</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>polars<span class="w"> </span><span class="k">sort</span>-by<span class="w"> </span>count<span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nv">$sort</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="o">}</span><span class="w">
+</span></span></span></code></pre></div><p>The performance is still at the same awesome level 🚀</p>
+<hr>
+<p>Word frequency analysis is important in quantitative text analysis.</p>
 <p>Nushell has a plugin for Polars support.</p>
 <p>When installed, you can analyse a large corpus of text very fast:</p>
 <pre><code>def bible [] {

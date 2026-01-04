@@ -43,8 +43,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.e33c506e13d66c3acb8ac88fc5f1392595e8d96ec83aa786abe3ffcddba22b30.css"
-    integrity="sha256-4zxQbhPWbDrLisiPxfE5JZXo2W7IOqeGq&#43;P/zduiKzA="
+    href="/css/main.bundle.min.a3f8180caa912f4ed88104b3e3113e19b69d622d4c1ac4df7271ee3b82bee46a.css"
+    integrity="sha256-o/gYDKqRL07YgQSz4xE&#43;GbadYi1MGsTfcnHuO4K&#43;5Go="
   />
   
   
@@ -394,7 +394,8 @@
 <p>Jeg fik et langt dokument på flere sider om hvad der foregår på et af mine børns fritidshjem.</p>
 <p>Men med en enkelt kommando reducerer jeg min læseopgave til</p>
 <blockquote>
-<p>Nyhedsbrevet fra REDACTED i april 2023 introducerer det fantastiske udeliv med væksthuse, hvor børnene   kan fordybe sig i lege, projekter, aktiviteter og undervisning i natur. Der opmuntrer også til at give børnene      passende tøj og skiftetøj til vejret. Derudover indeholder nyhedsbrevet information om årgangenes aktiviteter som   Thebod, Pool, Playstation, musikrum, krea og spil. Desuden fokuseres der på forbedring af børnenes venskaber, sprog, kommunikation samt evne til grænsesætning i interaktion med andre. Nyhedsbrevet har også oplysninger om 0. årgangs  rum, og ferieplaner og kontaktmuligheder til SFO1. Endelig informerer det om salen, hvor børnene fra 1. årgang kan  spille boldspil hver tirsdag.</p></blockquote>
+<p>Nyhedsbrevet fra REDACTED i april 2023 introducerer det fantastiske udeliv med væksthuse, hvor børnene   kan fordybe sig i lege, projekter, aktiviteter og undervisning i natur. Der opmuntrer også til at give børnene      passende tøj og skiftetøj til vejret. Derudover indeholder nyhedsbrevet information om årgangenes aktiviteter som   Thebod, Pool, Playstation, musikrum, krea og spil. Desuden fokuseres der på forbedring af børnenes venskaber, sprog, kommunikation samt evne til grænsesætning i interaktion med andre. Nyhedsbrevet har også oplysninger om 0. årgangs  rum, og ferieplaner og kontaktmuligheder til SFO1. Endelig informerer det om salen, hvor børnene fra 1. årgang kan  spille boldspil hver tirsdag.</p>
+</blockquote>
 <p>Hvordan gjorde jeg det? Med hjælp fra ChatGPT og Pandoc sådan her</p>
 <pre tabindex="0"><code>pandoc &#39;Nyhedsbrev april 2023 -1.docx&#39;  -t plain | ai sammanfat
 </code></pre><p>Først konverterer Pandoc word-dokumentet til almindelig tekst og den &ldquo;pipes&rdquo; så videre til ChatGPT som sammenfatter teksten.</p>
