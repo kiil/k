@@ -4,17 +4,20 @@
     <title>Kommunikation on Kiils</title>
     <link>https://www.kiils.dk/emner/kommunikation/</link>
     <description>Recent content in Kommunikation on Kiils</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
-    <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Fri, 02 Sep 2022 08:57:34 +0200</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/emner/kommunikation/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Fri, 02 Sep 2022 08:57:34 +0200</lastBuildDate><atom:link href="https://www.kiils.dk/emner/kommunikation/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Et forældremøde jeg sent vil glemme</title>
       <link>https://www.kiils.dk/blog/foraeldremoedet/</link>
       <pubDate>Fri, 02 Sep 2022 08:57:34 +0200</pubDate>
+      
       <guid>https://www.kiils.dk/blog/foraeldremoedet/</guid>
       <description></description>
+      
     </item>
+    
   </channel>
 </rss>

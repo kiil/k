@@ -4,38 +4,50 @@
     <title>Aichat on Kiils</title>
     <link>https://www.kiils.dk/en/tools/aichat/</link>
     <description>Recent content in Aichat on Kiils</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
-    <lastBuildDate>Thu, 14 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/en/tools/aichat/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Thu, 14 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/en/tools/aichat/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Using RAG when writing job applications</title>
       <link>https://www.kiils.dk/en/blog/2024-11-14-using-rag-when-writing-job-applications/</link>
       <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/en/blog/2024-11-14-using-rag-when-writing-job-applications/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Why Nushell is so BRILLIANT at working with AI</title>
       <link>https://www.kiils.dk/en/blog/2024-07-24-why-nushell-is-so-brilliant-for-working-with-ai/</link>
       <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/en/blog/2024-07-24-why-nushell-is-so-brilliant-for-working-with-ai/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Creating a listicle with Nushell and aichat and publishing it on a drupal site</title>
       <link>https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/</link>
       <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Speeding up ai-assisted content generation with Nushell par-each</title>
       <link>https://www.kiils.dk/en/blog/2024-07-15-speeding-up-ai-assisted-content-generation-with-nushell-par-each/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/en/blog/2024-07-15-speeding-up-ai-assisted-content-generation-with-nushell-par-each/</guid>
       <description></description>
+      
     </item>
+    
   </channel>
 </rss>

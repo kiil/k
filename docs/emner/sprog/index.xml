@@ -4,31 +4,40 @@
     <title>Sprog on Kiils</title>
     <link>https://www.kiils.dk/emner/sprog/</link>
     <description>Recent content in Sprog on Kiils</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
-    <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/emner/sprog/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/emner/sprog/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Kursus: Lær poet-teknikken og skriv som et menneske ✍️ </title>
       <link>https://www.kiils.dk/kursus/skriv-som-en-poet-og-lyd-som-et-menneske/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/kursus/skriv-som-en-poet-og-lyd-som-et-menneske/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Hvorfor taler ChatGPT som mine børn</title>
       <link>https://www.kiils.dk/blog/hvorfor-taler-chatgpt-som-mine-born/</link>
       <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/hvorfor-taler-chatgpt-som-mine-born/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Et forældremøde jeg sent vil glemme</title>
       <link>https://www.kiils.dk/blog/foraeldremoedet/</link>
       <pubDate>Fri, 02 Sep 2022 08:57:34 +0200</pubDate>
+      
       <guid>https://www.kiils.dk/blog/foraeldremoedet/</guid>
       <description></description>
+      
     </item>
+    
   </channel>
 </rss>

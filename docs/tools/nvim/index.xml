@@ -4,45 +4,60 @@
     <title>Nvim on Kiils</title>
     <link>https://www.kiils.dk/tools/nvim/</link>
     <description>Recent content in Nvim on Kiils</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
-    <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Thu, 29 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/tools/nvim/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Thu, 29 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/tools/nvim/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Anthropic afslører Claudes systemprompts 🤯</title>
       <link>https://www.kiils.dk/blog/2024-08-29-anthropic-afslorer-claudes-systemprompts/</link>
       <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/2024-08-29-anthropic-afslorer-claudes-systemprompts/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Hvem er det næste geni - ChatGPT svarede forskelligt alt efter hvilken personlighed jeg tildelte den</title>
       <link>https://www.kiils.dk/blog/personlighed/</link>
       <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/personlighed/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Hvordan får jeg ChatGPT til at droppe startkomma</title>
       <link>https://www.kiils.dk/blog/hvordan-far-jeg-chatgpt-til-at-droppe-startkomma/</link>
       <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/hvordan-far-jeg-chatgpt-til-at-droppe-startkomma/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Hvad er forskellen på prompt design og prompt engineering</title>
       <link>https://www.kiils.dk/blog/hvad-er-forskellen-pa-prompt-deisgn-og-prompt-engineering/</link>
       <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/hvad-er-forskellen-pa-prompt-deisgn-og-prompt-engineering/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Hvad skal vi med generativ AI - har vi ikke mere end rigeligt indhold</title>
       <link>https://www.kiils.dk/blog/hvad-skal-vi-med-generativ-ai-har-vi-ikke-mere-end-rigeligt-indhold/</link>
       <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/hvad-skal-vi-med-generativ-ai-har-vi-ikke-mere-end-rigeligt-indhold/</guid>
       <description></description>
+      
     </item>
+    
   </channel>
 </rss>

@@ -4,24 +4,30 @@
     <title>Struktur on Kiils</title>
     <link>https://www.kiils.dk/emner/struktur/</link>
     <description>Recent content in Struktur on Kiils</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
-    <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Wed, 02 Sep 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/emner/struktur/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Wed, 02 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/emner/struktur/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>HTML med toc fra markdown via pandoc</title>
       <link>https://www.kiils.dk/blog/tips-tricks/html-med-toc-fra-markdown-via-pandoc/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/tips-tricks/html-med-toc-fra-markdown-via-pandoc/</guid>
       <description>Plus en bonus</description>
+      
     </item>
+    
     <item>
       <title>Sorter markdown dokument</title>
       <link>https://www.kiils.dk/blog/tips-tricks/sorter-markdown-efter-overskrifter/</link>
       <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/tips-tricks/sorter-markdown-efter-overskrifter/</guid>
       <description>Sorter sektioner i markdown</description>
+      
     </item>
+    
   </channel>
 </rss>

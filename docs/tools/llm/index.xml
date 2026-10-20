@@ -4,38 +4,50 @@
     <title>LLM on Kiils</title>
     <link>https://www.kiils.dk/tools/llm/</link>
     <description>Recent content in LLM on Kiils</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
-    <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/tools/llm/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/tools/llm/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Brug Nushells `format pattern` til at skabe dynamiske LLM prompts</title>
       <link>https://www.kiils.dk/blog/2025-01-01-brug-nushells-format-pattern-til-at-skabe-dynamiske-llm-prompts/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/2025-01-01-brug-nushells-format-pattern-til-at-skabe-dynamiske-llm-prompts/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Giver det mening at lade en kunstig intelligens give udtryk for sine holdninger 🤔</title>
       <link>https://www.kiils.dk/blog/2024-12-18-giver-det-mening-at-lade-ai-give-udtryk-for-sine-holdninger/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/2024-12-18-giver-det-mening-at-lade-ai-give-udtryk-for-sine-holdninger/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Nu er det let at køre en LLM på din egen computer</title>
       <link>https://www.kiils.dk/blog/nu-er-det-let-at-kore-en-llm-pa-din-egen-computer/</link>
       <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/nu-er-det-let-at-kore-en-llm-pa-din-egen-computer/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Tre typer store sprogmodeller</title>
       <link>https://www.kiils.dk/blog/tre-typer-store-sprogmodeller/</link>
       <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/tre-typer-store-sprogmodeller/</guid>
       <description></description>
+      
     </item>
+    
   </channel>
 </rss>

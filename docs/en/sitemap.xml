@@ -1,502 +1,275 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/resource/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/</loc>
-            <lastmod>2025-05-12T00:00:00+00:00</lastmod>
-            <xhtml:link
-              rel="alternate"
-              hreflang="da"
-              href="https://www.kiils.dk/blog/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://www.kiils.dk/en/blog/"
-              />
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/</loc>
-            <lastmod>2025-05-12T00:00:00+00:00</lastmod>
-            <xhtml:link
-              rel="alternate"
-              hreflang="da"
-              href="https://www.kiils.dk/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://www.kiils.dk/en/"
-              />
-          </url>
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/2025-02-06-send-mail-from-the-command-line-with-nushell-and-himalaya/</loc>
-            <lastmod>2025-02-06T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/2025-01-01-use-nushells-format-pattern-to-create-dynamic-llm-prompts/</loc>
-            <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-            <xhtml:link
-              rel="alternate"
-              hreflang="da"
-              href="https://www.kiils.dk/blog/2025-01-01-brug-nushells-format-pattern-til-at-skabe-dynamiske-llm-prompts/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://www.kiils.dk/en/blog/2025-01-01-use-nushells-format-pattern-to-create-dynamic-llm-prompts/"
-              />
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/2024-12-12-i-asked-openais-latest-and-greatest-model-to-analyze-mangiones-manifesto-here-is-the-result/</loc>
-            <lastmod>2024-12-12T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/2024-11-14-using-rag-when-writing-job-applications/</loc>
-            <lastmod>2024-11-14T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/2024-10-03-analysing-the-holy-bible-with-nushell-in-under-a-second/</loc>
-            <lastmod>2024-10-03T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/2024-09-19-inspecting-yaml-frontmatter-in-markdown-files-with-nushell/</loc>
-            <lastmod>2024-09-19T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/2024-07-31-using-nushell-and-polars-on-weather-data-from-open-meteo/</loc>
-            <lastmod>2024-07-31T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/2024-07-24-why-nushell-is-so-brilliant-for-working-with-ai/</loc>
-            <lastmod>2024-07-24T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/2024-07-23-creating-pdf-tables-from-data-files-with-groff/</loc>
-            <lastmod>2024-07-23T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/2024-07-22-easy-way-to-get-full-width-latex-tables-in-pandoc/</loc>
-            <lastmod>2024-07-22T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/2024-07-21-should-i-keep-input-and-output-separate-when-doing-ai-assisted-content-generation-in-nushell/</loc>
-            <lastmod>2024-07-21T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/2024-07-20-the-2-basic-workflows-for-ai-assisted-content-generation/</loc>
-            <lastmod>2024-07-20T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/</loc>
-            <lastmod>2024-07-16T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/2024-07-15-speeding-up-ai-assisted-content-generation-with-nushell-par-each/</loc>
-            <lastmod>2024-07-15T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/2024-07-14-the-secret-behind-good-ai-generated-content/</loc>
-            <lastmod>2024-07-14T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/2024-06-30-deleting-lines-with-nushell/</loc>
-            <lastmod>2024-06-30T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/2024-06-24-using-nushell-to-make-sense-of-my-nushell-scripts/</loc>
-            <lastmod>2024-06-24T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/2024-06-22-using-nushell-in-neovim/</loc>
-            <lastmod>2024-06-22T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/2024-06-11-working-with-tuc-in-nushell/</loc>
-            <lastmod>2024-06-11T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/2024-06-04-tuc-as-a-basic-ai-data-structure/</loc>
-            <lastmod>2024-06-04T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/2024-06-03-get-items-from-rss-feed-with-nushell/</loc>
-            <lastmod>2024-06-03T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/2024-05-31-how-programming-can-help-reduce-mental-load/</loc>
-            <lastmod>2024-05-31T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/using-nushell-with-generative-artificial-intelligence/</loc>
-            <lastmod>2024-03-22T00:00:00+00:00</lastmod>
-            <xhtml:link
-              rel="alternate"
-              hreflang="da"
-              href="https://www.kiils.dk/blog/sadan-skrev-jeg-20-artikler-om-de-20-storste-byromrader-i-danmark-pa-20-sekunder/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://www.kiils.dk/en/blog/using-nushell-with-generative-artificial-intelligence/"
-              />
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/making-taskwarrior-better-with-nushell/</loc>
-            <lastmod>2023-07-24T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/humans-should-also-be-prompted-properly/</loc>
-            <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-            <xhtml:link
-              rel="alternate"
-              hreflang="da"
-              href="https://www.kiils.dk/blog/chatgpt-skal-promptes-ordentligt-men-det-skal-mennesker-jo-ogsa/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://www.kiils.dk/en/blog/humans-should-also-be-prompted-properly/"
-              />
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/merging-an-emoji-font-into-a-text-font/</loc>
-            <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/how-chatgpt-made-my-surly-son-laugh/</loc>
-            <lastmod>2023-05-22T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/chatgpt-glorified-markov-chain/</loc>
-            <lastmod>2023-01-12T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/blog/servicebot-is-great/</loc>
-            <lastmod>2020-05-14T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/clients/aarhus-universitet/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/resource/personas/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/clients/berlingske/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/clients/billetkontoret/</loc>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/clients/chuboe/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/clients/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/domain/climate-encyclopedia/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/clients/dansk-industri/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/domain/</loc>
-            <xhtml:link
-              rel="alternate"
-              hreflang="da"
-              href="https://www.kiils.dk/domain/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://www.kiils.dk/en/domain/"
-              />
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/domain/folkets/</loc>
-            <xhtml:link
-              rel="alternate"
-              hreflang="da"
-              href="https://www.kiils.dk/domain/folkets/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://www.kiils.dk/en/domain/folkets/"
-              />
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/clients/gentofte-hospital/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/clients/hideaways/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/clients/illustreret-videnskab/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/clients/ingeni%C3%B8ren/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/person/lennart/</loc>
-            <xhtml:link
-              rel="alternate"
-              hreflang="da"
-              href="https://www.kiils.dk/person/lennart/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://www.kiils.dk/en/person/lennart/"
-              />
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/clients/per-asmussen/</loc>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/clients/videnplus/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/clients/region-syddanmark/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/clients/rigshospitalet/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/clients/statens-naturhistoriske-museum/</loc>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://www.kiils.dk/en/clients/ugeskrift-for-l%C3%A6ger/</loc>
-          </url>
-    
-  
+
+  <url>
+    <loc>https://www.kiils.dk/en/resource/</loc>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/</loc>
+    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="da"
+      href="https://www.kiils.dk/blog/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.kiils.dk/en/blog/"
+    />
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/</loc>
+    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="da"
+      href="https://www.kiils.dk/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.kiils.dk/en/"
+    />
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/2025-02-06-send-mail-from-the-command-line-with-nushell-and-himalaya/</loc>
+    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/2025-01-01-use-nushells-format-pattern-to-create-dynamic-llm-prompts/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="da"
+      href="https://www.kiils.dk/blog/2025-01-01-brug-nushells-format-pattern-til-at-skabe-dynamiske-llm-prompts/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.kiils.dk/en/blog/2025-01-01-use-nushells-format-pattern-to-create-dynamic-llm-prompts/"
+    />
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/2024-12-12-i-asked-openais-latest-and-greatest-model-to-analyze-mangiones-manifesto-here-is-the-result/</loc>
+    <lastmod>2024-12-12T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/2024-11-14-using-rag-when-writing-job-applications/</loc>
+    <lastmod>2024-11-14T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/2024-10-03-analysing-the-holy-bible-with-nushell-in-under-a-second/</loc>
+    <lastmod>2024-10-03T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/2024-09-19-inspecting-yaml-frontmatter-in-markdown-files-with-nushell/</loc>
+    <lastmod>2024-09-19T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/2024-07-31-using-nushell-and-polars-on-weather-data-from-open-meteo/</loc>
+    <lastmod>2024-07-31T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/2024-07-24-why-nushell-is-so-brilliant-for-working-with-ai/</loc>
+    <lastmod>2024-07-24T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/2024-07-23-creating-pdf-tables-from-data-files-with-groff/</loc>
+    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/2024-07-22-easy-way-to-get-full-width-latex-tables-in-pandoc/</loc>
+    <lastmod>2024-07-22T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/2024-07-21-should-i-keep-input-and-output-separate-when-doing-ai-assisted-content-generation-in-nushell/</loc>
+    <lastmod>2024-07-21T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/2024-07-20-the-2-basic-workflows-for-ai-assisted-content-generation/</loc>
+    <lastmod>2024-07-20T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/2024-07-16-creating-listicles-with-nushell-and-aichat/</loc>
+    <lastmod>2024-07-16T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/2024-07-15-speeding-up-ai-assisted-content-generation-with-nushell-par-each/</loc>
+    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/2024-07-14-the-secret-behind-good-ai-generated-content/</loc>
+    <lastmod>2024-07-14T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/2024-06-30-deleting-lines-with-nushell/</loc>
+    <lastmod>2024-06-30T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/2024-06-24-using-nushell-to-make-sense-of-my-nushell-scripts/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/2024-06-22-using-nushell-in-neovim/</loc>
+    <lastmod>2024-06-22T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/2024-06-11-working-with-tuc-in-nushell/</loc>
+    <lastmod>2024-06-11T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/2024-06-04-tuc-as-a-basic-ai-data-structure/</loc>
+    <lastmod>2024-06-04T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/2024-06-03-get-items-from-rss-feed-with-nushell/</loc>
+    <lastmod>2024-06-03T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/2024-05-31-how-programming-can-help-reduce-mental-load/</loc>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/using-nushell-with-generative-artificial-intelligence/</loc>
+    <lastmod>2024-03-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="da"
+      href="https://www.kiils.dk/blog/sadan-skrev-jeg-20-artikler-om-de-20-storste-byromrader-i-danmark-pa-20-sekunder/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.kiils.dk/en/blog/using-nushell-with-generative-artificial-intelligence/"
+    />
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/making-taskwarrior-better-with-nushell/</loc>
+    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/humans-should-also-be-prompted-properly/</loc>
+    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="da"
+      href="https://www.kiils.dk/blog/chatgpt-skal-promptes-ordentligt-men-det-skal-mennesker-jo-ogsa/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.kiils.dk/en/blog/humans-should-also-be-prompted-properly/"
+    />
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/merging-an-emoji-font-into-a-text-font/</loc>
+    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/how-chatgpt-made-my-surly-son-laugh/</loc>
+    <lastmod>2023-05-22T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/chatgpt-glorified-markov-chain/</loc>
+    <lastmod>2023-01-12T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/servicebot-is-great/</loc>
+    <lastmod>2020-05-14T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/resource/personas/</loc>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/clients/berlingske/</loc>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/clients/billetkontoret/</loc>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/clients/chuboe/</loc>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/clients/</loc>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/domain/climate-encyclopedia/</loc>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/clients/dansk-industri/</loc>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/domain/</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="da"
+      href="https://www.kiils.dk/domain/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.kiils.dk/en/domain/"
+    />
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/domain/folkets/</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="da"
+      href="https://www.kiils.dk/domain/folkets/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.kiils.dk/en/domain/folkets/"
+    />
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/clients/gentofte-hospital/</loc>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/clients/hideaways/</loc>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/clients/illustreret-videnskab/</loc>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/clients/ingeni%C3%B8ren/</loc>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/person/lennart/</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="da"
+      href="https://www.kiils.dk/person/lennart/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.kiils.dk/en/person/lennart/"
+    />
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/clients/per-asmussen/</loc>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/clients/videnplus/</loc>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/clients/region-syddanmark/</loc>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/clients/rigshospitalet/</loc>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/clients/statens-naturhistoriske-museum/</loc>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/clients/ugeskrift-for-l%C3%A6ger/</loc>
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/clients/aarhus-universitet/</loc>
+  </url>
 </urlset>

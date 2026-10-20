@@ -4,31 +4,40 @@
     <title>Kurser on Kiils</title>
     <link>https://www.kiils.dk/kursus/</link>
     <description>Recent content in Kurser on Kiils</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
-    <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Wed, 07 Jun 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/kursus/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Wed, 07 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/kursus/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Kursus: Forstå ChatGPT på en formiddag 🦾</title>
       <link>https://www.kiils.dk/kursus/chatgpt-formiddag/</link>
       <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/kursus/chatgpt-formiddag/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Kursus: Lær at bruge ChatGPT som arbejdsredskab 🛠️</title>
       <link>https://www.kiils.dk/kursus/kursus-fa-mere-ud-af-chatgpt/</link>
       <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/kursus/kursus-fa-mere-ud-af-chatgpt/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Kursus: Lær poet-teknikken og skriv som et menneske ✍️ </title>
       <link>https://www.kiils.dk/kursus/skriv-som-en-poet-og-lyd-som-et-menneske/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/kursus/skriv-som-en-poet-og-lyd-som-et-menneske/</guid>
       <description></description>
+      
     </item>
+    
   </channel>
 </rss>

@@ -4,87 +4,120 @@
     <title>Neovim on Kiils</title>
     <link>https://www.kiils.dk/tools/neovim/</link>
     <description>Recent content in Neovim on Kiils</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
-    <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/tools/neovim/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/tools/neovim/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Giv noget af dig selv til ChatGPT</title>
       <link>https://www.kiils.dk/blog/giv-noget-af-dig-selv-til-chatgpt/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/giv-noget-af-dig-selv-til-chatgpt/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Brug ChatGPT til finde data i ustruktureret tekst</title>
       <link>https://www.kiils.dk/blog/brug-chatgpt-til-finde-data-i-ustruktureret-tekst/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/brug-chatgpt-til-finde-data-i-ustruktureret-tekst/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Hvor mange eksempler er nok til at den nye insert model fra OpenAI forstår hensigten</title>
       <link>https://www.kiils.dk/blog/hvor-mange-eksempler-er-nok-til-at-den-nye-insert-model-fra-openai-forstar-hensigten/</link>
       <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/hvor-mange-eksempler-er-nok-til-at-den-nye-insert-model-fra-openai-forstar-hensigten/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>En simpel redaktionel arbejdsgang med GPT</title>
       <link>https://www.kiils.dk/blog/en-simpel-redaktionel-arbejdsgang-med-gpt/</link>
       <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/en-simpel-redaktionel-arbejdsgang-med-gpt/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Hvad er store sprogmodeller</title>
       <link>https://www.kiils.dk/blog/sprogmodeller/hvad-er-store-sprogmodeller/</link>
       <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/sprogmodeller/hvad-er-store-sprogmodeller/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Hvad kan store sprogmodeller</title>
       <link>https://www.kiils.dk/blog/sprogmodeller/hvad-kan-store-sprogmodeller/</link>
       <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/sprogmodeller/hvad-kan-store-sprogmodeller/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Hvordan fungerer store sprogmodeller</title>
       <link>https://www.kiils.dk/blog/sprogmodeller/hvordan-fungerer-store-sprogmodeller/</link>
       <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/sprogmodeller/hvordan-fungerer-store-sprogmodeller/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Hvad er AGI</title>
       <link>https://www.kiils.dk/blog/hvad-er-agi/</link>
       <pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/hvad-er-agi/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Information overload - lad kunstig intelligens hjælpe dig</title>
       <link>https://www.kiils.dk/blog/nemt-nyhedsoverblik-med-nushell-og-chatgpt/</link>
       <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/nemt-nyhedsoverblik-med-nushell-og-chatgpt/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Kommandoer eller prompts -  instruer GPT korrekt</title>
       <link>https://www.kiils.dk/blog/kommandoer-eller-prompts-instruer-gpt-korrekt/</link>
       <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/kommandoer-eller-prompts-instruer-gpt-korrekt/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Sådan bliver du ved med at skrive bedre end kunstig intelligens</title>
       <link>https://www.kiils.dk/blog/sadan-bliver-du-ved-med-at-skrive-bedre-end-kunstig-intelligens/</link>
       <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/sadan-bliver-du-ved-med-at-skrive-bedre-end-kunstig-intelligens/</guid>
       <description></description>
+      
     </item>
+    
   </channel>
 </rss>

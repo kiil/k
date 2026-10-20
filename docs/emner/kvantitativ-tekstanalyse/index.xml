@@ -4,31 +4,40 @@
     <title>Kvantitativ Tekstanalyse on Kiils</title>
     <link>https://www.kiils.dk/emner/kvantitativ-tekstanalyse/</link>
     <description>Recent content in Kvantitativ Tekstanalyse on Kiils</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
-    <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Thu, 12 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/emner/kvantitativ-tekstanalyse/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Thu, 12 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/emner/kvantitativ-tekstanalyse/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>ChatGPT mansplainer ikke - men her botsplainer den helt vildt</title>
       <link>https://www.kiils.dk/blog/nlp/chatgpt-botsplaining/</link>
       <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/nlp/chatgpt-botsplaining/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Går det bedre for ChatGPT med ordfrekvensanalyse på engelsk end det gjorde på dansk?</title>
       <link>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse-engelsk/</link>
       <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse-engelsk/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Kan ChatGPT bruges til kvantitativ tekstanalyse?</title>
       <link>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse/</link>
       <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse/</guid>
       <description></description>
+      
     </item>
+    
   </channel>
 </rss>

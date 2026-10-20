@@ -4,17 +4,20 @@
     <title>Tips &amp; Tricks on Kiils</title>
     <link>https://www.kiils.dk/en/genrer/tips--tricks/</link>
     <description>Recent content in Tips &amp; Tricks on Kiils</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Kiils --- DK-35172831 --- DK3870400002041753 SYBKDK22</copyright>
-    <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/en/genrer/tips--tricks/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/en/genrer/tips--tricks/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Merging an emoji 😘 font into a text font ❤️</title>
       <link>https://www.kiils.dk/en/blog/merging-an-emoji-font-into-a-text-font/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/en/blog/merging-an-emoji-font-into-a-text-font/</guid>
       <description></description>
+      
     </item>
+    
   </channel>
 </rss>

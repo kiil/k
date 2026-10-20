@@ -4,31 +4,40 @@
     <title>Serier on Kiils</title>
     <link>https://www.kiils.dk/genrer/serie/</link>
     <description>Recent content in Serier on Kiils</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
-    <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/genrer/serie/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/genrer/serie/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Skriv som en poet - ikke en bot</title>
       <link>https://www.kiils.dk/blog/skriv-som-en-poet/</link>
       <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/skriv-som-en-poet/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Store sprogmodeller</title>
       <link>https://www.kiils.dk/blog/sprogmodeller/</link>
       <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/sprogmodeller/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Sproglige og literære virkemidler</title>
       <link>https://www.kiils.dk/blog/virkemidler/</link>
       <pubDate>Thu, 14 Jul 2022 13:31:41 +0200</pubDate>
+      
       <guid>https://www.kiils.dk/blog/virkemidler/</guid>
       <description></description>
+      
     </item>
+    
   </channel>
 </rss>

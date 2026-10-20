@@ -4,17 +4,20 @@
     <title>OpenAI on Kiils</title>
     <link>https://www.kiils.dk/tools/openai/</link>
     <description>Recent content in OpenAI on Kiils</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
-    <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Thu, 15 Jun 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/tools/openai/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Thu, 15 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/tools/openai/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>OpenAI lancerer function calling i API</title>
       <link>https://www.kiils.dk/blog/openai-lancerer-function-calling-i-api/</link>
       <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/openai-lancerer-function-calling-i-api/</guid>
       <description></description>
+      
     </item>
+    
   </channel>
 </rss>

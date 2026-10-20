@@ -4,17 +4,20 @@
     <title>Sed on Kiils</title>
     <link>https://www.kiils.dk/tools/sed/</link>
     <description>Recent content in Sed on Kiils</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
-    <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/tools/sed/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/tools/sed/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Takket være ShellGPT kan alle nu få gavn af kommandolinjens superkræfter - se her hvordan</title>
       <link>https://www.kiils.dk/blog/er-du-ved-at-opgive-kommandolinjen-fa-chatgpt-til-at-hjaelpe-dig/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/er-du-ved-at-opgive-kommandolinjen-fa-chatgpt-til-at-hjaelpe-dig/</guid>
       <description></description>
+      
     </item>
+    
   </channel>
 </rss>

@@ -4,206 +4,290 @@
     <title>ChatGPT on Kiils</title>
     <link>https://www.kiils.dk/tools/chatgpt/</link>
     <description>Recent content in ChatGPT on Kiils</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
-    <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/tools/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/tools/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>AI Strategi</title>
       <link>https://www.kiils.dk/workshop/ai-strategi/</link>
       <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/workshop/ai-strategi/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Klar til kunstig intelligens</title>
       <link>https://www.kiils.dk/workshop/ai-klar-parat-start/</link>
       <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/workshop/ai-klar-parat-start/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Kursus: Forstå ChatGPT på en formiddag 🦾</title>
       <link>https://www.kiils.dk/kursus/chatgpt-formiddag/</link>
       <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/kursus/chatgpt-formiddag/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Kursus: Lær at bruge ChatGPT som arbejdsredskab 🛠️</title>
       <link>https://www.kiils.dk/kursus/kursus-fa-mere-ud-af-chatgpt/</link>
       <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/kursus/kursus-fa-mere-ud-af-chatgpt/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>AI - sammen finder vi din virksomheds bedste use cases</title>
       <link>https://www.kiils.dk/workshop/ai-use-cases/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/workshop/ai-use-cases/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Sådan hjælper ChatGPT og Nushell ordblinde Lars</title>
       <link>https://www.kiils.dk/blog/sadan-hjaelper-chatgpt-og-nushell-ordblinde-lars/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/sadan-hjaelper-chatgpt-og-nushell-ordblinde-lars/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Altman er tilbage - men kan man stadig regne med OpenAI</title>
       <link>https://www.kiils.dk/blog/kan-man-stadig-regne-med-openai/</link>
       <pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/kan-man-stadig-regne-med-openai/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Hvad kan man bruge store sprogmodeller til</title>
       <link>https://www.kiils.dk/blog/hvad-kan-man-bruge-store-sprogmodeller-til/</link>
       <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/hvad-kan-man-bruge-store-sprogmodeller-til/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>OpenAI lancerer function calling i API</title>
       <link>https://www.kiils.dk/blog/openai-lancerer-function-calling-i-api/</link>
       <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/openai-lancerer-function-calling-i-api/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>ChatGPT skal promptes ordentligt - men det skal mennesker jo også</title>
       <link>https://www.kiils.dk/blog/chatgpt-skal-promptes-ordentligt-men-det-skal-mennesker-jo-ogsa/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/chatgpt-skal-promptes-ordentligt-men-det-skal-mennesker-jo-ogsa/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Jeg bad ChatGPT spå om min fremtid - svaret gav mig tårer i øjnene</title>
       <link>https://www.kiils.dk/blog/jeg-gav-igen-chatgpt-adgang-til-min-dagbog-nu-kan-den-forudsige-min-fremtid/</link>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/jeg-gav-igen-chatgpt-adgang-til-min-dagbog-nu-kan-den-forudsige-min-fremtid/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Erfaren redaktør: ChatGPTs skrivetips ligner til forveksling mine egne - undtagen på et punkt</title>
       <link>https://www.kiils.dk/blog/danmarks-mest-rutinerede-redaktor-anmelder-chatgpt/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/danmarks-mest-rutinerede-redaktor-anmelder-chatgpt/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Hvorfor taler ChatGPT som mine børn</title>
       <link>https://www.kiils.dk/blog/hvorfor-taler-chatgpt-som-mine-born/</link>
       <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/hvorfor-taler-chatgpt-som-mine-born/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Spar tid med kunstig intelligens - sammenfat et word dokument</title>
       <link>https://www.kiils.dk/blog/spar-tid-med-kunstig-intelligens-sammenfat-et-word-dokument/</link>
       <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/spar-tid-med-kunstig-intelligens-sammenfat-et-word-dokument/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>ChatGPT har en beskidt tankegang - her er beviset</title>
       <link>https://www.kiils.dk/blog/chatgpt-har-en-uforbedrelig-beskidt-tankegang-her-er-beviset/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/chatgpt-har-en-uforbedrelig-beskidt-tankegang-her-er-beviset/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Selvcensur gør GPT modeller dummere end de behøver at være</title>
       <link>https://www.kiils.dk/blog/striks-selvcensur-gor-gpt-modeller-dummere-end-de-behover-at-vaere/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/striks-selvcensur-gor-gpt-modeller-dummere-end-de-behover-at-vaere/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Takket være ShellGPT kan alle nu få gavn af kommandolinjens superkræfter - se her hvordan</title>
       <link>https://www.kiils.dk/blog/er-du-ved-at-opgive-kommandolinjen-fa-chatgpt-til-at-hjaelpe-dig/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/er-du-ved-at-opgive-kommandolinjen-fa-chatgpt-til-at-hjaelpe-dig/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Få ChatGPT til at skrive mere personligt -- fire eksempler</title>
       <link>https://www.kiils.dk/blog/giv-chatgpt-en-mere-personlig-skrivestil-fire-eksempler/</link>
       <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/giv-chatgpt-en-mere-personlig-skrivestil-fire-eksempler/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Jeg gav ChatGPT adgang til min dagbog - det skulle jeg aldrig have gjort</title>
       <link>https://www.kiils.dk/blog/jeg-gav-chatgpt-adgang-til-min-dagbog-det-skulle-jeg-aldrig-have-gjort/</link>
       <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/jeg-gav-chatgpt-adgang-til-min-dagbog-det-skulle-jeg-aldrig-have-gjort/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Til tops i Google på 24 timer - gæt hvem skrev teksten</title>
       <link>https://www.kiils.dk/blog/20230331-top-google-chat/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/20230331-top-google-chat/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Chatgpt hjælper ordblind - eller gør den?</title>
       <link>https://www.kiils.dk/blog/20230207-chatgpt-hjaelper-ordblind/</link>
       <pubDate>Tue, 07 Feb 2023 10:41:04 +0100</pubDate>
+      
       <guid>https://www.kiils.dk/blog/20230207-chatgpt-hjaelper-ordblind/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Google risikerer at straffe folk som inkluderer ordblinde i den demokratiske debat</title>
       <link>https://www.kiils.dk/blog/nlp/chatgpt-google/</link>
       <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/nlp/chatgpt-google/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>ChatGPT mansplainer ikke - men her botsplainer den helt vildt</title>
       <link>https://www.kiils.dk/blog/nlp/chatgpt-botsplaining/</link>
       <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/nlp/chatgpt-botsplaining/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Går det bedre for ChatGPT med ordfrekvensanalyse på engelsk end det gjorde på dansk?</title>
       <link>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse-engelsk/</link>
       <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse-engelsk/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Kan ChatGPT bruges til kvantitativ tekstanalyse?</title>
       <link>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse/</link>
       <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/nlp/chatgpt-ordfrekvensanalyse/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Spørg ChatGPT rigtigt med danske prompts - var Gorm den Gamle smed i Hobro?</title>
       <link>https://www.kiils.dk/blog/nlp/gorm-den-gamle/</link>
       <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/nlp/gorm-den-gamle/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Jeg spurgte ChatGPT om intelligens og svaret var overraskende menneskeligt</title>
       <link>https://www.kiils.dk/blog/nlp/chatgpt/</link>
       <pubDate>Thu, 05 Jan 2023 09:27:02 +0100</pubDate>
+      
       <guid>https://www.kiils.dk/blog/nlp/chatgpt/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Video: Sådan bruger du danske ChatGPT prompts</title>
       <link>https://www.kiils.dk/video/danske-chatgpt-prompts-intro-video/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/video/danske-chatgpt-prompts-intro-video/</guid>
       <description></description>
+      
     </item>
+    
   </channel>
 </rss>

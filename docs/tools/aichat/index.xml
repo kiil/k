@@ -4,45 +4,60 @@
     <title>AIChat on Kiils</title>
     <link>https://www.kiils.dk/tools/aichat/</link>
     <description>Recent content in AIChat on Kiils</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>da</language>
-    <copyright>Kiils CVR 35172831 --- 7040-0002041753</copyright>
-    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.kiils.dk/tools/aichat/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/tools/aichat/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Planlægning med Nushell, AI og khal</title>
       <link>https://www.kiils.dk/blog/storskrald/</link>
       <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/storskrald/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Så let kører du DanskGPT på din laptop</title>
       <link>https://www.kiils.dk/blog/sa-let-korer-du-danskgpt-pa-din-laptop/</link>
       <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/sa-let-korer-du-danskgpt-pa-din-laptop/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Sådan skrev jeg 20 artikler om de 20 største byrområder i Danmark på 20 sekunder</title>
       <link>https://www.kiils.dk/blog/sadan-skrev-jeg-20-artikler-om-de-20-storste-byromrader-i-danmark-pa-20-sekunder/</link>
       <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/sadan-skrev-jeg-20-artikler-om-de-20-storste-byromrader-i-danmark-pa-20-sekunder/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Sådan hjælper ChatGPT og Nushell ordblinde Lars</title>
       <link>https://www.kiils.dk/blog/sadan-hjaelper-chatgpt-og-nushell-ordblinde-lars/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/sadan-hjaelper-chatgpt-og-nushell-ordblinde-lars/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>AI: Mini-assistent til research på internettet med Nushell, aichat og ddgr</title>
       <link>https://www.kiils.dk/blog/ai-mini-assistent-til-research-pa-internettet-med-nushell-aichat-og-ddgr/</link>
       <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://www.kiils.dk/blog/ai-mini-assistent-til-research-pa-internettet-med-nushell-aichat-og-ddgr/</guid>
       <description></description>
+      
     </item>
+    
   </channel>
 </rss>
