@@ -256,6 +256,49 @@
 
   
   
+    
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    
+    gtag("consent", "default", {
+      ad_storage: "denied",
+      ad_user_data: "denied",
+      ad_personalization: "denied",
+      analytics_storage: "denied",
+      functionality_storage: "granted",
+      security_storage: "granted",
+      wait_for_update: 500
+    });
+  </script>
+  
+  
+  <link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.ca046b8b1b1094107205988e7096a687b241c8ef5f3fefe5e543ed28d26646c1.css" integrity="sha256-ygRrixsQlBByBZiOcJamh7JByO9fP&#43;/l5UPtKNJmRsE=" />
+  <style>
+     
+    #cc-main {
+      --cc-btn-primary-bg: rgb(var(--color-primary-600));
+      --cc-btn-primary-color: #fff;
+      --cc-btn-primary-hover-color: #fff;
+      --cc-btn-primary-border-color: rgb(var(--color-primary-600));
+      --cc-btn-primary-hover-bg: rgb(var(--color-primary-500));
+      --cc-btn-primary-hover-border-color: rgb(var(--color-primary-500));
+      --cc-toggle-on-bg: rgb(var(--color-primary-600));
+    }
+    .cc--darkmode #cc-main {
+      --cc-bg: rgb(var(--color-neutral-800));
+      --cc-btn-secondary-bg: rgb(var(--color-neutral-700));
+      --cc-btn-secondary-hover-bg: rgb(var(--color-neutral-600));
+    }
+  </style>
+  
+  <script defer src="/lib/cookieconsent/cookieconsent.umd.bc6e2f2e6381fc025b27a6b0afb5a0e1fc689c6f9fc40a78708adb2054ef4575.js" integrity="sha256-vG4vLmOB/AJbJ6awr7Wg4fxonG&#43;fxAp4cIrbIFTvRXU="></script>
+  
+  <script defer src="/js/consent.min.b6dc591b7b22ff67474700989553859568edfa485151372bbe4d48e91913b681.js" integrity="sha256-ttxZG3si/2dHRwCYlVOFlWjt&#43;khRUTcrvk1I6RkTtoE=" data-gtm-id="GTM-KG8ND8T"></script>
+
+
+  
 
   
   
@@ -1597,6 +1640,16 @@
       <p class="text-sm text-neutral-500 dark:text-neutral-400">
           Kiils CVR 35172831 &mdash; 7040-0002041753
       </p>
+    
+
+    
+    
+      <button
+        type="button"
+        data-cc="show-preferencesModal"
+        class="text-sm text-neutral-500 dark:text-neutral-400 decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2">
+        Cookie-indstillinger
+      </button>
     
 
     
