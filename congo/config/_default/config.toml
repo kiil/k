@@ -14,10 +14,10 @@ summaryLength = 0
 [languages]
 
 [languages.da]
-contentDir = '/home/lk/Web/kiils.dk/da/'
+contentDir = '/Users/lk/Web/kiils.dk/da/'
 
 [languages.en]
-contentDir = '/home/lk/Web/kiils.dk/en/'
+contentDir = '/Users/lk/Web/kiils.dk/en/'
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
@@ -32,3 +32,18 @@ genrer = "genrer"
 tags = "tags"
 categories = "categories"
 person = "person"
+
+[security]
+# Allow raw HTML content files (e.g. da/hidden/index.html); still block Org files
+allowContent = ['! ^text/org$']
+
+# Course, client and service pages are not dated articles
+[[cascade]]
+  [cascade.params]
+    showDate = false
+    showDateUpdated = false
+    showReadingTime = false
+    showWordCount = false
+    showAuthor = false
+  [cascade.target]
+    path = '{/kursus/**,/kunde/**,/clients/**,/ydelse/**,/en/clients/**}'

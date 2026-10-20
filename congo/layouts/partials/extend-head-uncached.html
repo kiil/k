@@ -1,0 +1,22 @@
+{{/* Generate a social sharing image with the page title drawn on canvas.png, unless the page has its own feature image */}}
+{{ $featureImage := "" }}
+{{ range slice "*featured*" "*feature*" "*cover*" "*thumbnail*" }}
+  {{ if not $featureImage }}
+    {{ $featureImage = $.Resources.GetMatch . }}
+  {{ end }}
+{{ end }}
+{{ if not $featureImage }}
+  {{ $font := resources.Get "fonts/t.ttf" }}
+  {{ $size := cond (ge (len .Title) 20) 80 120 }}
+  {{ $image := resources.Get "images/canvas.png" }}
+  {{ $image = $image.Filter (images.Text .Title (dict
+    "color" "#ffffff"
+    "size" $size
+    "linespacing" 12
+    "x" 80
+    "y" 70
+    "font" $font
+  )) }}
+  <meta property="og:image" content="{{ $image.Permalink }}" />
+  <meta name="twitter:image" content="{{ $image.Permalink }}" />
+{{ end }}

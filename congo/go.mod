@@ -2,4 +2,4 @@ module congo
 
 go 1.20
 
-require github.com/jpanther/congo/v2 v2.12.2 // indirect
+require github.com/nunocoracao/blowfish/v3 v3.9.0 // indirect
