@@ -734,6 +734,19 @@
     <loc>https://www.kiils.dk/kunde/per-asmussen/</loc>
   </url>
   <url>
+    <loc>https://www.kiils.dk/privatliv/</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.kiils.dk/en/privacy/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="da"
+      href="https://www.kiils.dk/privatliv/"
+    />
+  </url>
+  <url>
     <loc>https://www.kiils.dk/kunde/videnplus/</loc>
   </url>
   <url>
