@@ -56,6 +56,16 @@
       </p>
     {{ end }}
 
+    {{/* Reopen cookie preferences (vanilla-cookieconsent) */}}
+    {{ if site.Params.googleTagManager.id }}
+      <button
+        type="button"
+        data-cc="show-preferencesModal"
+        class="text-sm text-neutral-500 dark:text-neutral-400 decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2">
+        {{ i18n "footer.cookie_settings" }}
+      </button>
+    {{ end }}
+
     {{/* Theme attribution */}}
     {{ if .Site.Params.footer.showThemeAttribution | default true }}
       <p class="text-xs text-neutral-500 dark:text-neutral-400">

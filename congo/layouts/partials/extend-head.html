@@ -1,0 +1,41 @@
+{{/* Cookie consent (vanilla-cookieconsent) and Google Tag Manager with Consent Mode v2 */}}
+{{ with site.Params.googleTagManager.id }}
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    // Deny everything until the visitor makes a choice
+    gtag("consent", "default", {
+      ad_storage: "denied",
+      ad_user_data: "denied",
+      ad_personalization: "denied",
+      analytics_storage: "denied",
+      functionality_storage: "granted",
+      security_storage: "granted",
+      wait_for_update: 500
+    });
+  </script>
+  {{ $algorithm := site.Params.fingerprintAlgorithm | default "sha256" }}
+  {{ $css := resources.Get "lib/cookieconsent/cookieconsent.css" | resources.Fingerprint $algorithm }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" />
+  <style>
+    /* Match the banner buttons to the site's primary colour */
+    #cc-main {
+      --cc-btn-primary-bg: rgb(var(--color-primary-600));
+      --cc-btn-primary-color: #fff;
+      --cc-btn-primary-hover-color: #fff;
+      --cc-btn-primary-border-color: rgb(var(--color-primary-600));
+      --cc-btn-primary-hover-bg: rgb(var(--color-primary-500));
+      --cc-btn-primary-hover-border-color: rgb(var(--color-primary-500));
+      --cc-toggle-on-bg: rgb(var(--color-primary-600));
+    }
+    .cc--darkmode #cc-main {
+      --cc-bg: rgb(var(--color-neutral-800));
+      --cc-btn-secondary-bg: rgb(var(--color-neutral-700));
+      --cc-btn-secondary-hover-bg: rgb(var(--color-neutral-600));
+    }
+  </style>
+  {{ $lib := resources.Get "lib/cookieconsent/cookieconsent.umd.js" | resources.Fingerprint $algorithm }}
+  <script defer src="{{ $lib.RelPermalink }}" integrity="{{ $lib.Data.Integrity }}"></script>
+  {{ $consent := resources.Get "js/consent.js" | resources.Minify | resources.Fingerprint $algorithm }}
+  <script defer src="{{ $consent.RelPermalink }}" integrity="{{ $consent.Data.Integrity }}" data-gtm-id="{{ . }}"></script>
+{{ end }}

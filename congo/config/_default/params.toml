@@ -87,3 +87,7 @@ showTermCount = true
 # bing = ""
 # pinterest = ""
 # yandex = ""
+
+[googleTagManager]
+# Loaded only after the visitor has given consent (see partials/extend-head.html)
+id = "GTM-KG8ND8T"
