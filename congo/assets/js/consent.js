@@ -71,6 +71,7 @@
             acceptAllBtn: "Accepter alle",
             acceptNecessaryBtn: "Kun nødvendige",
             showPreferencesBtn: "Vælg selv",
+            footer: '<a href="/privatliv/">Privatlivs- og cookiepolitik</a>',
           },
           preferencesModal: {
             title: "Cookie-indstillinger",
@@ -82,7 +83,7 @@
               {
                 title: "Dine valg",
                 description:
-                  "Her kan du vælge, hvilke typer cookies vi må bruge. Dit valg gemmes i en cookie i 6 måneder.",
+                  'Her kan du vælge, hvilke typer cookies vi må bruge. Dit valg gemmes i en cookie i 6 måneder. Læs mere i vores <a href="/privatliv/" class="cc__link">privatlivs- og cookiepolitik</a>.',
               },
               {
                 title: "Nødvendige",
@@ -110,6 +111,7 @@
             acceptAllBtn: "Accept all",
             acceptNecessaryBtn: "Necessary only",
             showPreferencesBtn: "Let me choose",
+            footer: '<a href="/en/privacy/">Privacy and cookie policy</a>',
           },
           preferencesModal: {
             title: "Cookie settings",
@@ -121,7 +123,7 @@
               {
                 title: "Your choices",
                 description:
-                  "Choose which types of cookies we may use. Your choice is stored in a cookie for 6 months.",
+                  'Choose which types of cookies we may use. Your choice is stored in a cookie for 6 months. Read more in our <a href="/en/privacy/" class="cc__link">privacy and cookie policy</a>.',
               },
               {
                 title: "Necessary",

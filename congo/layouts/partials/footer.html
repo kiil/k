@@ -58,6 +58,14 @@
 
     {{/* Reopen cookie preferences (vanilla-cookieconsent) */}}
     {{ if site.Params.googleTagManager.id }}
+      {{ $policy := site.GetPage "/privatliv" | default (site.GetPage "/privacy") }}
+      {{ with $policy }}
+        <a
+          href="{{ .RelPermalink }}"
+          class="text-sm text-neutral-500 dark:text-neutral-400 decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2">
+          {{ .LinkTitle }}
+        </a>
+      {{ end }}
       <button
         type="button"
         data-cc="show-preferencesModal"
