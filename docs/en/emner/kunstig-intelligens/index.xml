@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Thu, 12 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/en/emner/kunstig-intelligens/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/en/emner/kunstig-intelligens/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Kiil principles for AI</title>
+      <link>https://www.kiils.dk/en/blog/the-kiil-principles-for-ai/</link>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/en/blog/the-kiil-principles-for-ai/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Is ChatGPT more than a glorified Markov chain? Here is what ChatGPT itself has to say about that</title>

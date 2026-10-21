@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Thu, 14 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/en/emner/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/en/emner/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Kunstig Intelligens</title>
+      <link>https://www.kiils.dk/en/emner/kunstig-intelligens/</link>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/en/emner/kunstig-intelligens/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>RAG</title>
@@ -35,16 +45,6 @@
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/en/emner/artificial-intelligence/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Kunstig Intelligens</title>
-      <link>https://www.kiils.dk/en/emner/kunstig-intelligens/</link>
-      <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.kiils.dk/en/emner/kunstig-intelligens/</guid>
       <description></description>
       
     </item>
