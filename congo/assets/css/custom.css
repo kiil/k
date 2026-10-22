@@ -6,3 +6,7 @@ html {font-size: 13pt;}
 }
 /* Plain-text blocks (terminal output with box-drawing tables): tight lines so the borders connect */
 .prose pre:has(code[data-lang="text"]) {line-height: 1.2; font-size: 0.8em;}
+/* Front page hero: thinner overlay so the token background shows in both themes */
+#landing-hero-background > div {opacity: 0.25;}
+.dark #landing-hero-background > div {opacity: 0.5;}
+.dark #landing-hero-background img {filter: brightness(1.9) saturate(1.3);}

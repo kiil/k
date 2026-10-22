@@ -1,22 +1,145 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 640" preserveAspectRatio="xMidYMid slice">
   <defs>
-    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0f172a"/>
-      <stop offset="1" stop-color="#1e1b4b"/>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="80"/></filter>
+    <linearGradient id="arc" x1="0" x2="1">
+      <stop offset="0" stop-color="#2563eb"/><stop offset="0.5" stop-color="#7c3aed"/><stop offset="1" stop-color="#db2777"/>
     </linearGradient>
-    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="90"/>
-    </filter>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
-    </pattern>
+    <radialGradient id="calm" cx="0.5" cy="0.46" r="0.62">
+      <stop offset="0" stop-color="#000"/><stop offset="0.45" stop-color="#000" stop-opacity="0.6"/><stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="edges"><rect width="100%" height="100%" fill="#fff"/><rect width="100%" height="100%" fill="url(#calm)"/></mask>
   </defs>
-  <rect width="1600" height="640" fill="url(#base)"/>
-  <g filter="url(#blur)">
-    <circle cx="260" cy="120" r="260" fill="#2563eb" fill-opacity="0.75"/>
-    <circle cx="820" cy="560" r="240" fill="#7c3aed" fill-opacity="0.6"/>
-    <circle cx="1360" cy="160" r="280" fill="#06b6d4" fill-opacity="0.55"/>
-    <circle cx="1100" cy="420" r="160" fill="#db2777" fill-opacity="0.35"/>
+  <g filter="url(#glow)">
+    <circle cx="220" cy="110" r="250" fill="#2563eb" fill-opacity="0.55"/>
+    <circle cx="1380" cy="140" r="270" fill="#0891b2" fill-opacity="0.45"/>
+    <circle cx="860" cy="600" r="230" fill="#7c3aed" fill-opacity="0.45"/>
+    <circle cx="1150" cy="470" r="150" fill="#db2777" fill-opacity="0.3"/>
+    <circle cx="380" cy="560" r="170" fill="#7c3aed" fill-opacity="0.3"/>
   </g>
-  <rect width="1600" height="640" fill="url(#grid)"/>
+  <g mask="url(#edges)">
+    <g fill="none" stroke="url(#arc)" stroke-linecap="round">
+      <path d="M1534 473 Q1518 312 1501 366" stroke-width="3.1" stroke-opacity="0.81"/>
+      <path d="M1534 473 Q1478 419 1422 485" stroke-width="1.9" stroke-opacity="0.52"/>
+      <path d="M1534 473 Q1515 415 1496 588" stroke-width="2.3" stroke-opacity="0.63"/>
+      <path d="M281 342 Q290 177 299 232" stroke-width="1.9" stroke-opacity="0.53"/>
+      <path d="M281 342 Q295 285 308 462" stroke-width="0.9" stroke-opacity="0.30"/>
+      <path d="M281 342 Q341 247 400 306" stroke-width="0.8" stroke-opacity="0.28"/>
+      <path d="M1360 91 Q1392 38 1424 182" stroke-width="1.3" stroke-opacity="0.39"/>
+      <path d="M1360 91 Q1291 26 1222 138" stroke-width="1.0" stroke-opacity="0.32"/>
+      <path d="M1360 91 Q1365 14 1371 270" stroke-width="0.9" stroke-opacity="0.30"/>
+      <path d="M634 106 Q599 58 563 168" stroke-width="0.8" stroke-opacity="0.28"/>
+      <path d="M634 106 Q601 39 567 241" stroke-width="1.5" stroke-opacity="0.43"/>
+      <path d="M634 106 Q543 8 452 87" stroke-width="0.9" stroke-opacity="0.30"/>
+      <path d="M510 496 Q486 451 463 570" stroke-width="2.0" stroke-opacity="0.56"/>
+      <path d="M510 496 Q530 450 549 576" stroke-width="1.3" stroke-opacity="0.40"/>
+      <path d="M510 496 Q527 350 544 401" stroke-width="2.6" stroke-opacity="0.69"/>
+      <path d="M1222 138 Q1197 97 1172 191" stroke-width="1.6" stroke-opacity="0.46"/>
+      <path d="M1222 138 Q1181 29 1139 80" stroke-width="1.7" stroke-opacity="0.49"/>
+      <path d="M1108 561 Q1133 456 1159 499" stroke-width="1.4" stroke-opacity="0.43"/>
+      <path d="M1108 561 Q1049 478 989 535" stroke-width="1.6" stroke-opacity="0.47"/>
+      <path d="M1108 561 Q1071 406 1033 464" stroke-width="1.1" stroke-opacity="0.35"/>
+      <path d="M1139 80 Q1156 24 1172 191" stroke-width="2.3" stroke-opacity="0.62"/>
+      <path d="M1139 80 Q1067 13 995 113" stroke-width="1.2" stroke-opacity="0.38"/>
+      <path d="M544 401 Q506 314 468 359" stroke-width="1.3" stroke-opacity="0.39"/>
+      <path d="M544 401 Q556 169 567 241" stroke-width="0.9" stroke-opacity="0.31"/>
+      <path d="M1033 464 Q1011 420 989 535" stroke-width="1.2" stroke-opacity="0.38"/>
+      <path d="M1033 464 Q1096 403 1159 499" stroke-width="0.9" stroke-opacity="0.30"/>
+      <path d="M1496 588 Q1441 530 1386 584" stroke-width="1.7" stroke-opacity="0.49"/>
+      <path d="M1496 588 Q1459 426 1422 485" stroke-width="2.7" stroke-opacity="0.73"/>
+      <path d="M1159 499 Q1206 445 1253 562" stroke-width="1.1" stroke-opacity="0.35"/>
+      <path d="M412 226 Q406 182 400 306" stroke-width="1.5" stroke-opacity="0.45"/>
+      <path d="M412 226 Q356 171 299 232" stroke-width="1.4" stroke-opacity="0.42"/>
+      <path d="M412 226 Q432 22 452 87" stroke-width="2.8" stroke-opacity="0.73"/>
+      <path d="M904 547 Q901 429 898 471" stroke-width="3.2" stroke-opacity="0.82"/>
+      <path d="M904 547 Q947 490 989 535" stroke-width="1.7" stroke-opacity="0.49"/>
+      <path d="M904 547 Q855 496 805 574" stroke-width="1.2" stroke-opacity="0.38"/>
+      <path d="M1323 507 Q1288 461 1253 562" stroke-width="1.4" stroke-opacity="0.42"/>
+      <path d="M1323 507 Q1354 458 1386 584" stroke-width="0.8" stroke-opacity="0.29"/>
+      <path d="M1323 507 Q1372 435 1422 485" stroke-width="1.9" stroke-opacity="0.53"/>
+      <path d="M308 462 Q318 403 328 587" stroke-width="2.4" stroke-opacity="0.65"/>
+      <path d="M308 462 Q261 398 214 566" stroke-width="3.1" stroke-opacity="0.82"/>
+      <path d="M468 359 Q434 260 400 306" stroke-width="3.0" stroke-opacity="0.79"/>
+      <path d="M468 359 Q489 294 510 496" stroke-width="2.1" stroke-opacity="0.57"/>
+      <path d="M463 570 Q506 524 549 576" stroke-width="1.1" stroke-opacity="0.36"/>
+      <path d="M463 570 Q396 507 328 587" stroke-width="2.3" stroke-opacity="0.62"/>
+      <path d="M1386 584 Q1404 434 1422 485" stroke-width="1.0" stroke-opacity="0.34"/>
+      <path d="M1253 562 Q1319 499 1386 584" stroke-width="2.6" stroke-opacity="0.70"/>
+      <path d="M898 471 Q943 417 989 535" stroke-width="1.0" stroke-opacity="0.32"/>
+      <path d="M898 471 Q966 401 1033 464" stroke-width="2.1" stroke-opacity="0.57"/>
+      <path d="M100 388 Q122 341 144 468" stroke-width="2.8" stroke-opacity="0.73"/>
+      <path d="M100 388 Q191 262 281 342" stroke-width="1.6" stroke-opacity="0.46"/>
+      <path d="M100 388 Q104 119 108 200" stroke-width="1.3" stroke-opacity="0.39"/>
+      <path d="M452 87 Q508 24 563 168" stroke-width="1.3" stroke-opacity="0.39"/>
+      <path d="M144 468 Q179 411 214 566" stroke-width="2.1" stroke-opacity="0.58"/>
+      <path d="M144 468 Q226 390 308 462" stroke-width="1.3" stroke-opacity="0.38"/>
+      <path d="M1371 270 Q1398 131 1424 182" stroke-width="3.0" stroke-opacity="0.79"/>
+      <path d="M1371 270 Q1432 206 1494 264" stroke-width="1.4" stroke-opacity="0.41"/>
+      <path d="M1371 270 Q1436 199 1501 366" stroke-width="2.2" stroke-opacity="0.61"/>
+      <path d="M225 116 Q213 80 200 168" stroke-width="1.2" stroke-opacity="0.37"/>
+      <path d="M225 116 Q262 52 299 232" stroke-width="1.4" stroke-opacity="0.42"/>
+      <path d="M225 116 Q167 50 108 200" stroke-width="1.8" stroke-opacity="0.52"/>
+      <path d="M214 566 Q271 510 328 587" stroke-width="0.8" stroke-opacity="0.29"/>
+      <path d="M1501 366 Q1498 213 1494 264" stroke-width="0.9" stroke-opacity="0.31"/>
+      <path d="M1501 366 Q1462 301 1422 485" stroke-width="1.7" stroke-opacity="0.49"/>
+      <path d="M567 241 Q565 127 563 168" stroke-width="2.6" stroke-opacity="0.70"/>
+      <path d="M567 241 Q518 172 468 359" stroke-width="1.9" stroke-opacity="0.54"/>
+      <path d="M1562 166 Q1528 109 1494 264" stroke-width="1.7" stroke-opacity="0.48"/>
+      <path d="M1562 166 Q1493 102 1424 182" stroke-width="2.1" stroke-opacity="0.59"/>
+      <path d="M1562 166 Q1532 77 1501 366" stroke-width="1.4" stroke-opacity="0.42"/>
+      <path d="M805 574 Q851 407 898 471" stroke-width="2.3" stroke-opacity="0.62"/>
+      <path d="M805 574 Q897 454 989 535" stroke-width="3.1" stroke-opacity="0.81"/>
+      <path d="M995 113 Q1084 30 1172 191" stroke-width="0.9" stroke-opacity="0.31"/>
+      <path d="M995 113 Q1109 18 1222 138" stroke-width="0.9" stroke-opacity="0.29"/>
+      <path d="M1494 264 Q1459 129 1424 182" stroke-width="3.1" stroke-opacity="0.80"/>
+      <path d="M299 232 Q250 112 200 168" stroke-width="1.2" stroke-opacity="0.37"/>
+      <path d="M549 576 Q547 325 544 401" stroke-width="1.9" stroke-opacity="0.52"/>
+      <path d="M200 168 Q154 118 108 200" stroke-width="1.0" stroke-opacity="0.32"/>
+    </g>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+      <g opacity="0.85"><rect x="1497" y="473" width="73" height="30" rx="8" fill="#7c3aed" fill-opacity="0.16" stroke="#7c3aed" stroke-opacity="0.9"/><text x="1534" y="493" text-anchor="middle" fill="#7c3aed">ansvar</text></g>
+      <g opacity="0.76"><rect x="240" y="342" width="82" height="30" rx="8" fill="#7c3aed" fill-opacity="0.16" stroke="#7c3aed" stroke-opacity="0.9"/><text x="281" y="362" text-anchor="middle" fill="#7c3aed">##tekst</text></g>
+      <g opacity="0.95"><rect x="1319" y="91" width="82" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9"/><text x="1360" y="111" text-anchor="middle" fill="#2563eb">løsning</text></g>
+      <g opacity="0.89"><rect x="606" y="106" width="55" height="30" rx="8" fill="#db2777" fill-opacity="0.16" stroke="#db2777" stroke-opacity="0.9"/><text x="634" y="126" text-anchor="middle" fill="#db2777">lære</text></g>
+      <g opacity="0.85"><rect x="482" y="496" width="55" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9"/><text x="510" y="516" text-anchor="middle" fill="#2563eb">svar</text></g>
+      <g opacity="0.77"><rect x="1172" y="138" width="101" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9"/><text x="1222" y="158" text-anchor="middle" fill="#2563eb">##klaring</text></g>
+      <g opacity="0.94"><rect x="1072" y="561" width="73" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9"/><text x="1108" y="581" text-anchor="middle" fill="#2563eb">beslut</text></g>
+      <g opacity="0.81"><rect x="1107" y="80" width="64" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9"/><text x="1139" y="100" text-anchor="middle" fill="#2563eb">##mål</text></g>
+      <g opacity="0.83"><rect x="521" y="401" width="46" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9"/><text x="544" y="421" text-anchor="middle" fill="#2563eb">▁at</text></g>
+      <g opacity="0.75"><rect x="1006" y="464" width="55" height="30" rx="8" fill="#db2777" fill-opacity="0.16" stroke="#db2777" stroke-opacity="0.9"/><text x="1033" y="484" text-anchor="middle" fill="#db2777">fejl</text></g>
+      <g opacity="0.98"><rect x="1464" y="588" width="64" height="30" rx="8" fill="#db2777" fill-opacity="0.16" stroke="#db2777" stroke-opacity="0.9"/><text x="1496" y="608" text-anchor="middle" fill="#db2777">betyd</text></g>
+      <g opacity="0.81"><rect x="1127" y="499" width="64" height="30" rx="8" fill="#0891b2" fill-opacity="0.16" stroke="#0891b2" stroke-opacity="0.9"/><text x="1159" y="519" text-anchor="middle" fill="#0891b2">kilde</text></g>
+      <g opacity="0.79"><rect x="380" y="226" width="64" height="30" rx="8" fill="#7c3aed" fill-opacity="0.16" stroke="#7c3aed" stroke-opacity="0.9"/><text x="412" y="246" text-anchor="middle" fill="#7c3aed">tvivl</text></g>
+      <g opacity="0.97"><rect x="877" y="547" width="55" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9"/><text x="904" y="567" text-anchor="middle" fill="#2563eb">valg</text></g>
+      <g opacity="0.96"><rect x="1300" y="507" width="46" height="30" rx="8" fill="#0891b2" fill-opacity="0.16" stroke="#0891b2" stroke-opacity="0.9"/><text x="1323" y="527" text-anchor="middle" fill="#0891b2">▁og</text></g>
+      <g opacity="0.86"><rect x="258" y="462" width="101" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9"/><text x="308" y="482" text-anchor="middle" fill="#2563eb">grammatik</text></g>
+      <g opacity="0.76"><rect x="446" y="359" width="46" height="30" rx="8" fill="#7c3aed" fill-opacity="0.16" stroke="#7c3aed" stroke-opacity="0.9"/><text x="468" y="379" text-anchor="middle" fill="#7c3aed">for</text></g>
+      <g opacity="0.89"><rect x="435" y="570" width="55" height="30" rx="8" fill="#0891b2" fill-opacity="0.16" stroke="#0891b2" stroke-opacity="0.9"/><text x="463" y="590" text-anchor="middle" fill="#0891b2">tale</text></g>
+      <g opacity="0.88"><rect x="1359" y="584" width="55" height="30" rx="8" fill="#0891b2" fill-opacity="0.16" stroke="#0891b2" stroke-opacity="0.9"/><text x="1386" y="604" text-anchor="middle" fill="#0891b2">data</text></g>
+      <g opacity="0.89"><rect x="1221" y="562" width="64" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9"/><text x="1253" y="582" text-anchor="middle" fill="#2563eb">dansk</text></g>
+      <g opacity="0.78"><rect x="861" y="471" width="73" height="30" rx="8" fill="#db2777" fill-opacity="0.16" stroke="#db2777" stroke-opacity="0.9"/><text x="898" y="491" text-anchor="middle" fill="#db2777">tillid</text></g>
+      <g opacity="0.87"><rect x="78" y="388" width="46" height="30" rx="8" fill="#db2777" fill-opacity="0.16" stroke="#db2777" stroke-opacity="0.9"/><text x="100" y="408" text-anchor="middle" fill="#db2777">ord</text></g>
+      <g opacity="0.89"><rect x="420" y="87" width="64" height="30" rx="8" fill="#7c3aed" fill-opacity="0.16" stroke="#7c3aed" stroke-opacity="0.9"/><text x="452" y="107" text-anchor="middle" fill="#7c3aed">sprog</text></g>
+      <g opacity="0.78"><rect x="112" y="468" width="64" height="30" rx="8" fill="#db2777" fill-opacity="0.16" stroke="#db2777" stroke-opacity="0.9"/><text x="144" y="488" text-anchor="middle" fill="#db2777">tanke</text></g>
+      <g opacity="0.90"><rect x="1334" y="270" width="73" height="30" rx="8" fill="#db2777" fill-opacity="0.16" stroke="#db2777" stroke-opacity="0.9"/><text x="1371" y="290" text-anchor="middle" fill="#db2777">##gens</text></g>
+      <g opacity="0.93"><rect x="189" y="116" width="73" height="30" rx="8" fill="#7c3aed" fill-opacity="0.16" stroke="#7c3aed" stroke-opacity="0.9"/><text x="225" y="136" text-anchor="middle" fill="#7c3aed">nuance</text></g>
+      <g opacity="1.00"><rect x="173" y="566" width="82" height="30" rx="8" fill="#0891b2" fill-opacity="0.16" stroke="#0891b2" stroke-opacity="0.9"/><text x="214" y="586" text-anchor="middle" fill="#0891b2">sætning</text></g>
+      <g opacity="0.94"><rect x="1465" y="366" width="73" height="30" rx="8" fill="#0891b2" fill-opacity="0.16" stroke="#0891b2" stroke-opacity="0.9"/><text x="1501" y="386" text-anchor="middle" fill="#0891b2">spørgs</text></g>
+      <g opacity="0.98"><rect x="540" y="241" width="55" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9"/><text x="567" y="261" text-anchor="middle" fill="#2563eb">▁kan</text></g>
+      <g opacity="0.78"><rect x="1548" y="166" width="27" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9"/><text x="1562" y="186" text-anchor="middle" fill="#2563eb">æ</text></g>
+      <g opacity="0.99"><rect x="768" y="574" width="73" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9"/><text x="805" y="594" text-anchor="middle" fill="#2563eb">##ning</text></g>
+      <g opacity="0.80"><rect x="968" y="113" width="55" height="30" rx="8" fill="#db2777" fill-opacity="0.16" stroke="#db2777" stroke-opacity="0.9"/><text x="995" y="133" text-anchor="middle" fill="#db2777">spor</text></g>
+      <g opacity="0.80"><rect x="292" y="587" width="73" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9"/><text x="328" y="607" text-anchor="middle" fill="#2563eb">prompt</text></g>
+      <g opacity="0.89"><rect x="1458" y="264" width="73" height="30" rx="8" fill="#db2777" fill-opacity="0.16" stroke="#db2777" stroke-opacity="0.9"/><text x="1494" y="284" text-anchor="middle" fill="#db2777">skrift</text></g>
+      <g opacity="0.86"><rect x="286" y="232" width="27" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9"/><text x="299" y="252" text-anchor="middle" fill="#2563eb">ø</text></g>
+      <g opacity="0.97"><rect x="1131" y="191" width="82" height="30" rx="8" fill="#7c3aed" fill-opacity="0.16" stroke="#7c3aed" stroke-opacity="0.9"/><text x="1172" y="211" text-anchor="middle" fill="#7c3aed">▁venlig</text></g>
+      <g opacity="0.99"><rect x="368" y="306" width="64" height="30" rx="8" fill="#7c3aed" fill-opacity="0.16" stroke="#7c3aed" stroke-opacity="0.9"/><text x="400" y="326" text-anchor="middle" fill="#7c3aed">lytte</text></g>
+      <g opacity="0.92"><rect x="527" y="576" width="46" height="30" rx="8" fill="#db2777" fill-opacity="0.16" stroke="#db2777" stroke-opacity="0.9"/><text x="549" y="596" text-anchor="middle" fill="#db2777">kon</text></g>
+      <g opacity="0.75"><rect x="962" y="535" width="55" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9"/><text x="989" y="555" text-anchor="middle" fill="#2563eb">▁der</text></g>
+      <g opacity="0.94"><rect x="518" y="168" width="92" height="30" rx="8" fill="#7c3aed" fill-opacity="0.16" stroke="#7c3aed" stroke-opacity="0.9"/><text x="563" y="188" text-anchor="middle" fill="#7c3aed">menneske</text></g>
+      <g opacity="0.99"><rect x="168" y="168" width="64" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9"/><text x="200" y="188" text-anchor="middle" fill="#2563eb">værdi</text></g>
+      <g opacity="0.88"><rect x="81" y="200" width="55" height="30" rx="8" fill="#7c3aed" fill-opacity="0.16" stroke="#7c3aed" stroke-opacity="0.9"/><text x="108" y="220" text-anchor="middle" fill="#7c3aed">skøn</text></g>
+      <g opacity="0.78"><rect x="1392" y="182" width="64" height="30" rx="8" fill="#db2777" fill-opacity="0.16" stroke="#db2777" stroke-opacity="0.9"/><text x="1424" y="202" text-anchor="middle" fill="#db2777">viden</text></g>
+      <g opacity="0.83"><rect x="1381" y="485" width="82" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9"/><text x="1422" y="505" text-anchor="middle" fill="#2563eb">fortryd</text></g>
+    </g>
+  </g>
 </svg>
