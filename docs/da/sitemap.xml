@@ -60,8 +60,22 @@
     <loc>https://www.kiils.dk/ydelse/research/skattejagt/</loc>
   </url>
   <url>
+    <loc>https://www.kiils.dk/blog/2026-10-22-aula-kan-ikke-vinde/</loc>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.kiils.dk/en/blog/aula-cant-win/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="da"
+      href="https://www.kiils.dk/blog/2026-10-22-aula-kan-ikke-vinde/"
+    />
+  </url>
+  <url>
     <loc>https://www.kiils.dk/blog/</loc>
-    <lastmod>2026-10-21T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="en"
@@ -71,6 +85,34 @@
       rel="alternate"
       hreflang="da"
       href="https://www.kiils.dk/blog/"
+    />
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/blog/2026-10-22-tvunget-ind-laast-ude/</loc>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.kiils.dk/en/blog/forced-in-locked-out/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="da"
+      href="https://www.kiils.dk/blog/2026-10-22-tvunget-ind-laast-ude/"
+    />
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/</loc>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.kiils.dk/en/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="da"
+      href="https://www.kiils.dk/"
     />
   </url>
   <url>
@@ -85,20 +127,6 @@
       rel="alternate"
       hreflang="da"
       href="https://www.kiils.dk/blog/2026-10-21-de-kiilske-principper-for-ai/"
-    />
-  </url>
-  <url>
-    <loc>https://www.kiils.dk/</loc>
-    <lastmod>2026-10-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://www.kiils.dk/en/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="da"
-      href="https://www.kiils.dk/"
     />
   </url>
   <url>

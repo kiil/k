@@ -6,8 +6,22 @@
     <loc>https://www.kiils.dk/en/resource/</loc>
   </url>
   <url>
+    <loc>https://www.kiils.dk/en/blog/aula-cant-win/</loc>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="da"
+      href="https://www.kiils.dk/blog/2026-10-22-aula-kan-ikke-vinde/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.kiils.dk/en/blog/aula-cant-win/"
+    />
+  </url>
+  <url>
     <loc>https://www.kiils.dk/en/blog/</loc>
-    <lastmod>2026-10-21T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="da"
@@ -20,8 +34,22 @@
     />
   </url>
   <url>
+    <loc>https://www.kiils.dk/en/blog/forced-in-locked-out/</loc>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="da"
+      href="https://www.kiils.dk/blog/2026-10-22-tvunget-ind-laast-ude/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.kiils.dk/en/blog/forced-in-locked-out/"
+    />
+  </url>
+  <url>
     <loc>https://www.kiils.dk/en/</loc>
-    <lastmod>2026-10-21T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="da"

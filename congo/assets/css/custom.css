@@ -4,3 +4,5 @@ html {font-size: 13pt;}
 .lg\:max-w-sm {max-width: 24rem;}
 .lg\:max-w-md {max-width: 28rem;}
 }
+/* Plain-text blocks (terminal output with box-drawing tables): tight lines so the borders connect */
+.prose pre:has(code[data-lang="text"]) {line-height: 1.2; font-size: 0.8em;}
