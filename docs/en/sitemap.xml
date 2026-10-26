@@ -6,6 +6,38 @@
     <loc>https://www.kiils.dk/en/resource/</loc>
   </url>
   <url>
+    <loc>https://www.kiils.dk/en/blog/</loc>
+    <lastmod>2026-10-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="da"
+      href="https://www.kiils.dk/blog/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.kiils.dk/en/blog/"
+    />
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/</loc>
+    <lastmod>2026-10-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="da"
+      href="https://www.kiils.dk/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.kiils.dk/en/"
+    />
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/en/blog/rules-in-code-judgement-in-the-model/</loc>
+    <lastmod>2026-10-26T00:00:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>https://www.kiils.dk/en/blog/aula-cant-win/</loc>
     <lastmod>2026-10-22T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -20,20 +52,6 @@
     />
   </url>
   <url>
-    <loc>https://www.kiils.dk/en/blog/</loc>
-    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-      rel="alternate"
-      hreflang="da"
-      href="https://www.kiils.dk/blog/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://www.kiils.dk/en/blog/"
-    />
-  </url>
-  <url>
     <loc>https://www.kiils.dk/en/blog/forced-in-locked-out/</loc>
     <lastmod>2026-10-22T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -45,20 +63,6 @@
       rel="alternate"
       hreflang="en"
       href="https://www.kiils.dk/en/blog/forced-in-locked-out/"
-    />
-  </url>
-  <url>
-    <loc>https://www.kiils.dk/en/</loc>
-    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-      rel="alternate"
-      hreflang="da"
-      href="https://www.kiils.dk/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://www.kiils.dk/en/"
     />
   </url>
   <url>

@@ -1,0 +1,1492 @@
+<!doctype html>
+<html
+  lang="en"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"><head>
+  <meta charset="utf-8">
+  
+    <meta http-equiv="content-language" content="en">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color">
+
+  
+  
+    <title>Rules in code, judgement in the model &middot; Kiils</title>
+    <meta name="title" content="Rules in code, judgement in the model &middot; Kiils">
+  
+
+  
+  
+  
+  
+  
+    
+  
+    
+  
+    
+  
+  
+    <meta name="description" content="The first Kiil principle for AI, and how I apply it in Nushell when an LLM tailors my CV.">
+  
+  
+  
+  
+  <link rel="canonical" href="https://www.kiils.dk/en/blog/rules-in-code-judgement-in-the-model/">
+  
+  
+  
+
+  
+  
+  
+
+  
+  <meta property="og:url" content="https://www.kiils.dk/en/blog/rules-in-code-judgement-in-the-model/">
+	<meta property="og:site_name" content="Kiils">
+	<meta property="og:title" content="Rules in code, judgement in the model">
+	<meta property="og:description" content="The first Kiil principle for AI, and how I apply it in Nushell when an LLM tailors my CV.">
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="blog">
+		<meta property="article:published_time" content="2026-10-26T00:00:00+00:00">
+		<meta property="article:modified_time" content="2026-10-26T00:00:00+00:00">
+
+  
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Rules in code, judgement in the model">
+	<meta name="twitter:description" content="The first Kiil principle for AI, and how I apply it in Nushell when an LLM tailors my CV.">
+
+  
+  
+  
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.1f9ee803cd795034f3f12c5d5188c0cf77d4c8ce5016286747dfd93f9c2e89ba.css"
+    integrity="sha256-H57oA815UDTz8SxdUYjAz3fUyM5QFihnR9/ZP5wuibo=">
+
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/appearance.min.f3fe276b5b70697fa3f23ac79b17f8701f725c983be6f27a2d50b872010cf6ab.js"
+    integrity="sha256-8/4na1twaX&#43;j8jrHmxf4cB9yXJg75vJ6LVC4cgEM9qs="></script>
+  
+
+
+  
+  
+  
+  
+  
+  
+    
+    <script defer src="/lib/zoom/zoom.min.umd.db90c347df2234befc6345b10a4d9ceb1a065b23d0950da84646cad885b5ffd3.js" integrity="sha256-25DDR98iNL78Y0WxCk2c6xoGWyPQlQ2oRkbK2IW1/9M="></script>
+    
+    <script defer src="/js/medium-zoom.46594c18e26ed0822bfcdb8bd7d24f10cee7978ffd9f57e3dbfd8bf7ede3afb2.js" integrity="sha256-RllMGOJu0IIr/NuL19JPEM7nl4/9n1fj2/2L9&#43;3jr7I="></script>
+  
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+    
+    
+    
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+    
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="/js/main.bundle.min.4c3bbe6b760213a7bd43bff061eb419c2473a1a500d707e502db18693f2c306a.js"
+      integrity="sha256-TDu&#43;a3YCE6e9Q7/wYetBnCRzoaUA1wflAtsYaT8sMGo="
+      data-copy="Copy"
+      data-copied="Copied"></script>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+  
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Blog",
+    "name": "Rules in code, judgement in the model",
+    "headline": "Rules in code, judgement in the model",
+    "description": "The first Kiil principle for AI, and how I apply it in Nushell when an LLM tailors my CV.",
+    "inLanguage": "en",
+    "url" : "https://www.kiils.dk/en/blog/rules-in-code-judgement-in-the-model/",
+    "author" : {
+      "@type": "Person",
+      "name": ""
+    },
+    "copyrightYear": "2026",
+    "dateCreated": "2026-10-26T00:00:00\u002b00:00",
+    "datePublished": "2026-10-26T00:00:00\u002b00:00",
+    
+    "dateModified": "2026-10-26T00:00:00\u002b00:00",
+    
+    
+    
+    "mainEntityOfPage": "https://www.kiils.dk/en/blog/rules-in-code-judgement-in-the-model/",
+    "wordCount":  1237 
+  }]
+  </script>
+
+
+
+  
+  
+    
+
+
+
+
+  
+
+  
+  
+    
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    
+    gtag("consent", "default", {
+      ad_storage: "denied",
+      ad_user_data: "denied",
+      ad_personalization: "denied",
+      analytics_storage: "denied",
+      functionality_storage: "granted",
+      security_storage: "granted",
+      wait_for_update: 500
+    });
+  </script>
+  
+  
+  <link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.ca046b8b1b1094107205988e7096a687b241c8ef5f3fefe5e543ed28d26646c1.css" integrity="sha256-ygRrixsQlBByBZiOcJamh7JByO9fP&#43;/l5UPtKNJmRsE=" />
+  <style>
+     
+    #cc-main {
+      --cc-btn-primary-bg: rgb(var(--color-primary-600));
+      --cc-btn-primary-color: #fff;
+      --cc-btn-primary-hover-color: #fff;
+      --cc-btn-primary-border-color: rgb(var(--color-primary-600));
+      --cc-btn-primary-hover-bg: rgb(var(--color-primary-500));
+      --cc-btn-primary-hover-border-color: rgb(var(--color-primary-500));
+      --cc-toggle-on-bg: rgb(var(--color-primary-600));
+    }
+    .cc--darkmode #cc-main {
+      --cc-bg: rgb(var(--color-neutral-800));
+      --cc-btn-secondary-bg: rgb(var(--color-neutral-700));
+      --cc-btn-secondary-hover-bg: rgb(var(--color-neutral-600));
+      --cc-footer-bg: rgb(var(--color-neutral-700));
+      --cc-footer-color: rgb(var(--color-neutral-200));
+      --cc-footer-border-color: rgb(var(--color-neutral-700));
+    }
+  </style>
+  
+  <script defer src="/lib/cookieconsent/cookieconsent.umd.bc6e2f2e6381fc025b27a6b0afb5a0e1fc689c6f9fc40a78708adb2054ef4575.js" integrity="sha256-vG4vLmOB/AJbJ6awr7Wg4fxonG&#43;fxAp4cIrbIFTvRXU="></script>
+  
+  <script defer src="/js/consent.min.878fd7997d7cde7ea35e7ea59cb28396e872376c64d883772bcb14830a0d2246.js" integrity="sha256-h4/XmX183n6jXn6lnLKDluhyN2xk2IN3K8sUgwoNIkY=" data-gtm-id="GTM-KG8ND8T"></script>
+
+
+  
+
+  
+  
+    
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+  
+  
+  
+  
+  <meta property="og:image" content="https://www.kiils.dk/images/canvas_hu_58498ee318fb02cb.png" />
+  <meta name="twitter:image" content="https://www.kiils.dk/images/canvas_hu_58498ee318fb02cb.png" />
+
+
+  
+
+  
+  
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <body class="flex flex-col h-screen m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32 text-lg bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral bf-scrollbar">
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content">
+        <span class="font-bold text-primary-600 pe-2 dark:text-primary-400">&darr;</span>
+        Skip to main content
+      </a>
+    </div>
+    <header>
+      
+      
+        <div class="min-h-[148px]"></div>
+<div class="fixed top-0 inset-x-0 z-100">
+  <div
+    id="menu-blur"
+    class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl backdrop-saturate-220 backdrop-brightness-112 dark:backdrop-saturate-180 dark:backdrop-brightness-95 bg-primary-200/80 bg-linear-60 dark:bg-primary-800/30 shadow-xl"></div>
+  <div class="relative m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32">
+    <div class="main-menu flex items-center w-full gap-2 p-1 pl-0">
+  
+  
+    <a href="/en/" class="text-base font-medium truncate min-w-0 shrink">
+      Kiils
+    </a>
+  
+  <div class="flex items-center ms-auto">
+    <div class="hidden md:flex">
+      <nav aria-label="Main menu" class="flex items-center gap-x-5 h-12">
+  
+    
+      
+  
+    <a
+      href="/en/resource/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="Resources"
+      title="Resources">
+      
+      
+        <span class="text-sm font-medium break-normal">
+          Resources
+        </span>
+      
+    </a>
+  
+
+    
+      
+  
+    <a
+      href=""
+      
+      class="flex items-center bf-icon-color-hover"
+      
+      title="">
+      
+      
+    </a>
+  
+
+    
+      
+  
+    <a
+      href="/en/blog/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="Blog"
+      title="Blog">
+      
+      
+        <span class="text-sm font-medium break-normal">
+          Blog
+        </span>
+      
+    </a>
+  
+
+    
+  
+
+  
+
+  
+
+  
+    <div class="flex items-center">
+      <button
+        id="appearance-switcher"
+        aria-label="Switch to dark appearance"
+        type="button"
+        class="text-sm bf-icon-color-hover"
+        title="Switch to dark appearance">
+        <div class="flex items-center justify-center dark:hidden">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+        </div>
+        <div class="items-center justify-center hidden dark:flex">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+        </div>
+      </button>
+    </div>
+  
+
+  
+    <button
+      id="search-button"
+      aria-label="Search (/)"
+      class="flex items-center gap-2 rounded-lg border bf-border-color bf-border-color-hover bg-neutral-100/50 px-2 py-1 text-sm text-neutral-500 transition-colors hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral-400 dark:hover:text-primary-400"
+      title="Search (/)">
+      <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+      <kbd
+        id="search-shortcut-hint"
+        class="pointer-events-none font-sans text-xs text-neutral-500 dark:text-neutral-400"
+        aria-hidden="true">
+        ⌘K
+      </kbd>
+    </button>
+  
+</nav>
+
+
+
+    </div>
+    <div class="flex md:hidden">
+      
+<div class="mobile-header-row relative flex items-center h-14 gap-4">
+  
+    
+
+  
+
+  
+    <button
+      id="appearance-switcher-mobile"
+      type="button"
+      aria-label="Switch to dark appearance"
+      title="Switch to dark appearance"
+      class="flex items-center justify-center text-neutral-900 hover:text-primary-600 dark:text-neutral-200 dark:hover:text-primary-400">
+      <div class="dark:hidden">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+      </div>
+      <div class="hidden dark:block">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+      </div>
+    </button>
+  
+
+  
+    <button
+      id="search-button-mobile"
+      aria-label="Search (/)"
+      class="flex items-center justify-center bf-icon-color-hover"
+      title="Search (/)">
+      <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+    </button>
+  
+
+  
+    <input type="checkbox" id="mobile-menu-toggle" autocomplete="off" class="hidden peer">
+    <label
+      for="mobile-menu-toggle"
+      tabindex="0"
+      role="button"
+      aria-expanded="false"
+      aria-controls="mobile-menu-dialog"
+      aria-label="Main menu"
+      class="flex items-center justify-center cursor-pointer bf-icon-color-hover">
+      <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+</span>
+    </label>
+
+    <div
+      id="mobile-menu-dialog"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Main menu"
+      style="scrollbar-gutter: stable;"
+      class="z-50 invisible overflow-y-auto opacity-0 transition-[opacity,visibility] duration-300 peer-checked:visible peer-checked:opacity-100
+      
+        fixed inset-0 px-6 py-20 bg-neutral-50/97 dark:bg-neutral-900/99
+      
+      bf-scrollbar">
+      <label
+        for="mobile-menu-toggle"
+        tabindex="0"
+        role="button"
+        aria-expanded="false"
+        aria-controls="mobile-menu-dialog"
+        class="fixed end-8 top-5 z-50 h-12 w-12 rounded-full flex items-center justify-center cursor-pointer select-none bf-icon-color-hover border bf-border-color bf-border-color-hover bg-neutral-50 dark:bg-neutral-900">
+        <span class="sr-only">Close menu</span>
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </label>
+      <nav
+        aria-label="Mobile menu"
+        class="mx-auto max-w-md space-y-6">
+        
+  
+    
+    <div class="px-2">
+      <div class="flex items-center gap-4">
+        <a
+          href="/en/resource/"
+          aria-label="Resources"
+          
+          class="flex grow items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+          
+          <span title="Resources" class="text-2xl font-bold tracking-tight">
+            Resources
+          </span>
+        </a>
+        
+      </div>
+
+      
+    </div>
+  
+    
+    <div class="px-2">
+      <div class="flex items-center gap-4">
+        <a
+          href=""
+          
+          
+          class="flex grow items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+          
+          <span title="" class="text-2xl font-bold tracking-tight">
+            
+          </span>
+        </a>
+        
+      </div>
+
+      
+    </div>
+  
+    
+    <div class="px-2">
+      <div class="flex items-center gap-4">
+        <a
+          href="/en/blog/"
+          aria-label="Blog"
+          
+          class="flex grow items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+          
+          <span title="Blog" class="text-2xl font-bold tracking-tight">
+            Blog
+          </span>
+        </a>
+        
+      </div>
+
+      
+    </div>
+  
+
+        
+  
+
+        
+  
+
+      </nav>
+    </div>
+  
+</div>
+
+
+
+
+
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<script
+  type="text/javascript"
+  src="/js/background-blur.min.6c705c5c48ef0e4fe1c4be778be02c0840600e54b03a8ec1f98528dfe8c7cb67.js"
+  integrity="sha256-bHBcXEjvDk/hxL53i&#43;AsCEBgDlSwOo7B&#43;YUo3&#43;jHy2c="
+  data-blur-id="menu-blur"></script>
+      
+    </header>
+    <div class="relative flex flex-col grow">
+      <main id="main-content" class="grow">
+        
+  
+  
+  
+  
+  <article>
+    
+    
+
+    
+    <header id="single_header" class="mt-5 max-w-prose">
+      
+        <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+    
+  
+    
+  
+  <li class="hidden">
+    <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="/en/"
+      >Friendly intelligence that creates value</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline">
+    <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="/en/blog/"
+      >Blog</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="hidden">
+    <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="/en/blog/rules-in-code-judgement-in-the-model/"
+      >Rules in code, judgement in the model</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Rules in code, judgement in the model
+      </h1>
+      <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2026-10-26T00:00:00&#43;00:00">26 October 2026</time><span class="px-2 text-primary-500">&middot;</span><span>1237 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+
+  
+  
+    <div class="flex flex-row flex-wrap items-center">
+      
+        
+      
+        
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/en/emner/kunstig-intelligens/">
+                <span class="flex cursor-pointer">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+    Kunstig Intelligens
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/en/tools/nushell/">
+                <span class="flex cursor-pointer">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+    Nushell
+  </span>
+</span>
+
+              </a>
+            
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/en/tools/aichat/">
+                <span class="flex cursor-pointer">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+    Aichat
+  </span>
+</span>
+
+              </a>
+            
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/en/tools/llm/">
+                <span class="flex cursor-pointer">
+  
+  
+  
+  
+    <span
+      class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+  
+    LLM
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+    </div>
+  
+
+
+      </div>
+      
+        
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+    
+      
+      
+<div class="flex author">
+  
+  <div class="place-self-center">
+    
+    
+    <div class="text-2xl sm:text-lg">
+</div>
+  </div>
+</div>
+
+    
+  
+
+  
+    <div class="mb-5"></div>
+  
+
+      
+    </header>
+
+    
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+      
+      
+      
+      
+        <div class="order-first lg:ms-auto px-0 lg:order-last lg:ps-8 lg:max-w-2xs">
+          <div class="toc ps-5 print:hidden lg:sticky lg:top-[140px]">
+            <details
+  open
+  id="TOCView"
+  class="toc-right mt-0 overflow-y-auto overscroll-contain bf-scrollbar rounded-lg -ms-5 ps-5 pe-2 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 -ms-5 ps-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted border-s-1 -ms-5 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents" aria-label="Table of Contents">
+  <ul>
+    <li><a href="#two-kinds-of-work">Two kinds of work</a></li>
+    <li><a href="#always-remember-to-is-a-wish">&ldquo;Always remember to&rdquo; is a wish</a></li>
+    <li><a href="#an-example-a-cv-the-model-may-only-cut">An example: a CV the model may only cut</a></li>
+    <li><a href="#rules-can-be-tested">Rules can be tested</a></li>
+    <li><a href="#where-to-draw-the-line">Where to draw the line</a></li>
+    <li><a href="#the-model-can-change-the-rules-cant">The model can change. The rules can&rsquo;t.</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg -ms-5 ps-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 -ms-5 ps-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 border-s-1 -ms-5 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContentsMobile" aria-label="Table of Contents">
+  <ul>
+    <li><a href="#two-kinds-of-work">Two kinds of work</a></li>
+    <li><a href="#always-remember-to-is-a-wish">&ldquo;Always remember to&rdquo; is a wish</a></li>
+    <li><a href="#an-example-a-cv-the-model-may-only-cut">An example: a CV the model may only cut</a></li>
+    <li><a href="#rules-can-be-tested">Rules can be tested</a></li>
+    <li><a href="#where-to-draw-the-line">Where to draw the line</a></li>
+    <li><a href="#the-model-can-change-the-rules-cant">The model can change. The rules can&rsquo;t.</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+
+
+          </div>
+        </div>
+      
+
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+
+        <div class="article-content max-w-prose mb-20">
+          <p>The first of the <a
+  href="https://www.kiils.dk/en/blog/the-kiil-principles-for-ai/"
+  
+  
+>Kiil principles for AI</a> is a question.</p>
+<p>Which parts are rules, and which parts are model?</p>
+<p>I ask that one first. The answer decides the shape of everything else. Get it wrong, and no amount of prompt tuning will save you.</p>
+
+<h2 class="relative group">Two kinds of work
+    <div id="two-kinds-of-work" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#two-kinds-of-work" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Almost every task you&rsquo;d hand to an AI system contains two kinds of work.</p>
+<p>Some of it is judgement. Which of these ten projects is most relevant to the job ad? Is this email angry or just short? What&rsquo;s a better way to phrase this paragraph? There&rsquo;s no single right answer, and a language model is genuinely good at this.</p>
+<p>Some of it is rules. The VAT is 25 percent. The deadline is Friday. A customer in arrears doesn&rsquo;t get credit. My CV must not contain experience I don&rsquo;t have. There is a right answer, and it&rsquo;s the same every time.</p>
+<p>A language model can do the first kind. It cannot be trusted with the second. Not because it is stupid, but because it produces plausible text. Plausible is not the same as correct. It will follow your rule 98 out of 100 times. You will not know which two times it did not.</p>
+
+<h2 class="relative group">&ldquo;Always remember to&rdquo; is a wish
+    <div id="always-remember-to-is-a-wish" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#always-remember-to-is-a-wish" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>You can spot rules hiding in the wrong place by reading the prompt. Look for phrases like these:</p>
+<ul>
+<li>&ldquo;Always remember to …&rdquo;</li>
+<li>&ldquo;Never …&rdquo;</li>
+<li>&ldquo;Make sure that …&rdquo;</li>
+<li>&ldquo;Do not under any circumstances …&rdquo;</li>
+</ul>
+<p>Each one is a rule written as a request. The model will usually honour it. But you can&rsquo;t test it, you can&rsquo;t prove it held, and you won&rsquo;t see the day it breaks.</p>
+<p>The fix is to keep the request in the prompt, because it helps, and then enforce the rule in code afterwards. The prompt asks. The code makes sure.</p>
+
+<h2 class="relative group">An example: a CV the model may only cut
+    <div id="an-example-a-cv-the-model-may-only-cut" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#an-example-a-cv-the-model-may-only-cut" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>I have a system that tailors my CV to job ads. The model gets my master CV and the ad, and picks the lines that fit. That&rsquo;s judgement, and it does it well.</p>
+<p>The rule is that it may only cut. It must not rephrase a line into something slightly grander, and it must not add anything. In the prompt I ask it nicely. In the code I check every line it returns against the master CV, word for word.</p>
+<p>Here is a simplified version in Nushell. I use <a
+  href="https://github.com/sigoden/aichat"
+  
+  target="_blank" rel="noreferrer noopener"
+>aichat</a> for the model call, but any command line LLM tool will do.</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-nu" data-lang="nu"><span class="line"><span class="cl"><span class="c1"># Rule: the model may only cut. Every proposed line must exist verbatim in the master CV.
+</span></span></span><span class="line"><span class="cl"><span class="k">export</span><span class="w"> </span><span class="k">def</span><span class="w"> </span>assert-cut-only<span class="w"> </span><span class="o">[</span>master:<span class="w"> </span>list&lt;string&gt;<span class="o">]</span>:<span class="w"> </span>list&lt;string&gt;<span class="w"> </span>-&gt;<span class="w"> </span>list&lt;string&gt;<span class="w"> </span><span class="o">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">let</span><span class="w"> </span><span class="nv">proposed</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">$in</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">let</span><span class="w"> </span><span class="nv">invented</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">$proposed</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="k">where</span><span class="w"> </span><span class="nv">$it</span><span class="w"> </span>not-in<span class="w"> </span><span class="nv">$master</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">if</span><span class="w"> </span><span class="o">(</span><span class="nv">$invented</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="k">is-not-empty</span><span class="o">)</span><span class="w"> </span><span class="o">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">error make</span><span class="w"> </span><span class="o">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>msg:<span class="w"> </span><span class="s2">$&#34;The model proposed </span><span class="si">(</span><span class="nv">$invented</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="k">length</span><span class="si">)</span><span class="s2"> line\(s\) that are not in the master CV&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="k">help</span>:<span class="w"> </span><span class="o">(</span><span class="nv">$invented</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="k">str</span><span class="w"> </span><span class="k">join</span><span class="w"> </span><span class="o">(</span><span class="k">char</span><span class="w"> </span>newline<span class="o">))</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="o">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="o">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c1"># Keep the master order, whatever order the model answered in
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nv">$master</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="k">where</span><span class="w"> </span><span class="nv">$it</span><span class="w"> </span>in<span class="w"> </span><span class="nv">$proposed</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="o">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="c1"># Judgement: let the model pick the lines that fit the job ad
+</span></span></span><span class="line"><span class="cl"><span class="k">export</span><span class="w"> </span><span class="k">def</span><span class="w"> </span>propose-lines<span class="w"> </span><span class="o">[</span>master:<span class="w"> </span>list&lt;string&gt;,<span class="w"> </span>job_ad:<span class="w"> </span>string<span class="o">]</span>:<span class="w"> </span>nothing<span class="w"> </span>-&gt;<span class="w"> </span>list&lt;string&gt;<span class="w"> </span><span class="o">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">let</span><span class="w"> </span><span class="nv">prompt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">[</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="s2">&#34;Below is my CV, one item per line, followed by a job ad.&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="s2">&#34;Return the lines from the CV that are most relevant to the job.&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="s2">&#34;Copy each line exactly as written. Do not rewrite, merge or add anything.&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="s2">&#34;Return only the lines, one per line.&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="s2">&#34;&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="s2">&#34;CV:&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>...<span class="nv">$master</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="s2">&#34;&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="s2">&#34;Job ad:&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nv">$job_ad</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="o">]</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="k">str</span><span class="w"> </span><span class="k">join</span><span class="w"> </span><span class="o">(</span><span class="k">char</span><span class="w"> </span>newline<span class="o">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>^aichat<span class="w"> </span><span class="nv">$prompt</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="k">lines</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="k">str</span><span class="w"> </span>trim<span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="k">compact</span><span class="w"> </span>--empty<span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="o">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="k">export</span><span class="w"> </span><span class="k">def</span><span class="w"> </span>tailor-cv<span class="w"> </span><span class="o">[</span>master_file:<span class="w"> </span><span class="k">path</span>,<span class="w"> </span>job_ad_file:<span class="w"> </span><span class="k">path</span><span class="o">]</span>:<span class="w"> </span>nothing<span class="w"> </span>-&gt;<span class="w"> </span>list&lt;string&gt;<span class="w"> </span><span class="o">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">let</span><span class="w"> </span><span class="nv">master</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">open</span><span class="w"> </span>--raw<span class="w"> </span><span class="nv">$master_file</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="k">lines</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="k">str</span><span class="w"> </span>trim<span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="k">compact</span><span class="w"> </span>--empty<span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>propose-lines<span class="w"> </span><span class="nv">$master</span><span class="w"> </span><span class="o">(</span><span class="k">open</span><span class="w"> </span>--raw<span class="w"> </span><span class="nv">$job_ad_file</span><span class="o">)</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>assert-cut-only<span class="w"> </span><span class="nv">$master</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="o">}</span></span></span></code></pre></div></div>
+<p>Save it as <code>cv.nu</code> and run it like this:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-nu" data-lang="nu"><span class="line"><span class="cl"><span class="k">use</span><span class="w"> </span>cv.nu<span class="w"> </span>tailor-cv<span class="w">
+</span></span></span><span class="line"><span class="cl">tailor-cv<span class="w"> </span>master-cv.txt<span class="w"> </span><span class="k">job</span>-ad.txt<span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="k">save</span><span class="w"> </span>tailored-cv.txt</span></span></code></pre></div></div>
+<p>Notice how the work is split. <code>propose-lines</code> is the only place the model appears, and it only makes a choice. <code>assert-cut-only</code> contains no AI at all. It&rsquo;s a plain function that takes a list and either returns it or stops.</p>
+<p>Two details matter.</p>
+<p>First, when the rule is broken, the command fails with an error. It doesn&rsquo;t quietly drop the bad line and carry on. If the model starts inventing things, I want to know, because it probably means the prompt or the model has changed under me.</p>
+<p>Second, the order of the CV is decided by the code, not by the model. That&rsquo;s a rule too. It&rsquo;s a small one, but there&rsquo;s no reason to leave it to chance.</p>
+
+<h2 class="relative group">Rules can be tested
+    <div id="rules-can-be-tested" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#rules-can-be-tested" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Because the rule lives in a plain function, I can test it without calling a model at all. That makes the tests fast, free and the same every time.</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-nu" data-lang="nu"><span class="line"><span class="cl"><span class="k">use</span><span class="w"> </span>std/assert<span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="k">use</span><span class="w"> </span>cv.nu<span class="w"> </span>assert-cut-only<span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="k">let</span><span class="w"> </span><span class="nv">master</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">[</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s2">&#34;Built a Nushell module for Drupal publishing&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s2">&#34;Ran workshops on AI for teachers&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s2">&#34;Wrote a book on prompting&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="o">]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="c1"># A pure cut passes, and comes back in master order
+</span></span></span><span class="line"><span class="cl">assert<span class="w"> </span>equal<span class="w"> </span><span class="o">(</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="o">[</span><span class="s2">&#34;Wrote a book on prompting&#34;</span><span class="w"> </span><span class="s2">&#34;Built a Nushell module for Drupal publishing&#34;</span><span class="o">]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="p">|</span><span class="w"> </span>assert-cut-only<span class="w"> </span><span class="nv">$master</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="o">)</span><span class="w"> </span><span class="o">[</span><span class="s2">&#34;Built a Nushell module for Drupal publishing&#34;</span><span class="w"> </span><span class="s2">&#34;Wrote a book on prompting&#34;</span><span class="o">]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="c1"># Invented experience fails
+</span></span></span><span class="line"><span class="cl">assert<span class="w"> </span>error<span class="w"> </span><span class="o">{</span><span class="w"> </span><span class="o">[</span><span class="s2">&#34;Led a team of 40 engineers&#34;</span><span class="o">]</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>assert-cut-only<span class="w"> </span><span class="nv">$master</span><span class="w"> </span><span class="o">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="c1"># So does a line that is only almost the same
+</span></span></span><span class="line"><span class="cl">assert<span class="w"> </span>error<span class="w"> </span><span class="o">{</span><span class="w"> </span><span class="o">[</span><span class="s2">&#34;Ran workshops on AI for teachers.&#34;</span><span class="o">]</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>assert-cut-only<span class="w"> </span><span class="nv">$master</span><span class="w"> </span><span class="o">}</span></span></span></code></pre></div></div>
+<p>The last test is the one I like best. A single full stop is enough to fail. That&rsquo;s harsh, and it&rsquo;s meant to be. A model that adds a full stop today may add &ldquo;senior&rdquo; tomorrow, and I&rsquo;d rather catch the full stop.</p>
+<p>The tests also show the check failing, not just passing. That matters more than it sounds, and it&rsquo;s really the second principle, so I&rsquo;ll save it for the next post.</p>
+
+<h2 class="relative group">Where to draw the line
+    <div id="where-to-draw-the-line" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#where-to-draw-the-line" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>You won&rsquo;t always find the split as clean as in the CV example. A few questions help me:</p>
+<ul>
+<li><strong>Is there a right answer?</strong> If two careful people would always agree, it&rsquo;s a rule. Write it in code.</li>
+<li><strong>Could I write a test for it?</strong> If yes, write the test, and let the code pass it, not the model.</li>
+<li><strong>What does it cost if it&rsquo;s wrong one time in fifty?</strong> If the answer is &ldquo;a slightly clumsy sentence&rdquo;, let the model do it. If it&rsquo;s &ldquo;a false claim on my CV&rdquo;, don&rsquo;t.</li>
+</ul>
+<p>And often the best design is both: the model proposes, the code checks. The model is free to be creative inside a fence, and the code is the fence.</p>
+
+<h2 class="relative group">The model can change. The rules can&rsquo;t.
+    <div id="the-model-can-change-the-rules-cant" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-model-can-change-the-rules-cant" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>There is one more reason to keep rules out of the prompt. Models change. A new version arrives, a provider tweaks something, you switch to a cheaper model to save money. Your prompt may suddenly work a little differently.</p>
+<p>If your rules live in code, that doesn&rsquo;t matter. The model can get better or worse at choosing CV lines, and my CV will still only contain things I&rsquo;ve actually done.</p>
+<p>That&rsquo;s what the first principle buys you. Not a smarter system, but one where you know exactly which parts you can trust.</p>
+<p>If you&rsquo;d like help finding the rules hiding in your own prompts, <a
+  href="mailto:lennart@kiils.dk"
+  
+  
+>send me an email</a>.</p>
+
+          
+          
+          
+        </div>
+        
+        
+
+        
+  
+  <section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
+    
+      
+        <a
+          class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          target="_blank"
+          href="https://www.facebook.com/sharer/sharer.php?u=https://www.kiils.dk/en/blog/rules-in-code-judgement-in-the-model/&amp;quote=Rules%20in%20code,%20judgement%20in%20the%20model"
+          title="Share on Facebook"
+          aria-label="Share on Facebook">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+</span>
+        </a>
+      
+    
+      
+        <a
+          class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          target="_blank"
+          href="https://twitter.com/intent/tweet/?url=https://www.kiils.dk/en/blog/rules-in-code-judgement-in-the-model/&amp;text=Rules%20in%20code,%20judgement%20in%20the%20model"
+          title="Tweet on Twitter"
+          aria-label="Tweet on Twitter">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></span>
+        </a>
+      
+    
+      
+        <a
+          class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          target="_blank"
+          href="https://share.joinmastodon.org/#text=Rules%20in%20code,%20judgement%20in%20the%20model%20https://www.kiils.dk/en/blog/rules-in-code-judgement-in-the-model/"
+          title="Toot on Mastodon"
+          aria-label="Toot on Mastodon">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg>
+</span>
+        </a>
+      
+    
+      
+        <a
+          class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          target="_blank"
+          href="https://pinterest.com/pin/create/bookmarklet/?url=https://www.kiils.dk/en/blog/rules-in-code-judgement-in-the-model/&amp;description=Rules%20in%20code,%20judgement%20in%20the%20model"
+          title="Pin on Pinterest"
+          aria-label="Pin on Pinterest">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"/></svg>
+</span>
+        </a>
+      
+    
+      
+        <a
+          class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          target="_blank"
+          href="https://reddit.com/submit/?url=https://www.kiils.dk/en/blog/rules-in-code-judgement-in-the-model/&amp;resubmit=true&amp;title=Rules%20in%20code,%20judgement%20in%20the%20model"
+          title="Submit to Reddit"
+          aria-label="Submit to Reddit">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z"/></svg>
+</span>
+        </a>
+      
+    
+      
+        <a
+          class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          target="_blank"
+          href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.kiils.dk/en/blog/rules-in-code-judgement-in-the-model/&amp;title=Rules%20in%20code,%20judgement%20in%20the%20model"
+          title="Share on LinkedIn"
+          aria-label="Share on LinkedIn">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+</span>
+        </a>
+      
+    
+      
+        <a
+          class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          target="_blank"
+          href="mailto:?body=https://www.kiils.dk/en/blog/rules-in-code-judgement-in-the-model/&amp;subject=Rules%20in%20code,%20judgement%20in%20the%20model"
+          title="Send via email"
+          aria-label="Send via email">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+</span>
+        </a>
+      
+    
+  </section>
+
+
+        
+
+      </div>
+    </section>
+
+    
+    <footer class="pt-8 max-w-prose print:hidden">
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+      <div class="flex justify-between pt-3">
+        <span class="flex flex-col">
+          
+            <a
+              class="flex text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+              href="/en/blog/aula-cant-win/">
+              <span class="leading-6">
+                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;Aula can't win
+              </span>
+            </a>
+            
+              <span class="ms-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
+                <time datetime="2026-10-22T00:00:00&#43;00:00">22 October 2026</time>
+              </span>
+            
+          
+        </span>
+        <span class="flex flex-col items-end">
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+
+    </footer>
+  </article>
+
+        
+
+
+  
+
+
+
+
+
+
+
+
+
+
+<div
+  id="scroll-to-top"
+  class="fixed bottom-6 end-6 z-50 transform translate-y-4 opacity-0 duration-200">
+  <a
+    href="#the-top"
+    class="pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top"
+    title="Scroll to top">
+    &uarr;
+  </a>
+</div>
+
+      </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+      
+      
+        
+          
+          
+      
+      
+      
+      <nav aria-label="Footer menu" class="pb-6 text-base font-medium text-neutral-500 dark:text-neutral-400">
+        <ul class="grid list-none" style="grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr)); gap: 1.5rem 2rem;">
+          
+            <li class="flex flex-col gap-1">
+              <a
+                class="font-semibold text-neutral-700 dark:text-neutral-200 decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+                href="/en/resource/"
+                title="Resources">
+                Resources
+              </a>
+              
+                <ul class="flex list-none flex-col gap-1 text-sm font-normal">
+                  
+                    <li>
+                      <a
+                        class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+                        href="/en/resource/personas/"
+                        title="Awesome ChatGPT Personas">
+                        Personas
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a
+                        class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+                        href="/en/tools/"
+                        title="Tools">
+                        🧰 Tools
+                      </a>
+                    </li>
+                  
+                </ul>
+              
+            </li>
+          
+            <li class="flex flex-col gap-1">
+              <a
+                class="font-semibold text-neutral-700 dark:text-neutral-200 decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+                href=""
+                title="">
+                Company
+              </a>
+              
+                <ul class="flex list-none flex-col gap-1 text-sm font-normal">
+                  
+                    <li>
+                      <a
+                        class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+                        href="/en/clients/"
+                        title="Clients">
+                        Clients 🤗
+                      </a>
+                    </li>
+                  
+                </ul>
+              
+            </li>
+          
+            <li class="flex flex-col gap-1">
+              <a
+                class="font-semibold text-neutral-700 dark:text-neutral-200 decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+                href="/en/domain/"
+                title="Domains">
+                Domains
+              </a>
+              
+                <ul class="flex list-none flex-col gap-1 text-sm font-normal">
+                  
+                    <li>
+                      <a
+                        class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+                        href="/en/domain/climate-encyclopedia/"
+                        title="Climate Encyclopedia">
+                        Climate Encyclopedia
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a
+                        class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+                        href="/en/domain/folkets/"
+                        title="Folkets.dk">
+                        Folkets.dk
+                      </a>
+                    </li>
+                  
+                </ul>
+              
+            </li>
+          
+        </ul>
+      </nav>
+    
+  
+  <div class="flex items-center justify-between">
+    
+    
+      <p class="text-sm text-neutral-500 dark:text-neutral-400">
+          Kiils &mdash; DK-35172831 &mdash; DK3870400002041753 SYBKDK22
+      </p>
+    
+
+    
+    
+      
+      
+        <a
+          href="/en/privacy/"
+          class="text-sm text-neutral-500 dark:text-neutral-400 decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2">
+          Privacy and cookie policy
+        </a>
+      
+      <button
+        type="button"
+        data-cc="show-preferencesModal"
+        class="text-sm text-neutral-500 dark:text-neutral-400 decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2">
+        Cookie settings
+      </button>
+    
+
+    
+    
+      <p class="text-xs text-neutral-500 dark:text-neutral-400">
+        
+        
+        Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
+      </p>
+    
+  </div>
+  
+  
+</footer>
+<div
+  id="search-wrapper"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Search"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh] z-500"
+  data-url="/en/">
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800">
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          aria-label="Search"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search"
+          tabindex="0">
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+    </div>
+    
+    
+  </body>
+  
+  
+</html>
