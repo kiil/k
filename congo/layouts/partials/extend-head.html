@@ -37,7 +37,9 @@
       --cc-footer-border-color: rgb(var(--color-neutral-700));
     }
   </style>
-  {{ $lib := resources.Get "lib/cookieconsent/cookieconsent.umd.js" | resources.Fingerprint $algorithm }}
+  {{/* Wrap the UMD build in an IIFE: its top-level `var e,t` would otherwise clobber Fuse.js globals and break search */}}
+  {{ $umd := resources.Get "lib/cookieconsent/cookieconsent.umd.js" }}
+  {{ $lib := resources.FromString "lib/cookieconsent/cookieconsent.umd.js" (printf "(function(){%s\n}).call(window);" $umd.Content) | resources.Fingerprint $algorithm }}
   <script defer src="{{ $lib.RelPermalink }}" integrity="{{ $lib.Data.Integrity }}"></script>
   {{ $consent := resources.Get "js/consent.js" | resources.Minify | resources.Fingerprint $algorithm }}
   <script defer src="{{ $consent.RelPermalink }}" integrity="{{ $consent.Data.Integrity }}" data-gtm-id="{{ . }}"></script>
