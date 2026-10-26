@@ -36,6 +36,16 @@
   <url>
     <loc>https://www.kiils.dk/en/blog/rules-in-code-judgement-in-the-model/</loc>
     <lastmod>2026-10-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="da"
+      href="https://www.kiils.dk/blog/2026-10-26-regler-i-kode-skoen-i-modellen/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.kiils.dk/en/blog/rules-in-code-judgement-in-the-model/"
+    />
   </url>
   <url>
     <loc>https://www.kiils.dk/en/blog/aula-cant-win/</loc>
