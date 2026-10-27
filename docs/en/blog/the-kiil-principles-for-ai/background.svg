@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -130 1600 900" preserveAspectRatio="xMidYMid slice">
+<defs>
+<filter id="glow" filterUnits="userSpaceOnUse" x="-600" y="-700" width="2800" height="2040"><feGaussianBlur stdDeviation="80"/></filter>
+<linearGradient id="arc" x1="0" x2="1"><stop offset="0" stop-color="#2563eb"/><stop offset="0.5" stop-color="#7c3aed"/><stop offset="1" stop-color="#db2777"/></linearGradient>
+</defs>
+<g filter="url(#glow)">
+<circle cx="270" cy="190" r="220" fill="#2563eb" fill-opacity="0.45"/>
+<circle cx="1330" cy="190" r="220" fill="#7c3aed" fill-opacity="0.4"/>
+<circle cx="270" cy="480" r="200" fill="#0891b2" fill-opacity="0.4"/>
+<circle cx="1330" cy="480" r="200" fill="#db2777" fill-opacity="0.3"/>
+</g>
+<g fill="none" stroke-linecap="round">
+<path d="M270 175 Q199 95 128 120" stroke="url(#arc)" stroke-width="2.1" stroke-opacity="0.57"/>
+<path d="M270 175 Q270 55 270 80" stroke="url(#arc)" stroke-width="3.1" stroke-opacity="0.81"/>
+<path d="M270 175 Q341 95 412 120" stroke="url(#arc)" stroke-width="2.8" stroke-opacity="0.73"/>
+<path d="M1330 175 Q1259 95 1188 120" stroke="url(#arc)" stroke-width="3.1" stroke-opacity="0.81"/>
+<path d="M1330 175 Q1330 55 1330 80" stroke="url(#arc)" stroke-width="2.2" stroke-opacity="0.61"/>
+<path d="M1330 175 Q1401 95 1472 120" stroke="url(#arc)" stroke-width="2.4" stroke-opacity="0.65"/>
+<path d="M270 465 Q341 440 412 520" stroke="url(#arc)" stroke-width="2.9" stroke-opacity="0.75"/>
+<path d="M270 465 Q270 440 270 560" stroke="url(#arc)" stroke-width="2.7" stroke-opacity="0.73"/>
+<path d="M270 465 Q199 440 128 520" stroke="url(#arc)" stroke-width="2.1" stroke-opacity="0.58"/>
+<path d="M1330 465 Q1401 440 1472 520" stroke="url(#arc)" stroke-width="2.1" stroke-opacity="0.59"/>
+<path d="M1330 465 Q1330 440 1330 560" stroke="url(#arc)" stroke-width="2.5" stroke-opacity="0.67"/>
+<path d="M1330 465 Q1259 440 1188 520" stroke="url(#arc)" stroke-width="2.5" stroke-opacity="0.68"/>
+<path d="M270 175 Q800 115 1330 175" stroke="url(#arc)" stroke-width="1.2" stroke-opacity="0.36"/>
+<path d="M270 465 Q800 405 1330 465" stroke="url(#arc)" stroke-width="1.2" stroke-opacity="0.36"/>
+<path d="M270 175 Q270 115 270 465" stroke="url(#arc)" stroke-width="1.2" stroke-opacity="0.36"/>
+<path d="M1330 175 Q1330 115 1330 465" stroke="url(#arc)" stroke-width="1.2" stroke-opacity="0.36"/>
+</g>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+<g opacity="1.00"><rect x="243" y="175" width="55" height="30" rx="8" fill="#2563eb" fill-opacity="0.32" stroke="#2563eb" stroke-opacity="0.9" stroke-width="2.2"/><text x="270" y="195" text-anchor="middle" fill="#2563eb">rule</text></g>
+<g opacity="0.78"><rect x="96" y="120" width="64" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9" stroke-width="1"/><text x="128" y="140" text-anchor="middle" fill="#2563eb">model</text></g>
+<g opacity="0.99"><rect x="243" y="80" width="55" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9" stroke-width="1"/><text x="270" y="100" text-anchor="middle" fill="#2563eb">code</text></g>
+<g opacity="0.95"><rect x="362" y="120" width="101" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9" stroke-width="1"/><text x="412" y="140" text-anchor="middle" fill="#2563eb">judgement</text></g>
+<g opacity="1.00"><rect x="1298" y="175" width="64" height="30" rx="8" fill="#7c3aed" fill-opacity="0.32" stroke="#7c3aed" stroke-opacity="0.9" stroke-width="2.2"/><text x="1330" y="195" text-anchor="middle" fill="#7c3aed">error</text></g>
+<g opacity="0.93"><rect x="1156" y="120" width="64" height="30" rx="8" fill="#7c3aed" fill-opacity="0.16" stroke="#7c3aed" stroke-opacity="0.9" stroke-width="1"/><text x="1188" y="140" text-anchor="middle" fill="#7c3aed">check</text></g>
+<g opacity="0.83"><rect x="1303" y="80" width="55" height="30" rx="8" fill="#7c3aed" fill-opacity="0.16" stroke="#7c3aed" stroke-opacity="0.9" stroke-width="1"/><text x="1330" y="100" text-anchor="middle" fill="#7c3aed">stop</text></g>
+<g opacity="0.76"><rect x="1445" y="120" width="55" height="30" rx="8" fill="#7c3aed" fill-opacity="0.16" stroke="#7c3aed" stroke-opacity="0.9" stroke-width="1"/><text x="1472" y="140" text-anchor="middle" fill="#7c3aed">zero</text></g>
+<g opacity="1.00"><rect x="238" y="465" width="64" height="30" rx="8" fill="#0891b2" fill-opacity="0.32" stroke="#0891b2" stroke-opacity="0.9" stroke-width="2.2"/><text x="270" y="485" text-anchor="middle" fill="#0891b2">trace</text></g>
+<g opacity="0.88"><rect x="390" y="520" width="46" height="30" rx="8" fill="#0891b2" fill-opacity="0.16" stroke="#0891b2" stroke-opacity="0.9" stroke-width="1"/><text x="412" y="540" text-anchor="middle" fill="#0891b2">log</text></g>
+<g opacity="0.92"><rect x="247" y="560" width="46" height="30" rx="8" fill="#0891b2" fill-opacity="0.16" stroke="#0891b2" stroke-opacity="0.9" stroke-width="1"/><text x="270" y="580" text-anchor="middle" fill="#0891b2">why</text></g>
+<g opacity="0.76"><rect x="91" y="520" width="73" height="30" rx="8" fill="#0891b2" fill-opacity="0.16" stroke="#0891b2" stroke-opacity="0.9" stroke-width="1"/><text x="128" y="540" text-anchor="middle" fill="#0891b2">decide</text></g>
+<g opacity="1.00"><rect x="1298" y="465" width="64" height="30" rx="8" fill="#db2777" fill-opacity="0.32" stroke="#db2777" stroke-opacity="0.9" stroke-width="2.2"/><text x="1330" y="485" text-anchor="middle" fill="#db2777">human</text></g>
+<g opacity="0.84"><rect x="1431" y="520" width="82" height="30" rx="8" fill="#db2777" fill-opacity="0.16" stroke="#db2777" stroke-opacity="0.9" stroke-width="1"/><text x="1472" y="540" text-anchor="middle" fill="#db2777">approve</text></g>
+<g opacity="0.78"><rect x="1303" y="560" width="55" height="30" rx="8" fill="#db2777" fill-opacity="0.16" stroke="#db2777" stroke-opacity="0.9" stroke-width="1"/><text x="1330" y="580" text-anchor="middle" fill="#db2777">undo</text></g>
+<g opacity="0.99"><rect x="1156" y="520" width="64" height="30" rx="8" fill="#db2777" fill-opacity="0.16" stroke="#db2777" stroke-opacity="0.9" stroke-width="1"/><text x="1188" y="540" text-anchor="middle" fill="#db2777">owner</text></g>
+</g>
+</svg>

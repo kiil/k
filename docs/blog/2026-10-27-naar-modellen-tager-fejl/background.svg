@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -130 1600 900" preserveAspectRatio="xMidYMid slice">
+<defs>
+<filter id="glow" filterUnits="userSpaceOnUse" x="-600" y="-700" width="2800" height="2040"><feGaussianBlur stdDeviation="80"/></filter>
+<linearGradient id="arc" x1="0" x2="1"><stop offset="0" stop-color="#2563eb"/><stop offset="0.5" stop-color="#7c3aed"/><stop offset="1" stop-color="#db2777"/></linearGradient>
+</defs>
+<g filter="url(#glow)">
+<circle cx="230" cy="330" r="230" fill="#0891b2" fill-opacity="0.4"/>
+<circle cx="1330" cy="260" r="240" fill="#7c3aed" fill-opacity="0.4"/>
+<circle cx="1330" cy="520" r="180" fill="#db2777" fill-opacity="0.35"/>
+</g>
+<circle cx="720" cy="430" r="11" fill="#db2777" fill-opacity="0.9"/>
+<g fill="none" stroke-linecap="round">
+<path d="M268 130 L1287 190" stroke="#2563eb" stroke-width="1.9" stroke-opacity="0.53"/>
+<path d="M268 130 Q778 108 1287 190" stroke="url(#arc)" stroke-width="1.9" stroke-opacity="0.53"/>
+<path d="M268 230 L1264 350" stroke="#2563eb" stroke-width="1.9" stroke-opacity="0.53"/>
+<path d="M268 230 Q766 208 1264 350" stroke="url(#arc)" stroke-width="1.9" stroke-opacity="0.53"/>
+<path d="M268 330 L1287 190" stroke="#2563eb" stroke-width="1.9" stroke-opacity="0.53"/>
+<path d="M268 330 Q778 168 1287 190" stroke="url(#arc)" stroke-width="1.9" stroke-opacity="0.53"/>
+<path d="M268 430 L720 430" stroke="#2563eb" stroke-width="2.7" stroke-opacity="0.72"/>
+<path d="M268 430 Q494 408 720 430" stroke="url(#arc)" stroke-width="2.7" stroke-opacity="0.72"/>
+<path d="M720 430 L911 402" stroke="#2563eb" stroke-dasharray="4 8" stroke-width="1.5" stroke-opacity="0.45"/>
+<path d="M720 430 L919 346" stroke="#7c3aed" stroke-dasharray="4 8" stroke-width="1.5" stroke-opacity="0.45"/>
+<path d="M720 430 L1278 510" stroke="#db2777" stroke-width="3.2" stroke-opacity="0.83"/>
+<path d="M268 530 L1264 350" stroke="#2563eb" stroke-width="1.9" stroke-opacity="0.53"/>
+<path d="M268 530 Q766 328 1264 350" stroke="url(#arc)" stroke-width="1.9" stroke-opacity="0.53"/>
+</g>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+<g opacity="1.00"><rect x="198" y="115" width="64" height="30" rx="8" fill="#0891b2" fill-opacity="0.16" stroke="#0891b2" stroke-opacity="0.9" stroke-width="1"/><text x="230" y="135" text-anchor="middle" fill="#0891b2">sag 1</text></g>
+<g opacity="1.00"><rect x="198" y="215" width="64" height="30" rx="8" fill="#0891b2" fill-opacity="0.16" stroke="#0891b2" stroke-opacity="0.9" stroke-width="1"/><text x="230" y="235" text-anchor="middle" fill="#0891b2">sag 2</text></g>
+<g opacity="1.00"><rect x="198" y="315" width="64" height="30" rx="8" fill="#0891b2" fill-opacity="0.16" stroke="#0891b2" stroke-opacity="0.9" stroke-width="1"/><text x="230" y="335" text-anchor="middle" fill="#0891b2">sag 3</text></g>
+<g opacity="1.00"><rect x="198" y="415" width="64" height="30" rx="8" fill="#0891b2" fill-opacity="0.16" stroke="#0891b2" stroke-opacity="0.9" stroke-width="1"/><text x="230" y="435" text-anchor="middle" fill="#0891b2">sag 4</text></g>
+<text x="720" y="435" text-anchor="middle" fill="#fff" font-weight="bold">?</text>
+<g opacity="1.00"><rect x="198" y="515" width="64" height="30" rx="8" fill="#0891b2" fill-opacity="0.16" stroke="#0891b2" stroke-opacity="0.9" stroke-width="1"/><text x="230" y="535" text-anchor="middle" fill="#0891b2">sag 5</text></g>
+<g opacity="1.00"><rect x="1293" y="175" width="73" height="30" rx="8" fill="#7c3aed" fill-opacity="0.32" stroke="#7c3aed" stroke-opacity="0.9" stroke-width="2.2"/><text x="1330" y="195" text-anchor="middle" fill="#7c3aed">videre</text></g>
+<g opacity="1.00"><rect x="1270" y="335" width="119" height="30" rx="8" fill="#7c3aed" fill-opacity="0.32" stroke="#7c3aed" stroke-opacity="0.9" stroke-width="2.2"/><text x="1330" y="355" text-anchor="middle" fill="#7c3aed">spring over</text></g>
+<g opacity="1.00"><rect x="1284" y="495" width="92" height="30" rx="8" fill="#db2777" fill-opacity="0.32" stroke="#db2777" stroke-opacity="0.9" stroke-width="2.2"/><text x="1330" y="515" text-anchor="middle" fill="#db2777">menneske</text></g>
+</g>
+</svg>

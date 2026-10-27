@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -130 1600 900" preserveAspectRatio="xMidYMid slice">
+<defs>
+<filter id="glow" filterUnits="userSpaceOnUse" x="-600" y="-700" width="2800" height="2040"><feGaussianBlur stdDeviation="80"/></filter>
+<linearGradient id="arc" x1="0" x2="1"><stop offset="0" stop-color="#2563eb"/><stop offset="0.5" stop-color="#7c3aed"/><stop offset="1" stop-color="#db2777"/></linearGradient>
+</defs>
+<g filter="url(#glow)">
+<circle cx="230" cy="330" r="230" fill="#0891b2" fill-opacity="0.4"/>
+<circle cx="1330" cy="260" r="240" fill="#7c3aed" fill-opacity="0.4"/>
+<circle cx="1330" cy="520" r="180" fill="#db2777" fill-opacity="0.35"/>
+</g>
+<circle cx="720" cy="430" r="11" fill="#db2777" fill-opacity="0.9"/>
+<g fill="none" stroke-linecap="round">
+<path d="M273 130 L1292 190" stroke="#2563eb" stroke-width="1.9" stroke-opacity="0.53"/>
+<path d="M273 130 Q782 108 1292 190" stroke="url(#arc)" stroke-width="1.9" stroke-opacity="0.53"/>
+<path d="M273 230 L1297 350" stroke="#2563eb" stroke-width="1.9" stroke-opacity="0.53"/>
+<path d="M273 230 Q785 208 1297 350" stroke="url(#arc)" stroke-width="1.9" stroke-opacity="0.53"/>
+<path d="M273 330 L1292 190" stroke="#2563eb" stroke-width="1.9" stroke-opacity="0.53"/>
+<path d="M273 330 Q782 168 1292 190" stroke="url(#arc)" stroke-width="1.9" stroke-opacity="0.53"/>
+<path d="M273 430 L720 430" stroke="#2563eb" stroke-width="2.7" stroke-opacity="0.72"/>
+<path d="M273 430 Q496 408 720 430" stroke="url(#arc)" stroke-width="2.7" stroke-opacity="0.72"/>
+<path d="M720 430 L922 402" stroke="#2563eb" stroke-dasharray="4 8" stroke-width="1.5" stroke-opacity="0.45"/>
+<path d="M720 430 L920 346" stroke="#7c3aed" stroke-dasharray="4 8" stroke-width="1.5" stroke-opacity="0.45"/>
+<path d="M720 430 L1292 510" stroke="#db2777" stroke-width="3.2" stroke-opacity="0.83"/>
+<path d="M273 530 L1297 350" stroke="#2563eb" stroke-width="1.9" stroke-opacity="0.53"/>
+<path d="M273 530 Q785 328 1297 350" stroke="url(#arc)" stroke-width="1.9" stroke-opacity="0.53"/>
+</g>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+<g opacity="1.00"><rect x="193" y="115" width="73" height="30" rx="8" fill="#0891b2" fill-opacity="0.16" stroke="#0891b2" stroke-opacity="0.9" stroke-width="1"/><text x="230" y="135" text-anchor="middle" fill="#0891b2">case 1</text></g>
+<g opacity="1.00"><rect x="193" y="215" width="73" height="30" rx="8" fill="#0891b2" fill-opacity="0.16" stroke="#0891b2" stroke-opacity="0.9" stroke-width="1"/><text x="230" y="235" text-anchor="middle" fill="#0891b2">case 2</text></g>
+<g opacity="1.00"><rect x="193" y="315" width="73" height="30" rx="8" fill="#0891b2" fill-opacity="0.16" stroke="#0891b2" stroke-opacity="0.9" stroke-width="1"/><text x="230" y="335" text-anchor="middle" fill="#0891b2">case 3</text></g>
+<g opacity="1.00"><rect x="193" y="415" width="73" height="30" rx="8" fill="#0891b2" fill-opacity="0.16" stroke="#0891b2" stroke-opacity="0.9" stroke-width="1"/><text x="230" y="435" text-anchor="middle" fill="#0891b2">case 4</text></g>
+<text x="720" y="435" text-anchor="middle" fill="#fff" font-weight="bold">?</text>
+<g opacity="1.00"><rect x="193" y="515" width="73" height="30" rx="8" fill="#0891b2" fill-opacity="0.16" stroke="#0891b2" stroke-opacity="0.9" stroke-width="1"/><text x="230" y="535" text-anchor="middle" fill="#0891b2">case 5</text></g>
+<g opacity="1.00"><rect x="1298" y="175" width="64" height="30" rx="8" fill="#7c3aed" fill-opacity="0.32" stroke="#7c3aed" stroke-opacity="0.9" stroke-width="2.2"/><text x="1330" y="195" text-anchor="middle" fill="#7c3aed">apply</text></g>
+<g opacity="1.00"><rect x="1303" y="335" width="55" height="30" rx="8" fill="#7c3aed" fill-opacity="0.32" stroke="#7c3aed" stroke-opacity="0.9" stroke-width="2.2"/><text x="1330" y="355" text-anchor="middle" fill="#7c3aed">skip</text></g>
+<g opacity="1.00"><rect x="1298" y="495" width="64" height="30" rx="8" fill="#db2777" fill-opacity="0.32" stroke="#db2777" stroke-opacity="0.9" stroke-width="2.2"/><text x="1330" y="515" text-anchor="middle" fill="#db2777">human</text></g>
+</g>
+</svg>

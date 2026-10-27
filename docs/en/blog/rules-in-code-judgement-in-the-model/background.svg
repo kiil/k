@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -130 1600 900" preserveAspectRatio="xMidYMid slice">
+<defs>
+<filter id="glow" filterUnits="userSpaceOnUse" x="-600" y="-700" width="2800" height="2040"><feGaussianBlur stdDeviation="80"/></filter>
+<linearGradient id="arc" x1="0" x2="1"><stop offset="0" stop-color="#2563eb"/><stop offset="0.5" stop-color="#7c3aed"/><stop offset="1" stop-color="#db2777"/></linearGradient>
+</defs>
+<g filter="url(#glow)">
+<circle cx="260" cy="330" r="260" fill="#2563eb" fill-opacity="0.45"/>
+<circle cx="1250" cy="200" r="260" fill="#7c3aed" fill-opacity="0.4"/>
+<circle cx="1300" cy="520" r="200" fill="#db2777" fill-opacity="0.25"/>
+</g>
+<rect x="797" y="90" width="6" height="16" rx="3" fill="#2563eb" fill-opacity="0.55"/>
+<rect x="797" y="116" width="6" height="16" rx="3" fill="#2563eb" fill-opacity="0.55"/>
+<rect x="797" y="142" width="6" height="16" rx="3" fill="#2563eb" fill-opacity="0.55"/>
+<rect x="797" y="168" width="6" height="16" rx="3" fill="#2563eb" fill-opacity="0.55"/>
+<rect x="797" y="194" width="6" height="16" rx="3" fill="#2563eb" fill-opacity="0.55"/>
+<rect x="797" y="272" width="6" height="16" rx="3" fill="#2563eb" fill-opacity="0.55"/>
+<rect x="797" y="298" width="6" height="16" rx="3" fill="#2563eb" fill-opacity="0.55"/>
+<rect x="797" y="324" width="6" height="16" rx="3" fill="#2563eb" fill-opacity="0.55"/>
+<rect x="797" y="350" width="6" height="16" rx="3" fill="#2563eb" fill-opacity="0.55"/>
+<rect x="797" y="376" width="6" height="16" rx="3" fill="#2563eb" fill-opacity="0.55"/>
+<rect x="797" y="454" width="6" height="16" rx="3" fill="#2563eb" fill-opacity="0.55"/>
+<rect x="797" y="480" width="6" height="16" rx="3" fill="#2563eb" fill-opacity="0.55"/>
+<rect x="797" y="506" width="6" height="16" rx="3" fill="#2563eb" fill-opacity="0.55"/>
+<rect x="797" y="532" width="6" height="16" rx="3" fill="#2563eb" fill-opacity="0.55"/>
+<rect x="797" y="558" width="6" height="16" rx="3" fill="#2563eb" fill-opacity="0.55"/>
+<rect x="797" y="584" width="6" height="16" rx="3" fill="#2563eb" fill-opacity="0.55"/>
+<rect x="797" y="610" width="6" height="16" rx="3" fill="#2563eb" fill-opacity="0.55"/>
+<g fill="none" stroke-linecap="round">
+<path d="M143 125 L250 125" stroke="#2563eb" stroke-width="2.0" stroke-opacity="0.56"/>
+<path d="M286 125 L430 125" stroke="#2563eb" stroke-width="2.0" stroke-opacity="0.56"/>
+<path d="M143 215 L250 215" stroke="#2563eb" stroke-width="2.0" stroke-opacity="0.56"/>
+<path d="M305 215 L430 215" stroke="#2563eb" stroke-width="2.0" stroke-opacity="0.56"/>
+<path d="M134 305 L250 305" stroke="#2563eb" stroke-width="2.0" stroke-opacity="0.56"/>
+<path d="M305 305 L430 305" stroke="#2563eb" stroke-width="2.0" stroke-opacity="0.56"/>
+<path d="M134 395 L250 395" stroke="#2563eb" stroke-width="2.0" stroke-opacity="0.56"/>
+<path d="M342 395 L430 395" stroke="#2563eb" stroke-width="2.0" stroke-opacity="0.56"/>
+<path d="M1040 125 Q1110 33 1180 235" stroke="url(#arc)" stroke-width="3.0" stroke-opacity="0.79"/>
+<path d="M1040 125 Q1010 8 980 365" stroke="url(#arc)" stroke-width="2.4" stroke-opacity="0.65"/>
+<path d="M1330 105 Q1415 12 1500 165" stroke="url(#arc)" stroke-width="2.1" stroke-opacity="0.58"/>
+<path d="M1330 105 Q1255 6 1180 235" stroke="url(#arc)" stroke-width="0.9" stroke-opacity="0.29"/>
+<path d="M1180 235 Q1225 138 1270 405" stroke="url(#arc)" stroke-width="1.1" stroke-opacity="0.35"/>
+<path d="M1450 285 Q1475 90 1500 165" stroke="url(#arc)" stroke-width="0.8" stroke-opacity="0.28"/>
+<path d="M980 365 Q1045 263 1110 525" stroke="url(#arc)" stroke-width="1.3" stroke-opacity="0.39"/>
+<path d="M1270 405 Q1345 312 1420 505" stroke="url(#arc)" stroke-width="0.9" stroke-opacity="0.30"/>
+<path d="M1040 125 Q940 145 840 230" stroke="url(#arc)" stroke-width="3.0" stroke-opacity="0.78"/>
+<path d="M840 230 L730 230" stroke="#2563eb" stroke-dasharray="2 8" stroke-width="3.0" stroke-opacity="0.78"/>
+<path d="M980 365 Q910 385 840 410" stroke="url(#arc)" stroke-width="3.0" stroke-opacity="0.78"/>
+<path d="M840 410 L730 410" stroke="#2563eb" stroke-dasharray="2 8" stroke-width="3.0" stroke-opacity="0.78"/>
+</g>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+<g opacity="0.96"><rect x="70" y="110" width="73" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9" stroke-width="1"/><text x="107" y="130" text-anchor="middle" fill="#2563eb">assert</text></g>
+<g opacity="0.91"><rect x="250" y="110" width="36" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9" stroke-width="1"/><text x="268" y="130" text-anchor="middle" fill="#2563eb">==</text></g>
+<g opacity="0.92"><rect x="430" y="110" width="82" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9" stroke-width="1"/><text x="471" y="130" text-anchor="middle" fill="#2563eb">VAT 25%</text></g>
+<g opacity="0.81"><rect x="70" y="200" width="73" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9" stroke-width="1"/><text x="107" y="220" text-anchor="middle" fill="#2563eb">friday</text></g>
+<g opacity="0.94"><rect x="250" y="200" width="55" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9" stroke-width="1"/><text x="277" y="220" text-anchor="middle" fill="#2563eb">test</text></g>
+<g opacity="0.93"><rect x="430" y="200" width="55" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9" stroke-width="1"/><text x="457" y="220" text-anchor="middle" fill="#2563eb">true</text></g>
+<g opacity="1.00"><rect x="70" y="290" width="64" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9" stroke-width="1"/><text x="102" y="310" text-anchor="middle" fill="#2563eb">false</text></g>
+<g opacity="0.90"><rect x="250" y="290" width="55" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9" stroke-width="1"/><text x="277" y="310" text-anchor="middle" fill="#2563eb">code</text></g>
+<g opacity="0.93"><rect x="430" y="290" width="55" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9" stroke-width="1"/><text x="457" y="310" text-anchor="middle" fill="#2563eb">rule</text></g>
+<g opacity="0.95"><rect x="70" y="380" width="64" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9" stroke-width="1"/><text x="102" y="400" text-anchor="middle" fill="#2563eb">fixed</text></g>
+<g opacity="0.81"><rect x="250" y="380" width="92" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9" stroke-width="1"/><text x="296" y="400" text-anchor="middle" fill="#2563eb">∈ master</text></g>
+<g opacity="0.95"><rect x="430" y="380" width="55" height="30" rx="8" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.9" stroke-width="1"/><text x="457" y="400" text-anchor="middle" fill="#2563eb">stop</text></g>
+<g opacity="0.78"><rect x="990" y="125" width="101" height="30" rx="8" fill="#7c3aed" fill-opacity="0.16" stroke="#7c3aed" stroke-opacity="0.9" stroke-width="1"/><text x="1040" y="145" text-anchor="middle" fill="#7c3aed">judgement</text></g>
+<g opacity="0.86"><rect x="1303" y="105" width="55" height="30" rx="8" fill="#7c3aed" fill-opacity="0.16" stroke="#7c3aed" stroke-opacity="0.9" stroke-width="1"/><text x="1330" y="125" text-anchor="middle" fill="#7c3aed">tone</text></g>
+<g opacity="0.90"><rect x="1130" y="235" width="101" height="30" rx="8" fill="#7c3aed" fill-opacity="0.16" stroke="#7c3aed" stroke-opacity="0.9" stroke-width="1"/><text x="1180" y="255" text-anchor="middle" fill="#7c3aed">relevance</text></g>
+<g opacity="0.97"><rect x="1413" y="285" width="73" height="30" rx="8" fill="#7c3aed" fill-opacity="0.16" stroke="#7c3aed" stroke-opacity="0.9" stroke-width="1"/><text x="1450" y="305" text-anchor="middle" fill="#7c3aed">nuance</text></g>
+<g opacity="0.96"><rect x="948" y="365" width="64" height="30" rx="8" fill="#db2777" fill-opacity="0.16" stroke="#db2777" stroke-opacity="0.9" stroke-width="1"/><text x="980" y="385" text-anchor="middle" fill="#db2777">maybe</text></g>
+<g opacity="0.98"><rect x="1224" y="405" width="92" height="30" rx="8" fill="#db2777" fill-opacity="0.16" stroke="#db2777" stroke-opacity="0.9" stroke-width="1"/><text x="1270" y="425" text-anchor="middle" fill="#db2777">phrasing</text></g>
+<g opacity="0.76"><rect x="1083" y="525" width="55" height="30" rx="8" fill="#db2777" fill-opacity="0.16" stroke="#db2777" stroke-opacity="0.9" stroke-width="1"/><text x="1110" y="545" text-anchor="middle" fill="#db2777">text</text></g>
+<g opacity="0.87"><rect x="1383" y="505" width="73" height="30" rx="8" fill="#7c3aed" fill-opacity="0.16" stroke="#7c3aed" stroke-opacity="0.9" stroke-width="1"/><text x="1420" y="525" text-anchor="middle" fill="#7c3aed">choice</text></g>
+<g opacity="0.85"><rect x="1454" y="165" width="92" height="30" rx="8" fill="#7c3aed" fill-opacity="0.16" stroke="#7c3aed" stroke-opacity="0.9" stroke-width="1"/><text x="1500" y="185" text-anchor="middle" fill="#7c3aed">proposal</text></g>
+</g>
+</svg>
