@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Kiils</title>
+    <link>https://www.kiils.dk/series/</link>
+    <description>Recent content in Series on Kiils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da</language>
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kiils.dk/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>De Kiilske Principper for AI</title>
+      <link>https://www.kiils.dk/series/de-kiilske-principper-for-ai/</link>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kiils.dk/series/de-kiilske-principper-for-ai/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

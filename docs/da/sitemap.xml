@@ -61,7 +61,7 @@
   </url>
   <url>
     <loc>https://www.kiils.dk/blog/</loc>
-    <lastmod>2026-10-26T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-27T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="en"
@@ -71,6 +71,34 @@
       rel="alternate"
       hreflang="da"
       href="https://www.kiils.dk/blog/"
+    />
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/blog/2026-10-27-naar-modellen-tager-fejl/</loc>
+    <lastmod>2026-10-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.kiils.dk/en/blog/when-the-model-gets-it-wrong/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="da"
+      href="https://www.kiils.dk/blog/2026-10-27-naar-modellen-tager-fejl/"
+    />
+  </url>
+  <url>
+    <loc>https://www.kiils.dk/</loc>
+    <lastmod>2026-10-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.kiils.dk/en/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="da"
+      href="https://www.kiils.dk/"
     />
   </url>
   <url>
@@ -85,20 +113,6 @@
       rel="alternate"
       hreflang="da"
       href="https://www.kiils.dk/blog/2026-10-26-regler-i-kode-skoen-i-modellen/"
-    />
-  </url>
-  <url>
-    <loc>https://www.kiils.dk/</loc>
-    <lastmod>2026-10-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://www.kiils.dk/en/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="da"
-      href="https://www.kiils.dk/"
     />
   </url>
   <url>

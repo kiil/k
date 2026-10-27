@@ -32,6 +32,7 @@ genrer = "genrer"
 tags = "tags"
 categories = "categories"
 person = "person"
+series = "series"
 
 [security]
 # Allow raw HTML content files (e.g. da/hidden/index.html); still block Org files
