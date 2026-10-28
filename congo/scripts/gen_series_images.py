@@ -26,6 +26,8 @@ POSTS = {
               "en": "en/blog/rules-in-code-judgement-in-the-model"},
     "wrong": {"da": "da/blog/2026-10-27-naar-modellen-tager-fejl",
               "en": "en/blog/when-the-model-gets-it-wrong"},
+    "trail": {"da": "da/blog/2026-10-28-hvorfor-gjorde-systemet-det",
+              "en": "en/blog/why-did-the-system-do-that"},
 }
 
 WORDS = {
@@ -35,6 +37,7 @@ WORDS = {
         "rules": (["assert", "==", "moms 25%", "fredag", "test", "sand", "falsk", "kode", "regel", "fast", "∈ master", "stop"],
                   ["skøn", "tone", "relevans", "nuance", "måske", "formulering", "tekst", "valg", "forslag"]),
         "wrong": (["sag 1", "sag 2", "sag 3", "sag 4", "sag 5"], ["videre", "spring over", "menneske"]),
+        "trail": (["sag", "input", "regel", "prompt", "svar", "udfald", "menneske"], "hvorfor?"),
     },
     "en": {
         "principles": [["rule", "model", "code", "judgement"], ["error", "check", "stop", "zero"],
@@ -42,6 +45,7 @@ WORDS = {
         "rules": (["assert", "==", "VAT 25%", "friday", "test", "true", "false", "code", "rule", "fixed", "∈ master", "stop"],
                   ["judgement", "tone", "relevance", "nuance", "maybe", "phrasing", "text", "choice", "proposal"]),
         "wrong": (["case 1", "case 2", "case 3", "case 4", "case 5"], ["apply", "skip", "human"]),
+        "trail": (["case", "input", "rule", "prompt", "answer", "outcome", "human"], "why?"),
     },
 }
 
@@ -188,7 +192,50 @@ def scene_wrong(words):
     return fields, shapes, lines, pills
 
 
-SCENES = {"principles": scene_principles, "rules": scene_rules, "wrong": scene_wrong}
+def trim(a, b, wa, wb, pad=8):
+    """Shorten the segment a-b so it starts and ends at the edges of the pills around a and b."""
+    (ax, ay), (bx, by) = a, b
+    dx, dy = bx - ax, by - ay
+    def cut(w):
+        # Fraction of the segment that lies inside a pill of width w centred on the endpoint
+        tx = (w / 2 + pad) / abs(dx) if dx else math.inf
+        ty = (15 + pad) / abs(dy) if dy else math.inf
+        return min(tx, ty)
+    ta, tb = cut(wa), 1 - cut(wb)
+    return (ax + dx * ta, ay + dy * ta), (ax + dx * tb, ay + dy * tb)
+
+
+def scene_trail(words):
+    """A decision recorded as a chain of timestamped events, and a question that traces it back to the start."""
+    events, question = words
+    shapes, lines, pills = [], [], []
+    # The chain runs down the left, along the bottom and up the right, leaving the centre for the title
+    spots = [(230, 150), (230, 290), (230, 430), (620, 560), (980, 560), (1330, 430), (1330, 290)]
+    colors = [CYAN, CYAN, BLUE, VIOLET, VIOLET, VIOLET, PINK]
+    for (a, wa), (b, wb) in zip(zip(spots, events), zip(spots[1:], events[1:])):
+        lines.append(line(*trim(a, b, token_width(wa), token_width(wb)), 0.6, color=BLUE))
+    for k, ((x, y), word, color) in enumerate(zip(spots, events, colors)):
+        pills.append(centred_pill(x, y, word, color, strong=word == events[-1]))
+        # A timestamp under each event, like a line in an append-only log
+        stamp = f"11:20:{41 + 3 * k:02d}" if k < 6 else "11:24:07"
+        if y > 500:
+            sx, sy, anchor = x, y + 36, "middle"
+        elif x < W / 2:
+            sx, sy, anchor = x - token_width(word) / 2 - 10, y + 4, "end"
+        else:
+            sx, sy, anchor = x + token_width(word) / 2 + 10, y + 4, "start"
+        pills.append(f'<text x="{sx:.0f}" y="{sy}" text-anchor="{anchor}" font-size="11" fill="{color}" fill-opacity="0.7">{stamp}</text>')
+    # The question reaches back over the whole chain to where it started
+    why = (1330, 150)
+    pills.append(centred_pill(*why, question, PINK, strong=True))
+    start, end = trim(why, spots[0], token_width(question), token_width(events[0]))
+    lines.append(arc((start[0], why[1] - 15), (end[0], spots[0][1] - 15), 0.7, lift=60))
+    lines.append(line(*trim(why, spots[-1], token_width(question), token_width(events[-1])), 0.35, color=PINK, dash="4 8"))
+    fields = [(230, 300, 230, CYAN, 0.4), (800, 600, 230, VIOLET, 0.35), (1330, 250, 230, PINK, 0.3)]
+    return fields, shapes, lines, pills
+
+
+SCENES = {"principles": scene_principles, "rules": scene_rules, "wrong": scene_wrong, "trail": scene_trail}
 
 
 def render(scene, words, opaque):
