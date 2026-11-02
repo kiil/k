@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -130 1600 900" preserveAspectRatio="xMidYMid slice">
+<defs>
+<filter id="glow" filterUnits="userSpaceOnUse" x="-600" y="-700" width="2800" height="2040"><feGaussianBlur stdDeviation="80"/></filter>
+<linearGradient id="arc" x1="0" x2="1"><stop offset="0" stop-color="#2563eb"/><stop offset="0.5" stop-color="#7c3aed"/><stop offset="1" stop-color="#db2777"/></linearGradient>
+</defs>
+<g filter="url(#glow)">
+<circle cx="230" cy="370" r="230" fill="#0891b2" fill-opacity="0.4"/>
+<circle cx="760" cy="180" r="220" fill="#7c3aed" fill-opacity="0.3"/>
+<circle cx="1180" cy="540" r="240" fill="#db2777" fill-opacity="0.32"/>
+</g>
+<g fill="none" stroke-linecap="round">
+<path d="M270 358 L712 212" stroke="#2563eb" stroke-width="2.2" stroke-opacity="0.61"/>
+<path d="M270 382 L722 528" stroke="#2563eb" stroke-width="2.2" stroke-opacity="0.61"/>
+<path d="M797 535 L1024 535" stroke="#7c3aed" stroke-width="2.2" stroke-opacity="0.61"/>
+<path d="M1136 535 L1316 535" stroke="#db2777" stroke-width="3.2" stroke-opacity="0.83"/>
+<path d="M805 172 C 900 20, 620 20, 715 172" stroke="#0891b2" stroke-dasharray="4 8" stroke-width="2" stroke-opacity="0.7"/>
+<path d="M707 160 L715 172 L700 170" stroke="#0891b2" stroke-width="2" stroke-opacity="0.7"/>
+</g>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+<g opacity="1.00"><rect x="207" y="355" width="46" height="30" rx="8" fill="#0891b2" fill-opacity="0.16" stroke="#0891b2" stroke-opacity="0.9" stroke-width="1"/><text x="230" y="375" text-anchor="middle" fill="#0891b2">sag</text></g>
+<g opacity="1.00"><rect x="724" y="180" width="73" height="30" rx="8" fill="#7c3aed" fill-opacity="0.16" stroke="#7c3aed" stroke-opacity="0.9" stroke-width="1"/><text x="760" y="200" text-anchor="middle" fill="#7c3aed">udkast</text></g>
+<text x="760" y="46" text-anchor="middle" font-size="11" fill="#0891b2" fill-opacity="0.7">fortryd</text>
+<text x="760" y="236" text-anchor="middle" font-size="11" fill="#7c3aed" fill-opacity="0.7">kan fortrydes</text>
+<g opacity="1.00"><rect x="733" y="520" width="55" height="30" rx="8" fill="#7c3aed" fill-opacity="0.16" stroke="#7c3aed" stroke-opacity="0.9" stroke-width="1"/><text x="760" y="540" text-anchor="middle" fill="#7c3aed">send</text></g>
+<g opacity="1.00"><rect x="1035" y="520" width="91" height="30" rx="8" fill="#db2777" fill-opacity="0.32" stroke="#db2777" stroke-opacity="0.9" stroke-width="2.2"/><text x="1080" y="540" text-anchor="middle" fill="#db2777">menneske</text></g>
+<text x="1080" y="576" text-anchor="middle" font-size="11" fill="#db2777" fill-opacity="0.7">venter</text>
+<g opacity="1.00"><rect x="1328" y="520" width="64" height="30" rx="8" fill="#db2777" fill-opacity="0.32" stroke="#db2777" stroke-opacity="0.9" stroke-width="2.2"/><text x="1360" y="540" text-anchor="middle" fill="#db2777">sendt</text></g>
+<text x="1360" y="576" text-anchor="middle" font-size="11" fill="#db2777" fill-opacity="0.7">kan ikke fortrydes</text>
+</g>
+</svg>
