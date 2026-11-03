@@ -239,7 +239,7 @@
     
     
     "mainEntityOfPage": "https://www.kiils.dk/resurser/starred/",
-    "wordCount":  1182 
+    "wordCount":  1188 
   }]
   </script>
 
@@ -305,7 +305,7 @@
 
 
   
-  <script defer src="/js/webstat.min.0e1c4877ec1bfe8009ede1897a8adc67fb3bbf5f75097a5c5441f261675cad7a.js" integrity="sha256-DhxId&#43;wb/oAJ7eGJeorcZ/s7v191CXpcVEHyYWdcrXo="></script>
+  <script>(function(){if(!navigator.sendBeacon||navigator.webdriver||document.visibilityState==="prerender")return;var e,s,i="https://webstat.kiil.cross.stream/hit",a=Math.random().toString(36).slice(2,10),t=location.pathname;try{t=decodeURIComponent(t)}catch{}function n(e,n){var o,s={kind:e,view:a,path:t};for(o in n)s[o]=n[o];navigator.sendBeacon(i,new Blob([JSON.stringify(s)],{type:"text/plain"}))}function r(e){try{return new URL(e).hostname.replace(/^www\./,"")}catch{return""}}function o(){var s,o,a,c,l,d,u,h=document.querySelector("h1"),i=location.hostname.replace(/^www\./,""),e=r(document.referrer),m=null;if(e===i)try{m=decodeURIComponent(new URL(document.referrer).pathname)}catch{}a=t.split("/")[1]||"",c=window.innerWidth,n("view",{type:/^[a-z_-]{1,40}$/.test(a)?a:null,title:h?h.textContent.trim():null,ref:e&&e!==i?e:null,from:m,device:c<768?"mobile":c<1200?"tablet":"desktop",lang:document.documentElement.lang||null}),l=document.querySelector(".article-content"),l&&(s={},o=!1,d=function(){var e=l.getBoundingClientRect(),t=(window.innerHeight-e.top)/Math.max(e.height,1);[50,100].forEach(function(e){!s[e]&&t>=(e===100?.95:.5)&&(s[e]=!0,n("read",{depth:e}))}),s[100]&&window.removeEventListener("scroll",u)},u=function(){if(o)return;o=!0,setTimeout(function(){o=!1,d()},250)},window.addEventListener("scroll",u,{passive:!0}),d()),document.addEventListener("click",function(e){var t,s,o=e.target.closest&&e.target.closest("a[href]");if(!o)return;try{t=new URL(o.href)}catch{return}s=null,t.protocol==="mailto:"?s="mail":t.protocol==="tel:"?s="phone":t.hostname.replace(/^www\./,"")===i&&/^(\/en)?\/(kontakt|contact)/.test(t.pathname)&&(s=t.pathname),s&&n("click",{target:s})},!0)}e=document.visibilityState==="visible"?Date.now():null,s=0,document.addEventListener("visibilitychange",function(){if(document.visibilityState==="hidden"){e&&(s+=Date.now()-e,e=null);var t=Math.round(s/1e3);t>=1&&n("leave",{seconds:Math.min(t,7200)})}else e=Date.now()}),document.readyState==="loading"?document.addEventListener("DOMContentLoaded",o):o()})()</script>
 
 
   
@@ -812,6 +812,8 @@
     class="min-w-[220px] py-2 border-dotted border-s-1 -ms-5 ps-5 dark:border-neutral-600">
     <nav id="TableOfContents" aria-label="Indholdsfortegnelse">
   <ul>
+    <li><a href="#nu-cybergraph">nu-cybergraph</a></li>
+    <li><a href="#bonsai">bonsai</a></li>
     <li><a href="#nu_plugin_stardust">nu_plugin_stardust</a></li>
     <li><a href="#orkas">Orkas</a></li>
     <li><a href="#claude-code-game-studios">Claude-Code-Game-Studios</a></li>
@@ -840,8 +842,6 @@
     <li><a href="#xtool">xtool</a></li>
     <li><a href="#artcraft">artcraft</a></li>
     <li><a href="#wordcraft">wordcraft</a></li>
-    <li><a href="#rea">rea</a></li>
-    <li><a href="#php-analytics-data">php-analytics-data</a></li>
   </ul>
 </nav>
   </div>
@@ -855,6 +855,8 @@
     class="py-2 border-dotted border-neutral-300 border-s-1 -ms-5 ps-5 dark:border-neutral-600">
     <nav id="TableOfContentsMobile" aria-label="Indholdsfortegnelse">
   <ul>
+    <li><a href="#nu-cybergraph">nu-cybergraph</a></li>
+    <li><a href="#bonsai">bonsai</a></li>
     <li><a href="#nu_plugin_stardust">nu_plugin_stardust</a></li>
     <li><a href="#orkas">Orkas</a></li>
     <li><a href="#claude-code-game-studios">Claude-Code-Game-Studios</a></li>
@@ -883,8 +885,6 @@
     <li><a href="#xtool">xtool</a></li>
     <li><a href="#artcraft">artcraft</a></li>
     <li><a href="#wordcraft">wordcraft</a></li>
-    <li><a href="#rea">rea</a></li>
-    <li><a href="#php-analytics-data">php-analytics-data</a></li>
   </ul>
 </nav>
   </div>
@@ -902,6 +902,34 @@
 
         <div class="article-content max-w-prose mb-20">
           <p>De seneste projekter jeg følger på Github, kan måske inspirere andre.</p>
+
+<h2 class="relative group">nu-cybergraph
+    <div id="nu-cybergraph" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#nu-cybergraph" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p><a href="https://github.com/nushell-prophet/nu-cybergraph" target="_blank">nushell-prophet/nu-cybergraph</a></p>
+<p>nushell-prophet | Sprog: Nushell | Stjerner: 1 | Forks: 0  <br>
+Created at: 2026-09-24 Updated at: 2026-11-02 Pushed at: 2026-10-25</p>
+<p>A cybergraph on top of git</p>
+
+<h2 class="relative group">bonsai
+    <div id="bonsai" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#bonsai" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p><a href="https://github.com/Sollimann/bonsai" target="_blank">Sollimann/bonsai</a></p>
+<p>Sollimann | Sprog: Rust | Stjerner: 1099 | Forks: 42  <br>
+Created at: 2022-05-23 Updated at: 2026-11-02 Pushed at: 2026-09-22</p>
+<p>Rust implementation of behavior trees for deterministic AI (now with Python bindings)</p>
 
 <h2 class="relative group">nu_plugin_stardust
     <div id="nu_plugin_stardust" class="anchor"></div>
@@ -927,8 +955,8 @@ Created at: 2026-10-15 Updated at: 2026-11-01 Pushed at: 2026-10-28</p>
     
 </h2>
 <p><a href="https://github.com/Orkas-AI/Orkas" target="_blank">Orkas-AI/Orkas</a></p>
-<p>Orkas-AI | Sprog: JavaScript | Stjerner: 7685 | Forks: 477  <br>
-Created at: 2026-04-29 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
+<p>Orkas-AI | Sprog: JavaScript | Stjerner: 8748 | Forks: 505  <br>
+Created at: 2026-04-29 Updated at: 2026-11-03 Pushed at: 2026-11-03</p>
 <p>Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for macOS &amp; Windows; built-in models or your own keys.</p>
 
 <h2 class="relative group">Claude-Code-Game-Studios
@@ -941,8 +969,8 @@ Created at: 2026-04-29 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
     
 </h2>
 <p><a href="https://github.com/Donchitos/Claude-Code-Game-Studios" target="_blank">Donchitos/Claude-Code-Game-Studios</a></p>
-<p>Donchitos | Sprog: Shell | Stjerner: 32767 | Forks: 4448  <br>
-Created at: 2026-02-12 Updated at: 2026-11-02 Pushed at: 2026-10-19</p>
+<p>Donchitos | Sprog: Shell | Stjerner: 34035 | Forks: 4559  <br>
+Created at: 2026-02-12 Updated at: 2026-11-03 Pushed at: 2026-10-19</p>
 <p>Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.</p>
 
 <h2 class="relative group">TokenEconomizer
@@ -955,8 +983,8 @@ Created at: 2026-02-12 Updated at: 2026-11-02 Pushed at: 2026-10-19</p>
     
 </h2>
 <p><a href="https://github.com/microsoft/TokenEconomizer" target="_blank">microsoft/TokenEconomizer</a></p>
-<p>microsoft | Sprog: Python | Stjerner: 4211 | Forks: 239  <br>
-Created at: 2026-10-13 Updated at: 2026-11-02 Pushed at: 2026-11-01</p>
+<p>microsoft | Sprog: Python | Stjerner: 4570 | Forks: 267  <br>
+Created at: 2026-10-13 Updated at: 2026-11-03 Pushed at: 2026-11-02</p>
 <p>Experience-Driven Black-Box Cost Control for Coding Agents</p>
 
 <h2 class="relative group">browser
@@ -969,8 +997,8 @@ Created at: 2026-10-13 Updated at: 2026-11-02 Pushed at: 2026-11-01</p>
     
 </h2>
 <p><a href="https://github.com/lightpanda-io/browser" target="_blank">lightpanda-io/browser</a></p>
-<p>lightpanda-io | Sprog: Zig | Stjerner: 40572 | Forks: 1980  <br>
-Created at: 2023-02-07 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
+<p>lightpanda-io | Sprog: Zig | Stjerner: 41070 | Forks: 2016  <br>
+Created at: 2023-02-07 Updated at: 2026-11-03 Pushed at: 2026-11-03</p>
 <p>Lightpanda: the headless browser designed for AI and automation</p>
 
 <h2 class="relative group">jailbreaks
@@ -983,8 +1011,8 @@ Created at: 2023-02-07 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
     
 </h2>
 <p><a href="https://github.com/togg53192-cmd/jailbreaks" target="_blank">togg53192-cmd/jailbreaks</a></p>
-<p>togg53192-cmd | Sprog:  | Stjerner: 13258 | Forks: 1982  <br>
-Created at: 2026-06-18 Updated at: 2026-11-02 Pushed at: 2026-11-01</p>
+<p>togg53192-cmd | Sprog:  | Stjerner: 13791 | Forks: 2088  <br>
+Created at: 2026-06-18 Updated at: 2026-11-03 Pushed at: 2026-11-01</p>
 <p>LIST OF ALL MY JAILBREAKS</p>
 
 <h2 class="relative group">thinkrail
@@ -997,8 +1025,8 @@ Created at: 2026-06-18 Updated at: 2026-11-02 Pushed at: 2026-11-01</p>
     
 </h2>
 <p><a href="https://github.com/JetBrains/thinkrail" target="_blank">JetBrains/thinkrail</a></p>
-<p>JetBrains | Sprog: TypeScript | Stjerner: 7066 | Forks: 406  <br>
-Created at: 2026-07-08 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
+<p>JetBrains | Sprog: TypeScript | Stjerner: 7296 | Forks: 432  <br>
+Created at: 2026-07-08 Updated at: 2026-11-03 Pushed at: 2026-11-03</p>
 <p>Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need</p>
 
 <h2 class="relative group">DeepTutor
@@ -1011,8 +1039,8 @@ Created at: 2026-07-08 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
     
 </h2>
 <p><a href="https://github.com/HKUDS/DeepTutor" target="_blank">HKUDS/DeepTutor</a></p>
-<p>HKUDS | Sprog: Python | Stjerner: 53947 | Forks: 6594  <br>
-Created at: 2025-12-28 Updated at: 2026-11-02 Pushed at: 2026-10-31</p>
+<p>HKUDS | Sprog: Python | Stjerner: 54495 | Forks: 6664  <br>
+Created at: 2025-12-28 Updated at: 2026-11-03 Pushed at: 2026-10-31</p>
 <p>DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.</p>
 
 <h2 class="relative group">OpenBot
@@ -1025,8 +1053,8 @@ Created at: 2025-12-28 Updated at: 2026-11-02 Pushed at: 2026-10-31</p>
     
 </h2>
 <p><a href="https://github.com/CopilotKit/OpenBot" target="_blank">CopilotKit/OpenBot</a></p>
-<p>CopilotKit | Sprog: TypeScript | Stjerner: 9731 | Forks: 1200  <br>
-Created at: 2026-08-17 Updated at: 2026-11-02 Pushed at: 2026-11-01</p>
+<p>CopilotKit | Sprog: TypeScript | Stjerner: 9952 | Forks: 1220  <br>
+Created at: 2026-08-17 Updated at: 2026-11-03 Pushed at: 2026-11-03</p>
 <p>Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.</p>
 
 <h2 class="relative group">OpenMausBot
@@ -1039,8 +1067,8 @@ Created at: 2026-08-17 Updated at: 2026-11-02 Pushed at: 2026-11-01</p>
     
 </h2>
 <p><a href="https://github.com/milind-soni/OpenMausBot" target="_blank">milind-soni/OpenMausBot</a></p>
-<p>milind-soni | Sprog: TypeScript | Stjerner: 10875 | Forks: 1484  <br>
-Created at: 2026-08-11 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
+<p>milind-soni | Sprog: TypeScript | Stjerner: 11479 | Forks: 1571  <br>
+Created at: 2026-08-11 Updated at: 2026-11-03 Pushed at: 2026-11-03</p>
 <p>Open-source Grok Bot alternative with a virtual machine that bots can use</p>
 
 <h2 class="relative group">freehire
@@ -1053,8 +1081,8 @@ Created at: 2026-08-11 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
     
 </h2>
 <p><a href="https://github.com/strelov1/freehire" target="_blank">strelov1/freehire</a></p>
-<p>strelov1 | Sprog: Go | Stjerner: 3472 | Forks: 362  <br>
-Created at: 2026-06-07 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
+<p>strelov1 | Sprog: Go | Stjerner: 3516 | Forks: 367  <br>
+Created at: 2026-06-07 Updated at: 2026-11-03 Pushed at: 2026-11-03</p>
 <p>freehire — the open-source search engine for job seekers</p>
 
 <h2 class="relative group">supabase
@@ -1067,8 +1095,8 @@ Created at: 2026-06-07 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
     
 </h2>
 <p><a href="https://github.com/supabase/supabase" target="_blank">supabase/supabase</a></p>
-<p>supabase | Sprog: TypeScript | Stjerner: 114424 | Forks: 15760  <br>
-Created at: 2019-10-12 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
+<p>supabase | Sprog: TypeScript | Stjerner: 114465 | Forks: 15778  <br>
+Created at: 2019-10-12 Updated at: 2026-11-03 Pushed at: 2026-11-03</p>
 <p>The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.</p>
 
 <h2 class="relative group">headroom
@@ -1081,8 +1109,8 @@ Created at: 2019-10-12 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
     
 </h2>
 <p><a href="https://github.com/headroomlabs-ai/headroom" target="_blank">headroomlabs-ai/headroom</a></p>
-<p>headroomlabs-ai | Sprog: Python | Stjerner: 78596 | Forks: 6137  <br>
-Created at: 2026-01-07 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
+<p>headroomlabs-ai | Sprog: Python | Stjerner: 78688 | Forks: 6147  <br>
+Created at: 2026-01-07 Updated at: 2026-11-03 Pushed at: 2026-11-03</p>
 <p>Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.</p>
 
 <h2 class="relative group">orca
@@ -1095,8 +1123,8 @@ Created at: 2026-01-07 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
     
 </h2>
 <p><a href="https://github.com/stablyai/orca" target="_blank">stablyai/orca</a></p>
-<p>stablyai | Sprog: TypeScript | Stjerner: 112933 | Forks: 7139  <br>
-Created at: 2026-03-17 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
+<p>stablyai | Sprog: TypeScript | Stjerner: 113971 | Forks: 7202  <br>
+Created at: 2026-03-17 Updated at: 2026-11-03 Pushed at: 2026-11-03</p>
 <p>Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.</p>
 
 <h2 class="relative group">security-audit-skill
@@ -1109,8 +1137,8 @@ Created at: 2026-03-17 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
     
 </h2>
 <p><a href="https://github.com/cloudflare/security-audit-skill" target="_blank">cloudflare/security-audit-skill</a></p>
-<p>cloudflare | Sprog: JavaScript | Stjerner: 56675 | Forks: 3694  <br>
-Created at: 2026-06-18 Updated at: 2026-11-02 Pushed at: 2026-09-14</p>
+<p>cloudflare | Sprog: JavaScript | Stjerner: 57699 | Forks: 3762  <br>
+Created at: 2026-06-18 Updated at: 2026-11-03 Pushed at: 2026-09-14</p>
 <p>A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings</p>
 
 <h2 class="relative group">nsh
@@ -1123,8 +1151,8 @@ Created at: 2026-06-18 Updated at: 2026-11-02 Pushed at: 2026-09-14</p>
     
 </h2>
 <p><a href="https://github.com/longbridge/nsh" target="_blank">longbridge/nsh</a></p>
-<p>longbridge | Sprog: Rust | Stjerner: 925 | Forks: 71  <br>
-Created at: 2026-10-14 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
+<p>longbridge | Sprog: Rust | Stjerner: 965 | Forks: 74  <br>
+Created at: 2026-10-14 Updated at: 2026-11-03 Pushed at: 2026-11-03</p>
 <p>Native Shell is a native UI framework for iOS, Android, macOS, Windows, Linux and the web, built in Rust.</p>
 
 <h2 class="relative group">gpui-kit
@@ -1137,8 +1165,8 @@ Created at: 2026-10-14 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
     
 </h2>
 <p><a href="https://github.com/longbridge/gpui-kit" target="_blank">longbridge/gpui-kit</a></p>
-<p>longbridge | Sprog: Rust | Stjerner: 18878 | Forks: 1182  <br>
-Created at: 2024-06-13 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
+<p>longbridge | Sprog: Rust | Stjerner: 18928 | Forks: 1187  <br>
+Created at: 2024-06-13 Updated at: 2026-11-03 Pushed at: 2026-11-03</p>
 <p>Rust GUI components for building fantastic cross-platform desktop application by using GPUI.</p>
 
 <h2 class="relative group">fffinder
@@ -1165,8 +1193,8 @@ Created at: 2026-10-13 Updated at: 2026-11-01 Pushed at: 2026-10-29</p>
     
 </h2>
 <p><a href="https://github.com/radix-ui/colors" target="_blank">radix-ui/colors</a></p>
-<p>radix-ui | Sprog: TypeScript | Stjerner: 1729 | Forks: 88  <br>
-Created at: 2021-01-04 Updated at: 2026-11-01 Pushed at: 2025-12-17</p>
+<p>radix-ui | Sprog: TypeScript | Stjerner: 1731 | Forks: 88  <br>
+Created at: 2021-01-04 Updated at: 2026-11-03 Pushed at: 2025-12-17</p>
 <p>A gorgeous, accessible color system.</p>
 
 <h2 class="relative group">solidcraft
@@ -1179,8 +1207,8 @@ Created at: 2021-01-04 Updated at: 2026-11-01 Pushed at: 2025-12-17</p>
     
 </h2>
 <p><a href="https://github.com/tangency-labs/solidcraft" target="_blank">tangency-labs/solidcraft</a></p>
-<p>tangency-labs | Sprog: Rust | Stjerner: 12991 | Forks: 1698  <br>
-Created at: 2026-10-07 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
+<p>tangency-labs | Sprog: Rust | Stjerner: 13271 | Forks: 1748  <br>
+Created at: 2026-10-07 Updated at: 2026-11-03 Pushed at: 2026-11-03</p>
 <p>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.</p>
 
 <h2 class="relative group">ai-job-search
@@ -1193,8 +1221,8 @@ Created at: 2026-10-07 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
     
 </h2>
 <p><a href="https://github.com/ai-job-search-dev/ai-job-search" target="_blank">ai-job-search-dev/ai-job-search</a></p>
-<p>ai-job-search-dev | Sprog: Python | Stjerner: 68835 | Forks: 21969  <br>
-Created at: 2026-03-18 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
+<p>ai-job-search-dev | Sprog: Python | Stjerner: 69202 | Forks: 22170  <br>
+Created at: 2026-03-18 Updated at: 2026-11-03 Pushed at: 2026-11-02</p>
 <p>The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.</p>
 
 <h2 class="relative group">rust
@@ -1207,8 +1235,8 @@ Created at: 2026-03-18 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
     
 </h2>
 <p><a href="https://github.com/rust-lang/rust" target="_blank">rust-lang/rust</a></p>
-<p>rust-lang | Sprog: Rust | Stjerner: 120970 | Forks: 17353  <br>
-Created at: 2010-06-16 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
+<p>rust-lang | Sprog: Rust | Stjerner: 121009 | Forks: 17377  <br>
+Created at: 2010-06-16 Updated at: 2026-11-03 Pushed at: 2026-11-03</p>
 <p>Empowering everyone to build reliable and efficient software.</p>
 
 <h2 class="relative group">pentagi
@@ -1221,8 +1249,8 @@ Created at: 2010-06-16 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
     
 </h2>
 <p><a href="https://github.com/vxcontrol/pentagi" target="_blank">vxcontrol/pentagi</a></p>
-<p>vxcontrol | Sprog: Go | Stjerner: 32970 | Forks: 5153  <br>
-Created at: 2025-01-06 Updated at: 2026-11-02 Pushed at: 2026-10-22</p>
+<p>vxcontrol | Sprog: Go | Stjerner: 33119 | Forks: 5174  <br>
+Created at: 2025-01-06 Updated at: 2026-11-03 Pushed at: 2026-10-22</p>
 <p>Fully autonomous AI Agents system capable of performing complex penetration testing tasks</p>
 
 <h2 class="relative group">iFixAi
@@ -1235,8 +1263,8 @@ Created at: 2025-01-06 Updated at: 2026-11-02 Pushed at: 2026-10-22</p>
     
 </h2>
 <p><a href="https://github.com/ifixai-ai/iFixAi" target="_blank">ifixai-ai/iFixAi</a></p>
-<p>ifixai-ai | Sprog: Python | Stjerner: 42770 | Forks: 1777  <br>
-Created at: 2026-04-27 Updated at: 2026-11-02 Pushed at: 2026-10-30</p>
+<p>ifixai-ai | Sprog: Python | Stjerner: 43043 | Forks: 1781  <br>
+Created at: 2026-04-27 Updated at: 2026-11-03 Pushed at: 2026-11-02</p>
 <p>Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.</p>
 
 <h2 class="relative group">anatomy
@@ -1249,8 +1277,8 @@ Created at: 2026-04-27 Updated at: 2026-11-02 Pushed at: 2026-10-30</p>
     
 </h2>
 <p><a href="https://github.com/wheresryan22/anatomy" target="_blank">wheresryan22/anatomy</a></p>
-<p>wheresryan22 | Sprog: JavaScript | Stjerner: 23888 | Forks: 1997  <br>
-Created at: 2026-10-08 Updated at: 2026-11-02 Pushed at: 2026-10-18</p>
+<p>wheresryan22 | Sprog: JavaScript | Stjerner: 24249 | Forks: 2024  <br>
+Created at: 2026-10-08 Updated at: 2026-11-03 Pushed at: 2026-10-18</p>
 <p>An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.</p>
 
 <h2 class="relative group">xtool
@@ -1263,8 +1291,8 @@ Created at: 2026-10-08 Updated at: 2026-11-02 Pushed at: 2026-10-18</p>
     
 </h2>
 <p><a href="https://github.com/xtool-org/xtool" target="_blank">xtool-org/xtool</a></p>
-<p>xtool-org | Sprog: Swift | Stjerner: 14468 | Forks: 802  <br>
-Created at: 2024-11-17 Updated at: 2026-11-02 Pushed at: 2026-10-31</p>
+<p>xtool-org | Sprog: Swift | Stjerner: 14548 | Forks: 811  <br>
+Created at: 2024-11-17 Updated at: 2026-11-03 Pushed at: 2026-11-02</p>
 <p>Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.</p>
 
 <h2 class="relative group">artcraft
@@ -1277,8 +1305,8 @@ Created at: 2024-11-17 Updated at: 2026-11-02 Pushed at: 2026-10-31</p>
     
 </h2>
 <p><a href="https://github.com/storytold/artcraft" target="_blank">storytold/artcraft</a></p>
-<p>storytold | Sprog: Rust | Stjerner: 38256 | Forks: 6030  <br>
-Created at: 2022-03-31 Updated at: 2026-11-02 Pushed at: 2026-10-31</p>
+<p>storytold | Sprog: Rust | Stjerner: 38436 | Forks: 6064  <br>
+Created at: 2022-03-31 Updated at: 2026-11-03 Pushed at: 2026-10-31</p>
 <p>ArtCraft is an intentional crafting engine for artists, designers, and filmmakers</p>
 
 <h2 class="relative group">wordcraft
@@ -1291,37 +1319,9 @@ Created at: 2022-03-31 Updated at: 2026-11-02 Pushed at: 2026-10-31</p>
     
 </h2>
 <p><a href="https://github.com/storytold/wordcraft" target="_blank">storytold/wordcraft</a></p>
-<p>storytold | Sprog: Rust | Stjerner: 16988 | Forks: 4674  <br>
-Created at: 2026-10-07 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
+<p>storytold | Sprog: Rust | Stjerner: 17120 | Forks: 4707  <br>
+Created at: 2026-10-07 Updated at: 2026-11-03 Pushed at: 2026-11-03</p>
 <p>An open-source, clean-room reimplementation of Microsoft Word in pure Rust</p>
-
-<h2 class="relative group">rea
-    <div id="rea" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#rea" aria-label="Anchor">#</a>
-    </span>
-    
-</h2>
-<p><a href="https://github.com/morluto/rea" target="_blank">morluto/rea</a></p>
-<p>morluto | Sprog: TypeScript | Stjerner: 420108 | Forks: 104920  <br>
-Created at: 2026-04-14 Updated at: 2026-11-02 Pushed at: 2026-11-02</p>
-<p>Reverse engineer anything with agents, from app behavior down to native binaries.</p>
-
-<h2 class="relative group">php-analytics-data
-    <div id="php-analytics-data" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#php-analytics-data" aria-label="Anchor">#</a>
-    </span>
-    
-</h2>
-<p><a href="https://github.com/googleapis/php-analytics-data" target="_blank">googleapis/php-analytics-data</a></p>
-<p>googleapis | Sprog: PHP | Stjerner: 123 | Forks: 23  <br>
-Created at: 2020-11-20 Updated at: 2026-10-28 Pushed at: 2026-10-28</p>
-<p></p>
 
           
           

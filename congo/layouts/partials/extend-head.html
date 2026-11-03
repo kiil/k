@@ -44,8 +44,9 @@
   {{ $consent := resources.Get "js/consent.js" | resources.Minify | resources.Fingerprint $algorithm }}
   <script defer src="{{ $consent.RelPermalink }}" integrity="{{ $consent.Data.Integrity }}" data-gtm-id="{{ . }}"></script>
 {{ end }}
-{{/* Page views to webstat (/Users/lk/cross.stream/webstat), production builds only. No cookies, so no consent needed */}}
+{{/* Page views to webstat (/Users/lk/cross.stream/webstat), production builds only. No cookies, so no consent needed.
+     Inline, as on folkets.dk: ad blockers' lists stop scripts by their address (EasyPrivacy has "/webstat.js"), and an inline script has none */}}
 {{ if hugo.IsProduction }}
-  {{ $webstat := resources.Get "js/webstat.js" | resources.Minify | resources.Fingerprint (site.Params.fingerprintAlgorithm | default "sha256") }}
-  <script defer src="{{ $webstat.RelPermalink }}" integrity="{{ $webstat.Data.Integrity }}"></script>
+  {{ $webstat := resources.Get "js/webstat.js" | resources.Minify }}
+  <script>{{ $webstat.Content | safeJS }}</script>
 {{ end }}
