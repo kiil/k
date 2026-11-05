@@ -255,7 +255,7 @@
     
     
     "mainEntityOfPage": "https://www.kiils.dk/en/blog/the-kiil-principles-for-ai/",
-    "wordCount":  731 
+    "wordCount":  769 
   }]
   </script>
 
@@ -898,7 +898,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-10-21T00:00:00&#43;00:00">21 October 2026</time><span class="px-2 text-primary-500">&middot;</span><span>731 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+      <time datetime="2026-10-21T00:00:00&#43;00:00">21 October 2026</time><span class="px-2 text-primary-500">&middot;</span><span>769 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
     
 
     
@@ -1150,6 +1150,11 @@
 <p>A language model is good at judgement. It can read a sloppy email, summarise a report and suggest a phrasing. It&rsquo;s bad at rules. It can&rsquo;t be trusted to calculate VAT, keep a deadline or remember that a customer in arrears doesn&rsquo;t get credit.</p>
 <p>Rules belong in code that runs the same way every time and can be tested. If your prompt says &ldquo;always remember to&rdquo;, you&rsquo;ve written down a wish, and nobody can test a wish.</p>
 <p>In my own job application system the model may write the cover letter freely. In the CV it may only cut. Every line it proposes is compared word for word with my master CV, and if a single one differs, the CV isn&rsquo;t written at all. So the model can&rsquo;t invent experience I don&rsquo;t have. The prompt asks it not to, but it&rsquo;s the code that makes sure.</p>
+<p>Read more: <a
+  href="https://www.kiils.dk/en/blog/rules-in-code-judgement-in-the-model/"
+  
+  
+>Rules in code, judgement in the model</a></p>
 
 <h2 class="relative group">2. What happens when the model gets it wrong?
     <div id="2-what-happens-when-the-model-gets-it-wrong" class="anchor"></div>
@@ -1164,6 +1169,11 @@
 <p>The dangerous failures are the quiet ones. A model that doesn&rsquo;t know the answer answers anyway. A broken integration reports &ldquo;no new data&rdquo;, and that looks exactly like a slow day. I once had a data source return zero results for four days without anything raising a flag.</p>
 <p>So validate before you write. Stop the process rather than return an empty answer that looks like a real one. And remember that a check you&rsquo;ve only ever seen pass is a check you don&rsquo;t know works. You need to have seen it fail at least once.</p>
 <p>One of the best tricks I know is to ask the same question twice: once with rules and once with a model. Where they agree, the case moves on. Where they disagree, a human takes a look.</p>
+<p>Read more: <a
+  href="https://www.kiils.dk/en/blog/when-the-model-gets-it-wrong/"
+  
+  
+>When the model gets it wrong</a></p>
 
 <h2 class="relative group">3. Can you show me afterwards why the system made a particular decision?
     <div id="3-can-you-show-me-afterwards-why-the-system-made-a-particular-decision" class="anchor"></div>
@@ -1178,6 +1188,11 @@
 <p>A log of prompts and responses is a transcript of a conversation. An audit trail follows the decision: which case it was, what data went in, which rule kicked in, what the outcome was, and who approved it.</p>
 <p>It sounds like bureaucracy until a customer complains or the auditor calls. In my case, the trail is what revealed that an automatic reminder was about to chase me for something I&rsquo;d already done.</p>
 <p>The EU AI Act requires logging for high-risk systems. But law or no law, management can&rsquo;t take responsibility for something it can&rsquo;t see.</p>
+<p>Read more: <a
+  href="https://www.kiils.dk/en/blog/why-did-the-system-do-that/"
+  
+  
+>Why did the system do that?</a></p>
 
 <h2 class="relative group">4. Which actions require a human, and why those in particular?
     <div id="4-which-actions-require-a-human-and-why-those-in-particular" class="anchor"></div>
@@ -1191,6 +1206,11 @@
 <p>&ldquo;A human approves everything&rdquo; lasts about three weeks. After that the approval is a click nobody reads, and you have a rubber stamp with a log file behind it.</p>
 <p>Humans belong in two places: where the system knows it&rsquo;s unsure, and in front of actions that can&rsquo;t be undone.</p>
 <p>My test is a single question. Can it be reversed? A draft on my own disk I can simply make again, so that runs on its own. An application that has been sent can&rsquo;t be called back, so there the system waits for me. How hard a step is doesn&rsquo;t decide it.</p>
+<p>Read more: <a
+  href="https://www.kiils.dk/en/blog/can-it-be-undone/"
+  
+  
+>Can it be undone? Otherwise the human becomes a rubber stamp</a></p>
 
 <h2 class="relative group">The platform comes later
     <div id="the-platform-comes-later" class="anchor"></div>
